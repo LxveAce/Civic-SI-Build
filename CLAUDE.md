@@ -41,7 +41,7 @@
 
 ### Installed
 
-1. **Clutch & Flywheel:** Exedy Stage 1 Organic (08806, from redline360.com) + Acuity Instruments Lightweight Chromoly Flywheel — Upgraded organic disc with higher-clamping-force pressure plate, paired with lightweight single-mass flywheel. Clutch reliably holds **~280-300 WHP / ~200-210 lb-ft** before slip. Significant headroom above planned bolt-on power levels.
+1. **Clutch & Flywheel:** Exedy Stage 1 Organic (08806) + Exedy Lightweight Flywheel (HF02), both from shop.redline360.com — Upgraded organic disc with higher-clamping-force pressure plate, paired with lightweight single-mass flywheel. Clutch reliably holds **~280-300 WHP / ~200-210 lb-ft** before slip. Significant headroom above planned bolt-on power levels.
 2. **Intake:** K&N Typhoon 69-1014TS — Hot-side mount with partial heat shield, uses stock fresh air duct
 3. **Short Shifter:** Acuity Instruments 3-Way Adjustable — Adjustable throw reduction
 4. **Shifter Bushings:** Acuity Instruments Shifter Cable Bushings — Transmission-side, replaces soft OEM rubber
