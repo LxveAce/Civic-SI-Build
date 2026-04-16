@@ -118,15 +118,20 @@ The OEM RBC manifold (from 02-06 RSX Type S) is the most popular budget intake m
 | DBW Compatibility | Needs $60-100 adapter plate | Designed for aftermarket TB |
 | Community Support | Massive (thousands of builds) | Large |
 
-## Purchasing
+## Purchasing with Buy Links
 
-| # | Item | Price |
-|---|------|-------|
-| 1 | Skunk2 Ultra Street 307-05-8000 | ~$575 |
-| 2 | Stock TB boring service (to 66mm) | ~$150 |
-| 3 | TB adapter plate (if needed for 66mm on 68mm inlet) | ~$30-50 |
-| 4 | Dyno tune (mandatory) | ~$400-600 |
-| | **Total** | **~$1,155-1,375** |
+| # | Item | Product | Price | Link |
+|---|------|---------|-------|------|
+| 1 | **Intake Manifold** | Skunk2 Ultra Street 307-05-0600 | ~$565-620 | [Hybrid Racing](https://www.hybrid-racing.com/products/skunk2-k20a2-ultra-street-intake-manifold) |
+| | | | | [TF-Works — $565](https://tf-works.com/skunk2-ultra-street-intake-manifold-k20-k24/) |
+| | | | | [JHPUSA](https://jhpusa.com/products/skunk2-ultra-series-street-intake-manifold-k-series) |
+| | | | | [Headgames Motorworks](https://headgamesmotorworks.com/products/skunk2-ultra-series-street-k20a-a2-a3-k24-engines-intake-manifold-black) |
+| 2 | **TB Boring Service** | Stock K20Z3 DBW TB bored to 66mm | ~$100-175 | Contact [Drag Cartel](https://dragcartel.com) or [HeelToe Auto](https://www.heeltoeauto.com) — send your stock TB |
+| 3 | **TB adapter plate** | If needed for 66mm on 68mm inlet | ~$30-50 | Sourced with manifold purchase |
+| 4 | **Dyno tune** | Mandatory after install | ~$400-600 | Local K-series Hondata tuner |
+| | **Total** | | **~$1,095-1,445** | |
+
+**Note on part number:** The Ultra **Street** is 307-05-0600 (black) or 307-05-0605 (silver). The Ultra **Race** is 307-05-8000. These are different manifolds — the Ultra Street has longer runners and is correct for this build.
 
 ---
 
