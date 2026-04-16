@@ -10,7 +10,7 @@
 
 ## Build Philosophy
 
-Daily-drivable with a sport mode toggle. Quiet when needed, loud when wanted. Full bolt-on NA K20Z3 build targeting **220-240 WHP** — headers, intake manifold, throttle body, exhaust, pulleys, and Hondata tune. Valved 3" exhaust with QTP cutout enables switching between a quiet daily tune and an aggressive straight-piped sport tune. In-car LattePanda mini PC for permanent Hondata management and exhaust valve control.
+Daily-drivable with a sport mode toggle. Quiet when needed, loud when wanted. Full bolt-on NA K20Z3 build targeting **220-240 WHP on pump gas, 240-260 WHP on E85** — headers, intake manifold, throttle body, exhaust, pulleys, flex fuel system, and Hondata tune. Valved 3" exhaust with QTP cutout enables switching between a quiet daily tune and an aggressive straight-piped sport tune. Flex fuel with real-time ethanol content sensing allows seamless switching between pump gas and E85. In-car LattePanda mini PC for permanent Hondata management and exhaust valve control.
 
 ---
 
@@ -41,6 +41,8 @@ Daily-drivable with a sport mode toggle. Quiet when needed, loud when wanted. Fu
 | 9 | [Headers](09-Headers/) | Skunk2 Alpha 4-2-1 (412-05-1900) + Berk HFC | Best available, stepped primaries, 10-18 WHP |
 | 10 | [Intake Manifold](10-Intake-Manifold/) | Skunk2 Ultra Street + bored stock TB (66mm) | Larger plenum, shorter runners, DBW compatible |
 | 11 | [Pulleys & Harmonic Balancer](11-Pulleys-and-Harmonic-Balancer/) | ATI Super Damper + NST accessory pulleys | Proper damping + reduced parasitic loss |
+| 12 | [Flex Fuel & Fuel System](12-Flex-Fuel-and-Fuel-System/) | ID1050x injectors + Acuity rail + DW300C pump + ethanol sensor | E85 capable, 15-30 WHP on top of bolt-ons |
+| 13 | [Clutch Hydraulics](13-Clutch-Hydraulics/) | Hybrid Racing CMC + RSX CSC + SS braided line | 170k-mile reliability upgrade, improved pedal feel |
 | -- | [In-Car PC](07-Hondata-FlashPro/Permanent-LattePanda-Install/) | LattePanda 3 Delta permanent install | Controls FlashPro + exhaust valve |
 
 ---
@@ -58,6 +60,7 @@ Each modification has its own folder containing:
 - [`07-Hondata-FlashPro/Permanent-LattePanda-Install/`](07-Hondata-FlashPro/Permanent-LattePanda-Install/) — Full guide for the in-car PC build
 - [`08-Valved-Exhaust/`](08-Valved-Exhaust/) — DIY valved exhaust design, parts, and planning
 - [`docs/`](docs/) — General reference documents
+- [`docs/mod-order-and-maintenance.md`](docs/mod-order-and-maintenance.md) — Chronological mod order + 170k-mile maintenance plan
 
 ---
 
