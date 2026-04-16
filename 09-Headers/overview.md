@@ -1,72 +1,113 @@
-# Headers -- PLM V2 + High-Flow Cat (Recommended)
+# Headers — Skunk2 Alpha 4-2-1 (Recommended)
 
 ## Status: Research Complete, Not Yet Purchased
 
 ## Recommendation
 
-**PLM V2 Header with Bolt-On 200-Cell High-Flow Catalytic Converter** (PLM-HFG1-V2-K24-HEADER-CAT) at ~$575. This provides 90%+ of the Skunk2 Alpha's performance with the convenience of an included high-flow cat, at roughly $345 less than a Skunk2 Alpha + separate Berk HFC.
+**Skunk2 Alpha 4-2-1 Header with Stepped Primaries** — the best-performing header you can actually buy for the FG2.
 
-Runner-up: Skunk2 Alpha (412-05-1930) at $570 + Berk HFC at $350 = $920 total. Better fitment and more community data, but significantly more expensive for marginal gains.
+| Field | Value |
+|-------|-------|
+| Part Number | 412-05-1900 (FG2 Coupe) |
+| Design | 4-2-1 with stepped primaries (1.625" → 1.75") |
+| Material | 304 stainless steel, TIG-welded |
+| Collector Outlet | 2.5" |
+| Cat Included | No — pair with Berk Technology HFC (~$300-400) |
+| Header Price | ~$700-800 |
+| Total (header + HFC) | ~$1,000-1,200 |
+| Availability | In production, readily available from authorized retailers |
 
-## Why Headers
+## Why the Skunk2 Alpha
 
-The stock cast iron exhaust manifold is the biggest single restriction in the K20Z3's exhaust path. Aftermarket 4-2-1 headers are the highest-gain single bolt-on modification for this engine, providing 10-18 WHP depending on the header design and supporting modifications.
+### Stepped Primaries — The Key Differentiator
 
-Combined with the valved exhaust cutout (headers + open cutout + intake + tune = 25-45 WHP total over bone stock), headers complete the intake-to-exhaust breathing path.
+The Alpha's **1.625" to 1.75" stepped primary tubes** are what separate it from every other header on the market:
+- Starts narrow → maintains exhaust gas velocity at low-mid RPM (keeps scavenging strong)
+- Opens up → flows more volume at high RPM when the engine pushes more exhaust
+- PLM and DC Sports use constant 1.625" primaries — this design difference accounts for the 5-8 WHP gap
 
-## Expected Power (Full Bolt-On + Tune)
+### Every Header for the FG2, Ranked
+
+| Header | Design | Peak WHP Gain | Price | Available? | Verdict |
+|--------|--------|--------------|-------|------------|---------|
+| **Skunk2 Alpha** | **4-2-1 stepped** | **10-18** | **$700-800** | **Yes** | **Buy this** |
+| PLM Tri-Y V2 | 4-2-1 constant | 8-13 | $350-500 | Inconsistent | Budget alternative |
+| DC Sports | 4-2-1 constant | 8-12 | $400-550 | Yes | Decent mid-tier |
+| Hytech 4-1 | 4-1 merge collector | 12-20 | N/A | **No (defunct ~2014)** | Unobtainable |
+| Megan Racing | 4-2-1 | 6-10 | $250-350 | Intermittent | Not recommended |
+| OBX | 4-2-1 | 5-8 | $150-250 | Yes | Avoid |
+
+**No JDM brands** (Spoon, Toda, Mugen, J's Racing) ever made a header for the 8th gen SI.
+**No reputable 4-1 header** exists for the FG2 in 2025-2026.
+
+## Why NOT a 4-1 (For This Build)
+
+The 4-1 vs 4-2-1 debate was thoroughly researched. Conclusion:
+
+A properly designed 4-1 with merge collector would make **2-5 more peak WHP above 7000 RPM** but **lose 3-8 lb-ft of torque from 3000-5500 RPM.**
+
+For this build specifically:
+- The **Skunk2 Ultra Street manifold** already provides excellent top-end airflow. A 4-1's top-end advantage is diminished when paired with a manifold that already breathes well up top.
+- The **3" valved exhaust** eliminates downstream backpressure. The 4-2-1's slight flow disadvantage at peak RPM is negated.
+- Street driving spends far more time in the **3000-6000 RPM** range than at 8000+ RPM. Area under the curve > peak numbers.
+- Professional K-series tuners overwhelmingly recommend the Alpha for full bolt-on street builds.
+- The 4-1 only becomes the right choice with race cams, ported heads, and a build that lives above 6500 RPM.
+
+## Synergy with This Build
+
+The Skunk2 Alpha + Skunk2 Ultra Street intake manifold are complementary:
+- Ultra Street's medium-length runners build mid-range torque
+- Alpha's stepped primaries maintain exhaust velocity across the same RPM range
+- Together: **broad, fat torque curve from 3000-8000 RPM** with strong pull to redline
+- Most commonly tuned header on the 8th gen SI — your Hondata tuner will have extensive experience with this exact combo
+
+## Full Bolt-On Power Expectations
 
 | Configuration | WHP (Dynojet) | WTQ (Dynojet) |
 |---------------|---------------|----------------|
 | Stock baseline | 175-185 | 130-138 |
 | Current (intake only, no tune) | 178-188 | 132-140 |
-| Full bolt-on + Hondata tune | **210-230** | **155-165** |
+| **Full bolt-on + Hondata tune** | **220-235** | **160-170** |
 
-## Key Specifications
+To push beyond 240 WHP requires aftermarket cams (Skunk2 Stage 2), race fuel, or both.
 
-| Spec | Value |
-|------|-------|
-| Brand | PLM (Private Label Mfg) |
-| Part Number | PLM-HFG1-V2-K24-HEADER-CAT |
-| Design | 4-2-1 Tri-Y, stepped primaries |
-| Material | 18-gauge stainless steel, TIG-welded |
-| Primary Tubes | 44mm stepped to 50mm |
-| Collector | 2.5" outlet |
-| Catalytic Converter | 200-cell metallic high-flow, bolt-on |
-| Flanges | CNC machined 3/8" thick, double-welded, ported |
-| Construction | One-piece (V2 design -- eliminates V1 slip-joint leaks) |
-| Fitment | 2006-2011 Civic SI (FG2 coupe / FA5 sedan), K20Z3 and K24 |
-| Price | ~$575 |
+## Catalytic Converter Pairing
+
+| Cat | Type | Price | Notes |
+|-----|------|-------|-------|
+| **Berk Technology HFC** | 200-cell high-flow, bolt-on | ~$300-400 | Most popular pairing, retains emissions legality |
+| PLM High-Flow Cat | 200-cell, bolt-on | ~$150-250 | Budget option |
+| Test pipe (catless) | Straight pipe | ~$50-100 | Off-road only. Not street legal. Requires Hondata CEL fix. |
 
 ## Stock Exhaust Clarification
 
-The FG2 SI has **one resonator and one muffler** -- NOT two mufflers. The resonator is a small canister welded into the mid-pipe (~under rear seats). The rear muffler is the large canister under the trunk. When the owner says "two stock mufflers," they mean the resonator + muffler.
+The FG2 SI has **one resonator and one muffler** — NOT two mufflers. The resonator is a small canister welded into the mid-pipe (~under rear seats). The rear muffler is the large canister under the trunk.
 
 ## Install Order
 
 **Headers install AFTER the valved exhaust cutout is working and tuned.**
 
 1. Install QTP cutout, get both tunes working (valve open and closed)
-2. Install headers + high-flow cat
+2. Install Skunk2 Alpha header + Berk HFC
 3. Retune both Hondata calibrations on dyno (strongly recommended)
 4. Verify AFR in both valve positions with new headers
 5. Re-torque all connections after 100 miles of heat cycling
 
 ## Installation Notes (170k Miles)
 
-- **PB Blaster the manifold studs 3-5 days before install** -- heat cycle + spray daily
-- Use double-nut method for stud removal, NOT vise grips
+- **PB Blaster the manifold studs 3-5 days before install** — heat cycle + spray daily
+- Use double-nut method for stud removal, NEVER vise grips
+- Have new M10x1.25 stainless studs and copper-plated flange nuts ready
 - Budget 6-10 hours DIY or 3-5 hours professional
-- **Professional install recommended** due to high-mileage seized stud risk ($300-500 labor)
-- Have new M10x1.25 stainless studs and copper-plated nuts ready before starting
+- **Professional install recommended** due to seized stud risk ($300-500 labor)
 - May need to lower subframe ~1" for clearance during manifold removal
 
 ## See Also
 
-- [brainstorm.md](brainstorm.md) -- Full research: all headers compared, stock exhaust layout, pipe diameter analysis, dyno data, sound character, complete bill of materials
-- [4-1-header-research.md](4-1-header-research.md) -- Deep dive into 4-1 headers with trumpet/merge collectors: Hytech details, scavenging theory, anti-reversion technology, custom build options, 4-1 vs 4-2-1 trade-offs, pipe diameter analysis for 4-1, sound character comparison
-- Future: [purchasing.md](purchasing.md) -- Complete parts list with links (to be created at purchase time)
-- Future: [install-guide.md](install-guide.md) -- Step-by-step install instructions
+- [brainstorm.md](brainstorm.md) — Full exhaust system research, stock layout, pipe diameters, all headers compared, sound character
+- [4-1-header-research.md](4-1-header-research.md) — Deep dive on 4-1 merge collector design, scavenging theory, Hytech analysis, 4-1 vs 4-2-1 trade-offs
+- Future: [purchasing.md](purchasing.md) — Complete parts list (at purchase time)
+- Future: [install-guide.md](install-guide.md) — Step-by-step instructions
 
 ---
 
