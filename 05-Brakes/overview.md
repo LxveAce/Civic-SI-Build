@@ -11,6 +11,7 @@
 | Part Number | WCPN2-59004 |
 | Type | Slotted, black e-coated |
 | Coverage | Full set (front and rear) |
+| **Actual Cost (incl. tax/shipping)** | **$309.69** |
 
 ### Brake Pads — Front
 | Field | Value |
@@ -19,6 +20,7 @@
 | Part Number | HB361F.622 |
 | Position | Front |
 | Compound | HPS (High Performance Street) |
+| **Actual Cost (front + rear, incl. tax/shipping)** | **$222.45** |
 
 ### Brake Pads — Rear
 | Field | Value |

@@ -13,6 +13,7 @@
 | Pairing | Locks to one ECU at a time |
 | Calibration Files | .fpc format |
 | Datalog Files | .fpdl format |
+| **Actual Cost (incl. tax/shipping)** | **$859.59** |
 
 ## What It Does
 

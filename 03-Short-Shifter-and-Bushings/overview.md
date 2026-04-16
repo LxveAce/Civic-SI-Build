@@ -18,6 +18,13 @@
 | Location | Transmission side (where the cables attach to the transmission) |
 | Material | Stiffer than OEM rubber |
 
+### Cost
+| Field | Value |
+|-------|-------|
+| Short shifter (base price) | $459.00 |
+| Cable bushings (base price) | $79.00 |
+| **Actual Cost (both, incl. tax/shipping)** | **$622.20** |
+
 ## Why These Mods
 
 The stock Civic SI shifter has a long, somewhat vague throw. The 3-way adjustable short shifter significantly reduces shift throw, making shifts quicker and more precise. The transmission-side cable bushings replace the soft OEM rubber bushings with stiffer units, eliminating slop in the linkage.

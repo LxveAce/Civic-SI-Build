@@ -18,20 +18,25 @@ Daily-drivable with a sport mode toggle. Quiet when needed, loud when wanted. Fu
 
 ### Installed
 
-| # | Mod | Part | Status |
-|---|-----|------|--------|
-| 1 | [Clutch & Flywheel](01-Clutch/) | Exedy Stage 1 Organic (08806) + Exedy Lightweight Flywheel (HF02) | Installed |
-| 2 | [Cold Air Intake](02-Cold-Air-Intake/) | K&N Typhoon 69-1014TS | Installed |
-| 3 | [Short Shifter + Bushings](03-Short-Shifter-and-Bushings/) | Acuity 3-Way Adjustable + Trans-Side Bushings | Installed |
+| # | Mod | Part | Actual Cost | Status |
+|---|-----|------|------------|--------|
+| 1 | [Clutch & Flywheel](01-Clutch/) | Exedy Stage 1 Organic (08806) + Exedy Lightweight Flywheel (HF02) | $960.43* | Installed |
+| 2 | [Cold Air Intake](02-Cold-Air-Intake/) | K&N Typhoon 69-1014TS | $504.17 | Installed |
+| 3 | [Short Shifter + Bushings](03-Short-Shifter-and-Bushings/) | Acuity 3-Way Adjustable + Trans-Side Bushings | $622.20 | Installed |
+| 4 | Tires | Continental ExtremeContact DWS06 Plus 215/45ZR17 91W XL | $715.00 | Installed |
+
+*\*$960.43 includes clutch, flywheel, and strut bar bundled together (incl. tax/shipping)*
 
 ### Purchased — Awaiting Install
 
-| # | Mod | Part | Status | Notes |
-|---|-----|------|--------|-------|
-| 4 | [Engine Mounts](04-Engine-Mounts/) | Hybrid Racing 70A | Awaiting install | |
-| 5 | [Brakes](05-Brakes/) | Hawk HPS Pads + R1 Concepts Slotted Rotors | Awaiting install | Full 4-corner upgrade |
-| 6 | [Strut Bar](06-Strut-Bar/) | Megan Racing Race Spec Front Upper (Polished) | Blocked | Clearance issue — diagnosis needed |
-| 7 | [Hondata FlashPro](07-Hondata-FlashPro/) | Hondata FlashPro | Awaiting first flash | ECU tuning, datalogging, gauges |
+| # | Mod | Part | Actual Cost | Status | Notes |
+|---|-----|------|------------|--------|-------|
+| 5 | [Engine Mounts](04-Engine-Mounts/) | Hybrid Racing 70A | $657.15 | Awaiting install | |
+| 6 | [Brakes](05-Brakes/) | Hawk HPS Pads + R1 Concepts Slotted Rotors | $532.14 | Awaiting install | Full 4-corner upgrade |
+| 7 | [Strut Bar](06-Strut-Bar/) | Megan Racing Race Spec Front Upper (Polished) | (in #1) | Blocked | Clearance issue — diagnosis needed |
+| 8 | [Hondata FlashPro](07-Hondata-FlashPro/) | Hondata FlashPro | $859.59 | Awaiting first flash | ECU tuning, datalogging, gauges |
+
+**Total spent to date: $4,850.68** (all prices include tax, shipping, and insurance)
 
 ### Planned — Not Yet Purchased
 
