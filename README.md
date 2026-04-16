@@ -38,9 +38,9 @@ Daily-drivable with a sport mode toggle. Quiet when needed, loud when wanted. Fu
 | # | Mod | Details | Notes |
 |---|-----|---------|-------|
 | 8 | [Valved Exhaust](08-Valved-Exhaust/) | DIY 3" QTP cutout bypass (keep OEM mufflers) | 3" dump, step-down to 2.5" for muffled path |
-| 9 | [Headers](09-Headers/) | 4-1 with merge/trumpet collector | Top-end focus, pairs with intake manifold |
+| 9 | [Headers](09-Headers/) | 4-1 with merge/trumpet collector (Hytech or custom) | Top-end power, anti-reversion design |
 | 10 | [Intake Manifold](10-Intake-Manifold/) | Skunk2 Ultra Street + bored stock TB (66mm) | Larger plenum, shorter runners, DBW compatible |
-| 11 | [Pulley System](11-Pulley-System/) | Underdrive pulleys + harmonic balancer | Reduce parasitic loss, quality damper |
+| 11 | [Pulleys & Harmonic Balancer](11-Pulleys-and-Harmonic-Balancer/) | ATI Super Damper + NST accessory pulleys | Proper damping + reduced parasitic loss |
 | -- | [In-Car PC](07-Hondata-FlashPro/Permanent-LattePanda-Install/) | LattePanda 3 Delta permanent install | Controls FlashPro + exhaust valve |
 
 ---
