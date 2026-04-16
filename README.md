@@ -20,7 +20,7 @@ Daily-drivable with a sport mode toggle. Quiet when needed, loud when wanted. Ta
 
 | # | Mod | Part | Status |
 |---|-----|------|--------|
-| 1 | [Clutch & Flywheel](01-Clutch/) | Exedy OEM Stage 1 (KHC10) + Acuity Lightweight Flywheel | Installed |
+| 1 | [Clutch & Flywheel](01-Clutch/) | Exedy Stage 1 Organic (08806) + Acuity Lightweight Chromoly Flywheel | Installed |
 | 2 | [Cold Air Intake](02-Cold-Air-Intake/) | K&N Typhoon 69-1014TS | Installed |
 | 3 | [Short Shifter + Bushings](03-Short-Shifter-and-Bushings/) | Acuity 3-Way Adjustable + Trans-Side Bushings | Installed |
 
