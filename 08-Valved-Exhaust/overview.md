@@ -1,14 +1,14 @@
-# Valved Exhaust — DIY 3" QTP Cutout Bypass
+# Valved Exhaust — My DIY 3" QTP Cutout Bypass
 
 ## Status: Planned (Not Yet Purchased)
 
-## Concept
+## The Idea
 
-Keep the OEM resonator and muffler for quiet daily driving. Add a valve-controlled bypass that dumps exhaust before the resonator/muffler, creating a straight-pipe experience when the valve is open. A relay controls the valve, tied to the Hondata FlashPro calibration selection (daily = closed/quiet, sport = open/loud).
+I want to keep my OEM resonator and muffler for quiet daily driving, but have a valve-controlled bypass that dumps exhaust before the resonator/muffler — basically a straight-pipe experience at the flip of a switch. A relay controls the valve, tied to my Hondata FlashPro calibration selection (daily = closed/quiet, sport = open/loud).
 
-**No bolt-on valved exhaust exists for the 8th gen Civic SI.** This is a DIY build using proven universal components.
+**No bolt-on valved exhaust exists for the 8th gen Civic SI.** I looked everywhere. This has to be a DIY build using universal components, which honestly is fine — gives me more control over the design.
 
-## Design
+## My Design
 
 ### Exhaust Path (Updated: 3" Dump with Step-Down)
 
@@ -35,31 +35,31 @@ Keep the OEM resonator and muffler for quiet daily driving. Add a valve-controll
 | Daily path (cutout to resonator) | **3" → 2.5" reducer** | Steps down to match resonator/muffler inlet size |
 | Resonator → muffler → tailpipe | **2.5" / stock** | Retains stock components, no modification needed |
 
-**Why 3" on the dump side:**
-- The 4-1 header collector outputs at 2.5-3". Carrying 3" to the dump maximizes flow for the sport path.
+**Why I'm going 3" on the dump side:**
+- My 4-1 header collector outputs at 2.5-3". Carrying 3" to the dump maximizes flow for the sport path.
 - On an NA K20Z3 at 220-240 WHP, 3" won't hurt low-end torque (common myth). Exhaust gas velocity matters less than minimizing restriction at this power level.
 - 3" sounds deeper and more refined than 2.5" when the valve is open
-- Provides headroom if forced induction is ever added
+- Gives me headroom if I ever go forced induction
 
-**Why step down to 2.5" for the muffled path:**
+**Why I'm stepping down to 2.5" for the muffled path:**
 - The stock resonator and muffler inlets are ~2-2.5". You can't feed 3" into them.
 - A gradual reducer cone (3" to 2.5", ~6" long) creates a smooth transition with minimal turbulence
 - The muffled path doesn't need maximum flow — it's the quiet mode
 
 **Note:** The FG2 SI has ONE resonator (small canister, ~under rear seats) and ONE rear muffler (large canister, under trunk) — NOT two mufflers.
 
-### Recommended Valve
+### The Valve I'm Going With
 
 **QTP QTEC30 — 3" Electric Exhaust Cutout (~$240-260)**
 - Stainless steel butterfly valve, 12V DC gear motor
 - **3" bore** (upgraded from the originally planned 2.5" QTEC25)
 - Motor mounts on a bracket away from the hottest pipe area
 - Opens/closes in 2-3 seconds
-- Proven product, thousands of installs
+- Proven product, thousands of installs — this is the move
 
 ### QTP Cutout Positioning
 
-Place the cutout **after the high-flow cat, before the resonator**, with at least 14" between the header collector and the cutout (QTP's thermal recommendation for motor protection).
+I'll place the cutout **after the high-flow cat, before the resonator**, with at least 14" between the header collector and the cutout (QTP's thermal recommendation for motor protection).
 
 ## Control Methods
 
@@ -88,7 +88,7 @@ Place the cutout **after the high-flow cat, before the resonator**, with at leas
 
 ## See Also
 
-- [brainstorm.md](brainstorm.md) — Full research, alternatives considered, valve options, heat/waterproofing
+- [brainstorm.md](brainstorm.md) — Full research, alternatives I looked at, valve options, heat/waterproofing
 - [purchasing.md](purchasing.md) — Original detailed parts list (to be updated for 3" spec)
 
 ---

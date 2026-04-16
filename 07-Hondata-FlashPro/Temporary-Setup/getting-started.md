@@ -5,26 +5,26 @@ type: reference
 originSessionId: 71c04218-155d-453c-936e-a01a76dc2782
 ---
 # Hondata FlashPro — Temporary Laptop Setup Guide
-## Getting Started Before the Permanent Install
+## My plan for getting started before the permanent install
 
 ---
 
-## 1. What You Need (Minimal Setup)
+## 1. What I Need (Minimal Setup)
 
 | Item | Details | Cost |
 |------|---------|------|
-| Any Windows laptop | Doesn't need to be powerful. FlashProManager is very lightweight. An old ThinkPad, any laptop with USB-A and Windows 7/10/11 works. | (use what you have) |
-| Hondata FlashPro unit | You already have this | -- |
-| USB-A to Mini-B cable | Should be included in the FlashPro box. If not, any quality Mini-B USB cable works. | $8 |
-| 12V car power for laptop | Use your laptop's car charger or a 12V-to-AC inverter plugged into cigarette lighter | $15-25 |
+| Any Windows laptop | Doesn't need to be powerful. FlashProManager is super lightweight. An old ThinkPad, anything with USB-A and Windows 7/10/11 works. | (use what I have) |
+| Hondata FlashPro unit | Already have this | -- |
+| USB-A to Mini-B cable | Should be in the FlashPro box. If not, any quality Mini-B USB cable works. | $8 |
+| 12V car power for laptop | Laptop car charger or a 12V-to-AC inverter plugged into the cigarette lighter | $15-25 |
 
-**That's it for basic flashing and tuning.** You don't need anything else to get started.
+**That's it for basic flashing and tuning.** Nothing else needed to get going.
 
 ### What's in the FlashPro Box
 - FlashPro unit (small rectangular device with OBD2 connector on one end, Mini-USB on the other)
 - USB-A to Mini-B cable
 - Quick start guide
-- OBD2 connector (built into the unit — plugs directly into your OBD2 port)
+- OBD2 connector (built into the unit — plugs directly into the OBD2 port)
 
 ---
 
@@ -34,44 +34,44 @@ originSessionId: 71c04218-155d-453c-936e-a01a76dc2782
 
 1. Go to **hondata.com** > Support > Downloads
 2. Download the latest **FlashProManager** for Windows
-3. Run the installer — it also installs the FTDI USB serial drivers (these are what let the computer talk to the FlashPro)
+3. Run the installer — it also installs the FTDI USB serial drivers (these let the computer talk to the FlashPro)
 4. Launch FlashProManager to verify it installs correctly
 
-### 2.2 First Connection to Your Car
+### 2.2 First Connection to My Car
 
-**CRITICAL: Read this entire section before plugging anything in.**
+**IMPORTANT: Read this entire section before plugging anything in.**
 
-1. **Plug the FlashPro unit into your OBD2 port**
-   - The OBD2 port on the FG2 is under the dash, to the left of the steering column
+1. **Plug the FlashPro unit into the OBD2 port**
+   - On the FG2, the OBD2 port is under the dash, to the left of the steering column
    - The FlashPro's OBD2 connector plugs directly in — push firmly until it seats
-2. **Connect the USB cable** from the FlashPro to your laptop
+2. **Connect the USB cable** from the FlashPro to the laptop
 3. **Turn the key to ON** (dash lights come on, but do NOT start the engine yet)
 4. **Open FlashProManager** on the laptop
-5. The software should detect the FlashPro and show your ECU information
-6. **First-time registration:** The FlashPro will "pair" with your specific ECU. This is a one-time process. Follow the on-screen prompts.
+5. The software should detect the FlashPro and show the ECU information
+6. **First-time registration:** The FlashPro will "pair" with my specific ECU. This is a one-time process. Follow the on-screen prompts.
 
 **IMPORTANT NOTES:**
-- The FlashPro can only be paired to **ONE ECU** at a time. It locks to your ECU's serial number.
-- It CAN be unpaired/re-registered to a different ECU, but it's a deliberate process (useful if you sell the car or the FlashPro)
-- Once paired, it stays paired until you explicitly change it
+- The FlashPro can only be paired to **ONE ECU** at a time. It locks to the ECU's serial number.
+- It CAN be unpaired/re-registered to a different ECU if I ever sell the car or the FlashPro — it's a deliberate process
+- Once paired, it stays paired until I explicitly change it
 
-### 2.3 SAVE YOUR STOCK CALIBRATION FIRST
+### 2.3 SAVE THE STOCK CALIBRATION FIRST
 
 **This is the single most important step. Do this before changing ANYTHING.**
 
 1. With FlashPro connected and ECU detected, go to **File > Download** (or "Read ECU" depending on version)
-2. This reads the current stock calibration from your ECU
+2. This reads the current stock calibration from the ECU
 3. **Save this file** as something like `STOCK_ORIGINAL_2009_SI_[date].fpc`
-4. Save it to your laptop AND copy it to a USB drive / cloud storage
-5. This is your factory reset. If anything ever goes wrong, you flash this file back.
+4. Save it to the laptop AND copy it to a USB drive / cloud storage
+5. This is my factory reset. If anything ever goes sideways, I flash this back and I'm stock again.
 
 ---
 
-## 3. Choosing a Base Map for Your Current Mods
+## 3. Choosing a Base Map for My Current Mods
 
-### What Affects the Tune on Your Car
+### What Affects the Tune on My Car
 
-Of your current mods, **only the K&N Typhoon intake (69-1014TS) affects the tune.** Everything else (clutch, short shifter, bushings, mounts, brakes) is mechanical and doesn't change how the engine runs.
+Of everything I've got installed, **only the K&N Typhoon intake (69-1014TS) affects the tune.** Everything else (clutch, short shifter, bushings, mounts, brakes) is mechanical and doesn't change how the engine runs.
 
 The intake changes the airflow characteristics vs stock:
 - Different air filter (less restriction)
@@ -83,8 +83,8 @@ The intake changes the airflow characteristics vs stock:
 1. Go to **hondata.com** > Support > Downloads > Base Maps
 2. Look for the **8th Gen Civic SI (06-11)** section
 3. Find a base map for **"stock + intake"** or **"bolt-on intake"**
-4. Hondata typically provides base maps for common setups
-5. Also check the **Hondata forums** (forum.hondata.com) for community-shared maps specific to the K&N Typhoon
+4. Hondata typically has base maps for common setups
+5. Also worth checking the **Hondata forums** (forum.hondata.com) for community-shared maps specific to the K&N Typhoon
 
 ### What a Base Map Changes vs Stock
 
@@ -100,8 +100,8 @@ The intake changes the airflow characteristics vs stock:
 
 - A base map is a **starting point**, not a finished custom tune
 - It's **safe for daily driving** — base maps are intentionally conservative
-- It will NOT extract maximum power — that requires a **dyno tune** ($300-500 at a Hondata-certified tuner)
-- For your current bolt-ons (intake only), a base map is perfectly adequate. Dyno tuning becomes more worthwhile when you add headers + exhaust.
+- It won't extract maximum power — that takes a **dyno tune** ($300-500 at a Hondata-certified tuner)
+- For my current setup (intake only), a base map is perfectly adequate. Dyno tuning becomes more worthwhile once I add headers + exhaust.
 
 ### How to Flash the Base Map
 
@@ -117,7 +117,7 @@ The intake changes the airflow characteristics vs stock:
 
 ## 4. Sportier Tune Adjustments (Safe Limits)
 
-Once you're comfortable with FlashProManager, here are adjustments you can make on the base map that are **safe without a dyno tune:**
+Once I'm comfortable with FlashProManager, here are adjustments I can make on the base map that are **safe without a dyno tune:**
 
 ### Safe to Adjust
 
@@ -127,13 +127,13 @@ Once you're comfortable with FlashProManager, here are adjustments you can make 
 | **Rev limiter** | Hard RPM cutoff | Keep at 8200-8400. Do NOT go above 8400 without valve spring upgrades. |
 | **Speed limiter** | Top speed cutoff | Remove it or raise to 165+ MPH. No mechanical risk. |
 | **Fan on temperature** | When radiator fans kick on | Lower by 5-10F for more aggressive cooling. Good for spirited driving. |
-| **Launch control** | Holds RPM at a set point for launches | If available in your FlashPro version. Set at 4000-5000 RPM. Fun but hard on the drivetrain. |
+| **Launch control** | Holds RPM at a set point for launches | If available in my FlashPro version. Set at 4000-5000 RPM. Fun but hard on the drivetrain. |
 
 ### DO NOT TOUCH Without a Dyno Tune
 
 | Parameter | Why Not |
 |-----------|---------|
-| **Ignition timing (aggressive advance)** | Adding timing without monitoring for knock on a dyno can cause detonation and destroy pistons/rods. The base map timing is safe — leave it. |
+| **Ignition timing (aggressive advance)** | Adding timing without monitoring for knock on a dyno can cause detonation and destroy pistons/rods. The base map timing is safe — leave it alone. |
 | **Fuel tables (leaning out)** | Running lean at WOT kills engines. The base map is slightly rich for safety. Do not lean it out. |
 | **Cam angle tables** | Complex interaction with fuel and timing. Leave for a tuner. |
 
@@ -143,32 +143,32 @@ Once you're comfortable with FlashProManager, here are adjustments you can make 
 
 ### The Problem
 
-You want to monitor real-time engine data (AFR, temps, etc.) while driving. But you don't want the laptop open on the passenger seat all the time.
+I want to monitor real-time engine data (AFR, temps, etc.) while driving, but I don't want the laptop sitting open on the passenger seat all the time.
 
 ### Solution: Laptop + External Screen
 
-**The best temporary setup:**
+**The plan:**
 1. Laptop goes in the **passenger footwell** (on the floor, out of the way)
 2. A small **7" external screen** mounts on the dash
 3. FlashProManager runs on the laptop, gauge display extends to the external screen
-4. You see live gauges on the dash screen — laptop is hidden but running
+4. I see live gauges on the dash screen — laptop is hidden but running
 
 ### Recommended External Screen
 
-Buy the **same 7" screen you'll use for the LattePanda build later** — double duty:
+I'm buying the **same 7" screen I'll use for the LattePanda build later** — double duty, no wasted money:
 
 | Product | Details | Price |
 |---------|---------|-------|
 | Eyoyo 7" IPS 1024x600 | HDMI input, USB-powered, capacitive touch | ~$60 |
 
-**You'll also need:**
-- HDMI cable from laptop to screen (your laptop likely has HDMI-out or mini-HDMI)
+**I'll also need:**
+- HDMI cable from laptop to screen (my laptop should have HDMI-out or mini-HDMI)
 - The screen powers via USB — plug into the laptop or a USB car charger
 - A suction cup mount or vent clip mount (~$15-25)
 
 ### Setup Steps
 
-1. Mount the 7" screen on your windshield or dash (suction cup)
+1. Mount the 7" screen on the windshield or dash (suction cup)
 2. Connect HDMI from laptop to screen
 3. Connect screen USB to laptop (for power and optional touch)
 4. In Windows: Settings > Display > detect the second screen
@@ -177,16 +177,16 @@ Buy the **same 7" screen you'll use for the LattePanda build later** — double 
 7. Go to the **Gauges** view
 8. Drag the gauge window to the external screen
 9. Resize to fill the 7" display
-10. The gauges are now on your dash. The main FlashProManager window stays on the laptop screen (hidden in the footwell)
+10. The gauges are now on the dash. The main FlashProManager window stays on the laptop screen (hidden in the footwell)
 
 ### Alternative: FlashPro Internal Datalogging (No Screen)
 
-If you don't want to buy a screen yet:
+If I don't want to buy the screen right away:
 - The FlashPro unit can **datalog internally** (it has onboard memory)
 - Configure datalogging parameters in FlashProManager
-- Start a log before you drive
-- After your drive, connect the laptop, download the log, review it
-- You won't see live data while driving, but you get the data after the fact
+- Start a log before driving
+- After the drive, connect the laptop, download the log, review it
+- I won't see live data while driving, but I get the data after the fact
 - Good enough for initial evaluation before investing in a screen
 
 ---
@@ -203,13 +203,13 @@ If you don't want to buy a screen yet:
 
 ### Secondary Gauges (Good to Watch)
 
-| Gauge | Normal Range | What It Tells You |
+| Gauge | Normal Range | What It Tells Me |
 |-------|-------------|-------------------|
-| **Intake Air Temp (IAT)** | Ambient +10-30F (hot-side intake runs warmer) | How hot your K&N Typhoon is pulling. Lower = better. |
+| **Intake Air Temp (IAT)** | Ambient +10-30F (hot-side intake runs warmer) | How hot my K&N Typhoon is pulling. Lower = better. |
 | **Short Term Fuel Trim (STFT)** | -10% to +10% | How much the ECU is correcting fuel. Large corrections mean the tune doesn't match reality. |
 | **Long Term Fuel Trim (LTFT)** | -10% to +10% | Same but averaged over time. Persistently high = the tune needs adjustment. |
 | **Battery Voltage** | 13.8-14.4V (engine running) | Below 13.5V = alternator may be weak. Above 15V = regulator issue. |
-| **RPM** | 750 idle, 8200 redline | Verify VTEC engagement at your set point. |
+| **RPM** | 750 idle, 8200 redline | Verify VTEC engagement at my set point. |
 | **Injector Duty Cycle** | <85% at WOT | Above 85% = injectors near max capacity. Not a concern on stock injectors with bolt-ons. |
 
 ### Recommended Gauge Layout (7" Screen)
@@ -233,13 +233,13 @@ If you don't want to buy a screen yet:
 
 ## 7. Datalogging for a Future Dyno Tune
 
-Even before you get a dyno tune, **start logging now.** A tuner will want to see your baseline data.
+Even before I get a dyno tune, **I should start logging now.** A tuner will want to see baseline data.
 
 ### How to Log
 
 1. In FlashProManager, set up datalogging parameters:
    - RPM, TPS (throttle position), MAP (manifold pressure), IAT, ECT, AFR (wideband), Knock, STFT, LTFT, Injector Duty Cycle, VTEC engagement, Vehicle Speed, Battery Voltage
-2. Start the log before your drive
+2. Start the log before driving
 3. Drive for at least **10-15 minutes of mixed driving:**
    - City driving (stop and go, various RPMs)
    - Highway cruising (steady state)
@@ -248,28 +248,28 @@ Even before you get a dyno tune, **start logging now.** A tuner will want to see
 4. Stop the log, save as `.fpdl` file
 5. Name it descriptively: `2026-04-16_mixed_driving_basemap.fpdl`
 
-### What to Look For in Your Logs
+### What to Look For in My Logs
 
 - **AFR at WOT:** Should be 11.5-12.5 across the RPM range. If it goes lean (>13.0) at any point during WOT, the tune needs fuel added.
-- **Knock:** Any knock events, especially at WOT above 6000 RPM. This tells you if timing is too aggressive.
+- **Knock:** Any knock events, especially at WOT above 6000 RPM. Tells me if timing is too aggressive.
 - **Fuel trims:** If STFT/LTFT are consistently >8% in one direction, the fuel table needs adjustment.
-- **IAT:** How hot is the intake getting? During summer, the hot-side K&N Typhoon may pull 120-140F air. This is worth noting for a tuner.
+- **IAT:** How hot is the intake getting? During summer, the hot-side K&N Typhoon may pull 120-140F air. Worth noting for a tuner.
 
 ### Sharing Logs with a Tuner
 
-When you eventually go for a dyno tune, bring:
-1. Your datalog files (.fpdl)
-2. Your current calibration file (.fpc)
+When I eventually go for a dyno tune, I'm bringing:
+1. My datalog files (.fpdl)
+2. My current calibration file (.fpc)
 3. A list of all mods (intake, exhaust, headers, etc.)
-4. The tuner will load your calibration, review your logs, put the car on the dyno, and optimize everything under controlled conditions.
+4. The tuner will load my calibration, review my logs, put the car on the dyno, and optimize everything under controlled conditions.
 
 ---
 
 ## 8. Transitioning to the Permanent LattePanda Install
 
-This temporary laptop setup teaches you the software and workflow. When you're ready for the permanent build:
+This temporary laptop setup is really just about learning the software and workflow. When I'm ready for the permanent build:
 
-| What You Bought for Temp | Reused in Permanent Build? |
+| What I Bought for Temp | Reused in Permanent Build? |
 |--------------------------|---------------------------|
 | 7" external screen | YES — becomes the LattePanda's display |
 | Screen mount (suction cup/vent clip) | YES — or upgrade to a cleaner mount |
@@ -277,13 +277,13 @@ This temporary laptop setup teaches you the software and workflow. When you're r
 | FlashPro unit | YES — stays plugged into OBD2 |
 | Laptop | NO — retired from car duty (keep for desk tuning/log review) |
 
-The knowledge you gain from using FlashProManager on the laptop is directly transferable. The permanent install just replaces the laptop with a dedicated, always-ready mini PC.
+Everything I learn from using FlashProManager on the laptop carries over directly. The permanent install just replaces the laptop with a dedicated, always-ready mini PC.
 
 ---
 
 ## 9. Safety and Best Practices
 
-### Before Your First Flash
+### Before My First Flash
 - [ ] Stock calibration saved and backed up to multiple locations
 - [ ] Laptop fully charged (or plugged into car power)
 - [ ] Engine running (stable voltage)
@@ -294,10 +294,10 @@ The knowledge you gain from using FlashProManager on the laptop is directly tran
 - **Never flash while driving.** Always parked, parking brake on.
 - **Never disconnect USB during a flash.** If something goes wrong, leave it connected. FlashProManager will attempt recovery.
 - **Never lean out the fuel table** without knock monitoring and wideband AFR verification on a dyno.
-- **Start conservative.** Use the community base map for a week before making any adjustments. Drive normally, review datalogs, then make small changes.
-- **One change at a time.** If you adjust VTEC engagement, drive on that for a few days before touching anything else. This way if something feels wrong, you know exactly what caused it.
-- **Keep the laptop charged.** If the laptop dies mid-flash from a dead battery, the ECU could be left in a partially-written state. The FlashPro has recovery capabilities, but don't test them unnecessarily.
-- **93 octane fuel.** If your base map is tuned for premium (most are), run 93 octane. Never flash a premium tune and run 87 octane — this causes knock and engine damage.
+- **Start conservative.** I'm using the community base map for a week before making any adjustments. Drive normally, review datalogs, then make small changes.
+- **One change at a time.** If I adjust VTEC engagement, I'm driving on that for a few days before touching anything else. That way if something feels wrong, I know exactly what caused it.
+- **Keep the laptop charged.** If the laptop dies mid-flash, the ECU could be left in a partially-written state. The FlashPro has recovery capabilities, but I'd rather not test them.
+- **93 octane fuel.** If the base map is tuned for premium (most are), run 93 octane. Never flash a premium tune and run 87 — that's how you get knock and engine damage.
 
 ---
 

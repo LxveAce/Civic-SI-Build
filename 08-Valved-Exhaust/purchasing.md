@@ -1,4 +1,4 @@
-# Valved Exhaust — Parts List (Updated for 3" QTEC30 Design)
+# Valved Exhaust — My Parts List (Updated for 3" QTEC30 Design)
 
 ## Core Components
 
@@ -39,13 +39,15 @@
 | -- | Wireless Remote | QTP 10900 wireless controller kit | 1 | $85 |
 | -- | Wired Switch | QTP 10100 "One Touch" switch | 1 | $35 |
 
+I'm skipping both of these for now — a simple DPDT toggle is all I need for Phase 1, and the LattePanda will handle it in Phase 2. But good to know they exist if I change my mind.
+
 ## Future: LattePanda Integration
 
 | # | Item | Product | Qty | Price |
 |---|------|---------|-----|-------|
 | 18 | Relay Module | 5V 2-channel relay (10A rated, optocoupler isolated) | 1 | $8 |
 
-## Buy Links
+## Where I'm Buying
 
 | Item | Link |
 |------|------|
@@ -54,7 +56,9 @@
 | | [QTP Direct](https://quicktimeperformance.com/i-30497764-3-00-inch-qtp-electric-exhaust-cutout-valve.html) |
 | | [Real Street Performance — $232](https://www.realstreetperformance.com/quick-time-performance-single-3-inch-electric-exhaust-cutout-qtec30.html) |
 
-## Summary
+Summit Racing at $217 is the best price I've found so far. I'll probably go with them.
+
+## Cost Summary
 
 | Category | Subtotal |
 |----------|----------|
@@ -62,8 +66,10 @@
 | Control & Wiring | $68 |
 | Heat Protection | $38 |
 | **TOTAL (DIY install)** | **~$473-525** |
-| Muffler shop labor (if not welding yourself) | $150-250 |
+| Muffler shop labor (if not welding myself) | $150-250 |
 | **TOTAL (with shop labor)** | **~$623-775** |
+
+I can't weld, so I'll probably be paying the shop labor. Still way cheaper than any bolt-on valved exhaust system would be — if one existed.
 
 ---
 

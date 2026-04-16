@@ -1,10 +1,10 @@
-# Headers — Skunk2 Alpha 4-2-1 (Recommended)
+# Headers — I'm Going with the Skunk2 Alpha 4-2-1
 
 ## Status: Research Complete, Not Yet Purchased
 
-## Recommendation
+## My Pick
 
-**Skunk2 Alpha 4-2-1 Header with Stepped Primaries** — the best-performing header you can actually buy for the FG2.
+**Skunk2 Alpha 4-2-1 Header with Stepped Primaries** — after a ton of research, this is honestly the best-performing header you can actually buy for the FG2.
 
 | Field | Value |
 |-------|-------|
@@ -12,7 +12,7 @@
 | Design | 4-2-1 with stepped primaries (1.625" → 1.75") |
 | Material | 304 stainless steel, TIG-welded |
 | Collector Outlet | 2.5" |
-| Cat Included | No — pair with Berk Technology HFC |
+| Cat Included | No — I'll pair it with a Berk Technology HFC |
 | Header Price | ~$700-800 |
 | Total (header + HFC) | ~$1,000-1,200 |
 | Availability | In production, readily available from authorized retailers |
@@ -32,20 +32,20 @@
 | | | | | [Speed Freaks USA](https://speedfreaksusa.com/i-11649305-berk-civic-si-2006-2011-high-flow-cat-bt1101-hfc-met.html) |
 | | **Total** | | **~$1,000-1,200** | |
 
-## Why the Skunk2 Alpha
+## Why I Chose the Skunk2 Alpha
 
 ### Stepped Primaries — The Key Differentiator
 
-The Alpha's **1.625" to 1.75" stepped primary tubes** (dimensions are community-reported from dyno and fitment data — Skunk2 does not officially publish primary tube dimensions) are what separate it from every other header on the market:
+The Alpha's **1.625" to 1.75" stepped primary tubes** (dimensions are community-reported from dyno and fitment data — Skunk2 doesn't officially publish primary tube dimensions) are what separate it from every other header on the market:
 - Starts narrow → maintains exhaust gas velocity at low-mid RPM (keeps scavenging strong)
 - Opens up → flows more volume at high RPM when the engine pushes more exhaust
 - PLM and DC Sports use constant 1.625" primaries — this design difference accounts for the 5-8 WHP gap
 
 ### Every Header for the FG2, Ranked
 
-| Header | Design | Peak WHP Gain | Price | Available? | Verdict |
+| Header | Design | Peak WHP Gain | Price | Available? | My Verdict |
 |--------|--------|--------------|-------|------------|---------|
-| **Skunk2 Alpha** | **4-2-1 stepped** | **10-18** | **$700-800** | **Yes** | **Buy this** |
+| **Skunk2 Alpha** | **4-2-1 stepped** | **10-18** | **$700-800** | **Yes** | **This is the one** |
 | PLM Tri-Y V2 | 4-2-1 constant | 8-13 | $350-500 | Inconsistent | Budget alternative |
 | DC Sports | 4-2-1 constant | 8-12 | $400-550 | Yes | Decent mid-tier |
 | Hytech 4-1 | 4-1 merge collector | 12-20 | N/A | **No (defunct ~2014)** | Unobtainable |
@@ -55,26 +55,26 @@ The Alpha's **1.625" to 1.75" stepped primary tubes** (dimensions are community-
 **No JDM brands** (Spoon, Toda, Mugen, J's Racing) ever made a header for the 8th gen SI.
 **No reputable 4-1 header** exists for the FG2 in 2025-2026.
 
-## Why NOT a 4-1 (For This Build)
+## Why I'm NOT Going 4-1 (For This Build)
 
-The 4-1 vs 4-2-1 debate was thoroughly researched. Conclusion:
+I did a deep dive on 4-1 vs 4-2-1 (see [4-1-header-research.md](4-1-header-research.md)). Here's what I concluded:
 
 A properly designed 4-1 with merge collector would make **2-5 more peak WHP above 7000 RPM** but **lose 3-8 lb-ft of torque from 3000-5500 RPM.**
 
-For this build specifically:
-- The **Skunk2 Ultra Street manifold** already provides excellent top-end airflow. A 4-1's top-end advantage is diminished when paired with a manifold that already breathes well up top.
-- The **3" valved exhaust** eliminates downstream backpressure. The 4-2-1's slight flow disadvantage at peak RPM is negated.
-- Street driving spends far more time in the **3000-6000 RPM** range than at 8000+ RPM. Area under the curve > peak numbers.
+For my build specifically:
+- My **Skunk2 Ultra Street manifold** already provides excellent top-end airflow. A 4-1's top-end advantage is diminished when paired with a manifold that already breathes well up top.
+- My **3" valved exhaust** eliminates downstream backpressure. The 4-2-1's slight flow disadvantage at peak RPM is negated.
+- I spend far more time in the **3000-6000 RPM** range than at 8000+ RPM. Area under the curve > peak numbers.
 - Professional K-series tuners overwhelmingly recommend the Alpha for full bolt-on street builds.
-- The 4-1 only becomes the right choice with race cams, ported heads, and a build that lives above 6500 RPM.
+- The 4-1 only becomes the right choice with race cams, ported heads, and a build that lives above 6500 RPM. That's not my car.
 
-## Synergy with This Build
+## Synergy with My Build
 
 The Skunk2 Alpha + Skunk2 Ultra Street intake manifold are complementary:
 - Ultra Street's medium-length runners build mid-range torque
 - Alpha's stepped primaries maintain exhaust velocity across the same RPM range
 - Together: **broad, fat torque curve from 3000-8000 RPM** with strong pull to redline
-- Most commonly tuned header on the 8th gen SI — your Hondata tuner will have extensive experience with this exact combo
+- Most commonly tuned header on the 8th gen SI — my Hondata tuner will have extensive experience with this exact combo
 
 ## Full Bolt-On Power Expectations
 
@@ -84,7 +84,7 @@ The Skunk2 Alpha + Skunk2 Ultra Street intake manifold are complementary:
 | Current (intake only, no tune) | 178-188 | 132-140 |
 | **Full bolt-on + Hondata tune** | **220-235** | **160-170** |
 
-To push beyond 240 WHP requires aftermarket cams (Skunk2 Stage 2), race fuel, or both.
+To push beyond 240 WHP I'd need aftermarket cams (Skunk2 Stage 2), race fuel, or both. Not in the plans right now.
 
 ## Catalytic Converter Pairing
 
@@ -94,13 +94,15 @@ To push beyond 240 WHP requires aftermarket cams (Skunk2 Stage 2), race fuel, or
 | PLM High-Flow Cat | 200-cell, bolt-on | ~$150-250 | Budget option |
 | Test pipe (catless) | Straight pipe | ~$50-100 | Off-road only. Not street legal. Requires Hondata CEL fix. |
 
+I'm going with the Berk. Most popular pairing with the Alpha for a reason — it just works.
+
 ## Stock Exhaust Clarification
 
 The FG2 SI has **one resonator and one muffler** — NOT two mufflers. The resonator is a small canister welded into the mid-pipe (~under rear seats). The rear muffler is the large canister under the trunk.
 
-## Install Order
+## My Install Order
 
-**Headers install AFTER the valved exhaust cutout is working and tuned.**
+**Headers go in AFTER the valved exhaust cutout is working and tuned.**
 
 1. Install QTP cutout, get both tunes working (valve open and closed)
 2. Install Skunk2 Alpha header + Berk HFC
@@ -110,11 +112,13 @@ The FG2 SI has **one resonator and one muffler** — NOT two mufflers. The reson
 
 ## Installation Notes (170k Miles)
 
+At 170k, I'm expecting seized studs. Here's my plan:
+
 - **PB Blaster the manifold studs 3-5 days before install** — heat cycle + spray daily
 - Use double-nut method for stud removal, NEVER vise grips
 - Have new M10x1.25 stainless studs and copper-plated flange nuts ready
 - Budget 6-10 hours DIY or 3-5 hours professional
-- **Professional install recommended** due to seized stud risk ($300-500 labor)
+- **I'm leaning toward professional install** due to seized stud risk ($300-500 labor). If a stud snaps and I don't have the tools to deal with it, it becomes a much bigger problem.
 - May need to lower subframe ~1" for clearance during manifold removal
 
 ## See Also

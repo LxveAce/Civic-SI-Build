@@ -2,13 +2,13 @@
 
 **Vehicle:** 2009 Civic SI Coupe (FG2), K20Z3, ~170,000 miles
 **Date:** 2026-04-16
-**Goal:** Preventative upgrade of clutch master cylinder (CMC) and clutch slave cylinder (CSC)
+**Goal:** Preventative upgrade of clutch master cylinder (CMC) and clutch slave cylinder (CSC) before they leave me stranded
 
 ---
 
-## Recommendation: Hybrid Racing Complete CMC Upgrade Kit
+## My Pick: Hybrid Racing Complete CMC Upgrade Kit
 
-**Go with the best — the Hybrid Racing drop-in kit. It includes everything.**
+**I'm going with the best available option — the Hybrid Racing drop-in kit. It includes everything.**
 
 | Field | Value |
 |-------|-------|
@@ -28,15 +28,15 @@
 - (1) PTFE grease packet
 - (1) Hardware pack and mounting clips
 
-**This is a complete drop-in kit — CMC, CSC, and braided line all included. No adapter bracket needed. No extra parts to source.** That's why it's the best option.
+**Everything I need in one box — CMC, CSC, and braided line all included. No adapter bracket needed. No extra parts to source.** That's why this is the move.
 
-> **Note:** The link you originally found ([hybrid-racing.com/products/8th-gen-clutch-master-cylinder-upgrade](https://www.hybrid-racing.com/products/8th-gen-clutch-master-cylinder-upgrade)) goes to the **HYB-CMC-01-02** ($199.99), which is the **K-swap version** for older Civics/Integras (1992-2001). It does NOT fit the 8th gen SI without a K-swap. The correct product for a stock 8th gen SI is the **HYB-CMC-01-20** linked above.
+> **Note:** The link I originally found ([hybrid-racing.com/products/8th-gen-clutch-master-cylinder-upgrade](https://www.hybrid-racing.com/products/8th-gen-clutch-master-cylinder-upgrade)) goes to the **HYB-CMC-01-02** ($199.99), which is the **K-swap version** for older Civics/Integras (1992-2001). It does NOT fit a stock 8th gen SI. The correct product for my car is the **HYB-CMC-01-20** linked above. Glad I caught that before ordering.
 
 ---
 
 ## Additional Components Needed
 
-The Hybrid Racing kit includes almost everything, but you still need clutch fluid and a bleeder tool.
+The Hybrid Racing kit includes almost everything, but I still need clutch fluid and a bleeder tool.
 
 ### Clutch Fluid — Motul RBF 600 DOT 4
 
@@ -44,15 +44,15 @@ The Hybrid Racing kit includes almost everything, but you still need clutch flui
 |-------|-------|
 | Product | Motul RBF 600 Factory Line DOT 4 Racing Brake Fluid |
 | Size | 500mL (0.5L) — one bottle is enough, two recommended |
-| Dry Boiling Point | 594°F (312°C) |
-| Wet Boiling Point | 421°F (216°C) |
+| Dry Boiling Point | 594F (312C) |
+| Wet Boiling Point | 421F (216C) |
 | Buy Links | [Amazon](https://www.amazon.com/Motul-MTL100949-Factory-Percent-Synthetic/dp/B004LEYJO4) — ~$18/bottle |
 | | [Walmart](https://www.walmart.com/ip/Motul-RBF-600-Racing-DOT-4-Brake-Fluid/131969298) — ~$17/bottle |
 | | [BimmerWorld](https://www.bimmerworld.com/Brakes/Brake-Fluid/Motul-RBF-600-Racing-Brake-Fluid.html) — $17.99/bottle |
 
-**Why Motul RBF 600:** Highest dry boiling point of any readily available DOT 4 fluid. Amber color makes it easy to see when it's dirty during future flushes. The enthusiast standard for Honda clutch and brake systems.
+**Why Motul RBF 600:** Highest dry boiling point of any readily available DOT 4 fluid. Amber color makes it easy to see when it's dirty during future flushes. Honestly the enthusiast standard for Honda clutch and brake systems.
 
-**Alternative:** [ATE TYP 200 Gold](https://www.amazon.com/s?k=ATE+TYP+200+brake+fluid) — Dry 536°F / Wet 396°F, slightly cheaper. Alternate gold and blue versions at each flush to visually confirm old fluid is fully purged.
+**Alternative:** [ATE TYP 200 Gold](https://www.amazon.com/s?k=ATE+TYP+200+brake+fluid) — Dry 536F / Wet 396F, slightly cheaper. You can alternate gold and blue versions at each flush to visually confirm old fluid is fully purged. Clever system.
 
 ### Bleeder Tool (Optional But Recommended)
 
@@ -72,18 +72,18 @@ The Hybrid Racing kit includes almost everything, but you still need clutch flui
 | 2 | **Clutch Fluid** | Motul RBF 600 DOT 4 (500mL x2) | ~$36 | [Buy — Amazon](https://www.amazon.com/Motul-MTL100949-Factory-Percent-Synthetic/dp/B004LEYJO4) |
 | | **Total** | | **~$326** | |
 
-That's it. The Hybrid Racing kit includes the CMC, CSC, braided line, fittings, seal, grease, and hardware. Add two bottles of Motul RBF 600 and you're ready to install.
+That's it. The Hybrid Racing kit includes the CMC, CSC, braided line, fittings, seal, grease, and hardware. Two bottles of Motul RBF 600 and I'm ready to install.
 
 ---
 
 ## 1. Why the 8th Gen SI CMC/CSC Fails
 
-### Common Failure Modes
+### The Problem
 
-The 8th gen Civic SI (2006-2011, FA5 sedan / FG2 coupe) is notorious in the Honda community for clutch hydraulic failures. The two primary failure modes are:
+The 8th gen Civic SI (2006-2011, FA5 sedan / FG2 coupe) is notorious in the Honda community for clutch hydraulic failures. Every 8th gen owner knows about this, and at 170k miles I'm basically on borrowed time. The two primary failure modes:
 
 1. **Soft / spongy clutch pedal** — The pedal gradually loses firmness. Engagement point drifts toward the floor. Eventually the clutch won't fully disengage, making shifting difficult or impossible.
-2. **Internal seal bypass (no visible external leak)** — The most frustrating failure mode. Fluid bypasses the internal seals inside the CMC under pressure, so the pedal sinks to the floor under use (especially in stop-and-go traffic or aggressive driving) but recovers after sitting. The reservoir stays full, there's no puddle on the ground, and it looks fine from the outside.
+2. **Internal seal bypass (no visible external leak)** — The most frustrating failure mode. Fluid bypasses the internal seals inside the CMC under pressure, so the pedal sinks to the floor during use (especially in stop-and-go traffic or aggressive driving) but recovers after sitting. The reservoir stays full, there's no puddle on the ground, and it looks perfectly fine from the outside.
 3. **External leaking** — Less common initially but happens as seals deteriorate further. Fluid weeps from the CMC pushrod seal (visible on the firewall inside the cabin near the pedal) or from the CSC at the transmission bellhousing.
 
 ### Typical Failure Mileage
@@ -92,15 +92,15 @@ The 8th gen Civic SI (2006-2011, FA5 sedan / FG2 coupe) is notorious in the Hond
 - Some owners report issues as early as 40,000-50,000 miles, particularly in hot climates or with aggressive driving.
 - By 120,000-150,000 miles, the vast majority of 8th gen SIs have had at least one CMC replacement if still on the original unit.
 - The CSC tends to last somewhat longer than the CMC but often fails within 20,000-40,000 miles of the CMC going.
-- At 170,000 miles, if the originals are still in there, they are on extremely borrowed time (or have already been replaced at some point — worth checking service records).
+- At 170k miles, if my originals are still in there, they're on extremely borrowed time (or they've already been replaced at some point — worth checking service records).
 
 ### Root Causes
 
-1. **Inferior internal seal material** — The 8th gen SI CMC uses rubber cup seals that swell, harden, and crack over time. Honda used a lower-grade rubber compound in the 8th gen SI compared to what was used in the RSX, S2000, and even the base model Civic.
+1. **Inferior internal seal material** — The 8th gen SI CMC uses rubber cup seals that swell, harden, and crack over time. Honda used a lower-grade rubber compound compared to what went in the RSX, S2000, and even the base model Civic.
 2. **Heat soak** — The CMC is mounted on the firewall directly behind the engine. The K20Z3 runs hot, and the CMC gets significant heat soak — especially in traffic. Heat accelerates seal degradation.
 3. **Fluid contamination / moisture absorption** — DOT 3/DOT 4 brake fluid is hygroscopic (absorbs moisture from the air). The 8th gen clutch fluid is rarely flushed during routine maintenance. Moisture-contaminated fluid lowers the boiling point and attacks rubber seals from the inside.
 4. **Bore surface finish** — The stock CMC has an aluminum bore with a relatively basic surface finish. As the seals degrade, they can score the bore, which further accelerates leakage past the seals.
-5. **Small bore diameter** — The 8th gen SI CMC bore is small (roughly 5/8" or 15.87mm), which means it operates at higher hydraulic pressures for a given pedal force. This puts more stress on the seals.
+5. **Small bore diameter** — The 8th gen SI CMC bore is small (roughly 5/8" or 15.87mm), which means it operates at higher hydraulic pressures for a given pedal force. More stress on the seals.
 
 ### CMC vs CSC — How to Tell Which One Is Failing
 
@@ -121,8 +121,8 @@ The 8th gen Civic SI (2006-2011, FA5 sedan / FG2 coupe) is notorious in the Hond
 
 - **No official recall** was issued for the CMC/CSC on the 8th gen SI.
 - **TSB 07-006** (early 2007) addressed clutch judder and chatter on 2006-2007 SI models but was related to the clutch disc, not hydraulics.
-- Honda did quietly revise the CMC part number during the 8th gen production run (see OEM part numbers below), suggesting they were aware of the issue, but never issued a formal TSB specifically for CMC/CSC failure.
-- The Honda community widely regards this as a "known but unacknowledged" design weakness.
+- Honda did quietly revise the CMC part number during the 8th gen production run (see OEM part numbers below), which tells me they knew about the issue, but they never issued a formal TSB specifically for CMC/CSC failure.
+- The Honda community widely regards this as a "known but unacknowledged" design weakness. Par for the course.
 
 ---
 
@@ -141,14 +141,14 @@ The 8th gen Civic SI (2006-2011, FA5 sedan / FG2 coupe) is notorious in the Hond
 - **46930-SVA-A02** — Revised
 - Approximate dealer price: $50-$80
 
-**Note:** The revisions are primarily to the internal seals. The physical dimensions and mounting remained the same across all revisions.
+**Note:** The revisions are primarily to the internal seals. Physical dimensions and mounting stayed the same across all revisions.
 
 ### Why the Stock Units Are Inferior
 
 Compared to the RSX (DC5), S2000 (AP1/AP2), and even the 7th gen Accord V6 6MT:
 
 1. **Cheaper seal compounds** — Cost-cutting during the 8th gen SI's development cycle. The SI was Honda's entry-level sport compact; the RSX Type S and S2000 were premium products with better component sourcing.
-2. **No seal revision from Honda until failures were widespread** — The initial design went to production without adequate thermal testing for the seal life.
+2. **No seal revision from Honda until failures were widespread** — The initial design went to production without adequate thermal testing for seal life.
 3. **Less robust bore finish** — The RSX CMC has a better honed bore surface that causes less seal wear.
 4. **Packaging / heat exposure** — The 8th gen engine bay is tighter than the RSX (EP3/DC5 platform). More heat reaches the CMC.
 
@@ -156,7 +156,7 @@ Compared to the RSX (DC5), S2000 (AP1/AP2), and even the 7th gen Accord V6 6MT:
 
 ## 3. Why the Hybrid Racing Kit Is the Best Option
 
-### What You Get with HYB-CMC-01-20
+### What I Get with HYB-CMC-01-20
 
 The [Hybrid Racing Clutch Master Upgrade](https://www.hybrid-racing.com/products/hybrid-racing-cmc-upgrade-acura-tsx) ($289.99) is a **complete, drop-in solution**:
 
@@ -173,15 +173,15 @@ The [Hybrid Racing Clutch Master Upgrade](https://www.hybrid-racing.com/products
 - **Long-term reliability:** Owners report 80,000-100,000+ miles with zero issues after the upgrade.
 - **Complaints are rare.** The most common negative feedback is occasional fitment fiddling during install.
 
-### Why NOT the Cheaper Options
+### Why I Ruled Out the Cheaper Options
 
 | Option | Price | Why Not |
 |--------|-------|---------|
-| OEM replacement (46920-SVA-A03 + 46930-SVA-A02) | ~$130-200 | Same fundamental design weakness. You'll be doing this again in 60k-80k miles. |
+| OEM replacement (46920-SVA-A03 + 46930-SVA-A02) | ~$130-200 | Same fundamental design weakness. I'd be doing this again in 60k-80k miles. Not interested in repeating the job. |
 | DIY RSX CMC swap + separate parts | ~$200-380 | Need to source CMC, CSC, adapter bracket, and line separately. More research, more fitment risk, no single-source warranty. |
 | HYB-CMC-01-02 ($199.99) | $199.99 | **Wrong product — this is the K-swap version** for 1992-2001 Civics/Integras. Does NOT fit a stock 8th gen SI. |
 
-The Hybrid Racing HYB-CMC-01-20 costs ~$90-110 more than cobbling together RSX parts yourself, but you get a complete tested kit with a single part number, install guide, and warranty. For a "do it once and forget it" upgrade at 170k miles, this is the right move.
+The Hybrid Racing HYB-CMC-01-20 costs ~$90-110 more than cobbling together RSX parts myself, but I get a complete tested kit with a single part number, install guide, and warranty. For a "do it once and forget it" upgrade at 170k miles, this is honestly the right move.
 
 ---
 
@@ -191,11 +191,11 @@ The Hybrid Racing HYB-CMC-01-20 costs ~$90-110 more than cobbling together RSX p
 
 **Moderate DIY** — 6/10 difficulty.
 
-If you can do brake pads and rotors, you can do this. The hardest part is bleeding the system properly. The actual physical swap is straightforward.
+If I can do brake pads and rotors, I can do this. The hardest part is bleeding the system properly. The actual physical swap is straightforward.
 
 ### Time Estimate
 
-- **First-timer:** 3-5 hours (including bleeding)
+- **First-timer (me):** 3-5 hours (including bleeding)
 - **Experienced:** 1.5-2.5 hours
 - **Shop labor:** Typically quoted at 2-3 hours
 
@@ -206,7 +206,7 @@ Hybrid Racing provides a dedicated install guide for the 06-11 Civic SI:
 
 ### Key Steps (Summary)
 
-**Does the dash need to come apart?** **No.** The CMC pushrod-to-pedal connection is accessible under the dash on the driver's side. You may want to remove the lower kick panel (a few clips) for better access.
+**Does the dash need to come apart?** **No.** The CMC pushrod-to-pedal connection is accessible under the dash on the driver's side. I might want to remove the lower kick panel (a few clips) for better access.
 
 **CMC Removal:**
 1. Disconnect clutch line from CMC (banjo bolt). Have rags ready.
@@ -247,7 +247,7 @@ Hybrid Racing provides a dedicated install guide for the 06-11 Civic SI:
 6. If soft, repeat bleeding. Air in the system is the #1 post-install problem.
 7. Check all connections for leaks. Top off reservoir.
 
-### Tips
+### Tips From My Research
 
 - **Do NOT let the reservoir run dry during bleeding.** Air in the CMC = start over.
 - **Brake fluid destroys paint.** Keep a spray bottle of water handy for immediate rinse.
@@ -261,7 +261,7 @@ Hybrid Racing provides a dedicated install guide for the 06-11 Civic SI:
 
 ### Clutch Fluid Flush Interval
 
-- **Honda's recommendation:** No specific interval (this is part of the problem).
+- **Honda's recommendation:** No specific interval (this is part of the problem with the stock system failing).
 - **Community recommendation:** **Every 2 years or 30,000 miles**, whichever comes first.
 - **Track use / aggressive driving:** Every year or 15,000 miles.
 - Clutch fluid has its own reservoir (separate from brakes on the 8th gen SI), so flushing is quick and cheap.
@@ -275,7 +275,7 @@ Hybrid Racing provides a dedicated install guide for the 06-11 Civic SI:
 
 ### Is This a "Do It Once and Forget It" Upgrade?
 
-**Yes, with basic maintenance.** The Hybrid Racing kit components are fundamentally better than stock. Owners routinely report 100,000+ miles with zero issues. Flush the fluid on schedule and you should never have to think about clutch hydraulics again for the life of the car. The stainless braided line is a lifetime part.
+**Yes, with basic maintenance.** The Hybrid Racing kit components are fundamentally better than stock. Owners routinely report 100,000+ miles with zero issues. Flush the fluid on schedule and I should never have to think about clutch hydraulics again for the life of this car. The stainless braided line is a lifetime part.
 
 ---
 

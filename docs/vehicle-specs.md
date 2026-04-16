@@ -1,5 +1,7 @@
 # 2009 Honda Civic SI Coupe (FG2) — Vehicle Specifications
 
+Stock specs for my car. I put this together as a quick reference since I'm constantly looking up bolt sizes, torque specs, and dimensions when planning mods.
+
 ## General
 
 | Spec | Value |

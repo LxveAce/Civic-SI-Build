@@ -1,6 +1,6 @@
 # Installation References — Guides, Videos, and Resources
 
-This file collects installation guides, video tutorials, and community resources for every modification in this build. Organized by mod folder.
+Everything I've collected for each mod — install guides, video tutorials, community threads, tips from people who've done it before. Organized by mod folder.
 
 ---
 
@@ -43,17 +43,17 @@ This file collects installation guides, video tutorials, and community resources
 
 **Status: Purchased, Awaiting Install**
 
-### Written Guides
+### Written Guides I've Found
 - [Hybrid Racing — Brake Pad Install (06-11 Civic Si)](https://guides.hybrid-racing.com/Guide/Brake+Pad+Install+(06-11+Civic+Si)/26)
 - [O'Reilly — How to Replace Brake Pads & Rotors '06-'11 Honda Civic Si](https://www.oreillyauto.com/how-to-hub/how-to-replace-brake-pads-rotors-2006-2011-honda-civic-si)
 - [iFixit — 2006-2011 Honda Civic Front Brake Pad and Rotor Replacement](https://www.ifixit.com/Guide/2006+2007+2008+2009+2010+2011+Honda+Civic+Front+Brake+Pad+and+Rotor+Replacement/88689)
 - [8thcivic.com — DIY Removal and Install of Rotors](https://www.8thcivic.com/threads/diy-removal-and-install-of-rotors.308221/)
 - [8thcivic.com — DIY: Changing Rear Brake Pads](https://www.8thcivic.com/threads/diy-changing-rear-brake-pads.71378/)
 
-### Tools Needed
+### Tools I'll Need
 - 19mm socket (lug nuts + front caliper bracket bolts)
 - 12mm socket (caliper slide pin bolts)
-- Brake caliper compressor tool (rear calipers screw in — rent from AutoZone)
+- Brake caliper compressor tool (rear calipers screw in — I can rent one from AutoZone)
 - Torque wrench
 - Brake cleaner
 - Anti-seize for rotor set screws
@@ -70,7 +70,7 @@ This file collects installation guides, video tutorials, and community resources
 
 **Status: Purchased, BLOCKED (Clearance Issue)**
 
-- Simple 2-bolt-per-side install once clearance issue is resolved
+- Simple 2-bolt-per-side install once I figure out the clearance issue
 - YouTube Search: `strut bar install 8th gen Civic SI`
 
 ---
@@ -92,7 +92,7 @@ This file collects installation guides, video tutorials, and community resources
 6. At car: plug in FlashPro, ignition ON, press Program button for 1+ second
 7. Wait ~5-6 minutes for flashing to complete (light stops flashing)
 8. Start car, verify no CELs
-9. **Save stock calibration as backup FIRST before any changes**
+9. **Save stock calibration as backup FIRST before making any changes**
 
 ---
 
@@ -102,7 +102,7 @@ This file collects installation guides, video tutorials, and community resources
 
 - YouTube Search: `QTP exhaust cutout install DIY`
 - YouTube Search: `electric exhaust cutout install wiring`
-- Muffler shop recommended for welding/fabrication work
+- I'll be taking this to a muffler shop for the welding/fabrication work
 
 ---
 
@@ -116,14 +116,14 @@ This file collects installation guides, video tutorials, and community resources
 - [8thcivic.com — Official Skunk2 Alpha Header Chat/Review Thread](https://www.8thcivic.com/threads/official-skunk2-alpha-header-chat-review-thread.264593/)
 - [8thcivic.com — Skunk2 Alpha Header Install](https://8thcivic.com/forums/bolt-ons-all-motor/481530-skunk2-alpha-header-install.html)
 
-### Key Install Tips (from community)
+### Key Install Tips (from the community)
 - **PB Blaster the manifold studs 3-5 days before.** Heat cycle + spray daily.
-- Skunk2 does NOT include hardware — only the "donut gasket." Buy: spring bolts, new exhaust flange bolts, new exhaust manifold gasket.
-- Buy the Skunk2 O2 sensor extender — you will need it.
+- Skunk2 does NOT include hardware — only the "donut gasket." I'll need to buy: spring bolts, new exhaust flange bolts, new exhaust manifold gasket.
+- Buy the Skunk2 O2 sensor extender — I will need it.
 - Remove the "Axle Shaft" cover (3 bolts) for maximum working space.
 - To remove the old manifold, flip it and pull out from the cat converter area. Same process in reverse for the new header.
 - EP3 OEM donut gasket part number: 18229-S6D-T31
-- Budget 6-10 hours DIY. Professional install recommended ($300-500 labor) due to seized stud risk at 170k miles.
+- Budget 6-10 hours DIY. I'm leaning toward having a shop do this one ($300-500 labor) given the seized stud risk at 170k miles.
 
 ---
 
@@ -133,7 +133,7 @@ This file collects installation guides, video tutorials, and community resources
 
 - YouTube Search: `Skunk2 Ultra Street intake manifold install K20 K-series`
 - YouTube Search: `K20Z3 intake manifold swap 8th gen Civic SI`
-- **Take photos of ALL vacuum line routing before removal**
+- **Take photos of ALL vacuum line routing before removal** — I know I'll forget where something goes otherwise
 - **Block off coolant passages and run a bypass hose**
 
 ---
@@ -145,7 +145,7 @@ This file collects installation guides, video tutorials, and community resources
 - YouTube Search: `ATI Super Damper pulley install K-series K20`
 - YouTube Search: `crank pulley replacement K20Z3`
 - **Use a harmonic balancer puller — never pry** (damages crank seal)
-- Rent the puller free from AutoZone
+- I can rent the puller free from AutoZone
 
 ---
 
@@ -156,7 +156,7 @@ This file collects installation guides, video tutorials, and community resources
 - YouTube Search: `8th gen Civic SI flex fuel install Hondata`
 - YouTube Search: `fuel injector replacement K20Z3`
 - YouTube Search: `fuel pump replacement 8th gen Civic SI DeatschWerks`
-- Fuel pump accessed through rear seat access panel (no need to drop tank)
+- Fuel pump is accessed through the rear seat access panel (no need to drop the tank)
 
 ---
 
@@ -165,7 +165,7 @@ This file collects installation guides, video tutorials, and community resources
 **Status: Planned (Priority Purchase)**
 
 ### Written Guides
-- [Hybrid Racing Official Install Guide — CMC Upgrade](https://guides.hybrid-racing.com/Guide/Hybrid+Racing+Clutch+Master+Cylinder+Upgrade/8) — **Step-by-step with photos**
+- [Hybrid Racing Official Install Guide — CMC Upgrade](https://guides.hybrid-racing.com/Guide/Hybrid+Racing+Clutch+Master+Cylinder+Upgrade/8) — **Step-by-step with photos, this is the main one**
 - [importnut.net — Hybrid Racing 8th Gen Civic CMC Upgrade](https://importnut.net/honda-civic-8th-gen-si-clutch-mc-upgrade/) — Detailed walkthrough with photos
 - [8thcivic.com — 8th Gen CMC Upgrade Thread](https://www.8thcivic.com/threads/8th-gen-clutch-master-cylinder-upgrade.239502/)
 - [Scribd — 06+ Civic Si CMC Swap Guide (PDF)](https://www.scribd.com/doc/46891922/06-Civic-Si-CMC-Swap-Guide)
@@ -182,10 +182,10 @@ This file collects installation guides, video tutorials, and community resources
 - Hardware and clips
 
 #### Step-by-Step Summary
-1. **Access:** Remove lower dash panel for access to pedal assembly
-2. **Clamp reservoir line:** Use clamping pliers to pinch the reservoir fluid line that feeds the clutch master cylinder — prevents fluid from draining everywhere
+1. **Access:** Remove lower dash panel to get to the pedal assembly
+2. **Clamp reservoir line:** Use clamping pliers to pinch the reservoir fluid line that feeds the clutch master cylinder — keeps fluid from draining everywhere
 3. **Disconnect clutch line at CSC:** Using a metric line wrench, remove the factory clutch line from the slave cylinder. Hold the CSC fitting with a second wrench.
-4. **Remove old CMC:** Remove the two mounting nuts from the firewall side. The CMC is buried under the cowl and brake master cylinder — **this work is done almost entirely by feel**
+4. **Remove old CMC:** Remove the two mounting nuts from the firewall side. The CMC is buried under the cowl and brake master cylinder — **I'll be doing this almost entirely by feel**
 5. **Remove clevis pin:** Disconnect the pushrod from the clutch pedal
 6. **Swap pushrod/clevis:** Transfer the pushrod and clevis from the old CMC to the new Hybrid Racing CMC (straightforward)
 7. **Install new CMC:** Mount in reverse, torque mounting nuts to spec
@@ -197,7 +197,7 @@ This file collects installation guides, video tutorials, and community resources
 #### Tips from the Community
 - **The CMC is the hardest part** — it's completely buried. Work by feel.
 - **Use a turkey baster** to remove old fluid from the reservoir before disconnecting anything
-- **Bleed thoroughly.** Any air in the system will make the pedal spongy. Consider a Motive pressure bleeder (~$50) for a one-person job.
+- **Bleed thoroughly.** Any air in the system will make the pedal spongy. I'm considering a Motive pressure bleeder (~$50) so I can do it solo.
 - **Motul RBF 600** is the recommended fluid (594F dry boiling point). DOT 4 is minimum spec.
 - **Have paper towels and a drip pan ready** — brake fluid will drip on everything
 
@@ -232,9 +232,9 @@ This file collects installation guides, video tutorials, and community resources
 ### Key Install Notes
 - **No spring compressor needed** — coilovers come pre-assembled
 - **Bushing removal requires a press** — a shop press or bushing removal tool set
-- **Do ALL work in one session** — car is already apart
+- **Do ALL the work in one session** — the car is already apart, no point doing this piecemeal
 - **Anti-seize on all bolts** during reassembly
-- **Drive carefully to alignment shop immediately after**
+- **Drive carefully to the alignment shop immediately after**
 - **Re-torque all fasteners after 100 miles**
 
 ---
@@ -242,12 +242,12 @@ This file collects installation guides, video tutorials, and community resources
 ## General Resources
 
 ### 8th Gen Civic SI Community
-- [8thcivic.com](https://www.8thcivic.com/) — Primary 8th gen Civic forum. Largest community resource.
+- [8thcivic.com](https://www.8thcivic.com/) — The primary 8th gen Civic forum. Honestly the single best resource out there for this platform.
 - [r/CivicSi](https://www.reddit.com/r/CivicSi/) — Reddit community
 - [Honda-Tech](https://honda-tech.com/) — General Honda forum
 
 ### Hybrid Racing Install Guides Hub
-- [guides.hybrid-racing.com](https://guides.hybrid-racing.com/) — Step-by-step guides for many 8th gen Civic SI parts
+- [guides.hybrid-racing.com](https://guides.hybrid-racing.com/) — Step-by-step guides for a lot of 8th gen Civic SI parts. Really well done.
 
 ### General DIY Channels (YouTube)
 - **ChrisFix** — Excellent brake, suspension, and general maintenance tutorials

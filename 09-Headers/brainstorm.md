@@ -1,12 +1,12 @@
-# Headers & Exhaust System -- Complete Research
+# Headers & Exhaust System — My Complete Research
 
 ## Status: Research Complete, Not Yet Purchased
 
 ---
 
-## 1. Stock FG2 SI Exhaust Layout (Precise)
+## 1. Stock FG2 SI Exhaust Layout (What I'm Working With)
 
-The 2006-2011 Honda Civic SI (FG2 coupe) exhaust system consists of these components in order from engine to tailpipe:
+My 2006-2011 Honda Civic SI (FG2 coupe) exhaust system goes from engine to tailpipe like this:
 
 ### Component Breakdown
 
@@ -25,7 +25,7 @@ The 2006-2011 Honda Civic SI (FG2 coupe) exhaust system consists of these compon
 
 ### Clarification: "Two Mufflers" Question
 
-**The FG2 SI has ONE resonator and ONE muffler -- NOT two mufflers.** The resonator is a smaller canister that looks like a miniature muffler. It serves to cancel specific sound frequencies (reduces drone and rasp) but provides minimal muffling compared to the main rear muffler. When people refer to "two mufflers," they are counting the resonator as a second muffler because it is a canister welded inline.
+**My FG2 has ONE resonator and ONE muffler — NOT two mufflers.** The resonator is a smaller canister that looks like a miniature muffler. It cancels specific sound frequencies (reduces drone and rasp) but provides minimal muffling compared to the main rear muffler. When people on forums say "two mufflers," they're counting the resonator as a second muffler because it's a canister welded inline.
 
 - The **resonator** is welded into the mid-pipe section, roughly under the rear seats
 - The **rear muffler** is the large canister under the trunk area
@@ -42,9 +42,9 @@ The 2006-2011 Honda Civic SI (FG2 coupe) exhaust system consists of these compon
 | Resonator section | ~2.0" (51mm) | Same as front pipe |
 | Rear muffler to tailpipe | ~2.36-2.5" (60-63mm) | Opens up slightly for the axle-back |
 
-**Key takeaway:** The stock exhaust is approximately 2.0" (51mm) from the cat back through the resonator, opening slightly to ~2.36-2.5" at the axle-back/tailpipe section. This is very restrictive compared to aftermarket systems.
+**Key takeaway:** The stock exhaust is approximately 2.0" (51mm) from the cat back through the resonator, opening slightly to ~2.36-2.5" at the axle-back/tailpipe section. Pretty restrictive compared to aftermarket systems.
 
-### Flange / Connection Points (Where You Can Unbolt Things)
+### Flange / Connection Points (Where I Can Unbolt Things)
 
 1. **Manifold to head:** 8x M10x1.25 studs with flange nuts
 2. **Manifold to catalytic converter:** 2x 12mm spring bolts with springs, flange gasket
@@ -54,13 +54,13 @@ The 2006-2011 Honda Civic SI (FG2 coupe) exhaust system consists of these compon
 
 ---
 
-## 2. Headers -- Comprehensive Comparison
+## 2. Headers — My Comprehensive Comparison
 
 ### Overview
 
-Aftermarket headers replace the restrictive stock cast iron exhaust manifold. The stock manifold is the single biggest flow restriction in the K20Z3's exhaust path. Headers are typically the highest-gain single bolt-on modification for this engine.
+Aftermarket headers replace the restrictive stock cast iron exhaust manifold. The stock manifold is the single biggest flow restriction in the K20Z3's exhaust path. Headers are typically the highest-gain single bolt-on modification for this engine — this is where the power is.
 
-All aftermarket headers for the 8th gen SI are catless race headers -- they eliminate the catalytic converter mounting point that the stock manifold provides. A separate catalytic converter must be installed downstream or the cat is deleted entirely.
+All aftermarket headers for the 8th gen SI are catless race headers — they eliminate the catalytic converter mounting point that the stock manifold provides. A separate catalytic converter has to be installed downstream or the cat is deleted entirely.
 
 ### Header Comparison Table
 
@@ -72,39 +72,39 @@ All aftermarket headers for the 8th gen SI are catless race headers -- they elim
 | **K-Tuned 304** | KBH-CSI-304 | 4-2-1 Tri-Y, stepped | Polished 304 SS | 44mm->50mm stepped | 2.5" | $500 | 8-14 WHP | Excellent build quality. Thicker gauge. |
 | **K-Tuned 409** | KBH-CSI-409 | 4-2-1 Tri-Y, stepped | 409 Stainless | 44mm->50mm stepped | 2.5" | $370-430 | 8-14 WHP | Same design, cheaper material. |
 | **Invidia** | HS06HC2HDP | 4-2-1 | Polished Stainless | Not published | 2.5" | $599 | 8-12 WHP | Good quality Japanese design. |
-| **Buddy Club** | BC03-RSEXHD-FGK | 4-2-1 | Polished Stainless | 2.0" primary | 2.5" | $769 | 8-12 WHP | Premium Japanese. Spring-loaded slip joints. Discontinued -- hard to find. |
+| **Buddy Club** | BC03-RSEXHD-FGK | 4-2-1 | Polished Stainless | 2.0" primary | 2.5" | $769 | 8-12 WHP | Premium Japanese. Spring-loaded slip joints. Discontinued — hard to find. |
 | **1320 Performance** | (no published PN) | 4-2-1 Tri-Y, stepped | 304 Stainless | 44mm->50mm stepped | 2.5" | $300-350 | 8-12 WHP | Solid budget option. Slightly thicker tubing. |
 | **HARDmotion HyperFlow** | HM-06-11-Civic-Race-Header | 4-2-1 | Stainless, heat-treated | Not published | 2.5" | $450 | 10-14 WHP | Newer entry. Limited community feedback. |
 | **Hytech** | Custom order | 4-1 | Stainless | Large primaries | 2.5" | $1,300 | 15-20 WHP | Top-end monster. Anti-reversion tubing. Custom made. Guaranteed 20 WHP + 22 TQ with tune. |
 | **DC Sports** | (discontinued for K20Z3) | 4-2-1 | Ceramic coated | Not published | 2.5" | $350-450 | 5-10 WHP | Largely discontinued for this platform. Hard to find. |
 
-### Detailed Analysis of Top Options
+### My Detailed Analysis of the Top Options
 
-#### Skunk2 Alpha (412-05-1930) -- BEST OVERALL
+#### Skunk2 Alpha (412-05-1930) — BEST OVERALL
 
-**Pros:**
+**What I like:**
 - Proven race-derived design (based on Skunk2 Megapower header technology)
 - Equal-length stepped primaries maximize exhaust gas velocity
-- Broad powerband -- strong mid-range AND top-end
+- Broad powerband — strong mid-range AND top-end
 - Excellent fitment with proper engineering tolerances
 - T304 stainless construction (best corrosion resistance)
-- Large community following with extensive tuning data available
+- Huge community following with extensive tuning data available
 - O2 sensor bung included
 - Well-documented install process (Hybrid Racing has a full install guide)
 
-**Cons:**
+**What I don't love:**
 - $570 is mid-range pricing (not budget, not premium)
-- Catless only -- requires separate cat solution
+- Catless only — I need a separate cat solution
 - O2 wire extension ($29) recommended due to bung placement
 - No CARB EO number (not legal in CA for street use)
 
-**Sound:** Adds a metallic rasp to the exhaust note. With stock mufflers retained, the volume increase is modest but the tone changes noticeably -- more "Honda race car," less "appliance." The stepped primaries create a distinctive intake-like whistle at high RPM.
+**Sound:** Adds a metallic rasp to the exhaust note. With stock mufflers retained, the volume increase is modest but the tone changes noticeably — more "Honda race car," less "appliance." The stepped primaries create a distinctive intake-like whistle at high RPM. I'm into it.
 
-**Community Consensus:** "If you can afford it, just get the Skunk2 Alpha." It appears on virtually every 8th gen SI build list and has the most dyno data available of any header for this platform.
+**Community consensus:** "If you can afford it, just get the Skunk2 Alpha." It shows up on virtually every 8th gen SI build list and has the most dyno data available of any header for this platform.
 
-#### PLM V2 (PLM-HFG1-V2-K24-HEADER) -- BEST VALUE
+#### PLM V2 (PLM-HFG1-V2-K24-HEADER) — BEST VALUE
 
-**Pros:**
+**What I like:**
 - $375 for header alone, $575 with bolt-on 200-cell high-flow cat
 - V2 one-piece design eliminates the leak issues of V1 (multi-piece with slip joints)
 - Performance on par with or slightly better than Skunk2 Alpha in some dyno comparisons
@@ -113,7 +113,7 @@ All aftermarket headers for the 8th gen SI are catless race headers -- they elim
 - CNC machined 3/8" thick flanges, double-welded and ported
 - Available with integrated high-flow catalytic converter
 
-**Cons:**
+**What I don't love:**
 - Community reputation is "budget" even though V2 quality is solid
 - Slightly less refined fitment than Skunk2 (may need minor adjustments)
 - V1 models had slip-joint leak issues (V2 fixed this with one-piece construction)
@@ -121,55 +121,55 @@ All aftermarket headers for the 8th gen SI are catless race headers -- they elim
 
 **Sound:** Very similar to Skunk2 Alpha. The stepped primaries produce a comparable exhaust note. Slightly raspier than Skunk2 according to some owners.
 
-**Community Consensus:** "The PLM V2 is the header to beat for the money." Many owners report dyno results matching or exceeding Skunk2 Alpha at 60% of the price. The availability of the cat combo makes it especially attractive for street cars.
+**Community consensus:** "The PLM V2 is the header to beat for the money." A lot of owners report dyno results matching or exceeding Skunk2 Alpha at 60% of the price. The availability of the cat combo makes it especially attractive for street cars. I seriously considered this one.
 
-#### K-Tuned 304 (KBH-CSI-304) -- BEST BUILD QUALITY
+#### K-Tuned 304 (KBH-CSI-304) — BEST BUILD QUALITY
 
-**Pros:**
-- Polished 304 stainless steel -- best corrosion resistance and aesthetics
+**What I like:**
+- Polished 304 stainless steel — best corrosion resistance and aesthetics
 - 44mm->50mm->2.5" proven stepped design
 - Slightly thicker gauge tubing than PLM (better weld penetration and strength)
 - CNC cut 3/8" thick flanges, double-welded and ported
 - Reputable K-series specialist brand
 - Optional catalytic converter add-on ($150)
 
-**Cons:**
+**What I don't love:**
 - $500 puts it between PLM and Skunk2 without a clear performance advantage over either
 - Limited dyno data compared to Skunk2 and PLM
 - K-Tuned's own website states they don't have dyno results to post
-- One user reported 176->194 WHP gain (~18 WHP), but this is a single data point
+- One user reported 176->194 WHP gain (~18 WHP), but that's a single data point
 
 **Sound:** Deep tone reported by users. Similar character to other 4-2-1 headers.
 
-#### Hytech -- BEST ABSOLUTE PERFORMANCE (Premium)
+#### Hytech — BEST ABSOLUTE PERFORMANCE (Premium)
 
-**Pros:**
+**What I like:**
 - Custom-made race header with anti-reversion tubing technology
 - Guaranteed 20 WHP and 22 lb-ft with Hondata tune (money-back guarantee)
 - 4-1 design optimized for maximum top-end power
 - Includes a high-flow cat and twin-loop acoustic muffler system
 - "Gold standard" reputation in the K-series community
 
-**Cons:**
+**Why I ruled it out:**
 - $1,300 is 2-3x the price of competitors
 - 4-1 design sacrifices some low-end and mid-range torque for top-end gains
-- Best suited for high-RPM driving (track, drag) -- less ideal for daily driving
+- Best suited for high-RPM driving (track, drag) — less ideal for my daily driving
 - Long lead times (custom made to order)
-- May be difficult to order in 2025/2026 (check current availability)
+- May be difficult to order in 2025/2026 (check current availability) — honestly they might be defunct
 
-**Sound:** 4-1 design produces a distinct high-RPM scream compared to 4-2-1's broader exhaust note. More "race car" sounding at high RPM.
+**Sound:** 4-1 design produces a distinct high-RPM scream compared to 4-2-1's broader exhaust note. More "race car" sounding at high RPM. Tempting, but not the right fit for my build.
 
-### Rankings
+### My Rankings
 
-**Best Value:** PLM V2 ($375 header only, $575 with cat) -- 90%+ of Skunk2 performance at 65% of the price.
+**Best Value:** PLM V2 ($375 header only, $575 with cat) — 90%+ of Skunk2 performance at 65% of the price.
 
-**Best Performance (Street/Daily):** Skunk2 Alpha ($570) -- broadest powerband, best fitment, most community support.
+**Best Performance (Street/Daily):** Skunk2 Alpha ($570) — broadest powerband, best fitment, most community support. This is what I'm going with.
 
-**Best Performance (Track/Top-End):** Hytech 4-1 ($1,300) -- maximum peak power, guaranteed gains, premium build.
+**Best Performance (Track/Top-End):** Hytech 4-1 ($1,300) — maximum peak power, guaranteed gains, premium build.
 
-**Best Build Quality:** K-Tuned 304 ($500) -- thickest materials, best finish, solid engineering.
+**Best Build Quality:** K-Tuned 304 ($500) — thickest materials, best finish, solid engineering.
 
-**Best Complete Package:** PLM V2 + Cat ($575) -- header plus high-flow cat in one purchase.
+**Best Complete Package:** PLM V2 + Cat ($575) — header plus high-flow cat in one purchase.
 
 ---
 
@@ -182,7 +182,7 @@ With the stock manifold, the catalytic converter bolts directly to the manifold 
 With aftermarket headers, the connection changes:
 
 - **Most headers** have a 2.5" collector outlet that needs to connect to the rest of the exhaust
-- **The stock front pipe** is approximately 2.0" -- it does NOT directly bolt to most aftermarket headers without an adapter or modification
+- **The stock front pipe** is approximately 2.0" — it does NOT directly bolt to most aftermarket headers without an adapter or modification
 - **The PLM V2 with cat** includes a donut gasket and transitions down to mate with the stock exhaust at the cat-to-front-pipe flange point
 - **Catless headers** require either a test pipe, high-flow cat, or adapter to bridge the gap between the 2.5" header collector and the stock 2.0" front pipe
 
@@ -191,13 +191,13 @@ With aftermarket headers, the connection changes:
 | Product | Description | Price | Notes |
 |---------|-------------|-------|-------|
 | **Berk Technology HFC** (BT1101-HFC-MET) | 3" stainless high-flow cat, transitions to 70mm (2.75") at catback flange | $350 | Best standalone HFC option. 7 WHP / 18 lb-ft gains claimed. |
-| **PLM Bolt-On Cat** (included with header combo) | 200-cell metallic high-flow cat | Included in $575 combo | Most convenient -- buy with the header |
-| **Test Pipe** (various brands) | Straight pipe replacing cat -- OFF-ROAD ONLY | $50-150 | Maximum flow, no emissions compliance |
+| **PLM Bolt-On Cat** (included with header combo) | 200-cell metallic high-flow cat | Included in $575 combo | Most convenient — buy with the header |
+| **Test Pipe** (various brands) | Straight pipe replacing cat — OFF-ROAD ONLY | $50-150 | Maximum flow, no emissions compliance |
 | **Stock Front Pipe (B-Pipe)** | OEM part, ~2.0" diameter | Already on car | Too small to pair with 2.5" header without restriction |
 
 ### Resonator Options
 
-The stock resonator is welded to the front pipe. Options for the resonator section:
+The stock resonator is welded to the front pipe. Here are my options for the resonator section:
 
 | Option | Description | Pros | Cons |
 |--------|-------------|------|------|
@@ -205,21 +205,21 @@ The stock resonator is welded to the front pipe. Options for the resonator secti
 | **Vibrant Ultra Quiet Resonator** (PN 1141, 2.5" inlet/outlet) | Aftermarket high-flow resonator, T304 stainless | Excellent noise reduction, larger diameter, flows much better than stock | Requires cutting out stock resonator and welding in new one (~$80 part + shop labor) |
 | **Resonator Delete (Straight Pipe)** | Replace resonator section with straight pipe | Maximum flow, simplest fabrication | Can cause drone at 2500-4000 RPM, rasping sound, owner reports are mixed |
 
-**Recommendation:** If upgrading the piping diameter from stock 2.0" to 2.5", replace the stock resonator with a **Vibrant Ultra Quiet 2.5" resonator** (PN 1141). This maintains quiet daily driving character while matching the larger pipe diameter. If keeping the stock 2.0" piping, the stock resonator is fine.
+**My thinking:** If I'm upgrading the piping diameter from stock 2.0" to 2.5", I'll replace the stock resonator with a **Vibrant Ultra Quiet 2.5" resonator** (PN 1141). Maintains the quiet daily driving character while matching the larger pipe diameter. If I keep the stock 2.0" piping, the stock resonator is fine.
 
 ---
 
-## 4. Catalytic Converter Considerations
+## 4. Catalytic Converter Deep Dive
 
-### Stock Cat Configuration
+### Stock Cat Setup
 
-The stock catalytic converter on the K20Z3 is a **separate bolt-on unit** -- it is NOT integrated into the exhaust manifold. It bolts to the manifold outlet via 2x 12mm spring bolts with springs and a flange gasket, and connects to the front pipe via a 2-bolt flange with donut gasket at its outlet.
+The stock catalytic converter on the K20Z3 is a **separate bolt-on unit** — it's NOT integrated into the exhaust manifold. It bolts to the manifold outlet via 2x 12mm spring bolts with springs and a flange gasket, and connects to the front pipe via a 2-bolt flange with donut gasket at its outlet.
 
-The stock cat is a close-coupled design (positioned close to the manifold) for fast light-off and maximum emissions efficiency. This proximity makes it very effective at cleaning emissions but also means it operates at extremely high temperatures.
+The stock cat is a close-coupled design (positioned close to the manifold) for fast light-off and maximum emissions efficiency. This proximity makes it very effective at cleaning emissions but also means it runs at extremely high temperatures.
 
 ### How Much Restriction Does the Stock Cat Add?
 
-The stock catalytic converter is a meaningful restriction point but not the primary bottleneck -- that honor goes to the cast iron exhaust manifold. Replacing the stock cat with a high-flow unit yields approximately **5-10 WHP** on its own, with the Berk Technology HFC specifically claiming 7 WHP and 18 lb-ft across the band.
+The stock catalytic converter is a meaningful restriction point but not the primary bottleneck — that goes to the cast iron exhaust manifold. Replacing the stock cat with a high-flow unit yields approximately **5-10 WHP** on its own, with the Berk Technology HFC specifically claiming 7 WHP and 18 lb-ft across the band.
 
 ### High-Flow Catalytic Converter Options
 
@@ -231,20 +231,20 @@ The stock catalytic converter is a meaningful restriction point but not the prim
 
 ### Test Pipe / Cat Delete (Off-Road Only)
 
-Removing the catalytic converter entirely provides:
+Removing the catalytic converter entirely gives you:
 - Maximum exhaust flow
 - 5-10 WHP over stock cat (similar to HFC, slightly more)
 - Check engine light (P0420 catalyst efficiency code) unless O2 sensor is tricked with a spacer/defouler or tuned out via Hondata
 - Illegal for street use in all 50 states
 - Noticeably louder exhaust
 
-**For this build:** Since the goal is maintaining daily-driver compliance, a high-flow cat is strongly recommended over a test pipe. The PLM header + cat combo at $575 is the most practical solution.
+**For my build:** Since I want to keep daily-driver compliance, I'm going with a high-flow cat over a test pipe. No question.
 
 ---
 
 ## 5. Full System Integration with Stock Mufflers + QTP Cutout
 
-### Recommended Exhaust Layout
+### My Planned Exhaust Layout
 
 ```
 [Cylinder Head]
@@ -268,11 +268,11 @@ Removing the catalytic converter entirely provides:
 
 ### Pipe Diameter Strategy
 
-There are two approaches:
+I've got two approaches I'm considering:
 
-#### Option A: Full 2.5" System (Recommended)
+#### Option A: Full 2.5" System (What I'm Leaning Toward)
 
-Replace all piping from header collector to rear muffler inlet with 2.5" stainless mandrel-bent tubing. This requires:
+Replace all piping from header collector to rear muffler inlet with 2.5" stainless mandrel-bent tubing. Requires:
 - 2.5" pipe from header/cat outlet to QTP cutout
 - QTP QTEC25 (2.5" cutout)
 - 2.5" pipe from cutout to resonator
@@ -291,24 +291,24 @@ Use the PLM V2 + Cat combo, which transitions down to mate with the stock exhaus
 
 ### QTP Cutout Positioning
 
-The QTP QTEC25 should be positioned:
+I'm planning to position the QTP QTEC25:
 - **AFTER the catalytic converter** (cat stays in the flow path at all times for emissions compliance)
 - **BEFORE the resonator** (when the cutout is open, exhaust bypasses both resonator and muffler for maximum sound and flow)
 - **At least 14" behind the header collector** (QTP's own recommendation for thermal protection of the motor)
-- **With adequate ground clearance** (plan for exhaust flex under acceleration and heat cycling)
+- **With adequate ground clearance** (need to plan for exhaust flex under acceleration and heat cycling)
 
-The ideal location is the section of pipe between the cat outlet and the resonator inlet -- this is roughly under the front seats / center tunnel area. This gives maximum bypass effect when open (skipping both resonator and muffler) while maintaining the full stock quiet path when closed.
+The ideal location is the section of pipe between the cat outlet and the resonator inlet — roughly under the front seats / center tunnel area. This gives maximum bypass effect when open (skipping both resonator and muffler) while maintaining the full stock quiet path when closed.
 
 ### Resonator Decision
 
-| Scenario | Recommendation |
-|----------|---------------|
+| Scenario | What I'd Do |
+|----------|-------------|
 | Full 2.5" pipe upgrade | Replace stock resonator with Vibrant Ultra Quiet 2.5" |
 | Keeping stock piping | Keep stock resonator (it's welded in anyway) |
 | Budget build | Keep stock resonator, it works fine |
 | Maximum performance | Delete resonator, accept the drone/rasp trade-off |
 
-**For this build:** If doing the full 2.5" pipe upgrade (Option A), the Vibrant Ultra Quiet resonator is the right choice. It flows better than stock while maintaining excellent noise suppression in daily mode. If keeping stock piping (Option B), leave the stock resonator alone.
+**For my build:** If I do the full 2.5" pipe upgrade (Option A), the Vibrant Ultra Quiet resonator is the right choice. It flows better than stock while maintaining excellent noise suppression in daily mode. If I keep stock piping (Option B), I'll leave the stock resonator alone.
 
 ---
 
@@ -331,22 +331,22 @@ For naturally aspirated engines, maintaining exhaust gas velocity of 200-250 fee
 | Built motor (~250-300 WHP) | 2.5-2.75" | Only go larger with significant power increases |
 | Turbo/Supercharged (300+ WHP) | 2.75-3.0" | Forced induction needs bigger pipes |
 
-### Recommendation for This Build
+### My Recommendation for My Build
 
-**2.5" (63.5mm) is the correct diameter for this build.** Here's why:
+**2.5" (63.5mm) is the correct diameter.** Here's why:
 
-- The K20Z3 with full bolt-ons and Hondata tune will make approximately 215-230 WHP
+- My K20Z3 with full bolt-ons and Hondata tune will make approximately 215-230 WHP
 - 2.5" pipe maintains excellent exhaust gas velocity at this power level
 - 2.5" matches the header collector outlet (no adapter needed at the header end)
 - 2.5" is the QTP QTEC25 cutout size (no adapter needed)
 - 2.5" does NOT sacrifice noticeable low-end torque at this power level
-- Going to 2.75" or 3.0" would be oversized for a stock-internals NA K20Z3 and would hurt low-end response
+- Going to 2.75" or 3.0" would be oversized for my stock-internals NA K20Z3 and would hurt low-end response
 
-**Do NOT go to 3.0" unless you plan to go forced induction or build the motor for significantly higher power.** On a stock-internals NA K20Z3, 3.0" pipe will feel noticeably lazier below 4000 RPM with no benefit at the top end.
+**I'm NOT going to 3.0" for the piping** unless I plan to go forced induction or build the motor for significantly higher power. On a stock-internals NA K20Z3, 3.0" pipe would feel noticeably lazier below 4000 RPM with no benefit at the top end.
 
 ---
 
-## 7. Dyno Results / Real-World Power Expectations
+## 7. Dyno Results / Real-World Power I'm Expecting
 
 ### Stock Baseline
 
@@ -365,16 +365,16 @@ The K20Z3 is rated at 197 HP (crank) / 139 lb-ft (crank). At the wheels, stock c
 | **Cat-back exhaust** (or cutout open) | 3-8 | 2-5 | Mostly frees up flow restriction from mufflers |
 | **Header + exhaust + intake + tune** (all combined) | 25-45 | 20-30 | Total full bolt-on stack |
 
-### Realistic Full Bolt-On (FBO) Dyno Expectations
+### What I Realistically Expect (FBO)
 
-With the owner's current/planned setup (intake + header + HFC + cutout + Hondata tune):
+With my current/planned setup (intake + header + HFC + cutout + Hondata tune):
 
 | Dyno Type | Expected WHP | Expected WTQ |
 |-----------|-------------|-------------|
 | **Dynojet** | 210-230 WHP | 155-165 WTQ |
 | **Mustang Dyno** | 200-220 WHP | 148-158 WTQ |
 
-### Community Dyno Data Points (8th Gen K20Z3 FBO)
+### Community Dyno Data Points I've Found (8th Gen K20Z3 FBO)
 
 | Setup | Dyno | WHP | WTQ | Source |
 |-------|------|-----|-----|--------|
@@ -384,43 +384,43 @@ With the owner's current/planned setup (intake + header + HFC + cutout + Hondata
 | Full bolt-on (unspecified header) + tune | Dynojet | 218 | 160 | 8thcivic.com |
 | Headers + open cutout + intake + tune | Dynojet | 225 | 160 | 8thcivic.com (estimated) |
 
-**Important:** Dyno numbers are NOT comparable across different dynos or different days. These are reference points only. The variation between dynos can be 10-20 WHP.
+**Important:** Dyno numbers are NOT comparable across different dynos or different days. These are reference points only. The variation between dynos can be 10-20 WHP. I'm not chasing a specific number — I just want to be in the ballpark.
 
 ### Power Curve Expectations
 
-With a 4-2-1 header + intake + tune:
-- **Below VTEC (~3000-5400 RPM):** Expect 5-10 WHP improvement over stock, smoother torque curve
+With a 4-2-1 header + intake + tune, here's what I'm expecting:
+- **Below VTEC (~3000-5400 RPM):** 5-10 WHP improvement over stock, smoother torque curve
 - **VTEC transition (~5000-5800 RPM):** More aggressive transition, power comes on stronger
-- **Above VTEC (~5800-8200 RPM):** This is where the big gains are -- 15-25 WHP improvement
+- **Above VTEC (~5800-8200 RPM):** This is where the big gains are — 15-25 WHP improvement
 - **Peak power:** Will shift slightly higher in RPM (from ~7800 stock to ~8000-8200)
 - **Peak torque:** Moves slightly lower in RPM and increases in magnitude
 
 ---
 
-## 8. Installation Considerations at 170k Miles
+## 8. Installation Concerns at 170k Miles
 
 ### The 170k Mile Challenge
 
-At 170,000 miles, the exhaust system has had 17+ years of heat cycling, road salt exposure, and corrosion. The header installation difficulty increases dramatically compared to a newer car.
+At 170,000 miles, my exhaust system has had 17+ years of heat cycling, road salt exposure, and corrosion. Header installation difficulty goes up dramatically compared to a newer car. I know this going in.
 
-### Exhaust Manifold Stud Removal -- The Critical Path
+### Exhaust Manifold Stud Removal — The Make or Break
 
-The 8x M10x1.25 exhaust manifold studs are the most likely failure point during this install. These studs are under constant heat cycling (they live between a 200F coolant-cooled head and 1000F+ exhaust gases) and are almost certainly seized.
+The 8x M10x1.25 exhaust manifold studs are the most likely failure point during this install. These studs live between a 200F coolant-cooled head and 1000F+ exhaust gases, constantly heat cycling. They're almost certainly seized.
 
-**Prevention Strategy (Start 3-5 Days Before Install):**
+**My Prevention Strategy (Starting 3-5 Days Before Install):**
 
 1. **Day 1:** Apply PB Blaster or Seafoam Deep Creep to all 8 manifold studs from the engine bay side. Let soak overnight.
 2. **Day 2:** Apply penetrant again. Start the engine, let it warm up fully, then shut off and apply more penetrant while hot (thermal cycling helps break the corrosion bond).
 3. **Day 3-4:** Repeat the heat-soak-spray cycle daily.
 4. **Day of install:** One final application 30 minutes before starting work.
 
-**Removal Method -- The Double-Nut Technique:**
+**Removal Method — The Double-Nut Technique:**
 
 1. Thread two M10x1.25 nuts onto the stud
 2. Tighten the two nuts against each other (jam them together)
 3. Use a wrench on the lower nut to turn the stud out counterclockwise
-4. **DO NOT use vise grips** -- they will round off the studs and make extraction much harder
-5. If a stud snaps: you will need a stud extractor (EZ-Out) or to drill and re-tap the hole. This is a worst-case scenario that may require head removal.
+4. **DO NOT use vise grips** — they'll round off the studs and make extraction much harder
+5. If a stud snaps: I'll need a stud extractor (EZ-Out) or to drill and re-tap the hole. Worst-case scenario that may require head removal.
 
 ### Other Hardware Concerns
 
@@ -433,27 +433,28 @@ The 8x M10x1.25 exhaust manifold studs are the most likely failure point during 
 
 ### What Commonly Breaks During Header Install on the 8th Gen
 
-1. **Exhaust manifold studs** -- #1 most common issue
-2. **O2 sensor wiring** -- if the wires are routed poorly, they can get snagged or melted
-3. **Heat shields** -- the stock heat shield bolts can strip or break
-4. **Subframe bolts** -- if lowering the subframe for access (sometimes needed for clearance)
-5. **Exhaust spring bolts** -- often need to be cut off with a Sawzall
+From reading forum threads, here's what people run into:
+1. **Exhaust manifold studs** — #1 most common issue
+2. **O2 sensor wiring** — if the wires are routed poorly, they can get snagged or melted
+3. **Heat shields** — the stock heat shield bolts can strip or break
+4. **Subframe bolts** — if lowering the subframe for access (sometimes needed for clearance)
+5. **Exhaust spring bolts** — often need to be cut off with a Sawzall
 
 ### Subframe Clearance
 
-Some header installs require lowering the front subframe approximately 1 inch to get the stock manifold out and the new header in. This involves loosening (not fully removing) the subframe bolts. The new header typically installs more easily than the stock manifold comes out because the new header is lighter and more flexible (tubular construction vs. rigid cast iron).
+Some header installs require lowering the front subframe approximately 1 inch to get the stock manifold out and the new header in. This means loosening (not fully removing) the subframe bolts. The new header typically installs more easily than the stock manifold comes out because it's lighter and more flexible (tubular construction vs. rigid cast iron).
 
-### Professional Install vs. DIY Assessment
+### Professional Install vs. DIY — My Assessment
 
 | Factor | DIY | Professional |
 |--------|-----|-------------|
 | **Time** | 6-10 hours (first time, high mileage) | 3-5 hours |
 | **Tools needed** | Jack stands, breaker bar, O2 sensor socket, torque wrench, penetrant, double-nut set | Provided |
-| **Risk of broken studs** | Same either way -- but a shop can drill/tap in place | Shop has better tools for recovery |
-| **Cost** | $0 (your time) | $300-500 labor |
+| **Risk of broken studs** | Same either way — but a shop can drill/tap in place | Shop has better tools for recovery |
+| **Cost** | $0 (my time) | $300-500 labor |
 | **Satisfaction** | High (if successful) | Just works |
 
-**Recommendation:** Given 170k miles and the high probability of seized studs, this is a job where professional install has real value. A shop with Honda experience will have dealt with seized K-series exhaust studs many times. The cost of professional stud extraction if one breaks ($100-300+) can exceed the labor savings of DIY. Budget $300-500 for professional header installation.
+**My take:** Given 170k miles and the high probability of seized studs, I'm leaning toward professional install. A shop with Honda experience will have dealt with seized K-series exhaust studs many times. The cost of professional stud extraction if one breaks ($100-300+) can exceed the labor savings of DIY. I'm budgeting $300-500 for professional header installation.
 
 ---
 
@@ -461,7 +462,7 @@ Some header installs require lowering the front subframe approximately 1 inch to
 
 ### How Headers Change the Exhaust Note
 
-The stock cast iron manifold acts as a natural sound dampener -- it's heavy, thick, and absorbs vibrations. Aftermarket tubular headers are thin-walled stainless steel that transmits more exhaust pulse energy, fundamentally changing the sound character.
+The stock cast iron manifold acts as a natural sound dampener — it's heavy, thick, and absorbs vibrations. Aftermarket tubular headers are thin-walled stainless steel that transmits more exhaust pulse energy, fundamentally changing the sound character.
 
 ### 4-2-1 vs 4-1 Sound Differences
 
@@ -475,14 +476,14 @@ The stock cast iron manifold acts as a natural sound dampener -- it's heavy, thi
 
 ### Sound With Stock Mufflers Retained (Valve Closed)
 
-With the QTP cutout closed and stock mufflers in the flow path:
+With my QTP cutout closed and stock mufflers in the flow path:
 
 | Header Type | Volume Increase Over Stock | Character Change |
 |-------------|---------------------------|-----------------|
 | 4-2-1 (Skunk2/PLM) | Slight (+3-5 dB estimated) | More "throaty" at idle, slight rasp at higher RPM. Not obnoxious. Most passengers wouldn't notice at cruise. Noticeable under hard acceleration. |
 | 4-1 (Hytech) | Moderate (+5-8 dB estimated) | More "hollow" at idle, louder under acceleration. The high-RPM scream partially penetrates the stock muffler. |
 
-**Key point:** The stock rear muffler is very effective. Even with headers, the car will remain relatively quiet in daily driving with the cutout closed. The biggest change is in the *character* of the sound, not the volume.
+**Key point:** The stock rear muffler is very effective. Even with headers, my car will remain relatively quiet in daily driving with the cutout closed. The biggest change is in the *character* of the sound, not the volume. That's exactly what I want.
 
 ### Sound With QTP Cutout Open
 
@@ -493,15 +494,17 @@ With the cutout open, exhaust dumps before the resonator and muffler:
 | 4-2-1 + open cutout | Very loud, aggressive raspy/metallic Honda sound. Classic K-series scream at high RPM. Expect 95-105 dB at WOT. Similar to a purpose-built track car. |
 | 4-1 + open cutout | Extremely loud, high-pitched wail at high RPM. More "exotic" sounding. 100-110 dB at WOT. Race car territory. |
 
-**With the K&N Typhoon intake, headers, and open cutout, the car will be VERY loud at WOT.** The intake adds induction noise (sucking sound) that combines with the open exhaust for a full-spectrum assault on the ears. This is the "sport mode" experience and it will turn heads.
+**With my K&N Typhoon intake, headers, and open cutout, the car is going to be VERY loud at WOT.** The intake adds induction noise (sucking sound) that combines with the open exhaust for a full-spectrum assault on the ears. That's the whole point of "sport mode" — it will turn heads.
 
 ---
 
-## 10. Complete Bill of Materials -- RECOMMENDED SETUP
+## 10. Complete Bill of Materials — MY RECOMMENDED SETUP
 
-### The Recommendation
+### What I've Decided On
 
-**PLM V2 Header with High-Flow Cat** -- this provides the best value while delivering 90%+ of the Skunk2 Alpha's performance. The included 200-cell high-flow cat keeps the car emissions-compliant for street use while providing excellent flow. Combined with the already-planned QTP cutout, this gives the best balance of performance, legality, and cost.
+**Skunk2 Alpha Header + Berk Technology HFC** — this is the premium street setup. The Skunk2 Alpha gives me the broadest powerband, best fitment, and most community support. Combined with the Berk HFC and my already-planned QTP cutout, this is the best balance of performance, legality, and long-term reliability.
+
+I originally considered the PLM V2 + Cat combo at $575 to save money, but the Skunk2's stepped primaries and the Berk's superior build quality are worth the extra ~$345 to me.
 
 ### Full Parts List
 
@@ -509,69 +512,69 @@ With the cutout open, exhaust dumps before the resonator and muffler:
 
 | # | Item | Part Number | Qty | Est. Price |
 |---|------|-------------|-----|------------|
-| 1 | PLM V2 Header with Bolt-On 200-Cell HFC | PLM-HFG1-V2-K24-HEADER-CAT | 1 | $575 |
-| 2 | Header-to-Head Gasket | OEM 18115-PNB-003 (or included with header) | 1 | $15-20 |
-| 3 | New Exhaust Manifold Studs | M10x1.25 x 45mm stainless studs (set of 8) | 1 set | $15-25 |
-| 4 | New Exhaust Manifold Flange Nuts | M10x1.25 copper-plated flange nuts (set of 8) | 1 set | $10-15 |
-| 5 | Donut Gasket (cat-to-front-pipe) | 60mm / 2.36" donut gasket | 1 | $5-8 |
-| 6 | Anti-seize compound | Permatex copper anti-seize (small tube) | 1 | $5-8 |
+| 1 | Skunk2 Alpha Header | 412-05-1930 | 1 | $570-800 |
+| 2 | Berk Technology HFC | BT1101-HFC-MET | 1 | $300-400 |
+| 3 | Header-to-Head Gasket | OEM 18115-PNB-003 (or included with header) | 1 | $15-20 |
+| 4 | New Exhaust Manifold Studs | M10x1.25 x 45mm stainless studs (set of 8) | 1 set | $15-25 |
+| 5 | New Exhaust Manifold Flange Nuts | M10x1.25 copper-plated flange nuts (set of 8) | 1 set | $10-15 |
+| 6 | Donut Gasket (cat-to-front-pipe) | 60mm / 2.36" donut gasket | 1 | $5-8 |
+| 7 | Anti-seize compound | Permatex copper anti-seize (small tube) | 1 | $5-8 |
 
-#### Exhaust Cutout (Already Planned -- from 08-Valved-Exhaust purchasing.md)
+#### Exhaust Cutout (Already Planned — from 08-Valved-Exhaust purchasing.md)
 
 | # | Item | Part Number | Qty | Est. Price |
 |---|------|-------------|-----|------------|
-| 7 | QTP Electric Cutout | QTEC25 (2.5") | 1 | $220 |
+| 8 | QTP Electric Cutout | QTEC25 (2.5") | 1 | $220 |
 
 #### Piping & Resonator (If Doing Full 2.5" Upgrade)
 
 | # | Item | Part Number | Qty | Est. Price |
 |---|------|-------------|-----|------------|
-| 8 | Vibrant Ultra Quiet Resonator 2.5" | Vibrant 1141 | 1 | $80 |
-| 9 | 2.5" Stainless Mandrel Straight Pipe (for piping runs) | Generic 2.5" 304SS, 4-5ft total | As needed | $40-60 |
-| 10 | 2.5" to stock adapter (at rear muffler inlet) | Custom or universal reducer | 1 | $15-25 |
-| 11 | Exhaust Band Clamps 2.5" | Stainless V-band or lap-joint clamps | 3-4 | $15-20 |
-| 12 | Exhaust Hangers | Rubber isolator hangers | 2-3 | $10-15 |
+| 9 | Vibrant Ultra Quiet Resonator 2.5" | Vibrant 1141 | 1 | $80 |
+| 10 | 2.5" Stainless Mandrel Straight Pipe (for piping runs) | Generic 2.5" 304SS, 4-5ft total | As needed | $40-60 |
+| 11 | 2.5" to stock adapter (at rear muffler inlet) | Custom or universal reducer | 1 | $15-25 |
+| 12 | Exhaust Band Clamps 2.5" | Stainless V-band or lap-joint clamps | 3-4 | $15-20 |
+| 13 | Exhaust Hangers | Rubber isolator hangers | 2-3 | $10-15 |
 
 #### Installation Supplies
 
 | # | Item | Description | Qty | Est. Price |
 |---|------|-------------|-----|------------|
-| 13 | PB Blaster / Seafoam Deep Creep | Penetrating oil for seized studs | 2 cans | $10-15 |
-| 14 | O2 Sensor Anti-Seize | For O2 sensor bung threads | 1 | $5 |
-| 15 | High-temp RTV silicone | For minor sealing if needed | 1 | $8 |
-| 16 | Jack Stands (4-ton rated) | If not already owned | 2 | Already owned? |
+| 14 | PB Blaster / Seafoam Deep Creep | Penetrating oil for seized studs | 2 cans | $10-15 |
+| 15 | O2 Sensor Anti-Seize | For O2 sensor bung threads | 1 | $5 |
+| 16 | High-temp RTV silicone | For minor sealing if needed | 1 | $8 |
+| 17 | Jack Stands (4-ton rated) | If not already owned | 2 | Already owned? |
 
 ### Cost Summary
 
 | Category | Cost |
 |----------|------|
-| **PLM V2 Header + HFC Cat** | $575 |
+| **Skunk2 Alpha Header** | $570-800 |
+| **Berk Technology HFC** | $300-400 |
 | **Gaskets, studs, hardware** | $50-75 |
 | **Piping + Vibrant resonator (if 2.5" upgrade)** | $160-200 |
 | **Installation supplies** | $25-30 |
 | **QTP Cutout** (from valved exhaust budget) | $220 |
 | **Professional installation labor (recommended)** | $300-500 |
-| **TOTAL (with 2.5" piping upgrade + pro install)** | **$1,330-1,600** |
-| **TOTAL (bolt-on to stock piping, DIY)** | **$870-900** |
+| **TOTAL (with 2.5" piping upgrade + pro install)** | **$1,625-2,225** |
+| **TOTAL (bolt-on to stock piping, DIY)** | **$1,165-1,305** |
 
-### Alternative: Skunk2 Alpha Build
+### Budget Alternative: PLM V2 Build
 
-If budget allows, the Skunk2 Alpha replaces the PLM V2 as the header choice:
+If I need to tighten the budget, the PLM V2 replaces the Skunk2 Alpha + Berk as the header/cat solution:
 
 | Change | Cost Difference |
 |--------|----------------|
-| Replace PLM V2+Cat ($575) with Skunk2 Alpha ($570) | -$5 on header |
-| Add separate Berk HFC ($350) since Skunk2 is catless | +$350 |
-| **Net cost increase** | **+$345** |
-| **Total build cost with Skunk2 + Berk** | **$1,675-1,945** |
+| Replace Skunk2 Alpha ($570-800) + Berk HFC ($300-400) with PLM V2+Cat ($575) | Saves ~$295-625 |
+| **Total build cost with PLM V2 + Cat** | **$1,330-1,600** |
 
-The PLM V2 + Cat combo saves ~$345 over the Skunk2 Alpha + Berk HFC combination while delivering comparable performance. This is why PLM is the recommendation for a budget-conscious build.
+The PLM V2 + Cat combo saves a significant chunk over the Skunk2 Alpha + Berk HFC combination while delivering comparable performance. It's still a strong option if the budget gets tight.
 
 ---
 
 ## Appendix A: Headers NOT Available for the 8th Gen K20Z3
 
-The following headers were researched but are either discontinued, not made for this platform, or cannot be sourced:
+I researched these but they're either discontinued, not made for this platform, or can't be sourced:
 
 | Brand | Status |
 |-------|--------|
@@ -581,7 +584,7 @@ The following headers were researched but are either discontinued, not made for 
 | **Buddy Club** | Discontinued; occasionally found used/NOS at ~$769 |
 | **Mugen** | Does not make a standalone header for the 8th gen SI |
 
-## Appendix B: Install Order (From CLAUDE.md, Confirmed)
+## Appendix B: My Install Order (Confirmed)
 
 1. Install QTP cutout (get both tunes working with cutout open/closed)
 2. Install header + high-flow cat
@@ -591,10 +594,10 @@ The following headers were researched but are either discontinued, not made for 
 
 ## Appendix C: CARB / Emissions Notes
 
-- **No aftermarket K20Z3 header has a CARB EO number** -- none are street-legal in California
+- **No aftermarket K20Z3 header has a CARB EO number** — none are street-legal in California
 - In non-CARB states, headers + high-flow cat will pass OBD-II emissions testing (no CEL if HFC has properly placed O2 bungs)
 - The high-flow cat keeps the car emissions-functional even without a CARB EO
-- If you live in a strict emissions state, keep the stock manifold and cat for inspection purposes
+- If I ever move to a strict emissions state, I'd keep the stock manifold and cat for inspection purposes
 
 ---
 

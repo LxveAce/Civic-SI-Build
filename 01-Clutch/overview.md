@@ -1,6 +1,6 @@
-# Clutch & Flywheel — Exedy Stage 1 Organic + Acuity Lightweight Flywheel
+# Clutch & Flywheel — Exedy Stage 1 Organic + Exedy Lightweight Flywheel
 
-## Status: Installed
+## Already on the car
 
 ## Part Information
 
@@ -34,17 +34,17 @@
 | Power limit | ~230 WHP / ~170 lb-ft | **~280-300 WHP / ~200-210 lb-ft** |
 | Daily drivability | OEM feel | Excellent — organic disc is smooth, no chatter |
 
-The 08806 is the right clutch for this build. It provides substantial headroom above the planned bolt-on power level (215-225 WHP) while remaining completely daily-drivable.
+I went with the 08806 over a basic OEM replacement and I'm glad I did. It gives me way more headroom above where I'll be with bolt-ons (215-225 WHP) while still being totally smooth for daily driving. No chatter, no drama — just a better clutch.
 
-## Why These Mods
+## Why I Went With These
 
-At ~170k miles, the stock clutch was worn and needed replacement. The Exedy Stage 1 Organic upgrades over a pure OEM replacement with a stronger pressure plate, providing more holding power for future modifications without sacrificing daily drivability.
+At ~170k miles, my stock clutch was toast and needed to go anyway. Rather than just throwing in another OEM replacement, I figured I'd spend a little more and get something with real headroom. The Stage 1 has a beefier pressure plate so it'll hold up to whatever power I make with the bolt-on setup, and it's still completely streetable.
 
-The Exedy lightweight flywheel replaces the heavy stock single-mass flywheel with a significantly lighter chromoly unit. This provides:
-- **Faster revs:** Less rotational mass means the engine spins up and down more quickly. VTEC engagement feels sharper, rev-matching is easier.
-- **Improved throttle response:** Less inertia to overcome — the engine responds more immediately to throttle input.
-- **Quicker shifts:** The engine RPM drops and rises faster between shifts, making the Acuity short shifter feel even more responsive.
-- **Slightly harsher idle:** The stock flywheel's heavier mass smooths out combustion pulses. A lightweight flywheel transmits more vibration at idle. This is normal and mild with the Exedy unit.
+The lightweight flywheel was honestly a no-brainer while I was already in there. Swapping from the heavy stock single-mass unit to the lighter chromoly one made a noticeable difference:
+- **Faster revs:** Less rotational mass means the engine spins up and down quicker. VTEC engagement feels sharper, rev-matching is way easier.
+- **Better throttle response:** Less inertia to fight — the engine just responds more immediately.
+- **Quicker shifts:** RPM drops and rises faster between gears, and it makes the Acuity short shifter feel even more alive.
+- **Slightly rougher idle:** The heavier stock flywheel smooths out combustion pulses. The lighter one lets more vibration through at idle. Totally normal, and honestly pretty mild with the Exedy unit.
 
 ## Power Headroom
 
@@ -56,11 +56,11 @@ The Exedy lightweight flywheel replaces the heavy stock single-mass flywheel wit
 | ~280 WHP | ~200 lb-ft | Upper edge of reliable daily use. |
 | 300+ WHP | 210+ lb-ft | Slipping likely. Upgrade needed. |
 
-**With all planned bolt-ons (intake + headers + exhaust + tune = ~215-225 WHP), this clutch has ~60-75 WHP of headroom.** No upgrade needed unless you go forced induction at meaningful boost levels.
+**With all my planned bolt-ons (intake + headers + exhaust + tune = ~215-225 WHP), I've got ~60-75 WHP of headroom.** I won't need to touch this clutch again unless I go forced induction at serious boost levels.
 
 ## Notes
 
-- The lightweight flywheel makes the clutch engagement feel slightly more abrupt — less rotational inertia to buffer engagement. This is normal and you get used to it quickly.
-- Combined with the Acuity short shifter, Acuity trans-side bushings, and Hybrid Racing 70A mounts, this creates a complete drivetrain feel transformation.
-- The lighter flywheel technically reduces low-RPM drivability slightly (less momentum to keep the engine spinning through lugging situations). Avoid lugging the engine in high gear at low RPM.
-- The Exedy HF02 flywheel is designed for the K20Z3 crank — any future clutch upgrade will bolt to it.
+- The lightweight flywheel makes clutch engagement feel slightly more abrupt — less rotational inertia to buffer things. Totally normal, and I got used to it within a day or two.
+- Combined with my Acuity short shifter, Acuity trans-side bushings, and the Hybrid Racing 70A mounts I'm planning to install, the whole drivetrain feel is going to be completely transformed.
+- The lighter flywheel technically makes low-RPM drivability slightly worse (less momentum to keep things spinning through lugging situations). I just avoid lugging it in high gear at low RPM.
+- The Exedy HF02 flywheel is designed for the K20Z3 crank, so any future clutch upgrade will bolt right to it.

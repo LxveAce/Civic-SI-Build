@@ -1,6 +1,6 @@
 # Brakes — Hawk HPS Pads + R1 Concepts Slotted Rotors
 
-## Status: Purchased, Awaiting Install
+## Purchased, sitting in the box
 
 ## Part Information
 
@@ -30,15 +30,18 @@
 | Position | Rear |
 | Compound | HPS (High Performance Street) |
 
-## Why This Mod
+## Why I'm Doing This
 
-Full 4-corner brake upgrade. At 170k miles, the stock rotors and pads are due for replacement regardless. Upgrading to slotted rotors and performance pads provides:
-- **Slotted rotors:** Better heat dissipation, helps evacuate gas and debris from pad surface, maintains consistent bite as temperatures rise
-- **Hawk HPS pads:** Higher friction coefficient than stock, improved initial bite, better fade resistance under spirited driving, while remaining daily-drivable (low dust, low noise)
+Full 4-corner brake upgrade. At 170k miles, the stock rotors and pads need to be replaced anyway, so I figured I'd upgrade while I'm at it rather than just throw on another set of OEM pads.
+
+- **Slotted rotors:** Better heat dissipation, help evacuate gas and debris from the pad surface, and maintain consistent bite as temperatures climb
+- **Hawk HPS pads:** Higher friction coefficient than stock, improved initial bite, better fade resistance during spirited driving, and still totally daily-drivable (low dust, low noise)
+
+For what I paid, getting both rotors and pads upgraded all four corners felt like a solid deal.
 
 ## Notes
 
-- Hawk HPS is a street-performance compound — not a track pad. It's designed for daily driving with improved performance, not sustained track abuse.
-- The slotted rotors will produce a slight hissing sound when cold, especially in the morning. This is normal and goes away as the pads warm up.
-- **Bed-in procedure is required.** After installing, follow the Hawk pad bed-in procedure (series of moderate stops from speed to allow the pad material to transfer to the rotor surface evenly). Skipping bed-in causes uneven pad deposit, vibration, and reduced performance.
+- Hawk HPS is a street-performance compound — not a track pad. It's designed for daily driving with improved performance, not sustained track abuse. Perfect for what I need.
+- The slotted rotors will make a slight hissing sound when cold, especially first thing in the morning. Totally normal, goes away once the pads warm up.
+- **I need to do the bed-in procedure after installing.** Hawk has a specific pad bed-in process (a series of moderate stops from speed to allow the pad material to transfer to the rotor surface evenly). Skipping bed-in causes uneven pad deposit, vibration, and reduced performance. Not skipping that.
 - No tuning impact — purely mechanical
