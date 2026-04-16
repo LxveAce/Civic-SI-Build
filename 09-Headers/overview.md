@@ -64,6 +64,7 @@ The FG2 SI has **one resonator and one muffler** -- NOT two mufflers. The resona
 ## See Also
 
 - [brainstorm.md](brainstorm.md) -- Full research: all headers compared, stock exhaust layout, pipe diameter analysis, dyno data, sound character, complete bill of materials
+- [4-1-header-research.md](4-1-header-research.md) -- Deep dive into 4-1 headers with trumpet/merge collectors: Hytech details, scavenging theory, anti-reversion technology, custom build options, 4-1 vs 4-2-1 trade-offs, pipe diameter analysis for 4-1, sound character comparison
 - Future: [purchasing.md](purchasing.md) -- Complete parts list with links (to be created at purchase time)
 - Future: [install-guide.md](install-guide.md) -- Step-by-step install instructions
 

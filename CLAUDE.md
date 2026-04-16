@@ -57,7 +57,8 @@
 
 9. **Valved Exhaust:** DIY build using QTP QTEC25 2.5" electric cutout — Inline cutout after cat, before mufflers. Keeps OEM mufflers. Solenoid/relay controlled. Daily (closed/quiet) and Sport (open/straight pipe) modes.
 10. **In-Car PC:** LattePanda 3 Delta permanent install with 7" touchscreen — For Hondata FlashPro management, datalogging, gauges, and exhaust valve control
-11. **Headers:** PLM V2 + 200-cell HFC (PLM-HFG1-V2-K24-HEADER-CAT, ~$575) -- recommended after comprehensive research. Skunk2 Alpha is runner-up. See 09-Headers/ for full analysis.
+11. **Headers:** PLM V2 + 200-cell HFC (PLM-HFG1-V2-K24-HEADER-CAT, ~$575) -- recommended 4-2-1 option after comprehensive research. Skunk2 Alpha is runner-up. Owner is also interested in 4-1 headers with merge collectors for top-end power -- Hytech is the only direct-fit 4-1 option (~$1,300, availability uncertain). See 09-Headers/ for full analysis including 4-1-header-research.md.
+12. **Pulleys + Harmonic Balancer:** ATI Super Damper (918477, ~$360-380) recommended as crank pulley for proper harmonic damping + NST accessory pulleys for underdrive. Buddy Club P1 kit (~$280) is budget alternative but deletes harmonic damping. See 10-Pulleys-and-Harmonic-Balancer/ for full analysis.
 
 ---
 
