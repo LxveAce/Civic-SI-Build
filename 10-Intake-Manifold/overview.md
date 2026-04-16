@@ -13,9 +13,9 @@ The stock RRC manifold (on the 06-11 SI) has long runners designed for low-end t
 | Spec | Stock RRC | Skunk2 Ultra Street |
 |------|-----------|---------------------|
 | Runner Length | ~12.5" | ~8.5-9" |
-| Plenum Volume | ~2.5L | ~3.5-4.0L |
+| Plenum Volume | ~2.5L | ~1.8L (expandable with spacers) |
 | Runner Diameter | ~45mm | ~55mm |
-| Throttle Body Bore | 62mm (stock DBW) | 68mm mounting pattern |
+| Throttle Body Bore | 62mm (stock DBW) | 71mm throttle body opening |
 | Power Focus | Low-mid (2500-5500 RPM) | Broad pull from ~4000-8000+ RPM |
 | Idle Quality | OEM smooth | Slightly rougher (tunable with Hondata) |
 
@@ -24,7 +24,7 @@ The stock RRC manifold (on the 06-11 SI) has long runners designed for low-end t
 | | Pro Series | **Ultra Street** | Ultra Race |
 |---|-----------|-----------------|------------|
 | Runner Length | ~10-11" | **~8.5-9"** | ~5-6" |
-| Plenum Volume | ~3.0L | **~3.5-4.0L** | ~5.0L+ |
+| Plenum Volume | ~3.0L | **~1.8L** | ~3.5L+ |
 | Power Focus | Mid-range | **Street/sport balance** | Top-end only (7000-9000 RPM) |
 | Idle Quality | Good | **Acceptable** | Poor |
 | Best For | Daily + light mods | **Full bolt-on street build** | Track / built motor |
@@ -36,7 +36,7 @@ The stock RRC manifold (on the 06-11 SI) has long runners designed for low-end t
 | Field | Value |
 |-------|-------|
 | Intake Manifold | Skunk2 Ultra Street |
-| Part Number | 307-05-8000 |
+| Part Number | 307-05-0600 (black) / 307-05-0605 (silver) |
 | Port Pattern | PRB/PRC (direct fit to K20Z3 head) |
 | Material | Cast aluminum, black powder coat |
 | Price | ~$550-620 |

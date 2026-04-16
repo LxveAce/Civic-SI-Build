@@ -7,6 +7,7 @@
 | Field | Value |
 |-------|-------|
 | Part | Megan Racing Strut Bar Honda Civic & Si (06-11) Front - Race Spec - Polished Upper |
+| Part Number | MR-SB-HC06FU-1P |
 | Type | Upper front strut tower brace |
 | Material | Polished aluminum |
 | Fitment | 2006-2011 Honda Civic & Civic SI |

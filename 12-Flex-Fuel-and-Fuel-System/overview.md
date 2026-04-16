@@ -88,7 +88,7 @@ The FlashPro flex fuel implementation works as follows:
 1. **Ethanol content sensor** is installed inline on the fuel feed line (between the fuel filter and the fuel rail).
 2. **The sensor outputs a frequency signal** (50-150 Hz) that corresponds to ethanol content (50 Hz = 0% ethanol, 150 Hz = 100% ethanol). It also outputs a fuel temperature signal.
 3. **The sensor signal is wired to an ECU input.** On the 8th gen Civic SI, the standard approach is to wire the sensor signal to the **rear O2 sensor signal wire** (secondary O2 sensor input). The rear O2 sensor is part of the catalytic converter efficiency monitor, which is not needed on a FlashPro-tuned car (the CEL for the rear O2 is already disabled in most FlashPro calibrations). This frees up that ECU input for the ethanol content signal.
-   - **ECU Pin:** The rear O2 sensor signal wire goes to ECU connector E, pin 4 (SG2 — secondary HO2S signal). Some documentation references this as connector B, pin 4 depending on the harness diagram version. Your tuner or Hondata's wiring guide should confirm the exact pin for the FG2.
+   - **ECU Pin:** The rear O2 sensor signal wire goes to the secondary HO2S signal input on the ECU. Common references cite connector E pin 4 (SG2) or A33 (ECT2) — **the exact pin varies by documentation source and has not been independently verified. Your tuner or Hondata's official wiring guide should confirm the exact pin for the FG2 before wiring.**
 4. **FlashPro reads the ethanol content** in real time and displays it on the datalog/dashboard as "Ethanol Content %."
 
 ### Calibration Strategy — Interpolation, Not Manual Switching
@@ -139,7 +139,7 @@ The industry standard is the **Continental (formerly Siemens/VDO) flex fuel sens
 - **Aftermarket kits:** Companies like Hondata, PRL Motorsports, Blox Racing, and others sell "flex fuel kits" that bundle the sensor with the appropriate fittings and sometimes wiring. These typically run $150-250.
 - **Sensor specifications:**
   - Reads ethanol content from 0-100%
-  - Reads fuel temperature from -40F to 257F
+  - Reads fuel temperature from -40°F to 302°F (-40°C to 150°C)
   - Output: 50-150 Hz frequency signal (linear with ethanol content)
   - 3-wire connector: power (12V), ground, signal
   - 3/8" SAE quick-connect fittings (standard GM fuel line size)
@@ -274,9 +274,9 @@ The stock K20Z3 fuel rail is a stamped steel unit. The Acuity fuel rail improves
 
 ### Fittings and Adapters
 
-- **Inlet:** -6AN ORB (O-Ring Boss) or -6AN fitting (depending on production version). Some versions come with a -6AN to stock fuel line adapter for easy installation with stock lines.
+- **Ports:** -8 ORB (O-Ring Boss) throughout — center-feed -8 ORB port and end -8 ORB ports. There are no -6AN fittings on the rail itself; adapters can convert to -6AN if needed.
 - **If using stock fuel lines:** An adapter fitting is included or available separately to connect the stock Honda fuel feed line to the rail.
-- **If using aftermarket AN fuel lines:** Direct -6AN connection, no adapter needed.
+- **If using aftermarket AN fuel lines:** Use -8 ORB to -6AN adapter fittings.
 - **FPR/gauge port:** The rail has a port for a fuel pressure gauge or aftermarket FPR connection if desired.
 
 ### Compatible Injector Sizes

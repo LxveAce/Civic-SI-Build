@@ -38,7 +38,7 @@ Daily-drivable with a sport mode toggle. Quiet when needed, loud when wanted. Fu
 | # | Mod | Details | Notes |
 |---|-----|---------|-------|
 | 8 | [Valved Exhaust](08-Valved-Exhaust/) | DIY 3" QTP cutout bypass (keep OEM mufflers) | 3" dump, step-down to 2.5" for muffled path |
-| 9 | [Headers](09-Headers/) | Skunk2 Alpha 4-2-1 (412-05-1900) + Berk HFC | Best available, stepped primaries, 10-18 WHP |
+| 9 | [Headers](09-Headers/) | Skunk2 Alpha 4-2-1 (412-05-1930) + Berk HFC | Best available, stepped primaries, 10-18 WHP |
 | 10 | [Intake Manifold](10-Intake-Manifold/) | Skunk2 Ultra Street + bored stock TB (66mm) | Larger plenum, shorter runners, DBW compatible |
 | 11 | [Pulleys & Harmonic Balancer](11-Pulleys-and-Harmonic-Balancer/) | ATI Super Damper + NST accessory pulleys | Proper damping + reduced parasitic loss |
 | 12 | [Flex Fuel & Fuel System](12-Flex-Fuel-and-Fuel-System/) | Flex fuel sensor + injectors + Acuity rail + DW200 pump | E85 capable, 5-15 WHP on NA over pump gas |
@@ -73,7 +73,7 @@ Each modification has its own folder containing:
 | Displacement | 1998cc (2.0L) |
 | Compression | 11.0:1 |
 | Stock HP / TQ | 197 HP @ 7800 RPM / 139 lb-ft @ 6200 RPM |
-| Redline | 8200 RPM |
+| Redline | 8000 RPM (fuel cut at 8200 RPM) |
 | Stock Exhaust Diameter | 2.36" (60mm) from cat back |
 | Fuel | Premium 91+ octane required |
 | OBD2 Port | Under dash, left of steering column |

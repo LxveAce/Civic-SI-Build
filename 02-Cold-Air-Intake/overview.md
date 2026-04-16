@@ -1,4 +1,4 @@
-# Cold Air Intake — K&N Typhoon
+# Intake — K&N Typhoon (Short Ram)
 
 ## Status: Installed
 
@@ -6,11 +6,13 @@
 
 | Field | Value |
 |-------|-------|
-| Part | K&N Typhoon Cold Air Intake Kit |
+| Part | K&N Typhoon Short Ram Intake |
 | Part Number | 69-1014TS |
 | Fitment | Honda Civic SI 2.0L (2006-2011) |
 | Filter Type | K&N high-flow cotton gauze |
 | Finish | Polished aluminum intake tube |
+
+**Note:** K&N markets this as a "Cold Air Intake," but it is technically a **short ram intake** — the filter mounts in the engine bay (hot side) near the exhaust manifold, not in a cold air location behind the bumper/fender. It uses the stock fresh air duct to feed cooler outside air to the filter area.
 
 ## Why This Mod
 
