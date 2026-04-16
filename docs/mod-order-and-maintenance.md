@@ -23,7 +23,6 @@ These are reliability items that should be addressed before adding power or stre
 | 9 | **Water pump** | K20Z3 water pump is driven by the timing chain. Inspect during timing chain inspection. Weeping from the weep hole = replace immediately. | Inspect at timing chain service. Replace proactively at 150k+. | $50 (pump) | Included in timing chain labor |
 | 10 | **Motor oil + filter** | Honda recommends 0W-20, but community consensus for a 170k-mile K20Z3 that's driven hard: **5W-30 full synthetic** (Mobil 1, Pennzoil Platinum, or Castrol Edge). Thicker oil compensates for worn bearing clearances. | Every 5,000-6,000 miles with synthetic. Honda says 7,500 — too long for an SI driven spiritedly. | $35 | $60-80 |
 | 11 | **PCV valve** | 17130-RTA-000 or equivalent. Cheap, easy, often neglected. Failed PCV causes oil consumption, rough idle, and boost leaks if ever turbo'd. | Every 60,000-80,000 miles | $10 | $30-50 |
-| 12 | **Lincoln Manifold Method** | Leak-down style test of the intake manifold gasket and vacuum lines using propane or carb cleaner. Detects vacuum leaks that cause rough idle, lean conditions, and check engine lights. Especially important before Hondata tuning. | Before first tune. Any time idle is rough. | $0 (carb cleaner method) | $50-100 (smoke test) |
 
 ### Timing Chain Deep Dive
 
@@ -139,7 +138,6 @@ PHASE 0 — MAINTENANCE (do immediately, before any mods)
   ├── Serpentine belt (inspect/replace)
   ├── PCV valve
   ├── Water pump (inspect with timing chain)
-  └── Lincoln Manifold Method (vacuum leak check)
 
 PHASE 1 — ALREADY PURCHASED (install in order)
   ├── 1A: Clutch hydraulics (CMC/CSC upgrade)
