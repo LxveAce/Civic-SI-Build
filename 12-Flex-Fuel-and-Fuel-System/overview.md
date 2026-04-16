@@ -382,20 +382,31 @@ The system is completely seamless. There is no "wrong" blend and no need to drai
 
 ## 7. Bill of Materials — Complete Flex Fuel Kit
 
-### Required Components
+### Required Components (with Buy Links)
 
-| # | Component | Specific Part | Price (Approx.) | Notes |
+| # | Component | Specific Part | Price | Buy Link |
 |---|---|---|---|---|
-| 1 | Flex fuel sensor | Continental / GM 13577429 | $50-80 | Genuine GM/Continental recommended |
-| 2 | Sensor fittings/adapters | -6AN or 5/16" to 3/8" SAE QC adapters (pair) | $25-40 | Needed to adapt GM sensor to Honda fuel line |
-| 3 | Sensor wiring | 3-conductor automotive wire + connectors | $10-20 | Signal to rear O2 ECU pin, 12V switched, ground |
-| 4 | Sensor pigtail connector | GM flex fuel sensor connector pigtail | $10-15 | Pre-wired connector for the sensor side |
-| 5 | Fuel rail | **Acuity 1913-K20** | $180-250 | Billet aluminum, E85 compatible, -6AN inlet |
-| 6 | Fuel injectors | **Bosch EV14 550cc** (set of 4) | $200-280 | Sweet spot for NA flex fuel K20Z3 |
-| 7 | Injector clips/adapters | Honda K-series adapter clips (if needed) | $0-20 | May be included with injectors |
-| 8 | Fuel pump | **DeatschWerks DW200 (255 LPH)** | $100-130 | Drop-in for 8th gen Civic SI |
-| 9 | Fuel filter | OEM Honda or quality aftermarket | $15-30 | Replace as part of conversion |
-| 10 | Fuel line (optional but recommended) | PTFE -6AN braided line, filter to rail | $80-150 | Recommended for sustained E85 use |
+| 1 | **Flex fuel sensor** | Continental / GM 13577429 | $50-80 | [Amazon (ACDelco)](https://www.amazon.com/ACDelco-13577429-Original-Equipment-Sensor/dp/B01GQR9C5O) |
+| | | | | [High Flow Fuel](https://www.highflowfuel.com/gm-continental-vdo-flex-fuel-sensor-e85-13577429-an-barbed-fittings-adapter-plug/) |
+| | | | | [Racetronix](https://www.racetronix.biz/p/sensor-e85-qd-3-8-i-o-short-small/13577429) |
+| 2 | Sensor fittings/adapters | -6AN or 5/16" to 3/8" SAE QC adapters (pair) | $25-40 | Amazon / Summit Racing |
+| 3 | Sensor wiring | 3-conductor automotive wire + connectors | $10-20 | Amazon |
+| 4 | Sensor pigtail connector | GM flex fuel sensor connector pigtail | $10-15 | eBay / Amazon |
+| 5 | **Fuel rail** | Acuity K-Series 1913-BLK | $180-250 | [Acuity Direct](https://acuityinstruments.com/products/k-series-fuel-rail-in-black-satin-finish) |
+| | | | | [K Series Parts](https://www.kseriesparts.com/ACI-1913-BLK.html) |
+| | | | | [Nippon Power](https://nipponpower.com/products/acuity-instruments-k-series-fuel-rail-satin-black-finish-honda-k20-k24-1913-blk) |
+| 6 | **Fuel injectors** | Injector Dynamics ID1050x (1050.48.14.14.4) | ~$546 | [K Series Parts](https://www.kseriesparts.com/IJD-1050-48-14-14-4.html) |
+| | | | | [Hybrid Racing](https://www.hybrid-racing.com/products/injector-dynamics-k-series-1050x-fuel-injectors-for-rsx) |
+| | | | | [Real Street Performance — $546](https://www.realstreetperformance.com/injector-dynamics-id1050-id1050x-1065cc-injectors-k20-k20a-k20z3-civic-si-06-honda-14mm.html) |
+| | | | | [MAPerformance](https://www.maperformance.com/products/injector-dynamics-id1050x-fuel-injectors-1065cc-multiple-fitments-1050-48-14-14-4) |
+| | | (alt: Bosch EV14 550cc, ~$200-280 — budget option) | | |
+| 7 | Injector clips/adapters | Honda K-series adapter clips (if needed) | $0-20 | Included with most injector sets |
+| 8 | **Fuel pump** | DeatschWerks DW300C (9-307-1008) 340 LPH | ~$130-160 | [DeatschWerks Direct](https://deatschwerks.com/products/9-307-1008) |
+| | | | | [K Series Parts](https://www.kseriesparts.com/DWS-9-307-1008.html) |
+| | | | | [MAPerformance](https://www.maperformance.com/products/deatschwerks-dw300c-340lph-fuel-pump-w-install-kit-2006-2011-honda-civic-9-307-1008) |
+| | | | | [HARDmotion](https://hardmotion.com/shop/fuel-tuning/deatschwerks-dw300c-340-lph-fuel-pump-06-11-12-15-civic-si-9-307-1008/) |
+| 9 | Fuel filter | OEM Honda or quality aftermarket | $15-30 | AutoZone / Amazon |
+| 10 | Fuel line (recommended) | PTFE -6AN braided line, filter to rail | $80-150 | Amazon / Summit Racing |
 
 ### Optional but Recommended
 

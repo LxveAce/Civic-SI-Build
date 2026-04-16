@@ -67,20 +67,23 @@ Place the cutout **after the high-flow cat, before the resonator**, with at leas
 2. **Phase 2:** LattePanda Arduino GPIO -> relay -> QTP motor (tied to tune selection)
 3. **Manual override toggle retained** for Phase 2 (works even with PC off)
 
-## Updated Parts List
+## Parts List with Buy Links
 
-| # | Item | Product | Price |
-|---|------|---------|-------|
-| 1 | Electric Cutout Valve | QTP QTEC30 (3") | ~$250 |
-| 2 | 3" Stainless Pipe | Mandrel-bent sections for dump pipe | ~$40 |
-| 3 | 3" to 2.5" Reducer | Stainless reducer cone (~6" long) | ~$20 |
-| 4 | 2.5" Adapter Pipe | Connect reducer to stock resonator inlet | ~$15 |
-| 5 | 3" Exhaust Tip | Stainless rolled tip for dump exit | ~$30 |
-| 6 | Gaskets & Clamps | 3" and 2.5" band clamps, gaskets | ~$25 |
-| 7 | Exhaust Hangers | Rubber hangers + brackets | ~$15 |
-| 8 | Wiring & Control | Toggle switch, high-temp wire, connectors | ~$50 |
-| 9 | Heat Protection | DEI fire sleeve, silicone tape | ~$40 |
-| | **Total** | | **~$485** |
+| # | Item | Product | Price | Link |
+|---|------|---------|-------|------|
+| 1 | **Electric Cutout Valve** | QTP QTEC30 (3") | ~$217-269 | [Summit Racing — $217](https://www.summitracing.com/parts/qtp-qtec30) |
+| | | | | [Amazon](https://www.amazon.com/QTP-QTEC30-Electric-Exhaust-Cutout/dp/B003R2OQUI) |
+| | | | | [QTP Direct](https://quicktimeperformance.com/i-30497764-3-00-inch-qtp-electric-exhaust-cutout-valve.html) |
+| | | | | [Real Street Performance — $232](https://www.realstreetperformance.com/quick-time-performance-single-3-inch-electric-exhaust-cutout-qtec30.html) |
+| 2 | 3" Stainless Pipe | Mandrel-bent sections for dump pipe | ~$40 | Muffler shop / Amazon |
+| 3 | 3" to 2.5" Reducer | Stainless reducer cone (~6" long) | ~$20 | Muffler shop / Amazon |
+| 4 | 2.5" Adapter Pipe | Connect reducer to stock resonator inlet | ~$15 | Muffler shop |
+| 5 | 3" Exhaust Tip | Stainless rolled tip for dump exit | ~$30 | Amazon / Summit Racing |
+| 6 | Gaskets & Clamps | 3" and 2.5" band clamps, gaskets | ~$25 | Amazon / Summit Racing |
+| 7 | Exhaust Hangers | Rubber hangers + brackets | ~$15 | Amazon / AutoZone |
+| 8 | Wiring & Control | Toggle switch, high-temp wire, connectors | ~$50 | Amazon |
+| 9 | Heat Protection | DEI fire sleeve, silicone tape | ~$40 | Amazon / Summit Racing |
+| | **Total** | | **~$452-504** |
 | | Muffler shop labor (if not welding) | | $150-250 |
 
 ## See Also

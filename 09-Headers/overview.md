@@ -8,14 +8,29 @@
 
 | Field | Value |
 |-------|-------|
-| Part Number | 412-05-1900 (FG2 Coupe) |
+| Part Number | 412-05-1930 (FG2 Coupe) |
 | Design | 4-2-1 with stepped primaries (1.625" → 1.75") |
 | Material | 304 stainless steel, TIG-welded |
 | Collector Outlet | 2.5" |
-| Cat Included | No — pair with Berk Technology HFC (~$300-400) |
+| Cat Included | No — pair with Berk Technology HFC |
 | Header Price | ~$700-800 |
 | Total (header + HFC) | ~$1,000-1,200 |
 | Availability | In production, readily available from authorized retailers |
+
+## Buy Links
+
+| # | Item | Product | Price | Link |
+|---|------|---------|-------|------|
+| 1 | **Header** | Skunk2 Alpha 412-05-1930 | ~$700-800 | [Hybrid Racing](https://www.hybrid-racing.com/products/skunk2-alpha-series-header-k20z3-06-11-civic-si) |
+| | | | | [HARDmotion](https://hardmotion.com/skunk2-alpha-header-06-11-honda-civic-si-k20z3-fa5-fg2/) |
+| | | | | [JHPUSA](https://jhpusa.com/products/skunk2-alpha-header-06-11-civic-si) |
+| | | | | [Skunk2 Direct](https://skunk2.com/exhaust-tuning/headers/alpha-header.html) |
+| | | | | [King Motorsports](https://www.kingmotorsports.com/p-4147-skunk2-alpha-series-header-for-8th-gen-2006-2011-civic-si.aspx) |
+| 2 | **High-Flow Cat** | Berk Technology HFC (BT1101-HFC-MET) | ~$300-400 | [Berk Technology (direct)](https://berktechnology.com/product/bt1101-hfc-met/) |
+| | | | | [Vivid Racing](https://www.vividracing.com/berk-technology-high-flow-catalytic-converter-honda-civic-0611-p-150715860.html) |
+| | | | | [Ballade Sports](https://balladesports.com/products/berk-technology-06-11-honda-civic-si-high-flow-catalytic-converter) |
+| | | | | [Speed Freaks USA](https://speedfreaksusa.com/i-11649305-berk-civic-si-2006-2011-high-flow-cat-bt1101-hfc-met.html) |
+| | **Total** | | **~$1,000-1,200** | |
 
 ## Why the Skunk2 Alpha
 
