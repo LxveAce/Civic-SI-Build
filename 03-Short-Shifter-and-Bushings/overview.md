@@ -1,6 +1,6 @@
 # Short Shifter & Bushings — Acuity Instruments
 
-## Status: Installed
+## Already on the car
 
 ## Part Information
 
@@ -25,16 +25,16 @@
 | Cable bushings (base price) | $79.00 |
 | **Actual Cost (both, incl. tax/shipping)** | **$622.20** |
 
-## Why These Mods
+## Why I Went With These
 
-The stock Civic SI shifter has a long, somewhat vague throw. The 3-way adjustable short shifter significantly reduces shift throw, making shifts quicker and more precise. The transmission-side cable bushings replace the soft OEM rubber bushings with stiffer units, eliminating slop in the linkage.
+The stock SI shifter has a long, kind of vague throw. I hated how imprecise it felt, especially trying to bang through gears quickly. The Acuity 3-way adjustable short shifter massively reduces shift throw, and the trans-side cable bushings replace the soft OEM rubber with stiffer units that eliminate the slop in the linkage.
 
-Together, these create a noticeably tighter, more direct shift feel. Combined with the fresh Exedy clutch and (future) Hybrid Racing 70A engine mounts, this is a complete drivetrain feel overhaul.
+Together, they made a night-and-day difference. The shift feel is so much tighter and more direct now. Combined with the fresh Exedy clutch and the Hybrid Racing 70A engine mounts I've got waiting to go in, this is going to be a complete drivetrain feel overhaul.
 
 ## Notes
 
-- The Acuity shifter is adjustable — experiment with the three settings to find your preferred throw length
-- Shorter throw = more effort per shift (leverage trade-off), but feels sportier
-- The transmission-side bushings are the most impactful single improvement for shift precision
-- There are also shifter-side (cabin-side) bushings available from Acuity, but the trans-side bushings address the biggest source of slop
+- The Acuity shifter is adjustable — I've been experimenting with the three settings to find my preferred throw length
+- Shorter throw = more effort per shift (leverage trade-off), but it feels way sportier
+- The trans-side bushings are honestly the single most impactful improvement for shift precision — if I could only pick one mod for shift feel, it'd be these
+- Acuity also makes shifter-side (cabin-side) bushings, but the trans-side ones address the biggest source of slop
 - No tuning impact — purely mechanical

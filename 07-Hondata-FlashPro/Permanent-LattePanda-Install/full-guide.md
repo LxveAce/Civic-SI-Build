@@ -7,7 +7,7 @@ originSessionId: 71c04218-155d-453c-936e-a01a76dc2782
 # LattePanda 3 Delta — Permanent In-Car Hondata PC
 ## 2009 Honda Civic SI Coupe (FG2 / K20Z3)
 
-### Complete Purchasing, Installation, and Usage Guide
+### My complete guide for purchasing, installing, and using this thing
 
 ---
 
@@ -112,7 +112,7 @@ originSessionId: 71c04218-155d-453c-936e-a01a76dc2782
 - **Flashlight / headlamp** — Working under the dash
 
 ### Nice to Have
-- **Soldering iron + heat shrink** — For permanent, vibration-proof connections (better than crimp butt splices for long-term)
+- **Soldering iron + heat shrink** — For permanent, vibration-proof connections (better than crimp butt splices long-term)
 - **Heat gun** — For heat shrink tubing
 - **Wire loom tool** — For threading wire through split loom cleanly
 - **Panel clip remover** — For popping plastic push clips on FG2 kick panels
@@ -182,7 +182,7 @@ originSessionId: 71c04218-155d-453c-936e-a01a76dc2782
 
 **IMPORTANT: Add-a-fuse tap orientation matters!**
 
-When you insert an add-a-fuse tap into a fuse slot, one side of the tap is connected to the bus bar (always-hot side) and the other side passes through the original fuse. The NEW fuse in the tap should go on the always-hot side, and the ORIGINAL fuse goes in the pass-through side. This way, if your new circuit blows its fuse, it doesn't kill the original circuit.
+When I insert an add-a-fuse tap into a fuse slot, one side of the tap connects to the bus bar (always-hot side) and the other side passes through the original fuse. The NEW fuse in the tap goes on the always-hot side, and the ORIGINAL fuse goes in the pass-through side. That way, if my new circuit blows its fuse, it doesn't kill the original circuit.
 
 ```
                     FUSE BOX SLOT
@@ -208,7 +208,7 @@ When you insert an add-a-fuse tap into a fuse slot, one side of the tap is conne
                           to your circuit
 ```
 
-**How to identify the hot side:** With the fuse REMOVED, use a multimeter or test light. Touch each contact in the empty fuse slot. The one that reads 12V (to ground) is the bus bar / hot side. The other side is the load side. Your add-a-fuse tap's new fuse pigtail goes on the hot side.
+**How to identify the hot side:** With the fuse REMOVED, use a multimeter or test light. Touch each contact in the empty fuse slot. The one that reads 12V (to ground) is the bus bar / hot side. The other side is the load side. My add-a-fuse tap's new fuse pigtail goes on the hot side.
 
 ### 3.3 Ground Connection Detail
 
@@ -278,7 +278,7 @@ When you insert an add-a-fuse tap into a fuse slot, one side of the tap is conne
     │                      REAR SEATS                              │
     └─────────────────────────────────────────────────────────────┘
 
-    RECOMMENDED PC LOCATION: Under passenger seat
+    I'M PLANNING TO MOUNT IT: Under the passenger seat
     - Good airflow (not enclosed like behind the dash)
     - Hidden from view (theft deterrent)
     - Accessible for maintenance
@@ -338,14 +338,14 @@ When you insert an add-a-fuse tap into a fuse slot, one side of the tap is conne
 ## 4. FG2 Fuse Box Reference
 
 ### Interior Fuse Box Location
-The 2008-2011 Honda Civic SI (FG2) interior fuse box is located on the **driver's side, lower left dash area**, behind a removable panel. To access:
+The FG2 interior fuse box is on the **driver's side, lower left dash area**, behind a removable panel. To access:
 1. Open the driver's door
 2. Look at the lower left corner of the dashboard, to the left of the steering column
-3. Pull the small rectangular cover straight off (it's held by clips, no screws)
+3. Pull the small rectangular cover straight off (held by clips, no screws)
 4. The fuse box is exposed with the fuse layout diagram printed on the inside of the cover
 
 ### Fuse Type
-The FG2 interior fuse box uses **MINI blade fuses** (the smaller size, not standard or micro). Make sure your add-a-fuse taps and replacement fuses are MINI blade type.
+The FG2 interior fuse box uses **MINI blade fuses** (the smaller size, not standard or micro). I need to make sure my add-a-fuse taps and replacement fuses are all MINI blade type.
 
 ### Recommended Fuse Taps
 
@@ -357,8 +357,8 @@ The FG2 interior fuse box uses **MINI blade fuses** (the smaller size, not stand
 | Circuit Name | BACK UP |
 | Stock Amperage | 7.5A |
 | What it powers | Clock, radio presets, ECU keep-alive memory |
-| Why this one | Low current draw on existing circuit (~0.5A), 7.5A fuse has plenty of headroom for the Mausberry's standby draw (~50mA). This fuse is ALWAYS hot, even with key removed. |
-| Add-a-fuse new fuse | 5A (for your Mausberry constant input) |
+| Why I picked this one | Low current draw on existing circuit (~0.5A), 7.5A fuse has plenty of headroom for the Mausberry's standby draw (~50mA). Always hot, even with key removed. |
+| Add-a-fuse new fuse | 5A (for my Mausberry constant input) |
 
 **Alternative constant source:** Fuse #19 "DOOR LOCK" (7.5A) — also always-on. Either works.
 
@@ -370,10 +370,10 @@ The FG2 interior fuse box uses **MINI blade fuses** (the smaller size, not stand
 | Circuit Name | ACC (A) — Accessory |
 | Stock Amperage | 7.5A |
 | What it powers | Accessory socket, power outlet (the one in the center console) |
-| Why this one | Clean ignition-switched source. Goes live when the key is in ACC or RUN position. Off with key out. Low existing load when nothing is plugged into the power outlet. |
-| Add-a-fuse new fuse | 5A (for your Mausberry ignition sense input) |
+| Why I picked this one | Clean ignition-switched source. Goes live when the key is in ACC or RUN. Off with key out. Low existing load when nothing is plugged into the power outlet. |
+| Add-a-fuse new fuse | 5A (for my Mausberry ignition sense input) |
 
-**Alternative ignition source:** Fuse #15 "A/C" (10A) — switched with ignition. But ACC(A) is cleaner since you control what's plugged into the accessory outlet.
+**Alternative ignition source:** Fuse #15 "A/C" (10A) — switched with ignition. But ACC(A) is cleaner since I control what's plugged into the accessory outlet.
 
 ### Verification Procedure (DO THIS BEFORE WIRING)
 
@@ -385,14 +385,14 @@ The FG2 interior fuse box uses **MINI blade fuses** (the smaller size, not stand
 4. **With key in ACC position:**
    - Fuse #20 — still ~12V
    - Fuse #8 — NOW reads ~12V
-5. This confirms your constant and switched sources. If these don't match, check a different fuse.
+5. This confirms my constant and switched sources. If they don't match, try a different fuse.
 6. **Identify the hot side** of each slot: remove the fuse, probe each contact individually. The one that reads 12V with the fuse removed is the bus bar (hot) side.
 
 ---
 
 ## 5. Pre-Installation: Desk Setup
 
-**Do ALL of this at home on a desk before putting anything in the car.** You do not want to troubleshoot software issues while contorted under a dashboard.
+**I'm doing ALL of this at home on a desk before putting anything in the car.** I do not want to troubleshoot software issues while contorted under the dashboard.
 
 ### 5.1 Install the M.2 SSD
 
@@ -406,7 +406,7 @@ The FG2 interior fuse box uses **MINI blade fuses** (the smaller size, not stand
 
 1. Connect the LattePanda to a monitor (micro-HDMI), keyboard, and mouse
 2. Power via the included 12V adapter (or any 12V/3A supply)
-3. Windows 11 setup wizard will run — complete it (use a local account, skip Microsoft account if desired)
+3. Windows 11 setup wizard will run — complete it (use a local account, skip Microsoft account if I want)
 4. Once on the desktop, go to Disk Management and initialize the M.2 SSD
 5. Move the Windows page file and temp folders to the SSD for better performance
 6. Optionally: clone the eMMC Windows install to the SSD and boot from SSD for better speed
@@ -414,9 +414,9 @@ The FG2 interior fuse box uses **MINI blade fuses** (the smaller size, not stand
 ### 5.3 Install FlashProManager
 
 1. Download latest FlashProManager from **hondata.com** (Support > Downloads)
-2. Run the installer — it will also install the FTDI USB serial drivers
+2. Run the installer — it'll also install the FTDI USB serial drivers
 3. Launch FlashProManager to verify it opens correctly
-4. Do NOT connect the FlashPro yet (save that for the car)
+4. Don't connect the FlashPro yet — save that for the car
 
 ### 5.4 Install Mausberry Shutdown Script
 
@@ -438,13 +438,13 @@ The FG2 interior fuse box uses **MINI blade fuses** (the smaller size, not stand
 
 1. Plug in the USB-A to Mini-B cable to the LattePanda
 2. Open Device Manager — look for an FTDI serial port under "Ports (COM & LPT)"
-3. If the driver loaded, you'll see "USB Serial Port (COMx)"
+3. If the driver loaded, I'll see "USB Serial Port (COMx)"
 4. If not, reinstall FTDI drivers from ftdichip.com
 5. **NOTE:** FlashProManager won't detect a "FlashPro" until the actual unit is connected and powered via OBD2. This step just verifies the USB/driver chain works.
 
 ### 5.7 Configure Windows for Car Use
 
-See Section 7 for detailed steps. Do as much of this as possible on the desk.
+See Section 7 for detailed steps. I'm doing as much of this as possible on the desk.
 
 ---
 
@@ -467,38 +467,38 @@ See Section 7 for detailed steps. Do as much of this as possible on the desk.
 3. Insert the add-a-fuse tap into the slot
 4. Place the ORIGINAL 7.5A fuse in the tap slot that connects to the LOAD side (non-hot)
 5. Place a NEW 5A fuse in the tap slot that connects to the HOT side (bus bar)
-6. The pigtail wire from the tap is your constant 12V output
+6. The pigtail wire from the tap is my constant 12V output
 
 **Fuse #8 (Ignition-Switched 12V):**
 1. Same process — pull 7.5A fuse from #8
 2. Insert add-a-fuse tap
 3. Original 7.5A on load side, new 5A on hot side
-4. Pigtail wire is your ignition-switched output
+4. Pigtail wire is my ignition-switched output
 
 **Verify:** Turn key to ACC — both pigtail wires should read 12V. Turn key OFF — only the #20 pigtail should read 12V.
 
 ### Step 3: Run Inline Fuses (5 min)
 
-1. Crimp or solder the add-a-fuse pigtail wires to your 16 AWG wires (red for constant, yellow for ignition)
+1. Crimp or solder the add-a-fuse pigtail wires to my 16 AWG wires (red for constant, yellow for ignition)
 2. Install an inline fuse holder on each wire, within 12 inches of the fuse box
 3. Insert 5A fuses in each inline holder
-4. This gives you double fuse protection (the add-a-fuse fuse + the inline fuse)
+4. Double fuse protection (the add-a-fuse fuse + the inline fuse)
 
 ### Step 4: Establish Chassis Ground (10 min)
 
-1. Locate a suitable chassis bolt — the best spot in the FG2 is the **bolt on the metal bracket behind the driver's kick panel**, or a **seat rail bolt on the passenger side** (if mounting PC under passenger seat)
+1. Find a suitable chassis bolt — the best spot in the FG2 is the **bolt on the metal bracket behind the driver's kick panel**, or a **seat rail bolt on the passenger side** (if I'm mounting the PC under the passenger seat)
 2. Remove the bolt
-3. Sand the paint off the chassis around the bolt hole — you need bare metal contact (120 grit sandpaper, ~1" diameter circle)
-4. Crimp a ring terminal onto your black 16 AWG ground wire
-5. Place ring terminal over the bolt, add a star washer for bite, re-tighten the bolt firmly
+3. Sand the paint off the chassis around the bolt hole — need bare metal contact (120 grit sandpaper, ~1" diameter circle)
+4. Crimp a ring terminal onto my black 16 AWG ground wire
+5. Place ring terminal over the bolt, add a star washer for bite, re-tighten firmly
 6. Apply a thin layer of dielectric grease over the connection
-7. **Test:** Multimeter from your ground wire to the negative battery terminal — should read less than 0.5 ohms
+7. **Test:** Multimeter from my ground wire to the negative battery terminal — should read less than 0.5 ohms
 
 ### Step 5: Route Wires to PC Location (20 min)
 
-**If mounting under the passenger seat (recommended):**
+**Mounting under the passenger seat (my plan):**
 
-1. Remove the driver's side lower kick panel (pull straight toward you, held by clips)
+1. Remove the driver's side lower kick panel (pull straight toward me, held by clips)
 2. Remove the driver's side door sill trim (pulls up, held by clips along its length)
 3. Remove the passenger side door sill trim
 4. Bundle the red, yellow, and black wires together with a few zip ties
@@ -515,11 +515,11 @@ See Section 7 for detailed steps. Do as much of this as possible on the desk.
 2. The FlashPro plugs into OBD2 and stays there
 3. Route the USB cable from the FlashPro along the same path as the power wires
 4. Join it into the same wire loom for a clean run
-5. Leave enough slack at the OBD2 end that the FlashPro is not stressed
+5. Leave enough slack at the OBD2 end that the FlashPro isn't stressed
 
 ### Step 6: Mount the LattePanda (15 min)
 
-**Under passenger seat mounting:**
+**Under passenger seat:**
 1. Place the LattePanda (in its case/enclosure) under the passenger seat
 2. Position it so:
    - USB ports face toward the center console (for easy cable access)
@@ -537,7 +537,7 @@ See Section 7 for detailed steps. Do as much of this as possible on the desk.
 3. **Dash-top adhesive mount** — near the base of the windshield, centered
 4. **Custom pod/bracket** — 3D-print or fabricate a bracket that positions the screen in the blank area above the center console
 
-For now, a suction cup mount is the easiest to start with. You can upgrade to a cleaner permanent mount later.
+I'm starting with a suction cup mount since it's the easiest. I can upgrade to a cleaner permanent mount later.
 
 1. Attach the RAM mount/suction cup to the windshield, lower-center area
 2. Mount the 7" screen in the mount's cradle
@@ -548,26 +548,26 @@ For now, a suction cup mount is the easiest to start with. You can upgrade to a 
 
 1. Place the Mausberry board near the LattePanda (under passenger seat, velcro it to the floor nearby)
 2. Connect wires:
-   - **BATT+** terminal ← Red wire (constant 12V from fuse #20)
-   - **GND** terminal ← Black wire (chassis ground)
-   - **IGN** terminal ← Yellow wire (ignition-switched 12V from fuse #8)
-   - **OUT+** → LattePanda 12V input positive
-   - **OUT-** → LattePanda 12V input negative/ground
-   - **SIG** → LattePanda GPIO or USB (depends on Mausberry model — follow their specific wiring guide)
+   - **BATT+** terminal <-- Red wire (constant 12V from fuse #20)
+   - **GND** terminal <-- Black wire (chassis ground)
+   - **IGN** terminal <-- Yellow wire (ignition-switched 12V from fuse #8)
+   - **OUT+** --> LattePanda 12V input positive
+   - **OUT-** --> LattePanda 12V input negative/ground
+   - **SIG** --> LattePanda GPIO or USB (depends on Mausberry model — follow their specific wiring guide)
 3. Double-check all connections with the multimeter before powering on
-4. Ensure no bare wire is exposed — heat shrink or electrical tape all connections
+4. Make sure no bare wire is exposed — heat shrink or electrical tape all connections
 
 ### Step 9: Connect Peripherals (5 min)
 
-1. Plug micro-HDMI cable into LattePanda → goes to 7" screen
+1. Plug micro-HDMI cable into LattePanda --> goes to 7" screen
 2. Plug USB cable from screen touch input into LattePanda USB port
 3. Plug USB cable from FlashPro into LattePanda USB port
 4. Plug Rii i8+ USB dongle into LattePanda USB port (or leave in glovebox, plug in when needed)
-5. If the LattePanda only has 3 USB-A ports and you need more, use a small USB hub
+5. If the LattePanda only has 3 USB-A ports and I need more, I'll use a small USB hub
 
 ### Step 10: First Power-On Test (10 min)
 
-1. **Do not reassemble trim panels yet**
+1. **Don't reassemble trim panels yet**
 2. Turn the key to **ACC** (not START)
 3. The Mausberry should receive ignition signal and power on the LattePanda
 4. Watch for:
@@ -593,13 +593,13 @@ For now, a suction cup mount is the easiest to start with. You can upgrade to a 
 3. Wait for Windows to boot fully
 4. Launch FlashProManager
 5. It should detect the FlashPro unit via USB — status bar will show "FlashPro Connected" and display ECU info
-6. If this is the first time: FlashPro will register to your ECU (see the Temporary Setup Guide for first-time registration details)
+6. If this is the first time: the FlashPro will register to my ECU (see the Temporary Setup Guide for first-time registration details)
 7. If detection fails: check USB cable, try a different USB port on the LattePanda, check Device Manager for FTDI driver
 
 ### Step 13: Test Engine-Running Operation (10 min)
 
 1. Start the engine (the Mausberry should ride through the cranking voltage dip without rebooting the PC)
-2. If the PC reboots during cranking: this means the Mausberry's capacitors aren't sufficient. Add an external supercapacitor (2.7V 10F caps in series, or a small 12V UPS module)
+2. If the PC reboots during cranking: the Mausberry's capacitors aren't holding. I'd need to add an external supercapacitor (2.7V 10F caps in series, or a small 12V UPS module)
 3. With engine running, FlashProManager should show live data (RPM, coolant temp, etc.)
 4. Verify the touchscreen works for navigating FlashProManager
 
@@ -608,7 +608,7 @@ For now, a suction cup mount is the easiest to start with. You can upgrade to a 
 1. Once everything works, secure all wiring permanently
 2. Wrap wire runs in split loom where exposed
 3. Zip-tie any loose sections
-4. Ensure no wires are near moving parts (seat rails, pedals)
+4. Make sure no wires are near moving parts (seat rails, pedals)
 5. Reinstall door sill trim (press firmly, clips snap back in)
 6. Reinstall driver kick panel
 7. Tidy up cables behind the center console
@@ -625,7 +625,7 @@ Open **Settings > System > Power & sleep** (or Power & battery):
 ```
 Screen: Never turn off
 Sleep: Never
-Hibernate after: Never (we'll control hibernate via Mausberry signal)
+Hibernate after: Never (I'll control hibernate via the Mausberry signal)
 ```
 
 Advanced power settings (Control Panel > Power Options > Change plan settings > Change advanced):
@@ -666,23 +666,23 @@ For a 7" 1024x600 screen:
 1. Control Panel > Power Options > "Choose what the power buttons do"
 2. Click "Change settings that are currently unavailable"
 3. Check "Turn on fast startup (recommended)"
-4. The Mausberry shutdown script can be configured to hibernate instead of shutdown:
+4. I can configure the Mausberry shutdown script to hibernate instead of full shutdown:
    - Change the script's shutdown command from `shutdown /s /t 0` to `shutdown /h`
-   - This makes resume much faster (~5-10 seconds vs 15-25 seconds cold boot)
+   - Makes resume much faster (~5-10 seconds vs 15-25 seconds cold boot)
 
 ### 7.6 Disable Unnecessary Startup Programs
 
 Task Manager > Startup tab — disable everything except:
 - Mausberry shutdown script
-- FlashProManager (your autostart shortcut)
+- FlashProManager (my autostart shortcut)
 - FTDI drivers (if listed)
 
 Disable: OneDrive, Microsoft Teams, Xbox Game Bar, Cortana, Edge, widgets, etc.
 
 ### 7.7 WiFi Configuration
 
-The LattePanda 3 Delta has built-in WiFi. You won't have internet in the car normally, but:
-1. Save your phone's hotspot credentials so you can tether when needed (for FlashProManager updates)
+The LattePanda 3 Delta has built-in WiFi. I won't have internet in the car normally, but:
+1. Save my phone's hotspot credentials so I can tether when needed (for FlashProManager updates)
 2. Set WiFi to "manual connect only" so it doesn't waste resources scanning
 
 ---
@@ -712,13 +712,13 @@ Walk away ◄──── Power cut completely ◄──── Shutdown confirme
 
 ### 8.2 How to Flash a Tune
 
-1. **Engine RUNNING, car in PARK/NEUTRAL, parking brake ON**
+1. **Engine RUNNING, car in NEUTRAL, parking brake ON**
 2. Open FlashProManager (should already be open)
 3. Verify FlashPro is connected (status bar shows ECU info)
-4. Go to File > Open and select your calibration file (.fpc)
+4. Go to File > Open and select my calibration file (.fpc)
 5. Review the calibration details (fuel maps, timing, VTEC point, etc.)
-6. Click **"Upload"** (the button that sends the calibration to the FlashPro/ECU)
-7. A progress bar will appear — **DO NOT touch anything, do not bump the USB cable, do not turn off the car**
+6. Click **"Upload"** (sends the calibration to the FlashPro/ECU)
+7. A progress bar will appear — **DO NOT touch anything, don't bump the USB cable, don't turn off the car**
 8. Flash takes ~10-30 seconds
 9. Status will confirm "Upload Complete"
 10. The new calibration is now active on the ECU
@@ -726,39 +726,39 @@ Walk away ◄──── Power cut completely ◄──── Shutdown confirme
 ### 8.3 How to Datalog
 
 1. In FlashProManager, click the **"Datalog"** tab or button
-2. Select which parameters to log (recommend: RPM, TPS, MAP, IAT, ECT, AFR, Knock, STFT, LTFT, Injector Duty, VTEC)
+2. Select which parameters to log (I recommend: RPM, TPS, MAP, IAT, ECT, AFR, Knock, STFT, LTFT, Injector Duty, VTEC)
 3. Click **"Start Logging"**
-4. Drive normally, do pulls, whatever you want to capture
+4. Drive normally, do pulls, whatever I want to capture
 5. Click **"Stop Logging"**
 6. Save the log file (.fpdl) — store on the SSD in a "Datalogs" folder
-7. You can review logs later in FlashProManager's log viewer — it shows graphs of all parameters over time
+7. I can review logs later in FlashProManager's log viewer — it shows graphs of all parameters over time
 
 ### 8.4 Real-Time Gauges
 
 1. FlashProManager has a **"Gauges"** view
-2. You can configure which gauges are displayed and their layout
+2. I can configure which gauges are displayed and their layout
 3. Recommended gauge layout for the 7" screen:
    - **Large center:** Tachometer (RPM)
    - **Top row:** AFR | Coolant Temp | Intake Air Temp
    - **Bottom row:** Knock Count | Short Term Fuel Trim | Battery Voltage
-4. Set up a gauge layout you like, then save it as a preset
-5. You can have this view auto-display on startup
+4. Set up a gauge layout I like, then save it as a preset
+5. I can have this view auto-display on startup
 
 ### 8.5 Swapping Between Daily and Sport Tunes
 
 1. Open FlashProManager
-2. File > Open > Select "daily.fpc" or "sport.fpc" (your saved calibrations)
+2. File > Open > Select "daily.fpc" or "sport.fpc" (my saved calibrations)
 3. Click Upload — flash takes ~15-30 seconds
 4. Done — the car is now running the selected tune
 
-**Future enhancement:** A Python script with two big touchscreen buttons that automates this (opens the correct file and initiates upload with one tap, plus toggles the exhaust valve relay).
+**Future plan:** A Python script with two big touchscreen buttons that automates this (opens the correct file and initiates upload with one tap, plus toggles the exhaust valve relay).
 
 ### 8.6 Safety Rules
 
-- **NEVER flash while driving** — always parked, engine running
-- **NEVER disconnect USB during a flash** — wait for completion
-- **ALWAYS keep a copy of your stock calibration** — it's your factory reset
-- **Engine running = stable voltage** — the alternator provides clean 13.8-14.4V. Flashing on battery alone (engine off) works but voltage can sag on older batteries
+- **Never flash while driving** — always parked, engine running
+- **Never disconnect USB during a flash** — wait for completion
+- **Always keep a copy of my stock calibration** — it's my factory reset
+- **Engine running = stable voltage** — the alternator provides clean 13.8-14.4V. Flashing on battery alone (engine off) works but voltage can sag on an older battery
 - **Don't flash with heavy electrical loads** — turn off AC, headlights, audio before flashing (reduces electrical noise and voltage drop)
 
 ---
@@ -767,13 +767,13 @@ Walk away ◄──── Power cut completely ◄──── Shutdown confirme
 
 ### Overview
 
-When you install the QTP QTEC25 exhaust cutout, the LattePanda can control it via the onboard Arduino Leonardo co-processor.
+When I install the QTP QTEC25 exhaust cutout, the LattePanda can control it via the onboard Arduino Leonardo co-processor. This is the part I'm most excited about.
 
 ### Hardware Setup
 
 See the wiring diagram in Section 3.5.
 
-**Parts needed:**
+**Parts I'll need:**
 | Item | Purpose | Cost |
 |------|---------|------|
 | 5V 2-channel relay module (SRD-05VDC-SL-C, optocoupler) | Switch 12V to QTP motor | $8 |
@@ -862,7 +862,7 @@ sport_btn.pack(fill=tk.BOTH, expand=True, padx=20, pady=5)
 root.mainloop()
 ```
 
-This is a starting concept. We'll refine it when you're ready to build this phase.
+I'll refine this script when I'm actually ready to build this phase.
 
 ---
 
@@ -872,7 +872,7 @@ This is a starting concept. We'll refine it when you're ready to build this phas
 
 | Symptom | Check | Fix |
 |---------|-------|-----|
-| No LEDs, no screen | Mausberry getting power? Multimeter on BATT+ input | Check fuse #20 and inline fuse. Check ground connection. |
+| No LEDs, no screen | Is the Mausberry getting power? Multimeter on BATT+ input | Check fuse #20 and inline fuse. Check ground connection. |
 | Mausberry LED on but LP won't boot | Mausberry output voltage? Should be ~12V | Check Mausberry output connections to LattePanda. Try direct 12V to LP to isolate. |
 | LP blue LED on but no display | HDMI connection | Reseat micro-HDMI cable. Try a different cable. Check display power (USB). |
 
@@ -896,7 +896,7 @@ The battery voltage drops to 9-10V during cranking. The Mausberry should ride th
 ### Screen Flicker or Interference Lines
 
 1. Add ferrite cores to the HDMI cable (clip-on ferrite, $3)
-2. Ensure the screen's USB power comes from the LattePanda, not a separate source (ground loop)
+2. Make sure the screen's USB power comes from the LattePanda, not a separate source (ground loop)
 3. Route HDMI cable away from the ignition coil wiring and alternator cable
 
 ### Parasitic Battery Drain
@@ -905,7 +905,7 @@ If the car battery is dying after sitting for a few days:
 1. With everything off, measure current draw on the constant 12V wire (should be < 5mA)
 2. If the Mausberry is drawing excessive standby current, check that it completed the full shutdown sequence
 3. Verify the LattePanda is fully off (no LEDs, no fan spin)
-4. As a safety measure, add a master kill switch on the constant 12V wire — flip it off when parking for extended periods
+4. As a safety measure, I can add a master kill switch on the constant 12V wire — flip it off when parking for extended periods
 
 ---
 
@@ -923,13 +923,13 @@ If the car battery is dying after sitting for a few days:
 - **Ground check:** Verify the chassis ground bolt is tight and corrosion-free.
 
 ### Seasonal
-- **Summer:** Monitor system temps during the first hot days. If the PC is thermal-throttling or shutting down after the car sits in the sun, consider relocating it or adding a small 12V fan.
-- **Winter:** If you're in a cold climate, the PC may boot slowly or the LCD may be sluggish on very cold mornings. This resolves as the cabin warms up. No action needed unless temps drop below -10F regularly.
+- **Summer:** Monitor system temps during the first hot days. If the PC is thermal-throttling or shutting down after the car sits in the sun, I might need to relocate it or add a small 12V fan.
+- **Winter:** If it's really cold, the PC may boot slowly or the LCD may be sluggish on very cold mornings. Resolves as the cabin warms up. No action needed unless temps drop below -10F regularly.
 
 ### As Needed
 - **SSD health:** Run CrystalDiskInfo occasionally to check SSD health.
 - **Recalibrate touchscreen** if touch accuracy drifts.
-- **Back up calibration files and datalogs** to the MicroSD card or transfer to your home PC periodically.
+- **Back up calibration files and datalogs** to the MicroSD card or transfer to my home PC periodically.
 
 ---
 

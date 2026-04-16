@@ -1,6 +1,6 @@
 # Front Strut Bar — Megan Racing Race Spec
 
-## Status: Purchased, INSTALL BLOCKED (Clearance Issue)
+## Purchased, but INSTALL BLOCKED (clearance issue)
 
 ## Part Information
 
@@ -13,32 +13,32 @@
 | Fitment | 2006-2011 Honda Civic & Civic SI |
 | **Actual Cost** | **Included in $960.43 clutch/flywheel/strut bar bundle** |
 
-## Why This Mod
+## Why I Want This
 
-A front strut tower brace connects the two front strut tower tops, increasing chassis rigidity. This reduces body flex during cornering, improving front-end response and turn-in feel. On the 8th gen Civic (which has a MacPherson strut front suspension), a strut bar is one of the most effective and simple chassis stiffening modifications.
+A front strut tower brace connects the two front strut tower tops to stiffen up the chassis. Less body flex during cornering means better front-end response and sharper turn-in. On the 8th gen Civic with its MacPherson strut front suspension, a strut bar is one of the most effective and easiest chassis stiffening mods you can do.
 
-## Current Issue: Clearance Problem
+## Current Issue: Won't Fit
 
-**The strut bar does not currently fit due to a clearance interference.** Something is preventing proper installation — the bar cannot sit flush on the strut towers or cannot bolt down fully.
+**I can't get it installed right now — something is blocking it.** The bar won't sit flush on the strut towers or bolt down fully.
 
-### What We Know
-- The K&N Typhoon intake is **NOT** the cause of the interference
-- The specific obstruction has not been identified yet
+### What I Know So Far
+- The K&N Typhoon intake is **NOT** the problem
+- I haven't nailed down exactly what's in the way yet
 
-### Possible Causes to Investigate
-- Aftermarket or non-standard component in the engine bay interfering
+### Possible Causes I Need to Investigate
+- Some aftermarket or non-standard component in the engine bay interfering
 - Brake master cylinder or brake booster interference (some aftermarket strut bars sit close to this area)
 - Wiring harness or hose routing sitting too high
-- The bar itself may need slight modification (grinding, bending) to clear
-- Incorrect part / fitment issue (verify the bar is specifically for FG2, not just generic Civic)
+- The bar itself might need slight modification (grinding, bending) to clear
+- Possible fitment issue — need to verify this bar is actually for the FG2 coupe and not just a generic Civic fit
 
 ### Next Steps
-- Visually inspect what the bar is contacting when attempting to install
-- Photograph the interference point
-- Check if the bar is designed for the sedan (FA5) and has a slight difference from the coupe (FG2) in the strut tower area
-- Contact Megan Racing support with the interference details
+- Get under the hood and visually check what the bar is actually hitting
+- Take some photos of the interference point
+- Look into whether this bar was designed for the sedan (FA5) and has a slight difference from the coupe (FG2) in the strut tower area
+- Reach out to Megan Racing support with the details
 
 ## Notes
 
 - No tuning impact — purely mechanical/chassis
-- Install should be straightforward once the clearance issue is resolved (2 bolts per side + center adjustment)
+- Should be a quick install once I figure out the clearance issue (2 bolts per side + center adjustment)

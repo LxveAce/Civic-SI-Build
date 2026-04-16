@@ -1,4 +1,4 @@
-# 2009 Honda Civic SI Coupe — Build Log
+# 2009 Honda Civic SI Coupe — My Build Log
 
 **Chassis:** FG2 (8th Gen Coupe)  
 **Engine:** K20Z3 — 2.0L i-VTEC, 197 HP / 139 lb-ft (stock)  
@@ -8,9 +8,9 @@
 
 ---
 
-## Build Philosophy
+## What I'm Going For
 
-Daily-drivable with a sport mode toggle. Quiet when needed, loud when wanted. Full bolt-on NA K20Z3 build targeting **220-240 WHP on pump gas, 230-250 WHP on E85** — headers, intake manifold, throttle body, exhaust, pulleys, flex fuel system, and Hondata tune. Valved 3" exhaust with QTP cutout enables switching between a quiet daily tune and an aggressive straight-piped sport tune. Flex fuel with real-time ethanol content sensing allows seamless switching between pump gas and E85. In-car LattePanda mini PC for permanent Hondata management and exhaust valve control.
+Daily-drivable with a sport mode toggle. Quiet when I need it, loud when I want it. I'm building a full bolt-on NA K20Z3 targeting **220-240 WHP on pump gas, 230-250 WHP on E85** — headers, intake manifold, throttle body, exhaust, pulleys, flex fuel, and a Hondata tune to tie it all together. I'm doing a valved 3" exhaust with a QTP cutout so I can switch between a quiet daily tune and an aggressive straight-piped sport tune. Flex fuel with real-time ethanol content sensing lets me run pump gas or E85 seamlessly. And eventually, I'm putting a LattePanda mini PC in the car for permanent Hondata management and exhaust valve control.
 
 ---
 
@@ -33,7 +33,7 @@ Daily-drivable with a sport mode toggle. Quiet when needed, loud when wanted. Fu
 |---|-----|------|------------|--------|-------|
 | 5 | [Engine Mounts](04-Engine-Mounts/) | Hybrid Racing 70A | $657.15 | Awaiting install | |
 | 6 | [Brakes](05-Brakes/) | Hawk HPS Pads + R1 Concepts Slotted Rotors | $532.14 | Awaiting install | Full 4-corner upgrade |
-| 7 | [Strut Bar](06-Strut-Bar/) | Megan Racing Race Spec Front Upper (Polished) | (in #1) | Blocked | Clearance issue — diagnosis needed |
+| 7 | [Strut Bar](06-Strut-Bar/) | Megan Racing Race Spec Front Upper (Polished) | (in #1) | Blocked | Clearance issue — need to diagnose |
 | 8 | [Hondata FlashPro](07-Hondata-FlashPro/) | Hondata FlashPro | $859.59 | Awaiting first flash | ECU tuning, datalogging, gauges |
 
 **Total spent to date: $4,850.68** (all prices include tax, shipping, and insurance)
@@ -53,18 +53,18 @@ Daily-drivable with a sport mode toggle. Quiet when needed, loud when wanted. Fu
 
 ---
 
-## Project Folders
+## How This Repo Is Organized
 
-Each modification has its own folder containing:
-- **overview.md** — What the mod is, why it was chosen, part numbers
-- **install-guide.md** — Step-by-step installation instructions (where applicable)
-- **brainstorm.md** — Research, alternatives considered, pros/cons
+Each mod has its own folder with:
+- **overview.md** — What the mod is, why I chose it, part numbers
+- **install-guide.md** — Step-by-step install instructions (where applicable)
+- **brainstorm.md** — My research, alternatives I considered, pros/cons
 - **purchasing.md** — Parts list with part numbers and prices
 
 ### Special Folders
 - [`07-Hondata-FlashPro/Temporary-Setup/`](07-Hondata-FlashPro/Temporary-Setup/) — Getting started with a laptop before the permanent install
 - [`07-Hondata-FlashPro/Permanent-LattePanda-Install/`](07-Hondata-FlashPro/Permanent-LattePanda-Install/) — Full guide for the in-car PC build
-- [`08-Valved-Exhaust/`](08-Valved-Exhaust/) — DIY valved exhaust design, parts, and planning
+- [`08-Valved-Exhaust/`](08-Valved-Exhaust/) — My DIY valved exhaust design, parts, and planning
 - [`docs/`](docs/) — General reference documents
 - [`docs/mod-order-and-maintenance.md`](docs/mod-order-and-maintenance.md) — Chronological mod order + 170k-mile maintenance plan
 
