@@ -55,10 +55,13 @@
 
 ### Planned (Not Purchased)
 
-9. **Valved Exhaust:** DIY build using QTP QTEC25 2.5" electric cutout — Inline cutout after cat, before mufflers. Keeps OEM mufflers. Solenoid/relay controlled. Daily (closed/quiet) and Sport (open/straight pipe) modes.
+9. **Valved Exhaust:** DIY build using QTP QTEC30 3" electric cutout — 3" pipe from header to cutout, 3" dump pipe when open, 3"→2.5" reducer for muffled path. Keeps OEM resonator + muffler. Daily (closed/quiet) and Sport (open/straight pipe) modes. ~$485 parts + $150-250 muffler shop labor.
 10. **In-Car PC:** LattePanda 3 Delta permanent install with 7" touchscreen — For Hondata FlashPro management, datalogging, gauges, and exhaust valve control
-11. **Headers:** PLM V2 + 200-cell HFC (PLM-HFG1-V2-K24-HEADER-CAT, ~$575) -- recommended 4-2-1 option after comprehensive research. Skunk2 Alpha is runner-up. Owner is also interested in 4-1 headers with merge collectors for top-end power -- Hytech is the only direct-fit 4-1 option (~$1,300, availability uncertain). See 09-Headers/ for full analysis including 4-1-header-research.md.
-12. **Pulleys + Harmonic Balancer:** ATI Super Damper (918477, ~$360-380) recommended as crank pulley for proper harmonic damping + NST accessory pulleys for underdrive. Buddy Club P1 kit (~$280) is budget alternative but deletes harmonic damping. See 10-Pulleys-and-Harmonic-Balancer/ for full analysis.
+11. **Headers:** Skunk2 Alpha 4-2-1 (412-05-1900, ~$700-800) with stepped primaries (1.625"→1.75") + Berk Technology HFC (~$300-400). Best-performing header available for FG2. 10-18 WHP gain. See 09-Headers/ for full analysis.
+12. **Intake Manifold:** Skunk2 Ultra Street (307-05-8000, ~$575) + bored stock DBW throttle body (62mm→66mm, ~$150 via Drag Cartel or HeelToe Auto). See 10-Intake-Manifold/.
+13. **Pulleys + Harmonic Balancer:** ATI Super Damper (918477, ~$360-380) for proper harmonic damping + NST accessory pulleys for underdrive. See 11-Pulleys-and-Harmonic-Balancer/.
+14. **Flex Fuel & Fuel System:** Injector Dynamics ID1050x (~$575) + Acuity K-Series fuel rail (~$225) + DeatschWerks DW300C fuel pump (~$135) + Continental ethanol sensor (~$60) + -6 AN PTFE lines (~$80). E85 adds 15-30 WHP on top of bolt-on gains. See 12-Flex-Fuel-and-Fuel-System/.
+15. **Clutch Hydraulics:** Hybrid Racing CMC (or RSX Type-S CMC swap) + RSX OEM CSC + stainless braided clutch line + DOT 4 fluid. 170k-mile reliability upgrade — stock CMC/CSC are a known failure point. See 13-Clutch-Hydraulics/.
 
 ---
 
@@ -81,7 +84,8 @@
   - **Daily:** Valve closed, conservative timing, smooth idle, good economy
   - **Sport:** Valve open, slightly richer WOT AFR (~11.8:1), more aggressive timing (1-2 deg), lower VTEC engagement (~4500-5000 RPM), optional launch control
 - **A single tune works for both valve positions** on the NA K20Z3 (closed-loop O2 corrects the small AFR shift from backpressure changes). Two tunes optimize each mode but aren't strictly necessary.
-- **Fuel:** Must run 93 octane (or highest available premium) with any performance tune.
+- **Fuel:** Must run 93 octane (or highest available premium) with pump gas tune. E85 flex fuel planned as final power adder (15-30 WHP).
+- **Full bolt-on target:** 220-240 WHP on pump gas, 240-260 WHP on E85
 
 ---
 
@@ -102,13 +106,15 @@
 - **Datalog files:** .fpdl format
 - **ECU pairing:** FlashPro locks to one ECU at a time
 
-### QTP QTEC25 Exhaust Cutout
-- **Size:** 2.5"
+### QTP QTEC30 Exhaust Cutout
+- **Size:** 3" (upgraded from originally planned 2.5" QTEC25)
 - **Type:** Electric motor-driven butterfly valve
 - **Control:** 12V DC gear motor, polarity-dependent direction (forward = open, reverse = close)
 - **Draw:** ~5-8A
 - **Position:** After catalytic converter, before resonator/muffler (mid-pipe area)
 - **Default state:** Use normally-open relay → valve defaults to CLOSED (quiet) when power is off
+- **Dump path:** 3" straight pipe to exit tip
+- **Muffled path:** 3"→2.5" reducer cone to stock resonator + muffler
 
 ---
 
