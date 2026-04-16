@@ -109,9 +109,9 @@ The intake manifold and throttle body work together and require a retune after i
 | 5C | **Ethanol content sensor + fuel lines** | 1-2 hrs | **Paired with 5B** | Inline sensor before fuel rail. -6 AN PTFE braided lines. |
 | 5D | **Hondata flex fuel tune (dyno)** | 3-4 hrs on dyno | **Must be done after 5A+5B+5C** | Flex fuel calibration: gasoline map + E85 map with real-time interpolation. This is the most complex tune in the build. Budget $400-600. |
 
-**Why last:** E85 is the biggest power adder (15-30 WHP) but also the most complex. You want the full bolt-on tune dialed in on pump gas first, THEN add flex fuel as the final layer. This way the tuner has a known-good base to build the flex fuel calibration on top of.
+**Why last:** E85 is the biggest power adder (5-15 WHP) but also the most complex. You want the full bolt-on tune dialed in on pump gas first, THEN add flex fuel as the final layer. This way the tuner has a known-good base to build the flex fuel calibration on top of.
 
-**Clutch warning:** Full bolt-on + E85 targets 240-260 WHP / 175-190 lb-ft. The Exedy 08806 Stage 1 is rated to ~280-300 WHP / ~200-210 lb-ft. You are within the margin. Monitor for clutch slip under hard acceleration in 3rd-6th gear after the E85 tune.
+**Clutch warning:** Full bolt-on + E85 targets 230-250 WHP / 165-180 lb-ft. The Exedy 08806 Stage 1 is rated to ~280-300 WHP / ~200-210 lb-ft. You are within the margin. Monitor for clutch slip under hard acceleration in 3rd-6th gear after the E85 tune.
 
 ---
 

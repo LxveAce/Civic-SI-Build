@@ -10,7 +10,7 @@
 
 ## Build Philosophy
 
-Daily-drivable with a sport mode toggle. Quiet when needed, loud when wanted. Full bolt-on NA K20Z3 build targeting **220-240 WHP on pump gas, 240-260 WHP on E85** — headers, intake manifold, throttle body, exhaust, pulleys, flex fuel system, and Hondata tune. Valved 3" exhaust with QTP cutout enables switching between a quiet daily tune and an aggressive straight-piped sport tune. Flex fuel with real-time ethanol content sensing allows seamless switching between pump gas and E85. In-car LattePanda mini PC for permanent Hondata management and exhaust valve control.
+Daily-drivable with a sport mode toggle. Quiet when needed, loud when wanted. Full bolt-on NA K20Z3 build targeting **220-240 WHP on pump gas, 230-250 WHP on E85** — headers, intake manifold, throttle body, exhaust, pulleys, flex fuel system, and Hondata tune. Valved 3" exhaust with QTP cutout enables switching between a quiet daily tune and an aggressive straight-piped sport tune. Flex fuel with real-time ethanol content sensing allows seamless switching between pump gas and E85. In-car LattePanda mini PC for permanent Hondata management and exhaust valve control.
 
 ---
 
@@ -41,7 +41,7 @@ Daily-drivable with a sport mode toggle. Quiet when needed, loud when wanted. Fu
 | 9 | [Headers](09-Headers/) | Skunk2 Alpha 4-2-1 (412-05-1900) + Berk HFC | Best available, stepped primaries, 10-18 WHP |
 | 10 | [Intake Manifold](10-Intake-Manifold/) | Skunk2 Ultra Street + bored stock TB (66mm) | Larger plenum, shorter runners, DBW compatible |
 | 11 | [Pulleys & Harmonic Balancer](11-Pulleys-and-Harmonic-Balancer/) | ATI Super Damper + NST accessory pulleys | Proper damping + reduced parasitic loss |
-| 12 | [Flex Fuel & Fuel System](12-Flex-Fuel-and-Fuel-System/) | ID1050x injectors + Acuity rail + DW300C pump + ethanol sensor | E85 capable, 15-30 WHP on top of bolt-ons |
+| 12 | [Flex Fuel & Fuel System](12-Flex-Fuel-and-Fuel-System/) | Flex fuel sensor + injectors + Acuity rail + DW200 pump | E85 capable, 5-15 WHP on NA over pump gas |
 | 13 | [Clutch Hydraulics](13-Clutch-Hydraulics/) | Hybrid Racing CMC + RSX CSC + SS braided line | 170k-mile reliability upgrade, improved pedal feel |
 | -- | [In-Car PC](07-Hondata-FlashPro/Permanent-LattePanda-Install/) | LattePanda 3 Delta permanent install | Controls FlashPro + exhaust valve |
 

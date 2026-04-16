@@ -60,7 +60,7 @@
 11. **Headers:** Skunk2 Alpha 4-2-1 (412-05-1900, ~$700-800) with stepped primaries (1.625"→1.75") + Berk Technology HFC (~$300-400). Best-performing header available for FG2. 10-18 WHP gain. See 09-Headers/ for full analysis.
 12. **Intake Manifold:** Skunk2 Ultra Street (307-05-8000, ~$575) + bored stock DBW throttle body (62mm→66mm, ~$150 via Drag Cartel or HeelToe Auto). See 10-Intake-Manifold/.
 13. **Pulleys + Harmonic Balancer:** ATI Super Damper (918477, ~$360-380) for proper harmonic damping + NST accessory pulleys for underdrive. See 11-Pulleys-and-Harmonic-Balancer/.
-14. **Flex Fuel & Fuel System:** Injector Dynamics ID1050x (~$575) + Acuity K-Series fuel rail (~$225) + DeatschWerks DW300C fuel pump (~$135) + Continental ethanol sensor (~$60) + -6 AN PTFE lines (~$80). E85 adds 15-30 WHP on top of bolt-on gains. See 12-Flex-Fuel-and-Fuel-System/.
+14. **Flex Fuel & Fuel System:** Continental ethanol sensor + Bosch EV14 550cc injectors + Acuity K-Series fuel rail + DeatschWerks DW200 fuel pump. E85 adds 5-15 WHP on NA over pump gas (modest vs turbo). Best value at E30-E40 blend. See 12-Flex-Fuel-and-Fuel-System/.
 15. **Clutch Hydraulics:** Hybrid Racing CMC (or RSX Type-S CMC swap) + RSX OEM CSC + stainless braided clutch line + DOT 4 fluid. 170k-mile reliability upgrade — stock CMC/CSC are a known failure point. See 13-Clutch-Hydraulics/.
 
 ---
@@ -85,7 +85,7 @@
   - **Sport:** Valve open, slightly richer WOT AFR (~11.8:1), more aggressive timing (1-2 deg), lower VTEC engagement (~4500-5000 RPM), optional launch control
 - **A single tune works for both valve positions** on the NA K20Z3 (closed-loop O2 corrects the small AFR shift from backpressure changes). Two tunes optimize each mode but aren't strictly necessary.
 - **Fuel:** Must run 93 octane (or highest available premium) with pump gas tune. E85 flex fuel planned as final power adder (15-30 WHP).
-- **Full bolt-on target:** 220-240 WHP on pump gas, 240-260 WHP on E85
+- **Full bolt-on target:** 220-240 WHP on pump gas, 230-250 WHP on E85 (NA E85 gains are modest: 5-15 WHP, not turbo-level)
 
 ---
 
