@@ -211,8 +211,29 @@ def parse_table(lines, start_idx):
     return rows, i
 
 
+def wrap_text(text, max_width, pdf):
+    """Break text into lines that fit within max_width using current font."""
+    if not text:
+        return [""]
+    words = text.split()
+    lines = []
+    current_line = ""
+    for word in words:
+        test = (current_line + " " + word).strip()
+        if pdf.get_string_width(test) <= max_width:
+            current_line = test
+        else:
+            if current_line:
+                lines.append(current_line)
+            # If single word is too wide, force it on its own line
+            current_line = word
+    if current_line:
+        lines.append(current_line)
+    return lines if lines else [""]
+
+
 def render_table(pdf, rows):
-    """Render a table as aligned plain text."""
+    """Render a table with proper column sizing and multi-line cell wrapping."""
     if not rows:
         return
 
@@ -228,63 +249,117 @@ def render_table(pdf, rows):
         while len(r) < num_cols:
             r.append("")
 
-    # Measure max width per column (in characters)
-    col_char_widths = [0] * num_cols
+    usable_width = pdf.w - pdf.l_margin - pdf.r_margin - 2
+
+    # Use Helvetica for tables (better readability than Courier)
+    font_size = 6.5
+    if num_cols <= 4:
+        font_size = 7.5
+    elif num_cols <= 6:
+        font_size = 7
+    pdf.set_font("Helvetica", "", font_size)
+
+    # Measure the actual string width needed for each column
+    col_max_widths = [0.0] * num_cols
     for r in clean_rows:
         for j, cell in enumerate(r):
-            col_char_widths[j] = max(col_char_widths[j], len(cell))
+            w = pdf.get_string_width(cell) + 4  # 4pt padding
+            col_max_widths[j] = max(col_max_widths[j], w)
 
-    # Cap column widths and calculate PDF widths
-    usable_width = pdf.w - pdf.l_margin - pdf.r_margin - 4  # small margin
-    total_chars = sum(min(w, 60) for w in col_char_widths) or 1
-
-    # Use font size 7 for tables to fit more content
-    pdf.set_font("Courier", "", 7)
-    char_width = pdf.get_string_width("M")
-
-    col_pdf_widths = []
-    for w in col_char_widths:
-        capped = min(w, 60)
-        col_pdf_widths.append(max((capped / total_chars) * usable_width, 12))
-
-    # Ensure total doesn't exceed usable width
-    total_w = sum(col_pdf_widths)
-    if total_w > usable_width:
-        scale = usable_width / total_w
+    # Calculate proportional widths: give each column its share
+    total_natural = sum(col_max_widths) or 1
+    if total_natural <= usable_width:
+        # Everything fits — use natural widths with leftover distributed
+        leftover = usable_width - total_natural
+        col_pdf_widths = [w + (leftover / num_cols) for w in col_max_widths]
+    else:
+        # Need to shrink — give minimum to narrow cols, proportional to wide ones
+        min_col = 14  # minimum column width in points
+        col_pdf_widths = []
+        for w in col_max_widths:
+            col_pdf_widths.append(max(min_col, (w / total_natural) * usable_width))
+        # Re-scale to exactly fit usable width
+        scale = usable_width / sum(col_pdf_widths)
         col_pdf_widths = [w * scale for w in col_pdf_widths]
 
-    # Render header row with underline
-    if clean_rows:
-        pdf.set_font("Courier", "B", 7)
-        header = clean_rows[0]
-        x_start = pdf.get_x()
-        for j, cell in enumerate(header):
-            pdf.cell(col_pdf_widths[j], 5, cell[:60], border=0)
-        pdf.ln(5)
-        # Underline
-        pdf.set_draw_color(160, 160, 160)
-        pdf.line(x_start, pdf.get_y(), x_start + sum(col_pdf_widths), pdf.get_y())
-        pdf.ln(1)
+    line_height = font_size * 0.65  # line height in mm
+    cell_pad = 1  # vertical padding per cell
 
-    # Render data rows
-    pdf.set_font("Courier", "", 7)
-    for row in clean_rows[1:]:
-        # Check if we need a new page
-        if pdf.get_y() + 10 > pdf.h - pdf.b_margin:
-            pdf.add_page()
-        row_height = 5
-        # Check for cells that need wrapping
-        x_start = pdf.get_x()
+    # Render header row
+    if clean_rows:
+        pdf.set_font("Helvetica", "B", font_size)
+        header = clean_rows[0]
+        x_start = pdf.l_margin
         y_start = pdf.get_y()
 
-        # Simple single-line rendering (truncate long cells)
-        for j, cell in enumerate(row):
-            max_chars = int(col_pdf_widths[j] / char_width) if char_width > 0 else 60
-            display = cell[:max_chars] if len(cell) > max_chars else cell
-            pdf.cell(col_pdf_widths[j], row_height, display, border=0)
-        pdf.ln(row_height)
+        # Wrap header cells and find max lines
+        header_wrapped = []
+        for j, cell in enumerate(header):
+            lines = wrap_text(cell, col_pdf_widths[j] - 3, pdf)
+            header_wrapped.append(lines)
+        max_lines = max(len(lines) for lines in header_wrapped)
+        row_h = max_lines * line_height + cell_pad * 2
 
-    pdf.ln(3)
+        # Check for page break
+        if pdf.get_y() + row_h + 10 > pdf.h - pdf.b_margin:
+            pdf.add_page()
+            y_start = pdf.get_y()
+
+        # Draw light background for header
+        pdf.set_fill_color(240, 240, 240)
+        pdf.rect(x_start, y_start, usable_width, row_h, 'F')
+
+        # Draw header text
+        for j, lines in enumerate(header_wrapped):
+            x = x_start + sum(col_pdf_widths[:j])
+            for k, line in enumerate(lines):
+                pdf.set_xy(x + 1.5, y_start + cell_pad + k * line_height)
+                pdf.cell(col_pdf_widths[j] - 3, line_height, line, border=0)
+
+        pdf.set_xy(x_start, y_start + row_h)
+
+        # Underline after header
+        pdf.set_draw_color(160, 160, 160)
+        pdf.line(x_start, pdf.get_y(), x_start + usable_width, pdf.get_y())
+        pdf.ln(0.5)
+
+    # Render data rows
+    pdf.set_font("Helvetica", "", font_size)
+    for row_idx, row in enumerate(clean_rows[1:]):
+        # Wrap all cells and find max lines for this row
+        row_wrapped = []
+        for j, cell in enumerate(row):
+            lines = wrap_text(cell, col_pdf_widths[j] - 3, pdf)
+            row_wrapped.append(lines)
+        max_lines = max(len(lines) for lines in row_wrapped)
+        row_h = max_lines * line_height + cell_pad * 2
+
+        # Check for page break
+        if pdf.get_y() + row_h > pdf.h - pdf.b_margin:
+            pdf.add_page()
+
+        x_start = pdf.l_margin
+        y_start = pdf.get_y()
+
+        # Alternate row background
+        if row_idx % 2 == 1:
+            pdf.set_fill_color(250, 250, 250)
+            pdf.rect(x_start, y_start, usable_width, row_h, 'F')
+
+        # Draw cell text
+        for j, lines in enumerate(row_wrapped):
+            x = x_start + sum(col_pdf_widths[:j])
+            for k, line in enumerate(lines):
+                pdf.set_xy(x + 1.5, y_start + cell_pad + k * line_height)
+                pdf.cell(col_pdf_widths[j] - 3, line_height, line, border=0)
+
+        # Light bottom border
+        pdf.set_draw_color(230, 230, 230)
+        pdf.line(x_start, y_start + row_h, x_start + usable_width, y_start + row_h)
+
+        pdf.set_xy(x_start, y_start + row_h)
+
+    pdf.ln(4)
     # Reset font
     pdf.set_font("Helvetica", "", 10)
 
