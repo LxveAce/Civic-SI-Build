@@ -1,9 +1,9 @@
 """
-Generate a comprehensive PDF of the 2009 Honda Civic SI (FG2) build documentation.
-Reads all markdown files from the repo and combines them into a single organized PDF.
+Generate comprehensive PDFs of the 2009 Honda Civic SI (FG2) build documentation.
+Reads all markdown files from the repo and combines them into organized PDFs.
 
 Usage: python generate-pdf.py
-Output: 2009-Civic-SI-Build-Guide.pdf
+Output: 2009-Civic-SI-Build-Guide.pdf, 2009-Civic-SI-Mod-Order.pdf
 """
 
 import os
@@ -30,9 +30,17 @@ FILE_ORDER = [
     "11-Pulleys-and-Harmonic-Balancer/overview.md",
     "12-Flex-Fuel-and-Fuel-System/overview.md",
     "13-Clutch-Hydraulics/overview.md",
+    "14-Suspension/overview.md",
+    "docs/install-references.md",
+]
+
+# Mod order PDF uses a subset
+MOD_ORDER_FILES = [
+    "docs/mod-order-and-maintenance.md",
 ]
 
 OUTPUT_FILE = os.path.join(BASE_DIR, "2009-Civic-SI-Build-Guide.pdf")
+MOD_ORDER_OUTPUT = os.path.join(BASE_DIR, "2009-Civic-SI-Mod-Order.pdf")
 
 
 def sanitize_text(text):
@@ -623,5 +631,50 @@ def main():
     print(f"Total pages: {final.page_no()}")
 
 
+def generate_mod_order_pdf():
+    """Generate a standalone mod order + maintenance PDF."""
+    print("\n--- Generating Mod Order PDF ---")
+    pdf = BuildGuidePDF()
+    pdf.set_left_margin(15)
+    pdf.set_right_margin(15)
+
+    # Title page
+    pdf.add_page()
+    pdf.ln(60)
+    pdf.set_font("Helvetica", "B", 24)
+    pdf.set_text_color(20, 20, 20)
+    pdf.multi_cell(0, 12, "2009 Honda Civic SI (FG2)", align="C")
+    pdf.ln(4)
+    pdf.set_font("Helvetica", "", 18)
+    pdf.set_text_color(60, 60, 60)
+    pdf.multi_cell(0, 10, "Mod Order & Maintenance Plan", align="C")
+    pdf.ln(20)
+    cx = pdf.w / 2
+    pdf.set_draw_color(180, 180, 180)
+    pdf.set_line_width(0.5)
+    pdf.line(cx - 40, pdf.get_y(), cx + 40, pdf.get_y())
+    pdf.ln(20)
+    pdf.set_font("Helvetica", "I", 10)
+    pdf.set_text_color(120, 120, 120)
+    pdf.cell(0, 8, "Generated: 2026-04-16", align="C")
+
+    # Content
+    for filepath in MOD_ORDER_FILES:
+        full_path = os.path.join(BASE_DIR, filepath)
+        if not os.path.exists(full_path):
+            print(f"  [SKIP] {filepath}")
+            continue
+        with open(full_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        pdf.add_page()
+        process_markdown(pdf, content, filepath)
+        print(f"  [OK] {filepath}")
+
+    pdf.output(MOD_ORDER_OUTPUT)
+    print(f"Mod Order PDF saved to: {MOD_ORDER_OUTPUT}")
+    print(f"Total pages: {pdf.page_no()}")
+
+
 if __name__ == "__main__":
     main()
+    generate_mod_order_pdf()

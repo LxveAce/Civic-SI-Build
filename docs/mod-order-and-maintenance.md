@@ -159,14 +159,21 @@ PHASE 3 — INTAKE SYSTEM
 PHASE 4 — ROTATING ASSEMBLY
   └── 4A: ATI Super Damper + NST pulleys             ← No retune needed
 
-PHASE 5 — FLEX FUEL
-  ├── 5A: Fuel pump (DeatschWerks DW300C)            ← Can be done earlier
-  ├── 5B: Fuel rail + injectors (Acuity + ID1050x)
-  ├── 5C: Ethanol sensor + fuel lines
-  └── 5D: Dyno tune #3 (flex fuel calibration)       ← Most complex tune
+PHASE 5 — SUSPENSION (can be done anytime, no tune dependency)
+  ├── 5A: BC Racing BR coilovers + rear camber arms
+  ├── 5B: Full bushing refresh (Energy Suspension + Hardrace)
+  ├── 5C: Sway bars (Progress front + rear) + end links
+  ├── 5D: Ball joints + tie rod ends + roll center adjusters
+  └── 5E: Professional 4-corner performance alignment  ← MANDATORY
 
-PHASE 6 — IN-CAR PC (anytime after FlashPro)
-  └── 6A: LattePanda 3 Delta permanent install
+PHASE 6 — FLEX FUEL
+  ├── 6A: Fuel pump (DeatschWerks DW300C)            ← Can be done earlier
+  ├── 6B: Fuel rail + injectors (Acuity + ID1050x)
+  ├── 6C: Ethanol sensor + fuel lines
+  └── 6D: Dyno tune #3 (flex fuel calibration)       ← Most complex tune
+
+PHASE 7 — IN-CAR PC (anytime after FlashPro)
+  └── 7A: LattePanda 3 Delta permanent install
 ```
 
 ---
@@ -215,20 +222,26 @@ You will need **3 dyno sessions** total (or 2 if you combine exhaust + intake in
 | 2C | Dyno tune #1 | $300-500 |
 | 3A+3B | Intake manifold + bored TB | ~$725 |
 | 3C | Dyno tune #2 | $300-500 |
-| 4A | ATI Super Damper + NST pulleys | ~$500-600 |
-| 5A-5C | Flex fuel system | ~$1,075 |
-| 5D | Dyno tune #3 | $400-600 |
-| 6A | LattePanda PC | ~$400-500 |
-| **Phases 1-6 Total** | | **~$5,835-7,560** |
+| 4A | ATI Super Damper + NST pulleys | ~$640-760 |
+| 5A | Coilovers (BC Racing BR) | ~$1,195 |
+| 5B | Bushing kit + trailing arm bushings | ~$428 |
+| 5C | Sway bars (Progress front + rear) | ~$637 |
+| 5D | Ball joints + tie rods + roll center adj | ~$390 |
+| 5E | Performance alignment | ~$150 |
+| 5 | Rear camber arms (Skunk2) + camber bolts | ~$363 |
+| 6A-6C | Flex fuel system | ~$1,075 |
+| 6D | Dyno tune #3 | $400-600 |
+| 7A | LattePanda PC | ~$400-500 |
+| **Phases 1-7 Total** | | **~$9,389-11,685** |
 
 ### Grand Total (Everything Remaining)
 | Category | Cost Range |
 |----------|-----------|
 | Maintenance (Phase 0) | $235-715 |
-| Modifications (Phases 1-6) | $5,835-7,560 |
-| **Grand Total** | **~$6,070-8,275** |
+| Modifications (Phases 1-7) | $9,389-11,685 |
+| **Grand Total** | **~$9,624-12,400** |
 
-This assumes DIY labor for most installs except headers (shop recommended) and exhaust welding (muffler shop). Professional installation for everything would add $1,500-3,000 in labor.
+This assumes DIY labor for most installs except headers (shop recommended), exhaust welding (muffler shop), and possibly suspension bushing pressing. Professional installation for everything would add $2,500-5,000 in labor.
 
 ---
 
@@ -243,7 +256,7 @@ These mods have hard dependencies and should never be installed without completi
 | Intake manifold (3A) | Full exhaust installed + tuned (Phase 2) | Changing intake after exhaust tune wastes a dyno session |
 | Bored TB (3B) | Install with manifold (3A) | Single retune for both saves money |
 | Hondata tune #2 (3C) | Manifold + TB installed (3A+3B) | Full bolt-on pump gas tune |
-| Flex fuel tune (5D) | All fuel system components (5A+5B+5C) + full bolt-on tune (3C) | Flex fuel calibration is layered on top of the full bolt-on tune |
+| Flex fuel tune (6D) | All fuel system components (6A+6B+6C) + full bolt-on tune (3C) | Flex fuel calibration is layered on top of the full bolt-on tune |
 
 ## Mods That CAN Be Done Standalone (Any Order)
 
@@ -256,6 +269,7 @@ These mods have hard dependencies and should never be installed without completi
 | FlashPro first flash | No dependencies (just needs a laptop). |
 | ATI Super Damper + pulleys | No dependencies. No retune needed. |
 | Fuel pump (DW300C) | Can be done anytime — stock ECU handles it fine. |
+| Suspension (coilovers + bushings + sway bars) | No tune dependency. Can be done anytime. Do all at once — car is already apart. |
 | LattePanda PC | Only needs FlashPro registered first. |
 
 ---
