@@ -18,7 +18,7 @@
 |-------|-------|
 | Part | Exedy Lightweight Flywheel |
 | Material | Chromoly steel |
-| Weight | Significantly lighter than stock dual-mass flywheel (~8-9 lbs vs ~20+ lbs stock) |
+| Weight | Significantly lighter than stock flywheel (~8-9 lbs vs ~14-15 lbs stock) |
 | Part Number | HF02 |
 | Purchased From | shop.redline360.com |
 | Fitment | Honda Civic SI (2006-2011) K20Z3 |
@@ -39,11 +39,11 @@ The 08806 is the right clutch for this build. It provides substantial headroom a
 
 At ~170k miles, the stock clutch was worn and needed replacement. The Exedy Stage 1 Organic upgrades over a pure OEM replacement with a stronger pressure plate, providing more holding power for future modifications without sacrificing daily drivability.
 
-The Exedy lightweight flywheel replaces the heavy stock dual-mass flywheel with a significantly lighter single-mass chromoly unit. This provides:
+The Exedy lightweight flywheel replaces the heavy stock single-mass flywheel with a significantly lighter chromoly unit. This provides:
 - **Faster revs:** Less rotational mass means the engine spins up and down more quickly. VTEC engagement feels sharper, rev-matching is easier.
 - **Improved throttle response:** Less inertia to overcome — the engine responds more immediately to throttle input.
 - **Quicker shifts:** The engine RPM drops and rises faster between shifts, making the Acuity short shifter feel even more responsive.
-- **Slightly harsher idle:** The stock dual-mass flywheel smooths out combustion pulses. A single-mass lightweight flywheel transmits more vibration at idle. This is normal and mild with the Acuity unit.
+- **Slightly harsher idle:** The stock flywheel's heavier mass smooths out combustion pulses. A lightweight flywheel transmits more vibration at idle. This is normal and mild with the Exedy unit.
 
 ## Power Headroom
 
@@ -59,7 +59,7 @@ The Exedy lightweight flywheel replaces the heavy stock dual-mass flywheel with 
 
 ## Notes
 
-- The lightweight flywheel makes the clutch engagement feel slightly more abrupt — less "cushion" than the stock dual-mass. This is normal and you get used to it quickly.
+- The lightweight flywheel makes the clutch engagement feel slightly more abrupt — less rotational inertia to buffer engagement. This is normal and you get used to it quickly.
 - Combined with the Acuity short shifter, Acuity trans-side bushings, and Hybrid Racing 70A mounts, this creates a complete drivetrain feel transformation.
 - The lighter flywheel technically reduces low-RPM drivability slightly (less momentum to keep the engine spinning through lugging situations). Avoid lugging the engine in high gear at low RPM.
 - The Exedy HF02 flywheel is designed for the K20Z3 crank — any future clutch upgrade will bolt to it.

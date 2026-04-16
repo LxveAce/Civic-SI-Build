@@ -35,13 +35,13 @@ The K20Z3 timing chain is rated for the life of the engine, but "life of the eng
 
 ---
 
-## Phase 1: Immediate Installs (Already Purchased, No Dependencies)
+## Phase 1: Immediate Installs (Already Purchased or Priority Purchase, No Dependencies)
 
-These mods are already purchased and sitting on the shelf. Install order within this phase doesn't matter — they're all standalone.
+These mods are already purchased (or should be purchased first) and have no dependencies. Install order within this phase doesn't matter — they're all standalone.
 
 | Order | Mod | Time (DIY) | Standalone? | Notes |
 |-------|-----|-----------|-------------|-------|
-| 1A | **Clutch hydraulics (CMC/CSC)** | 3-5 hrs | Yes | Do this before anything else. 170k miles = ticking time bomb. Improves pedal feel immediately. |
+| 1A | **Clutch hydraulics (CMC/CSC)** | 3-5 hrs | Yes | **Not yet purchased — priority buy.** Do this before anything else. 170k miles = ticking time bomb. Improves pedal feel immediately. |
 | 1B | **Engine mounts (Hybrid Racing 70A)** | 3-4 hrs | Yes | Reduces wheel hop, improves shift feel. NVH increase is noticeable but livable. |
 | 1C | **Brakes (Hawk HPS + R1 Concepts rotors)** | 2-3 hrs | Yes | Full 4-corner upgrade. Bed the pads properly (follow Hawk's bedding procedure). Do this before you have more power to stop. |
 | 1D | **Strut bar (Megan Racing)** | 30 min | **Blocked** | Clearance issue needs diagnosis first. May need spacers or modification. |
@@ -205,7 +205,7 @@ You will need **3 dyno sessions** total (or 2 if you combine exhaust + intake in
 ### Modifications (Phases 1-6)
 | Phase | Mod | Parts Cost |
 |-------|-----|-----------|
-| 1A | Clutch hydraulics | $200-500 |
+| 1A | Clutch hydraulics | ~$326 (Hybrid Racing kit + Motul RBF 600) |
 | 1B | Brakes | Already purchased |
 | 1C | Engine mounts | Already purchased |
 | 1D | FlashPro | Already purchased |

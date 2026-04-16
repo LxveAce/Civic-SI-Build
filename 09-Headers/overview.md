@@ -36,7 +36,7 @@
 
 ### Stepped Primaries — The Key Differentiator
 
-The Alpha's **1.625" to 1.75" stepped primary tubes** are what separate it from every other header on the market:
+The Alpha's **1.625" to 1.75" stepped primary tubes** (dimensions are community-reported from dyno and fitment data — Skunk2 does not officially publish primary tube dimensions) are what separate it from every other header on the market:
 - Starts narrow → maintains exhaust gas velocity at low-mid RPM (keeps scavenging strong)
 - Opens up → flows more volume at high RPM when the engine pushes more exhaust
 - PLM and DC Sports use constant 1.625" primaries — this design difference accounts for the 5-8 WHP gap
