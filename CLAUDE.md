@@ -41,17 +41,20 @@
 
 ### Installed
 
-1. **Clutch & Flywheel:** Exedy Stage 1 Organic (08806) + Exedy Lightweight Flywheel (HF02), both from shop.redline360.com — Upgraded organic disc with higher-clamping-force pressure plate, paired with lightweight single-mass flywheel. Clutch reliably holds **~280-300 WHP / ~200-210 lb-ft** before slip. Significant headroom above planned bolt-on power levels.
-2. **Intake:** K&N Typhoon 69-1014TS — Hot-side mount with partial heat shield, uses stock fresh air duct
-3. **Short Shifter:** Acuity Instruments 3-Way Adjustable — Adjustable throw reduction
-4. **Shifter Bushings:** Acuity Instruments Shifter Cable Bushings — Transmission-side, replaces soft OEM rubber
+1. **Clutch & Flywheel:** Exedy Stage 1 Organic (08806) + Exedy Lightweight Flywheel (HF02), both from shop.redline360.com — **$960.43** (bundled with strut bar, incl. tax/shipping)
+2. **Intake:** K&N Typhoon 69-1014TS — Hot-side mount with partial heat shield, uses stock fresh air duct — **$504.17**
+3. **Short Shifter:** Acuity Instruments 3-Way Adjustable — Adjustable throw reduction — **$622.20** (with bushings, incl. tax/shipping)
+4. **Shifter Bushings:** Acuity Instruments Shifter Cable Bushings — Transmission-side, replaces soft OEM rubber — (included in #3)
+5. **Tires:** Continental ExtremeContact DWS06 Plus 215/45ZR17 91W XL (15572680000) — **$715.00** (purchased 2026-06-16)
 
 ### Purchased, Not Yet Installed
 
-5. **Brakes:** Hawk HPS Street/Sport pads (Front: HB361F.622, Rear: HB145F.570) + R1 Concepts WCPN2-59004 Slotted Black Rotors — Full 4-corner upgrade
-6. **Strut Bar:** Megan Racing Front Upper Race Spec (Polished) for Civic & SI 06-11 — BLOCKED by clearance issue (not caused by the intake, root cause unknown)
-7. **ECU Tune:** Hondata FlashPro (original, not FlashPro 2) — Not yet flashed, paired, or used
-8. **Engine Mounts:** Hybrid Racing 70A durometer polyurethane mount kit
+6. **Brakes:** Hawk HPS Street/Sport pads (Front: HB361F.622, Rear: HB145F.570) + R1 Concepts WCPN2-59004 Slotted Black Rotors — **$532.14** ($309.69 rotors + $222.45 pads)
+7. **Strut Bar:** Megan Racing Front Upper Race Spec (Polished) for Civic & SI 06-11 — BLOCKED by clearance issue (included in #1 bundle)
+8. **ECU Tune:** Hondata FlashPro (original, not FlashPro 2) — Not yet flashed, paired, or used — **$859.59**
+9. **Engine Mounts:** Hybrid Racing 70A durometer polyurethane mount kit — **$657.15**
+
+**Total spent to date: $4,850.68**
 
 ### Planned (Not Purchased)
 

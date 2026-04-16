@@ -193,6 +193,22 @@ You will need **3 dyno sessions** total (or 2 if you combine exhaust + intake in
 
 ---
 
+## Money Already Spent (Actual Costs — incl. tax, shipping, insurance)
+
+| Item | Actual Paid |
+|------|------------|
+| Exedy Stage 1 clutch + flywheel + Megan Racing strut bar (bundle) | $960.43 |
+| K&N Typhoon 69-1014TS intake | $504.17 |
+| Acuity short shifter + cable bushings | $622.20 |
+| Hybrid Racing 70A engine mounts | $657.15 |
+| R1 Concepts slotted rotors (WCPN2-59004) | $309.69 |
+| Hawk HPS brake pads (front + rear) | $222.45 |
+| Hondata FlashPro | $859.59 |
+| Continental ExtremeContact DWS06 Plus 215/45ZR17 91W XL (15572680000) — purchased 2026-06-16 | $715.00 |
+| **Total Spent to Date** | **$4,850.68** |
+
+---
+
 ## Budget Summary (All Remaining Mods + Maintenance)
 
 ### Maintenance (Phase 0)
@@ -209,14 +225,10 @@ You will need **3 dyno sessions** total (or 2 if you combine exhaust + intake in
 | Oil change | $35 |
 | **Phase 0 Total (parts)** | **$235-715** |
 
-### Modifications (Phases 1-6)
-| Phase | Mod | Parts Cost |
-|-------|-----|-----------|
+### Modifications (Remaining — Not Yet Purchased)
+| Phase | Mod | Est. Parts Cost |
+|-------|-----|----------------|
 | 1A | Clutch hydraulics | ~$326 (Hybrid Racing kit + Motul RBF 600) |
-| 1B | Brakes | Already purchased |
-| 1C | Engine mounts | Already purchased |
-| 1D | FlashPro | Already purchased |
-| 1E | Strut bar | Already purchased |
 | 2A | Valved exhaust | ~$485 + $150-250 labor |
 | 2B | Headers + HFC | ~$1,000-1,200 + $300-500 labor |
 | 2C | Dyno tune #1 | $300-500 |
@@ -232,14 +244,16 @@ You will need **3 dyno sessions** total (or 2 if you combine exhaust + intake in
 | 6A-6C | Flex fuel system | ~$1,075 |
 | 6D | Dyno tune #3 | $400-600 |
 | 7A | LattePanda PC | ~$400-500 |
-| **Phases 1-7 Total** | | **~$9,389-11,685** |
+| **Remaining Mods Total** | | **~$8,864-11,160** |
 
-### Grand Total (Everything Remaining)
-| Category | Cost Range |
-|----------|-----------|
-| Maintenance (Phase 0) | $235-715 |
-| Modifications (Phases 1-7) | $9,389-11,685 |
-| **Grand Total** | **~$9,624-12,400** |
+### Grand Total Summary
+| Category | Amount |
+|----------|--------|
+| **Already Spent** | **$4,850.68** |
+| Maintenance (Phase 0, remaining) | $235-715 |
+| Modifications (remaining) | $8,864-11,160 |
+| **Remaining to Spend** | **~$9,099-11,875** |
+| **Full Build Total (spent + remaining)** | **~$13,950-16,726** |
 
 This assumes DIY labor for most installs except headers (shop recommended), exhaust welding (muffler shop), and possibly suspension bushing pressing. Professional installation for everything would add $2,500-5,000 in labor.
 

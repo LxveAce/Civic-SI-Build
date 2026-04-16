@@ -11,6 +11,7 @@
 | Fitment | Honda Civic SI 2.0L (2006-2011) |
 | Filter Type | K&N high-flow cotton gauze |
 | Finish | Polished aluminum intake tube |
+| **Actual Cost (incl. tax/shipping)** | **$504.17** |
 
 **Note:** K&N markets this as a "Cold Air Intake," but it is technically a **short ram intake** — the filter mounts in the engine bay (hot side) near the exhaust manifold, not in a cold air location behind the bumper/fender. It uses the stock fresh air duct to feed cooler outside air to the filter area.
 

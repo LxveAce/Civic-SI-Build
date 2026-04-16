@@ -11,6 +11,7 @@
 | Type | Upper front strut tower brace |
 | Material | Polished aluminum |
 | Fitment | 2006-2011 Honda Civic & Civic SI |
+| **Actual Cost** | **Included in $960.43 clutch/flywheel/strut bar bundle** |
 
 ## Why This Mod
 

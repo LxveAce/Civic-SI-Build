@@ -11,6 +11,7 @@
 | Material | Polyurethane inserts in billet aluminum housings |
 | Fitment | 8th Gen Honda Civic SI (2006-2011) |
 | Note | These mounts may be manufactured by Hasport and sold/rebranded through Hybrid Racing |
+| **Actual Cost (incl. tax/shipping)** | **$657.15** |
 
 ## Why This Mod
 

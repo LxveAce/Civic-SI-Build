@@ -12,6 +12,7 @@
 | Purchased From | shop.redline360.com |
 | Type | Stage 1 organic disc with upgraded pressure plate |
 | Rating | ~280-300 WHP / ~200-210 lb-ft TQ reliable limit |
+| **Actual Cost (with flywheel + strut bar, incl. tax/shipping)** | **$960.43 combined** |
 
 ### Flywheel
 | Field | Value |
