@@ -62,6 +62,7 @@
 13. **Pulleys + Harmonic Balancer:** ATI Super Damper (918477, ~$360-380) for proper harmonic damping + NST accessory pulleys for underdrive. See 11-Pulleys-and-Harmonic-Balancer/.
 14. **Flex Fuel & Fuel System:** Continental ethanol sensor + Bosch EV14 550cc injectors + Acuity K-Series fuel rail + DeatschWerks DW200 fuel pump. E85 adds 5-15 WHP on NA over pump gas (modest vs turbo). Best value at E30-E40 blend. See 12-Flex-Fuel-and-Fuel-System/.
 15. **Clutch Hydraulics:** Hybrid Racing CMC (or RSX Type-S CMC swap) + RSX OEM CSC + stainless braided clutch line + DOT 4 fluid. 170k-mile reliability upgrade — stock CMC/CSC are a known failure point. See 13-Clutch-Hydraulics/.
+16. **Suspension:** BC Racing BR coilovers (A-18-BR, ~$1,195) + Skunk2 Pro Series rear camber arms (516-05-0625, ~$333) + Energy Suspension master bushing kit (16.18114G, ~$278) + Hardrace trailing arm bushings (6926, ~$150) + Progress sway bars (front 27mm + rear 24mm adjustable) + K-Tuned roll center adjusters + new tie rods/ball joints + alignment. Complete suspension overhaul targeting daily/sport adjustability. See 14-Suspension/.
 
 ---
 

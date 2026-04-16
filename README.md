@@ -43,6 +43,7 @@ Daily-drivable with a sport mode toggle. Quiet when needed, loud when wanted. Fu
 | 11 | [Pulleys & Harmonic Balancer](11-Pulleys-and-Harmonic-Balancer/) | ATI Super Damper + NST accessory pulleys | Proper damping + reduced parasitic loss |
 | 12 | [Flex Fuel & Fuel System](12-Flex-Fuel-and-Fuel-System/) | Flex fuel sensor + injectors + Acuity rail + DW200 pump | E85 capable, 5-15 WHP on NA over pump gas |
 | 13 | [Clutch Hydraulics](13-Clutch-Hydraulics/) | Hybrid Racing CMC + RSX CSC + SS braided line | 170k-mile reliability upgrade, improved pedal feel |
+| 14 | [Suspension](14-Suspension/) | BC Racing BR coilovers + full bushing refresh + sway bars + camber kit | Complete suspension overhaul — coilovers, bushings, geometry correction |
 | -- | [In-Car PC](07-Hondata-FlashPro/Permanent-LattePanda-Install/) | LattePanda 3 Delta permanent install | Controls FlashPro + exhaust valve |
 
 ---
