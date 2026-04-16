@@ -10,7 +10,7 @@
 
 ## Build Philosophy
 
-Daily-drivable with a sport mode toggle. Quiet when needed, loud when wanted. Targeted bolt-on modifications focused on driving feel — shifting, intake response, chassis rigidity, and braking — rather than peak power. Future plans include a valved exhaust and ECU tuning to enable quick switching between a conservative daily tune and an aggressive sport tune.
+Daily-drivable with a sport mode toggle. Quiet when needed, loud when wanted. Full bolt-on NA K20Z3 build targeting **220-240 WHP** — headers, intake manifold, throttle body, exhaust, pulleys, and Hondata tune. Valved 3" exhaust with QTP cutout enables switching between a quiet daily tune and an aggressive straight-piped sport tune. In-car LattePanda mini PC for permanent Hondata management and exhaust valve control.
 
 ---
 
@@ -37,8 +37,10 @@ Daily-drivable with a sport mode toggle. Quiet when needed, loud when wanted. Ta
 
 | # | Mod | Details | Notes |
 |---|-----|---------|-------|
-| 8 | [Valved Exhaust](08-Valved-Exhaust/) | DIY QTP cutout bypass (keep OEM mufflers) | Solenoid-controlled, daily/sport switching |
-| 9 | [Headers](09-Headers/) | Skunk2 Alpha or PLM 4-2-1 | Under consideration |
+| 8 | [Valved Exhaust](08-Valved-Exhaust/) | DIY 3" QTP cutout bypass (keep OEM mufflers) | 3" dump, step-down to 2.5" for muffled path |
+| 9 | [Headers](09-Headers/) | 4-1 with merge/trumpet collector | Top-end focus, pairs with intake manifold |
+| 10 | [Intake Manifold](10-Intake-Manifold/) | Skunk2 Ultra Street + bored stock TB (66mm) | Larger plenum, shorter runners, DBW compatible |
+| 11 | [Pulley System](11-Pulley-System/) | Underdrive pulleys + harmonic balancer | Reduce parasitic loss, quality damper |
 | -- | [In-Car PC](07-Hondata-FlashPro/Permanent-LattePanda-Install/) | LattePanda 3 Delta permanent install | Controls FlashPro + exhaust valve |
 
 ---

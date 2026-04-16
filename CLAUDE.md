@@ -57,7 +57,7 @@
 
 9. **Valved Exhaust:** DIY build using QTP QTEC25 2.5" electric cutout — Inline cutout after cat, before mufflers. Keeps OEM mufflers. Solenoid/relay controlled. Daily (closed/quiet) and Sport (open/straight pipe) modes.
 10. **In-Car PC:** LattePanda 3 Delta permanent install with 7" touchscreen — For Hondata FlashPro management, datalogging, gauges, and exhaust valve control
-11. **Headers:** Skunk2 Alpha or PLM 4-2-1 (under consideration, not decided)
+11. **Headers:** PLM V2 + 200-cell HFC (PLM-HFG1-V2-K24-HEADER-CAT, ~$575) -- recommended after comprehensive research. Skunk2 Alpha is runner-up. See 09-Headers/ for full analysis.
 
 ---
 
