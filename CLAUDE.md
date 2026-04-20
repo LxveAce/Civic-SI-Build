@@ -138,13 +138,39 @@ Not every mod needs every file. Simple bolt-ons (clutch, bushings) may only have
 
 ## Important Warnings
 
-1. **DO NOT recommend leaning out fuel tables** without dyno verification and wideband AFR monitoring
-2. **DO NOT recommend adding ignition timing** beyond base map values without knock monitoring on a dyno
-3. **DO NOT suggest a Raspberry Pi** for running Hondata — it has been researched and ruled out (see above)
-4. **The Megan Racing strut bar clearance issue** is unresolved — root cause is unknown, it is NOT the intake interfering
-5. **The FlashPro has NOT been used yet** — any instructions should assume first-time setup
-6. **Stock calibration must be saved** before any flashing — this is the factory reset backup
+1. **Reliability over power, always.** Owner stated this in caps: engine life comes first. Leave power on the table before you leave a safety margin. Applies to every tune, every part, every decision where there's a trade-off.
+2. **Every tune = two maps:** Daily (quiet, conservative) + Sport (aggressive-within-envelope). Never ship a single map.
+3. **DO NOT recommend leaning out fuel tables** without dyno verification and wideband AFR monitoring
+4. **DO NOT recommend adding ignition timing** beyond base map values without knock monitoring on a dyno
+5. **DO NOT suggest a Raspberry Pi** for running Hondata — researched and ruled out
+6. **The Megan Racing strut bar is DEFERRED, not blocked.** Don't diagnose clearance now — BC Racing BR coilovers (Phase 5) will change strut-top geometry anyway. Revisit post-coilover install.
+7. **The FlashPro has NOT been used yet** — assume first-time setup
+8. **Stock calibration must be saved** before any flashing — the factory reset button
+9. **Cross-reference interactions between mods** whenever writing a doc. "If you're doing X anyway, Y becomes easier/moot/different."
+
+## New Folders and Docs (Added 2026-04-18)
+
+Additions filling gaps the original scope missed:
+
+- **`15-Ignition-Refresh/`** — Plugs + OEM coils + VTC actuator (14310-RBC-003 revised part). Must happen before any dyno tune.
+- **`16-Cooling-System/`** — Koyorad aluminum radiator + OEM thermostat/hoses/water pump. Plastic end tank failure insurance + E85 heat headroom.
+- **`17-Wideband-AFR/`** — AEM X-Series 30-0300. Required before any tune. Bung welds into Skunk2 Alpha collector during header install.
+- **`07-Hondata-FlashPro/tuning-workflow-and-maps.md`** — Daily/Sport map rules, reliability-first ceilings, CSV export workflow for working with Claude on tune analysis.
+- **`09-Headers/install-guide.md`** — Full install with stud-prep schedule and shop-vs-DIY decision logic.
+- **`docs/torque-specs.md`** — Every fastener I'll touch, OEM spec, cross-referenced.
+- **`docs/maintenance-parts-catalog.md`** — Every OE + aftermarket part number in one place.
+- **`docs/baseline-logs.md`** — A/B datalog protocol for every mod milestone.
+
+## Key Parts Decision Updates (Post-Research 2026-04-18)
+
+| Item | Previous | Now | Reason |
+|------|----------|-----|--------|
+| Flex fuel injectors | ID1050x | **Bosch EV14 550cc** | ID1050x is 3.4x oversized for 250 WHP target; hurts idle and cold start |
+| Flex fuel pump | Leaning DW200 | **DW300C** | DW200 marginal on E85 headroom; reliability-first rule |
+| Strut bar status | "Blocked — diagnose" | "Deferred — wait for coilovers" | Pillow-ball camber plates will change strut-top geometry |
+| VTC actuator | Not listed | **OEM 14310-RBC-003 (revised)** | Universal 170k fix for cold-start rattle |
+| Radiator | Stock replacement | **Koyorad HH060063 (all-aluminum)** | Plastic end tank failure known issue + E85 heat |
 
 ---
 
-*Last updated: 2026-04-16*
+*Last updated: 2026-04-18*

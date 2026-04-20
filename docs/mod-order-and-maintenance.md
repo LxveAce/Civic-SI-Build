@@ -23,6 +23,9 @@ I need to handle these before adding any more power or stress to the drivetrain.
 | 9 | **Water pump** | K20Z3 water pump is driven by the timing chain. I'll inspect it during the timing chain inspection. Weeping from the weep hole = replace immediately. | Inspect at timing chain service. Replace proactively at 150k+. | $50 (pump) | Included in timing chain labor |
 | 10 | **Motor oil + filter** | Honda recommends 0W-20, but community consensus for a 170k-mile K20Z3 that's driven hard: **5W-30 full synthetic** (Mobil 1, Pennzoil Platinum, or Castrol Edge). Thicker oil compensates for worn bearing clearances. | Every 5,000-6,000 miles with synthetic. Honda says 7,500 — too long for an SI driven spiritedly. | $35 | $60-80 |
 | 11 | **PCV valve** | 17130-RTA-000 or equivalent. Cheap, easy, often neglected. A failed PCV causes oil consumption, rough idle, and boost leaks if ever turbo'd. | Every 60,000-80,000 miles | $10 | $30-50 |
+| 12 | **VTC actuator (REVISED part 14310-RBC-003)** | #1 K20Z3 gripe on 8thcivic — the cold-start rattle. Original actuator's spring weakens; new part has stronger spring and better locking pin. Universal replacement at 170k. **Free labor if doing timing chain inspection.** Critical before any dyno tune. | At timing chain service or 150k+ | $280 (DIY) | $280 + $150-300 labor if standalone |
+| 13 | **Valve cover gasket + plug tube seals** | OEM 12030-RRA-A01 kit. Universal 170k oil leaker. Oil in plug wells will foul new spark plugs in weeks. Cheap fix. | 150k+ | $40 | $120-180 |
+| 14 | **Oil filter housing gasket/o-ring** | OEM 15301-PT0-003. Weeps at 170k. $8 fix while oil is drained for oil change. | 150k+ | $8 | $50 |
 
 ### Timing Chain Deep Dive
 
@@ -35,25 +38,44 @@ The K20Z3 timing chain is rated for the life of the engine, but "life of the eng
 
 ---
 
+## Phase 0.5: Ignition Refresh — Between Maintenance and Mods
+
+After the fluids/belt/PCV maintenance but BEFORE any dyno tune session, the ignition system gets its own focused refresh. See [15-Ignition-Refresh/overview.md](../15-Ignition-Refresh/) for full detail.
+
+| # | Item | Why | Approx Cost |
+|---|------|-----|-------------|
+| 1 | **NGK ILZKR7B-11S plugs x4** (pump gas) | New iridium plugs before any tune work — clean spark baseline | ~$40 |
+| 2 | **Honda OEM coils 30520-RWC-A01 x4** | Tired coils misfire on E85 tunes and get blamed on tuning | ~$160-200 |
+| 3 | **Honda VTC actuator 14310-RBC-003** (updated part) | Fixes cold-start rattle. Free labor during timing chain inspection. Must be fresh before any tune. | ~$280 |
+| | **Subtotal** | | **~$480-520** |
+
+**Cross-reference:** Do VTC actuator DURING timing chain inspection (Phase 0). Plugs + coils can wait until just before Phase 1E (FlashPro first flash).
+
+---
+
 ## Phase 1: Immediate Installs (Already Purchased or Priority Purchase, No Dependencies)
 
 These mods are already bought (or need to be bought first) and have no dependencies. Install order within this phase doesn't really matter — they're all standalone.
 
 | Order | Mod | Time (DIY) | Standalone? | Notes |
 |-------|-----|-----------|-------------|-------|
-| 1A | **Clutch hydraulics (CMC/CSC)** | 3-5 hrs | Yes | **Not yet purchased — priority buy.** I need to do this before anything else. 170k miles = ticking time bomb. Improves pedal feel immediately. |
+| 1A | **Clutch hydraulics (CMC/CSC)** | 3-5 hrs | Yes | **Not yet purchased — priority buy.** I need to do this before anything else. 170k miles = ticking time bomb. Improves pedal feel immediately. **Also do: rear main seal (91214-RDA-A01), throwout + pilot bearings, fresh MTF while trans is out.** See [13-Clutch-Hydraulics/overview.md](../13-Clutch-Hydraulics/) cross-reference section. |
 | 1B | **Engine mounts (Hybrid Racing 70A)** | 3-4 hrs | Yes | Reduces wheel hop, improves shift feel. NVH increase is noticeable but livable. |
 | 1C | **Brakes (Hawk HPS + R1 Concepts rotors)** | 2-3 hrs | Yes | Full 4-corner upgrade. I need to bed the pads properly (follow Hawk's bedding procedure). Want this done before I have more power to stop. |
-| 1D | **Strut bar (Megan Racing)** | 30 min | **Blocked** | Clearance issue needs diagnosis first. May need spacers or modification. |
-| 1E | **Hondata FlashPro — first flash** | 1-2 hrs | Yes | Register unit, flash base map, verify no CELs. I'm not tuning yet — just getting it online. This enables datalogging for all future work. |
+| 1D | **Strut bar (Megan Racing)** | 30 min | **DEFERRED — don't diagnose now** | BC Racing BR coilovers (Phase 5) replace the strut-top geometry entirely. Whatever fits or doesn't fit today will be different once coilovers are in. Revisit after suspension overhaul. See [06-Strut-Bar/overview.md](../06-Strut-Bar/). |
+| 1E | **Hondata FlashPro — first flash** | 1-2 hrs | Yes | Register unit, flash base map, verify no CELs. I'm not tuning yet — just getting it online. This enables datalogging for all future work. See [07-Hondata-FlashPro/tuning-workflow-and-maps.md](../07-Hondata-FlashPro/tuning-workflow-and-maps.md) for the tuning rules. |
+| 1F | **Cooling system refresh** | 2-3 hrs | Yes | **New phase addition.** Koyorad aluminum radiator + fresh OEM thermostat + hoses. Must precede headers and E85. See [16-Cooling-System/overview.md](../16-Cooling-System/). |
+| 1G | **Wideband AFR install** | 1-2 hrs + bung welding | Tied to header install | AEM X-Series 30-0300 wideband. Bung welds into Skunk2 Alpha header collector during Phase 2B. See [17-Wideband-AFR/overview.md](../17-Wideband-AFR/). |
 
-**My planned order within Phase 1:** 1A → 1C → 1B → 1E → 1D (if unblocked)
+**My planned order within Phase 1:** 1A → 1F → 1C → 1B → 1E → 1G (at header install) → 1D (at coilover install)
 
-- CMC/CSC first because it's a reliability risk at this mileage
-- Brakes second because more power needs more stopping
-- Engine mounts third because they don't affect reliability
-- FlashPro fourth to start datalogging before adding power mods
-- Strut bar last (blocked anyway)
+- **1A Clutch hydraulics first** — reliability risk at this mileage + RMS job shares labor
+- **1F Cooling refresh** — must be done before headers; not time-critical but same weekend as 1A works fine since I'm already under the car
+- **1C Brakes** — more power needs more stopping; independent of other jobs
+- **1B Engine mounts** — quality-of-life; no dependencies
+- **1E FlashPro first flash** — AFTER ignition refresh (Phase 0.5) is done; clean baseline for datalogging
+- **1G Wideband** — physically ties into the 2B header install; bung gets welded when the system is off the car
+- **1D Strut bar** — defer entirely until after coilovers (Phase 5)
 
 ---
 

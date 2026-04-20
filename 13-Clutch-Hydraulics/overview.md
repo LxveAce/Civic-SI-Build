@@ -70,9 +70,25 @@ The Hybrid Racing kit includes almost everything, but I still need clutch fluid 
 |---|------|---------|-------|------|
 | 1 | **Complete CMC/CSC/Line Kit** | Hybrid Racing HYB-CMC-01-20 | $289.99 | [Buy — Hybrid Racing](https://www.hybrid-racing.com/products/hybrid-racing-cmc-upgrade-acura-tsx) |
 | 2 | **Clutch Fluid** | Motul RBF 600 DOT 4 (500mL x2) | ~$36 | [Buy — Amazon](https://www.amazon.com/Motul-MTL100949-Factory-Percent-Synthetic/dp/B004LEYJO4) |
-| | **Total** | | **~$326** | |
+| 3 | **Clutch pedal bushing** (OEM) | Honda 46991-S5A-004 | ~$8 | Honda dealer — dry-rotted at 170k, 30-sec install while system is apart |
+| 4 | **Motive Power Bleeder** (one-time, reusable for brakes too) | Motive 0100 | ~$60 | [Amazon](https://www.amazon.com/s?k=Motive+Products+0100) |
+| | **Subtotal (CMC upgrade alone)** | | **~$393** | |
 
-That's it. The Hybrid Racing kit includes the CMC, CSC, braided line, fittings, seal, grease, and hardware. Two bottles of Motul RBF 600 and I'm ready to install.
+### Cross-Reference: "Do This At The Same Time" Opportunities
+
+I'm pulling the transmission to access the CSC. While it's out, several other jobs become effectively free labor. **I'm doing all of these in one session** — no way I'm pulling the transmission twice.
+
+| Add-on | OEM P/N | Price | Why It's Free Labor Now |
+|--------|---------|-------|-------------------------|
+| **Rear main seal** | 91214-RDA-A01 | ~$20 | Trans is out, crank is exposed. 170k RMS will weep inside a year otherwise. Do it now. |
+| **Throwout bearing** (OEM) | 22810-RWC-003 | ~$40 | Accessible only with trans out. Cheap insurance. |
+| **Pilot bearing** | 91006-RWC-003 | ~$15 | Same logic. |
+| **Transmission inspection** | — | $0 | Visual check for input shaft seal weeping, bellhousing cracks, synchro rings. |
+| **Fresh Honda MTF-3** | 08798-9031, 2.2 qt | ~$25 | Refill with fresh fluid — catches any residual clutch debris. |
+
+**Total with add-ons: ~$493.** About $100 more than the core kit, and it saves me from pulling the transmission again for avoidable reasons. The reliability-first rule says: if it's accessible cheaply now, do it now.
+
+That's it. The Hybrid Racing kit provides the main CMC/CSC/line/fittings/grease, plus the bonus items cover every other 170k-mile wear point that's accessible only during this job.
 
 ---
 

@@ -195,11 +195,16 @@ Here's the math:
 | **Bosch EV14 650cc** | 650cc | $220-300 | Slight additional headroom over 550cc. Still perfectly fine for NA. |
 | **Grams Performance 550cc** | 550cc | $300-350 | Good option. Well-characterized for Honda applications. |
 
-**The sweet spot for my full bolt-on NA K20Z3 on flex fuel is 440-550cc.** The Bosch EV14 550cc is arguably the best value and performance choice. They're well-characterized, well-priced, idle cleanly, and provide enough headroom for E85 without being so large that low-duty-cycle drivability suffers.
+**Decision: Bosch EV14 550cc, NOT ID1050x.**
 
-**If I think turbo is in the future:** The Injector Dynamics ID725 or DeatschWerks 600cc provide enough headroom for modest boost while still idling cleanly on an NA setup. The ID1050x would cover me for a high-power turbo build but at the cost of NA drivability — they can be made to work with proper tuning but they're not ideal.
+My earlier BOM listed the ID1050x. After cross-checking:
 
-**Important:** Whatever injector I choose, it needs the correct physical fitment for the K20Z3 (Honda/Denso-style connector or OBD2/EV6 depending on the specific injector — verify before purchasing, 48mm body length for top-feed K-series rail, 14mm o-ring top and bottom or appropriate adapters). I need to make sure I buy injectors specifically listed for K-series or that come with the appropriate adapter clips/o-rings.
+- ID1050x = 1065cc. That's **3.4x** what I need for 250 WHP on E85. At idle and low load, the injector is pulsing so briefly that minimum-pulse-width becomes a drivability problem (stumble, cold start roughness) even with careful tuning.
+- EV14 550cc = correct size for my target (max duty cycle ~75% at redline E85, ~60% at redline pump gas) = safe headroom without the low-end drivability penalty.
+- EV14 is cheaper (~$200-280 vs ~$546), from the same Bosch OE production line that supplies OEM fuel injectors to half the world's automakers. Better idle quality, faster response time (sub-1ms), well-characterized in Hondata.
+- The ONLY reason to pick the ID1050x is if turbo is near-term certain. My current build is NA forever unless explicitly changed — so the EV14 is the right part.
+
+**I'm going with Bosch EV14 550cc.** I'll verify the specific variant (0280158040 or similar OE PN) ships with USCAR-to-Honda clip adapters or budget ~$15-25 for them separately. 48mm body, 14mm o-rings top and bottom — this is the standard K-series top-feed config that both the stock rail and the Acuity rail accept.
 
 ### 3.6 Fuel Pump
 
@@ -218,7 +223,11 @@ Here's the math:
 | **Walbro 255 LPH (GSS342)** | 255 LPH | $60-90 | Budget option. Works fine but DeatschWerks units have better Honda-specific fitment kits. |
 | **AEM 340 LPH (50-1200)** | 340 LPH | $110-140 | Excellent pump. Comes with universal install kit; may need Honda-specific adapter. |
 
-**I'm leaning toward the DeatschWerks DW200 (255 LPH).** It's the most commonly recommended pump for the 8th gen Civic SI flex fuel conversion — direct drop-in replacement for the stock pump assembly, includes Honda-specific fitting hardware, and provides more than double the stock flow capacity.
+**Decision: DeatschWerks DW300C (340 LPH), NOT DW200.**
+
+I waffled on this initially. After cross-checking with the [tuning-workflow-and-maps.md](../07-Hondata-FlashPro/tuning-workflow-and-maps.md) rule (headroom > margin), the DW200 at 255 LPH is enough for a well-tuned 93-octane build but gets genuinely tight on E85 at my target WHP. Injector duty cycle ceiling is 85% — the pump needs to deliver at that load without pressure drop, even with the 30% more volume E85 demands. The DW300C at 340 LPH gives me ~30% margin over DW200 for the same money class (~$130-160 vs ~$110-130). That margin is pure reliability insurance under the reliability-first rule.
+
+If I ever go turbo (even modest), the DW300C is still enough. The DW200 is not. Buy once.
 
 ### 3.7 Fuel Filter
 
@@ -395,13 +404,11 @@ The system is completely seamless. There's no "wrong" blend and no need to drain
 | 5 | **Fuel rail** | Acuity K-Series 1913-BLK | $180-250 | [Acuity Direct](https://acuityinstruments.com/products/k-series-fuel-rail-in-black-satin-finish) |
 | | | | | [K Series Parts](https://www.kseriesparts.com/ACI-1913-BLK.html) |
 | | | | | [Nippon Power](https://nipponpower.com/products/acuity-instruments-k-series-fuel-rail-satin-black-finish-honda-k20-k24-1913-blk) |
-| 6 | **Fuel injectors** | Injector Dynamics ID1050x (1050.48.14.14.4) | ~$546 | [K Series Parts](https://www.kseriesparts.com/IJD-1050-48-14-14-4.html) |
-| | | | | [Hybrid Racing](https://www.hybrid-racing.com/products/injector-dynamics-k-series-1050x-fuel-injectors-for-rsx) |
-| | | | | [Real Street Performance — $546](https://www.realstreetperformance.com/injector-dynamics-id1050-id1050x-1065cc-injectors-k20-k20a-k20z3-civic-si-06-honda-14mm.html) |
-| | | | | [MAPerformance](https://www.maperformance.com/products/injector-dynamics-id1050x-fuel-injectors-1065cc-multiple-fitments-1050-48-14-14-4) |
-| | | (alt: Bosch EV14 550cc, ~$200-280 — budget option) | | |
-| 7 | Injector clips/adapters | Honda K-series adapter clips (if needed) | $0-20 | Included with most injector sets |
-| 8 | **Fuel pump** | DeatschWerks DW300C (9-307-1008) 340 LPH | ~$130-160 | [DeatschWerks Direct](https://deatschwerks.com/products/9-307-1008) |
+| 6 | **Fuel injectors** | **Bosch EV14 550cc** (primary pick) | ~$200-280 | See decision block below |
+| | | alt: Injector Dynamics ID725 | ~$450 | — |
+| | | alt: Injector Dynamics ID1050x (only if going turbo later) | ~$546 | [K Series Parts](https://www.kseriesparts.com/IJD-1050-48-14-14-4.html) |
+| 7 | Injector clip adapters (USCAR→Honda) | Required for Bosch EV14 or ID1050x | ~$15-25 | Included with most injector sets; verify before ordering |
+| 8 | **Fuel pump** | **DeatschWerks DW300C (9-307-1008) 340 LPH** — primary pick | ~$130-160 | [DeatschWerks Direct](https://deatschwerks.com/products/9-307-1008) |
 | | | | | [K Series Parts](https://www.kseriesparts.com/DWS-9-307-1008.html) |
 | | | | | [MAPerformance](https://www.maperformance.com/products/deatschwerks-dw300c-340lph-fuel-pump-w-install-kit-2006-2011-honda-civic-9-307-1008) |
 | | | | | [HARDmotion](https://hardmotion.com/shop/fuel-tuning/deatschwerks-dw300c-340-lph-fuel-pump-06-11-12-15-civic-si-9-307-1008/) |
@@ -543,10 +550,10 @@ The $700-1,100 investment in fuel system components now means I don't have to bu
 | Does FlashPro support flex fuel on 8th gen SI? | Yes, fully supported with real-time interpolation |
 | Real-time interpolation between gas/E85 tunes? | Yes, automatic and seamless based on sensor reading |
 | Power gain from E85 on NA K20Z3? | 5-15 WHP (typically 8-12 WHP) |
-| Injector size needed? | 440-550cc (Bosch EV14 550cc recommended for NA-only) |
-| Fuel pump upgrade needed? | Yes — DeatschWerks DW200 (255 LPH) recommended |
+| Injector size and part? | **Bosch EV14 550cc.** ID1050x is overkill and hurts idle. |
+| Fuel pump? | **DeatschWerks DW300C (340 LPH).** DW200 is too tight on E85 headroom. |
 | Acuity fuel rail E85 compatible? | Yes, fully compatible out of the box |
-| Stock fuel lines OK for E85? | Short-term yes; upgrade recommended for sustained E85 use |
+| Stock fuel lines OK for E85? | Yes, post-2006 Honda spec — confirmed E85-safe per 8thcivic FAQ and community reliability reports |
 | Total conversion cost? | $700-1,100 (excluding fuel rail and FlashPro already planned/owned) |
 | Worth it on NA? | Modest gains. Better $/WHP alternatives exist (cams). Best justified as turbo future-proofing. |
 | Can I run any blend E0-E85? | Yes, any blend, any time, seamlessly |
