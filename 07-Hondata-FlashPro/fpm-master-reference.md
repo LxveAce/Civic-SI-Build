@@ -2,6 +2,251 @@
 
 > **Single source of truth for everything Hondata FlashPro + FlashProManager.** This file is built from Hondata's own official help content (pasted section-by-section from the live help site), cross-referenced with community sources and my own FlashPro install evidence. Future Claude instances should load this before any Hondata conversation.
 
+---
+
+## 0. Navigation Index (Mirrors the Hondata Help TOC)
+
+Jumping-off points organized exactly like the FlashPro Help tree:
+
+**Basics**
+- [1. What's New — Version Timeline](#1-whats-new--version-timeline)
+- [2. FlashPro Features](#2-flashpro-features-hardware--software)
+- [3. Hardware Specifications](#3-hardware-specifications)
+- [4. System Requirements](#4-system-requirements)
+- [6.6 The FlashPro (variants, LEDs, buttons)](#66-the-flashpro-hardware-unit--captured)
+
+**Installation / Setup**
+- [6.5 Introduction (overview workflow)](#65-introduction--captured)
+- [6.7 Installation Warnings (injectors, plugs, ground)](#67-installation-warnings--captured-critical)
+- [6.47 Security / Vehicle Locking](#647-security-flashpro-anti-theft--captured)
+
+**Calibrations**
+- [6.9 Calibrations (New Cal Workflow)](#69-calibrations-new-cal-workflow--captured)
+- [6.10 Modifications](#610-modifications-reusable-calibration-snippets--captured)
+- [6.11 Quick Modifications](#611-quick-modifications-in-window-shortcuts--captured)
+
+**Programming Your ECU**
+- [6.13 Opening a Calibration](#613-opening-a-calibration--captured)
+- [6.14 Uploading a Calibration — DUAL-CAL](#614-uploading-a-calibration--captured-game-changer)
+- [6.15 Downloading a Calibration](#615-downloading-a-calibration--captured)
+- [6.16 ECU Recovery Mode](#616-ecu-recovery-mode--captured)
+- [6.17 Maintenance Minder Reset](#617-maintenance-minder-service-light-reset--captured)
+- [6.18 Live Tuning](#618-live-tuning--captured-major-feature)
+- [6.19 Instant Live Tuning](#619-instant-live-tuning--captured)
+
+**Tuning Your Vehicle**
+- [6.20 Overall Process (VTC Engines)](#620-tuning-your-vehicle-overall-process-for-vtc-engines--captured)
+- [6.21 Fuel Tuning (MAF vs MAP)](#621-fuel-tuning-maf-vs-map-methods--captured)
+- [6.22 Mass Flow Fuel](#622-tuning-mass-flow-afm-fuel--captured)
+- [6.23 AFM Flow Calibration](#623-tuning-afm-flow-calibration-procedure--captured)
+- [6.24 Speed/Density Fuel](#624-tuning-speeddensity-map-fuel--captured)
+- [6.25 Part Throttle Fuel Tuning (MAP)](#625-part-throttle-fuel-tuning-map-no-dyno--captured)
+- [6.26 Starting Fuel](#626-tuning-starting-cranking-fuel--captured)
+- [6.27 Ignition Tables](#627-tuning-ignition-tables--captured)
+- [6.28 VTC Tuning](#628-vtc-tuning-variable-timing-control--captured)
+- [6.29 VTEC Point Tuning](#629-vtec-point-tuning--captured)
+- [6.30 VTEC Crossover Tuning](#630-vtec-crossover-tuning-hondatas-technique--captured)
+- [6.31 AFM Removal](#631-afm-removal-map-conversion--captured)
+- [6.32 Table Indexes](#632-table-indexes-re-indexing--captured)
+- [6.33 Knock Control Tables](#633-knock-control-tables-advanced--captured)
+- [6.34 Individual Cylinder Ignition](#634-individual-cylinder-ignition--captured)
+- [6.35 Lambda Correction (AF.Corr)](#635-lambda-correction-afcorr-channel--captured-important)
+- [6.36 Rev Hang](#636-rev-hang-reduction--captured)
+- [6.37 Cruise Control Lambda Display](#637-cruise-control-lambda-display-hidden-feature--captured)
+- [6.38 Active Tuning](#638-active-tuning--captured-potentially-game-changing)
+- [6.39 Active Fuel Tuning parameters](#639-active-fuel-tuning-parameters--captured-detailed-config)
+- [6.40 Active AFM Tuning](#640-active-afm-tuning--captured)
+- [6.41 Multi-tune](#641-multi-tune--captured-not-for-my-platform)
+
+**Datalogging**
+- [6.42 Overview](#642-datalogging-overview--captured)
+- [6.43 Laptop Datalogging](#643-laptop-datalogging--captured)
+- [6.44 On-board Datalogging](#644-on-board-datalogging--captured)
+- [6.45 Sensor Setup](#645-sensor-setup--captured)
+- [6.46 Graphing](#646-graphing--captured)
+
+**Security**
+- [6.47 Overview](#647-security-flashpro-anti-theft--captured)
+- [6.48 Owner Information](#648-owner-information--registration--captured)
+- [6.49 Security Password](#649-security-password--captured)
+- [6.50 Reset Password](#650-reset-password--captured)
+- [6.51 Purchasing a Used FlashPro](#651-purchasing-a-used-flashpro--captured)
+
+**Hondata Vault**
+- [6.52 Overview](#652-hondata-vault--captured)
+- [6.53 Searching Vault](#653-searching-vault--captured)
+
+**Reference**
+- [6.54 Shortcut Keys](#654-keyboard-shortcuts-complete-list--captured)
+- [6.55 Settings](#655-settings-window--captured)
+- [6.56 Main Window](#656-main-window--status-bar--captured)
+- [6.57 Options](#657-options-menu--captured)
+- [6.58 Table Window](#658-table-window--captured-important--primary-tuning-interface)
+- [6.59 Changing Table Indexes](#659-changing-table-indexes--captured)
+- [6.60 Proportional Tracing](#660-proportional-tracing--captured)
+- [6.61 Changed Value Highlight](#661-changed-value-highlight--captured)
+- [6.62 Sensor Overlay](#662-sensor-overlay--captured)
+
+**Calibration Window — Parameters**
+- [6.63 Overview](#663-calibration-window--captured-the-parameter-editor)
+- [6.64 Calibration Parameters (revision, notes, permissions)](#664-calibration-parameters-revision-notes-gear-ratios-permissions--captured)
+- [6.65 Fuel Parameters](#665-fuel-parameters-detailed--captured)
+- [6.66 Fuel Pump (HPFP DI only)](#666-fuel-pump-parameters-hpfp--direct-injection--captured)
+- [6.67 Ignition Parameters](#667-ignition-parameters-detailed--captured)
+- [6.68 VTEC Parameters](#668-vtec-parameters-detailed--captured)
+- [6.69 VTC Parameters](#669-vtc-parameters-detailed--captured)
+- [6.70 Closed Loop Parameters](#670-closed-loop-parameters--captured-critical-for-wideband)
+- [6.71 Knock Control Parameters](#671-knock-control-parameters--captured)
+- [6.72 Rev Limit Parameters](#672-rev-limit-parameters-detailed--captured)
+- [6.73 Launch Control (Adjustable)](#673-launch-control-adjustable--captured)
+- [6.74 Hondata Mode](#674-hondata-mode-sporteco-button--not-my-platform)
+- [6.75 Sensor Parameters](#675-sensor-parameters--captured)
+- [6.76 Idle Parameters](#676-idle-parameters--captured)
+- [6.77 Throttle Parameters](#677-throttle-parameters--captured)
+- [6.78 Boost Control](#678-boost-control-parameters--not-my-platform)
+- [6.79 Turbocharger](#679-turbocharger-parameters--not-my-platform)
+- [6.80 Torque Parameters](#680-torque-parameters--likely-not-applicable-to-my-prb)
+- [6.81 Misc Parameters](#681-misc-parameters--captured)
+- [6.82 Ethanol Parameters — FLEX FUEL](#682-ethanol-parameters--captured--the-critical-flex-fuel-answer)
+- [6.83 Methanol Injection](#683-methanol-injection--captured-not-planned--reference-only)
+- [6.84 Traction Control](#684-traction-control--limited-on-my-platform)
+
+**Graph / Display Windows**
+- [6.85 Graph Window](#685-graph-window--captured-datalog-analysis)
+- [6.86 Datalog Comments](#686-datalog-comments--captured)
+- [6.87 Advanced Graphs](#687-advanced-graphs-xy-histogram--captured)
+- [6.88 Graph Templates](#688-graph-templates--captured)
+- [6.89 Sensor / Display Windows](#689-sensor-window--display-window--captured)
+- [6.90 Error Codes Window](#690-error-codes-window--captured)
+- [6.91 FlashPro Window (Tabs)](#691-flashpro-window-tabs--captured)
+- [6.92 EPA/CARB Restrictions](#692-epacarb-restrictions--captured)
+- [6.93 OBDII Diagnostics](#693-obdii-diagnostics-window--captured)
+- [6.94 Shortcuts Window](#694-shortcuts-window--captured)
+- [6.95 Dealer FlashPro](#695-dealer-flashpro-window--not-my-unit)
+- [6.96 G Force Window](#696-g-force-window--captured)
+
+**Commands**
+- [6.97 Check For Updates / Check Internet](#697-check-for-updates--check-internet-connection--captured)
+- [6.98 Update Boot Firmware](#698-update-boot-firmware--captured-rare-fix)
+- [6.99 Compare Calibration](#699-compare-calibration--captured-useful-diff-tool)
+
+**Sensors (Datalog Channels)**
+- [6.100 Compatibility Matrix for Civic Si '06](#6100-sensors-complete-k20z3-compatibility--captured)
+- [6.101 Per-Sensor Definitions](#6101-sensor-definitions-per-sensor--captured)
+
+**Advanced Reference (Sections 7+)**
+- [7. ECU Connectors & Pins](#7-ecu-connectors--pins--captured-critical-for-wiring)
+- [8. DDE Server (FPM ↔ Excel integration)](#8-dde-server--fpm--excel-integration--captured)
+- [9. Plugins and Scripting (Lua)](#9-plugins-and-scripting-lua--captured-new-automation-path)
+- [10. Bluetooth](#10-bluetooth--captured)
+- [11. Vehicle-Specific Notes: Civic Si 2006-2011 (MY CAR)](#11-vehicle-specific-notes-civic-si-2006-2011-my-car--captured-definitive)
+- [12. Updating Calibrations](#12-updating-calibrations--captured)
+- [13. Frequently Asked Questions](#13-frequently-asked-questions--captured)
+- [14. Error Reporting](#14-error-reporting--captured)
+- [15. Verified vs. To-Verify Summary](#15-verified-vs-to-verify-summary)
+
+**Practical Quick-References**
+- [PRB Calibration Window Tree (what I actually see in FPM)](#prb-calibration-window-tree-what-i-actually-see-in-fpm)
+- [Pin Allocation Decision for My Build](#pin-allocation-decision-for-my-build)
+
+---
+
+## PRB Calibration Window Tree (What I Actually See in FPM)
+
+From screenshot of FPM's Calibration window with my PRB K20Z3 calibration loaded. This is the navigable tree in the software — each ⊞ expands to reveal parameters and tables. Maps 1:1 to sections 6.64-6.84 below.
+
+```
+📋 Calibration
+├─ 🔥 Fuel
+│  ├─ 📈 WOT lambda adjustment low
+│  ├─ 📈 WOT lambda adjustment high
+│  ├─ 📊 Cranking fuel
+│  ├─ 🎯 Cylinder trim
+│  ├─ 🌡️ Air temperature compensation
+│  ├─ 🌡️ Coolant temperature
+│  ├─ 📈 Active fuel tuning low
+│  ├─ 📈 Active fuel tuning high
+│  └─ ⚙️ Active Tuning (enable/disable + settings)
+├─ ⚡ Ignition
+│  ├─ 📈 Ignition low
+│  ├─ 📈 Ignition high
+│  ├─ 🎯 Cylinder trim
+│  ├─ 🌡️ Air temperature compensation
+│  └─ 🌡️ Coolant temperature
+├─ 🔀 VTEC
+│  (no sub-tables — parameters only: rpm window, pressure window, conditions)
+├─ ⏱️ VTC
+│  ├─ 📈 Cam angle low (low-cam VTC targets, 3D by cam angle)
+│  ├─ 📈 Cam angle high (high-cam VTC targets)
+│  ├─ 🔢 Cam angle index low (RPM/load breakpoints for low-cam table)
+│  └─ 🔢 Cam angle index high (RPM/load breakpoints for high-cam table)
+├─ λ  Closed Loop
+│  └─ 📈 Lambda (target lambda + related)
+├─ 🔔 Knock Control
+│  ├─ 📈 Knock ignition limit low
+│  ├─ 📈 Knock ignition limit high
+│  ├─ 📈 Knock sensitivity low
+│  ├─ 📈 Knock sensitivity high
+│  ├─ 📈 Knock retard low
+│  └─ 📈 Knock retard high
+├─ 🚫 Rev Limits
+│  (parameters only: overall, launch, speed, boost cut, full throttle shift)
+├─ 📡 Sensors
+│  └─ 🌀 AFM (air flow meter calibration table)
+├─ 💨 Boost Control
+│  └─ 📈 Boost control duty lookup (not usable on NA)
+├─ 🔁 Idle
+│  (idle speed tables + parameters)
+├─ 🎛️ Throttle
+│  └─ 📈 TPlate Normal (target throttle plate table)
+├─ ⚙️ Misc
+│  (VSA, EPS, cruise control, fan temps, etc.)
+├─ 🎾 Traction Control
+│  (if Hondata TC module connected — hardware + software)
+└─ 🌽 Ethanol
+   └─ 📈 Ethanol ignition compensation
+   (+ Ethanol percentage table, fuel multiplier, boost limit)
+```
+
+**Key observations:**
+- Fuel and Ignition are **mirrored** — same sub-structure for both (low, high, cylinder trim, IAT comp, ECT comp). Learning one teaches the other.
+- VTC has **4 tables** (cam angle low, cam angle high, and their separate index tables). The index tables are where I do VTEC crossover optimization per Section 6.30.
+- Knock Control has **6 tables** (3 parameters × low/high cam). Deep tuner territory.
+- **WOT lambda adjustment has two copies** (low/high). Critical since Hondata ceiling of 12.50:1 applies to BOTH.
+- **Active fuel tuning low AND high** — ECU-side auto-tuning works on BOTH cam profiles.
+- **Ethanol ignition compensation** lives here — my flex fuel interaction point.
+
+---
+
+## Pin Allocation Decision for My Build
+
+Based on official Hondata ECU Connectors topic + Wideband + Ethanol Parameters docs:
+
+**My 2006-2011 Civic Si (PRB ECU) pinout for aftermarket inputs:**
+
+| Pin | Stock Function | Repurposable For | My Plan |
+|-----|----------------|-------------------|---------|
+| **A23** | ELD (Electrical Load Detector) | Wideband input | **WIDEBAND (AEM X-Series 30-0300)** ← my wideband goes here |
+| **A33** | ECT2 (second coolant temp sensor) | Wideband OR Flex fuel input | **FLEX FUEL (Innovate ECF-1 controller output)** ← flex fuel goes here |
+| **B2** | EGR output | Boost control output | Unused (NA) — future turbo prep only |
+| **B29** | EGRL (EGR lift input) | Wideband input | Unused — redundant for my needs |
+| **C27** | SO2 (Rear O2 sensor input) | **NOT RECOMMENDED** for wideband | Keep stock function (with Berk HFC, rear O2 is valid) |
+
+**Why this allocation:**
+- **A23 / ELD for wideband:** Hondata explicitly lists as good wideband input. ELD must be disabled in misc params + factory pin removed from ECU connector.
+- **A33 / ECT2 for flex fuel:** Ethanol Parameters topic confirms ECT2 is the K-series flex fuel input path. Must disable ECT2 in misc + remove factory pin.
+- **C27 / SO2 left stock:** Section 6.8 says SO2 is NOT recommended for wideband (ECU voltage limiting). I have the Berk HFC so rear O2 stays functional and verifies catalyst efficiency.
+- **B2 unused on NA:** saves a pin if I ever go turbo.
+
+**Wiring reality:** this means I need to:
+1. Remove the ECT2 pin from the ECU connector → solder flex fuel controller signal to that wire (or new wire going to ECT2 pin location)
+2. Remove the ELD pin from the ECU connector → solder AEM wideband analog output signal to that wire
+3. Disable ELD AND ECT2 in FPM Misc parameters before flashing
+4. Configure the wideband input calibration (0V=10 AFR, 5V=20 AFR for AEM X-Series)
+5. Configure the ethanol percentage table (Innovate ECF-1: 0.00V=0%, 5.00V=100%)
+
+**Critical:** disable BEFORE flashing, flash with ELD/ECT2 disabled, THEN do the wiring. Otherwise ECU throws DTCs during boot.
+
 **My install:**
 - **FlashPro hardware:** FlashProOG (original, not Mini, not FlashPro 2)
 - **FlashProManager version:** 4.6.6.0 (installed from `FlashProManagerV4-6-6-Full.exe` in `C:\Users\extra\Downloads\`)
@@ -2458,7 +2703,518 @@ Summary of per-sensor topic descriptions:
 - Fuel Status = 8 → ERROR, investigate
 - CAM lags CAMCMD sustained > 0.5 sec → VTC actuator failing (matches my existing guidance)
 
+**Additional sensor definitions (from later help topics):**
+- **K.Retard:** knock retard (degrees) actually applied to the ignition.
+- **K.Control:** knock control value (%) — estimated fuel octane as a percentage between 100 RON and 90 RON. 0% = 100+ octane, 25% = 97.5, 50% = 95.
+- **Ign.Limit:** knock ignition limit (degrees). Max advance before knock likely.
+- **K.Count:** knock count per cylinder. Incremented every time ECU detects a knock event. NOT affected by knock sensitivity table adjustments. **Common false-knock causes: supercharger noise, exhaust headers.** Worth noting for my Skunk2 Alpha header — early cold-start false-knock is possible; tune sensitivity up if needed.
+- **PA:** atmospheric air pressure, measured internally by ECU.
+- **BAT:** battery voltage at the ECU.
+- **VTS:** VTEC spool valve state — shows when VTEC has engaged the high-speed cam (boolean).
+- **Eco:** calculated fuel economy — depends on injector size being set correctly in Fuel parameters.
+- **Fuel Used:** per-trip total fuel used by the engine (ECU-calculated).
+- **Frame:** datalog frame count.
+- **BC Duty:** boost control duty cycle (%). Not applicable to NA.
+
 This closes the loop on all the individual sensor definitions for datalog analysis.
+
+---
+
+## 7. ECU Connectors & Pins — CAPTURED (CRITICAL FOR WIRING)
+
+**Convention:** ECU pins referenced by connector letter + pin number, e.g., `C27` = pin 27 of connector C.
+
+### For My 2006-2011 Civic Si (PRB) — The Pin Allocation Table
+
+| Pin | Stock Function | Repurpose For | Notes |
+|-----|----------------|---------------|-------|
+| **A23** | ELD (Electrical Load Detector) | Wideband input | ELD must be disabled in misc + factory pin removed from ECU connector |
+| **A33** | ECT2 (Second coolant temp sensor) | Wideband OR Flex Fuel input | ECT2 must be disabled in misc + factory pin removed |
+| **B2** | EGR output | Boost Control output | Normally unused — open for future FI |
+| **B29** | EGRL (EGR lift input) | Wideband input | Normally unused |
+| **C27** | SO2 (Secondary/rear O2 sensor input) | — | **NOT recommended for wideband** (ECU voltage clipping). Must be disabled + pin removed if ever used |
+
+### Connector Color Coding (Civic)
+
+- **A Connector — White**
+- **B Connector — Grey**
+- **C Connector — Green**
+
+### Physical Pin Details
+
+- Each connector has pins numbered 1-40 organized into **5 rows**
+- Top and bottom rows use **large pins**
+- Middle three rows use **small pins**
+- Pin numbers visible on wire side of connector once plastic cover removed
+
+### Inserting / Removing Pins
+
+**To access pins:** slide the white plastic surround upward slightly to unlock pins.
+
+**Inserting pins:**
+- Crimp pin onto wire with a crimp tool (Molex tool with 1.6mm crimp recommended)
+- Verify correct cavity before inserting (very hard to remove once in)
+- Push pin in with open side of crimp UPWARD until it clicks
+- Move plastic surround back to locked position
+
+**Removing pins:**
+- Very difficult without the correct tool
+- Fine screwdriver can work as a makeshift removal tool
+- Insert from ECU side, lift sprung plastic catch while pulling wire from behind
+- **Don't use force on the wire** — pin digs into plastic catch and becomes much harder to remove
+
+### Cross-Reference to Other Platforms (for context)
+
+| Platform | ELD pin | ECT2 pin | EGRL pin | SO2 pin |
+|----------|---------|----------|----------|---------|
+| **2006-2011 Civic Si** (mine) | A23 | A33 | B29 | C27 |
+| 2012 Civic Si / ILX | A34 | A44 | — | — |
+| 2012-2015 R18 AT/MT | A34 | A44 | — | — |
+| 2014-2015 R18 CVT | A34 | A46 | — | — |
+| S2000 | E15 | E1 | B12 | — |
+| 2007-2008 TSX | E15 | E1 | B12 | — |
+| 2009-2014 TSX | A24 | — | — | — |
+
+---
+
+## 8. DDE Server — FPM ↔ Excel Integration — CAPTURED
+
+**What it is:** FlashProManager can function as a **DDE (Dynamic Data Exchange) server** — a Windows inter-process data transfer tech. Enables Excel and other apps to pull live datalog values from FPM for further analysis.
+
+### Data I Can Pull from FPM via DDE
+
+**Server name:** `FlashProManager`
+
+**Calibration data:**
+- `=FlashProManager|Calibration!Name` — returns loaded calibration name
+
+**Datalog data:**
+- `=FlashProManager|Datalog!FrameCount` — live-updates while datalogging
+
+**Sensor data:**
+- `=FlashProManager|Sensors!Count` — number of sensors
+- `=FlashProManager|Sensors!Names` — array of names (Ctrl-Shift-Enter for array display in Excel)
+- `=FlashProManager|Sensors!Values` — array of live values
+- `=FlashProManager|Sensors!Units` — array of units
+- `=FlashProManager|Sensors!'Knock Retard'` — individual sensor value (single quotes for names with spaces)
+
+### Commands I Can Send to FPM via DDE
+
+**Calibration commands:**
+- `Open <filename>` — load a calibration
+- `Notes <notes>` — change calibration notes (new line via `$r`)
+- `Lock <serial>` — lock cal to FlashPro serial number
+- `Save <filename>` — save current cal
+- `Close` — close current cal
+
+**Modification commands:**
+- `Apply <filename>` — apply a modification to current cal (filename relative to FPM modifications directory)
+
+### Example Use Cases
+
+- **Live dashboard in Excel** — custom gauges, alarms, computed values from live sensor data
+- **Auto-build calibration compare reports** — script opens two cals, dumps values to Excel cells
+- **Remote monitoring** — Excel sheet pulling from FPM over DDE, shared with a tuner elsewhere
+
+**For my build:** DDE is a lightweight alternative to Lua plugins for simple integrations. If I want a custom dashboard or logger that's quick to set up, this is the path. Not as powerful as plugins but easier for small jobs.
+
+---
+
+## 9. Plugins and Scripting (Lua) — CAPTURED (NEW AUTOMATION PATH)
+
+**⚠️ Major correction to earlier docs:** I previously wrote "Hondata has no public API or documented CLI." **This was wrong.** FPM supports Lua scripts packaged as Plugins — a real programmatic automation path.
+
+### What Plugins Can Do
+
+- Read/write any calibration parameter or table
+- Analyze datalogs
+- Respond to events (calibration open/close, datalog load, datalog start/stop)
+- Interactive dialogs (InputQuery, ShowMessage)
+- Access sensor metadata (name, type, unit, min/max)
+
+### How to Install a Plugin
+
+- FPM → Plugins menu → Manage Plugins → Install button
+
+**⚠️ Security warning:** Plugins can change ANY calibration parameter or table. **Only install from trusted sources.**
+
+### Lua Script Object Model (summarized)
+
+Full reference in FPM help; key objects:
+
+**`Application`** — `app`, `version`, `build`, `bit64`, `compiledate`, `locale`, `os`
+
+**`Device`** — name, `connected()`, `hardware()`, `serial()`, `isdatalogging()`, `isrecording()`, `datalogcount()`
+
+**`ECU`** — `ignitionon()`, `startdatalogging()`, `stopdatalogging()`, `startrecording()`, `stoprecording()`
+
+**`Sensor`** — `name()`, `abbreviation()`, `description()`, `min()`, `max()`, `type()`, `unit()`, `live()` (real-time value)
+
+**`SensorList`** — `count()`, `sensor(index)` (also `[]` subscript)
+
+**`Datalog`** — `filename()`, `framecount()`, `length()`, `timestamp(frame)`, `framenumber(timestamp)`, `value(Sensor, frame)`, `sensorcount()`, `sensor(index)`
+
+**`DatalogManager`** — `count()`, `datalog(index)`
+
+**`Table`** — `name()`, `valuename()`, `dimensions()`, `length()`, `size()`, `type()`, `unit()`, `readonly()`, `GetValue(idx, idx, idx)`, `SetValue(value, idx, idx, idx)`
+
+**`Calibration`** — `loaded()`, `filename()`, `update()`, `tablecount()`, `table(index)`
+
+**`ErrorCode` / `ErrorCodeList`** — DTC query and clearing
+
+### Event Callbacks
+
+Lua scripts can respond to:
+- `OnCalibrationNew(calibration)`
+- `OnCalibrationOpen(calibration)`
+- `OnCalibrationClose(calibration)`
+- `OnDatalogOpen(datalog)`
+- `OnDatalogClose(datalog)`
+- `OnDatalogStart()`
+- `OnDatalogStop()`
+
+### Functions
+
+- `InputQuery(caption, prompt, default)` — prompt for string input, returns string or nil
+- `ShowMessage(message)` — show MessageBox
+
+### Implications for My Build
+
+**This is the automation path I thought didn't exist.** With Lua plugins I can:
+
+1. **Auto-analyze datalogs on close.** `OnDatalogClose(datalog)` fires → script reads all frames for knock count, lean spikes, over-duty-cycle events → writes a summary to a file or shows MessageBox.
+
+2. **Safety guardrails on calibration save/upload.** `OnCalibrationOpen/Close` fires → script inspects WOT AFR cells, timing cells, rev limits, VTEC point → rejects out-of-envelope values BEFORE I flash.
+
+3. **Auto-CSV export of datalogs.** `OnDatalogClose` → script uses `datalog:value()` to iterate all frames/sensors and writes a CSV file to a known folder. Paired with cloud sync, Claude can pull logs within seconds of me ending a drive.
+
+4. **Custom sensor alerts.** Real-time via Lua scripts monitoring `Sensor.live()` values and triggering UI alerts when thresholds cross.
+
+**For my build, I should write (or find a community plugin for):**
+- `reliability-guard.lua` — enforces my safety ceilings on calibration save (WOT AFR ≥ 12.0 pump / ≥ lambda 0.82 E85, timing peaks verified, rev limit ≤ 8400 RPM)
+- `auto-csv-export.lua` — writes CSV next to `.fpdl` on close
+- `log-summary.lua` — post-drive summary of knock events, trim extremes, max IAT/ECT, injector duty peaks
+
+This is a much better workflow than UI automation via AutoHotkey. I'll explore the Plugins community / write my own when I have more dyno data.
+
+### Other Mentions
+
+- **Plugin Graphics** — listed as "Work in progress. Unsupported."
+- **Plugin Debugger** — listed as "Work in progress. Unsupported."
+- `Writing a plugin` — referenced as another help topic (not yet pasted; worth capturing if available)
+
+---
+
+## 10. Bluetooth — CAPTURED
+
+### Which FlashPros Have Bluetooth
+
+- **Some FlashPros manufactured after July 2013 AND all after December 2013** have built-in Bluetooth
+- Compatible serial number cutoff for 2006-2011 Civic Si **US FlashPro: sold after 11/7/2013**
+- Compatible cutoff for Civic Si / Type R **International: 9/27/2013**
+
+**For my unit:** the INI shows my FlashPro as a recent model (`FP-SI-US-461004`). If sold after November 2013 it has Bluetooth. **I should check: FPM → FlashPro window → FlashPro tab → expand "Hardware" → look for "Bluetooth present" entry.**
+
+### Bluetooth Types Supported
+
+- **V2.1 (BR/EDR)** — Android supports unrestricted
+- **BT4 (BLE — Low Energy)** — slower than V2.1
+- **Apple devices with Bluetooth V4** — work
+- **Apple devices with V2.1** — DON'T work (Apple requires specific chip in the hardware)
+
+### Communications Protocols
+
+- **FlashPro binary protocol** — datalog from FPM on laptop via Bluetooth
+- **Hondata binary protocol** — Android/iOS apps
+- **ELM327 emulation** — compatible with many existing scantool smartphone apps
+
+### Android Apps Supported
+
+Car Gauge Lite/Pro, DashCommand, OBDAutoDoctor, OBD Car Doctor, OBD Dashboard, OBD DROIDSCAN PRO, OBDLink, ScanMaster Lite, Torque Lite/Pro — all can read Bluetooth FlashPro.
+
+### Windows Bluetooth Stack Requirement
+
+- FPM requires **Microsoft Bluetooth stack** (shown as "Generic Bluetooth Adapter" in Device Manager)
+- Non-Microsoft stacks (chipset-manufacturer stacks) will NOT work with FPM
+- If using a non-Microsoft stack, you can uninstall and let Windows re-install with the Microsoft stack (risky — requires driver management comfort)
+
+### Bluetooth Options (FlashPro window → Bluetooth tab)
+
+- **Bluetooth enabled** — enable/disable on FlashPro
+- **Local Address** — Bluetooth radio on laptop (blank = no Bluetooth OR wrong stack)
+- **FlashPro Address** — Bluetooth address of FlashPro
+- **Device Name** — FlashPro Bluetooth name
+- **Tuning via Bluetooth enabled** — datalog + change some settings over Bluetooth (uploading NOT supported)
+- **Alternative pairing mode** — FlashPro shows as a phone to pair with vehicle head units (2018+ Civic)
+
+### Bluetooth Security
+
+- **PIN code** required on pairing (Windows can try 3 times without PIN before prompting user)
+- BLE connections don't use PIN codes → Tuning via Bluetooth DISABLED for BLE
+- **Limit access by device address** — most secure, only listed devices can connect
+
+### Connecting From Laptop
+
+- FPM → Online / Bluetooth menu OR Bluetooth toolbar button
+- FlashPro plugged into vehicle with ignition ON
+- Select Bluetooth Device window — Refresh to find new FlashPros
+- Windows remembers paired FlashPros
+- Pairing code defaults to FlashPro serial number (changeable in Bluetooth tab)
+- Disconnect: same menu/button
+
+### Vehicle Pairing (Hondata Mobile on Head Unit)
+
+For 2018+ Civics running Hondata Mobile on the car's head unit:
+
+1. Unplug FlashPro from vehicle
+2. Plug into laptop, run FPM
+3. FlashPro / Bluetooth → check "Alternative pairing mode for head unit (2018+ Civic)"
+4. Unplug/replug FlashPro USB
+5. On vehicle radio, pair to FlashPro (code default 1234)
+6. Hondata Mobile app on head unit connects to FlashPro
+
+**Not applicable to my 2009 Civic** (no compatible head unit).
+
+### Bluetooth Test Mode (developers only)
+
+Sends fixed test data:
+- RPM varies, speed 100 kph, gear 4, IAT 100°F, ECT 200°F, MAP 110 kPa, Lambda 13.8 AFR, STFT +10%, LTFT -10%, Battery 12V, Ethanol 20%, etc.
+
+### For My Build
+
+**If my FlashPro has Bluetooth:**
+- I can datalog from a phone without a laptop — **huge convenience for monitoring**
+- Hondata Mobile app pairing for a dash display
+- Android apps (Torque Pro, etc.) for custom gauges without FPM
+
+**Action item:** verify Bluetooth on first FPM connection. If present, install Hondata Mobile on my phone — free backup "gauge" that doesn't need the LattePanda.
+
+---
+
+## 11. Vehicle-Specific Notes: Civic Si 2006-2011 (MY CAR) — CAPTURED (DEFINITIVE)
+
+### Supported Models + ECU Part Numbers
+
+| Year | Region | Features | ECU Part Numbers | FlashPro Model |
+|------|--------|----------|-----------------|----------------|
+| **2006** | USA | No VSA | RRB-A04 to RRB-A05, RRB-305 | Civic Si Americas |
+| **2007-2011** | **USA** | **VSA** | **RRB-A060 to RRB-A140** | Civic Si Americas |
+| 2007-2011 | Mexico | — | RRB-X110 to RRB-X120 | Civic Si Americas |
+| 2007-2011 | Central America | — | RRB-K010 to RRB-K020 | Civic Si Americas |
+| 2007-2011 | South America | — | RRD-M110 to RRD-M120 | Civic Si Americas |
+| 2007-2011 | South America | — | RRD-M210 to RRD-M220 | Civic Si Americas |
+| 2007-2011 | South America | — | RRD-P110 to RRD-P120 | Civic Si Americas |
+| 2007-2011 | South America | — | RRD-P210 | Civic Si Americas |
+
+**My car:** 2009, USA = **RRB-A060 to RRB-A140 ECU** family. Has VSA. **FlashPro Model: Civic Si Americas.**
+
+Note: the CLAUDE.md file says my ECU is "PRB." The Hondata Supported Models table here uses **RRB**. These may be different part number prefixes (e.g., PRB could be a shorthand for the family, or RRB is the actual part number). **[VERIFY]** my actual ECU P/N by looking at the sticker on the ECU or in FPM's FlashPro window when connected.
+
+### Feature List (What My Calibration Supports)
+
+**General:**
+- ✅ Forced induction support
+- ✅ Expanded tables
+- ✅ Live tuning
+- ✅ Active fuel tuning
+- ✅ **Wideband lambda input**
+- ✅ **Boost control output** (for future if I ever go turbo)
+- ✅ **Ethanol content input (flex fuel!)**
+- ✅ Traction control input
+
+**Fuel:**
+- ✅ AFM, MAP, OR hybrid AFM/MAP tuning
+- ✅ Injector size & fuel pressure parameters
+- ✅ Injector voltage compensation
+- ✅ MAP fuel tables (VE-based)
+- ✅ AFM fuel tables (mass flow based)
+- ✅ Full load compensation tables (WOT)
+- ✅ Overall fuel trim
+- ✅ Cranking fuel trim
+- ✅ Cranking fuel table
+- ✅ After start fuel table
+- ✅ Cylinder fuel trim (per-cylinder)
+- ✅ Air temperature fuel trim
+- ✅ Coolant temperature fuel trim
+
+**Ignition:**
+- ✅ Ignition tables (low + high cam)
+- ✅ Tip-in retard compensation
+- ✅ Gear ignition compensation (different timing per gear)
+- ✅ Cranking base ignition
+- ✅ Cylinder ignition trim
+- ✅ Air temperature ignition trim
+- ✅ Coolant temperature ignition trim
+
+**VTEC/VTC:**
+- ✅ VTEC RPM window (low + high)
+- ✅ VTEC pressure window (MAP-based)
+- ✅ VTEC conditions (min ECT, min VSS)
+- ✅ VTEC oil pressure input enable/disable
+- ✅ Cam angle tables (VTC target)
+- ✅ VTC PID parameters (cam control loop tuning)
+
+**Closed Loop:**
+- ✅ Short, medium, long term trim limits
+- ✅ Full load determination tables (MAP AND TPS methods)
+- ✅ Wideband current to lambda conversion table
+- ✅ Target lambda
+
+**Knock:**
+- ✅ Knock ignition limit
+- ✅ Knock sensitivity table
+- ✅ Knock retard table
+
+**Rev Limits:**
+- ✅ Overall rev limiter
+- ✅ Launch rev limiter
+- ✅ Speed limiter
+- ✅ Boost cut (if adding FI)
+- ✅ Full throttle shift (flat-foot)
+- ✅ Anti-lag (for FI)
+
+**Sensors:**
+- ✅ AFM calibration
+- ✅ MAP sensor selection (stock or Hondata 4-bar)
+- ✅ Speed adjustment (ECU-side)
+- ✅ Speed adjustment (dash-side)
+
+**Idle:**
+- ✅ Idle speed tables
+- ✅ After-start idle speed table
+
+**Throttle:**
+- ✅ Target throttle plate table
+- ✅ Overrun throttle closure (rev hang reduction)
+- ✅ Tip-in fuel
+
+**Misc:**
+- ✅ Various sensor enable/disable (ELD, ECT2 are the critical ones for me)
+- ✅ Various DTC enable/disable
+- ✅ Cooling fan sensor selection (radiator bottom sensor or cylinder head sensor)
+- ✅ Cooling fan temperature (on/off points)
+
+### Platform-Specific Notes (Hondata official)
+
+1. **Engine oil life not functional with race calibration.** Switching from race to normal calibration → **Maintenance Minder needs to be reset** (see Section 6.17).
+2. **Trip meter not functional with race calibration.**
+
+**Implication:** if I run a race calibration (non-CARB) for Sport map, the trip meter won't work and oil-life indicator gets weird. Might be worth keeping both Daily AND Sport as AFM-based / CARB-compliant if possible. Depends on what calibration the Sport map starts from.
+
+---
+
+## 12. Updating Calibrations — CAPTURED
+
+**Why update calibrations:** important that cals are uploaded via the CURRENT FPM version to properly datalog and use current parameters.
+
+**Process:**
+1. Last uploaded calibration stored on FlashPro → download via Online menu → Download
+2. Re-upload via Online menu OR Ctrl+U
+3. For secondary calibration: FlashPro window → Calibrations tab → Download button in Secondary Calibration section, then re-upload via Upload button
+
+**When this matters for me:**
+- After FPM version updates
+- If I ever move the FlashPro to a different PC
+- To verify what's actually flashed on the ECU vs what I think is flashed
+
+---
+
+## 13. Frequently Asked Questions — CAPTURED
+
+### FlashPro Basics
+
+**"Do I need to leave the FlashPro plugged in?"**
+No. Once reflashed you may remove the FlashPro.
+
+**"Can I leave the FlashPro plugged in?"**
+Yes. When ignition is off, FlashPro enters power-saving mode (~10 mA draw). Will discharge battery faster than normal but should give several weeks of life on a normal-sized battery.
+
+**"Can I use the FlashPro on more than one vehicle?"**
+FlashPro can only be locked to one vehicle at a time. Not recommended to switch between vehicles unless selling.
+
+**"What is the difference between FlashPro OG and FlashProMini?"**
+**Just physical construction.** The board inside is functionally identical. Same software, same features.
+
+### 2006 Civic Calibrations — Critical for My Build
+
+**"When should I use AFM-based vs MAP-based calibration?"**
+- **AFM:** stock with bolt-ons. AFM auto-compensates for different exhausts, minor mods. Works for mild cams. Doesn't work well for FI or large cams that send reversion pulses back to the AFM.
+- **MAP:** required for forced induction + large cams. More flexible, more tuning needed.
+
+**For my build:** I can use AFM for my full-bolt-on NA K20Z3 with Skunk2 Alpha + Skunk2 Ultra Street. If I ever went FI or large cams, switch to MAP. **AFM-based calibration is the simpler starting point.**
+
+**"What starting calibration should I use?"**
+- **AFM cal:** choose based on INTAKE (affects AFR the most)
+- **MAP cal:** choose based on INJECTOR SIZE or specialty (supercharged, etc.)
+
+**"How do I tune fuel for AFM calibration? There are no fuel tables."**
+AFM measures airflow; ECU injects to stoich AFR mathematically. No tables. If AFR is off at part-throttle, the AFM is reading wrong from an aftermarket intake — edit the **AFM Flow table** to correct. At WOT, ECU applies the WOT lambda adjustment table on top of the AFM-based calculation.
+
+**"I see knock retard — how is the knock sensor used?"**
+Knock sensor tells ECU (over time) what octane fuel it's running. ECU can retard timing even with NO knock events because the highest-octane ignition limit table caps timing. You shouldn't normally see much knock retard for more than a short period.
+
+**"Does 'Use MAP to determine WOT' only work on MAP-based calibrations?"**
+**No.** AFM calibrations ALSO use the MAP sensor — for everything except fuel, they use the MAP sensor. The AFM is specifically for fuel calculation only.
+
+**"How accurate is the stock lambda sensor?"**
+Fairly sensitive/responsive, but reads progressively richer as it heats up. Dyno run can show gaining 1.0-1.5 AFR points as sensor heats. **Check with your own wideband if possible.** (See Section 6.35 for AF.Corr.)
+
+**"The idle is not quite right after the reflash."**
+Takes 3-4 cold-cycle driving cycles for ECU to "learn" the idle. Don't panic after first flash — give it time.
+
+---
+
+## 14. Error Reporting — CAPTURED
+
+FPM can generate error reports when encountering problems. Some are app-level, some OS-level (Windows reports).
+
+**Privacy:** Hondata asks users to send reports for bug tracking. **No personal information sent.** You can see what's being sent before transmission if concerned.
+
+---
+
+## 15. Verified vs. To-Verify Summary (UPDATED)
+
+**✅ VERIFIED from official Hondata help + evidence:**
+- FPM 4.6.6.0 changelog (K20Z3 PRB unchanged in 4.6.x)
+- FlashProOG physical spec (210g, 6ft cable, 0-70°C)
+- 9-16V supply, <100mA active
+- **ISO 15765 CAN protocol** (not K-line)
+- Windows 10/11, USB, internet required
+- 20-hour onboard datalog memory
+- 4x faster than OBDII standard
+- **Dual calibration support: primary + secondary on unit, button combo switching**
+- HTML export for calibrations exists
+- `.fpcal` format (magic bytes `41 4B`)
+- Calibration files are binary encrypted/compressed (~22KB)
+- **Flash time: ~90 seconds** (not 20-45 as estimated)
+- **PRB ECU pin allocation:** A23 ELD, A33 ECT2, B2 EGR out, B29 EGRL, C27 SO2
+- **Flex fuel wiring: ECT2 (A33) for K-series Civic Si**
+- **Wideband wiring: A23 (ELD), A33 (ECT2), or B29 (EGRL) — NOT C27 (SO2)**
+- **WOT AFR ceiling: 12.50:1** (Hondata official; above this ECU won't switch to open loop correctly)
+- **VTEC bounds: 2500-6500 RPM** (K-series oil pressure / rocker float)
+- VTC control: 0-50° crank degrees, ~10° per 0.1 sec rotation rate, locked at 0° for 10 sec after startup
+- **Active Tuning exists: ECU-side self-tuning for fuel + AFM tables**
+- **Lua Plugins: real automation path (corrects earlier doc)**
+- **DDE Server for Excel integration**
+- **Bluetooth on FlashPros sold after Nov 2013** (my unit likely has it)
+- Civic Si 06-11 supports: forced induction, flex fuel, live tuning, active tuning, wideband input, boost output, TC input
+
+**🟡 TO VERIFY (action items):**
+1. Whether my FlashPro has Bluetooth (check FPM → FlashPro tab → Hardware)
+2. Whether Hondata Plugins community has a reliability-guard plugin OR I write my own
+3. Exact voltage-to-ethanol mapping for my chosen ethanol controller (Innovate ECF-1 vs Zeitronix ECA) once purchased
+4. Whether my ECU is RRB-A060 through RRB-A140 (look at sticker on ECU or FPM connection)
+5. Whether the `performance tune.fpcal` is AFM-based or MAP-based (affects whether it's appropriate for my current hardware state)
+6. Test all major FPM features in a safe order (File → New Calibration, Tables Follow VTEC toggle, F3-F8 shortcuts, Compare Calibration) before first flash
+
+**⚠️ CORRECTED from earlier docs:**
+- ~~"Flex fuel wires to SO2 pin"~~ → **Wires to ECT2 (A33) pin**
+- ~~"FlashPro has no public API"~~ → **Has Lua Plugins + DDE Server**
+- ~~"Original FlashPro is ALL wired, no Bluetooth"~~ → **Post-Nov-2013 units have Bluetooth**
+- ~~"20-45 sec flash time"~~ → **~90 seconds**
+- ~~".fpc extension"~~ → **.fpcal**
+- ~~"VTEC floor is 4500 RPM"~~ → **Hondata official floor 2500 RPM for K-series** (my reliability-first target 4500 is my own stricter rule)
+- ~~"Wideband goes to FlashPro analog input"~~ → **Wideband goes to ECU pin (ELD/ECT2/EGRL)**
 
 ---
 
