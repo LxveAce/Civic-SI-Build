@@ -3218,6 +3218,216 @@ FPM can generate error reports when encountering problems. Some are app-level, s
 
 ---
 
+## 16. Vehicle Locking — CAPTURED (from live WebFetch 2026-04-19)
+
+Source: https://www.hondata.com/help/flashpro/vehicle_locking.htm
+
+**Core rule:** "A FlashPro may only be used on one vehicle at a time, where it is locked to the vehicle's ECU."
+
+**Transferring between vehicles:**
+- Unlock FlashPro from original ECU BEFORE moving to a different vehicle
+- Applies to both selling the unit and swapping to another car
+
+**Vehicle replacement scenario:**
+- When replacing vehicle, "the FlashPro should be unlocked from the old ECU before the ECU is removed from the vehicle"
+
+**Damaged ECU edge case:**
+- If original ECU is damaged and can't be unlocked normally → send BOTH old ECU + FlashPro to Hondata for unlocking
+
+**Design philosophy:**
+- FlashPro is NOT designed to be switched between vehicles regularly
+- Multi-vehicle users: buy separate FlashPros per vehicle
+
+**For my build:**
+- Unlock BEFORE selling the car (if I ever sell)
+- If my ECU ever gets damaged, I need to keep both ECU + FlashPro for Hondata unlock
+- Don't plan to move this FlashPro to another car — it's married to this SI
+
+---
+
+## 17. Writing a Plugin (Lua) — CAPTURED (from live WebFetch 2026-04-19)
+
+Source: https://www.hondata.com/help/flashpro/writing_a_plugin.htm (note: page title says "Hondata SManager" — the guide is shared between SManager/S300 and FPM. Path substitution required: use FPM plugin directory instead of SManager's.)
+
+### Plugin Structure
+
+Three files required:
+1. **`main.lua`** — primary script
+2. **`info.xml`** — metadata / manifest
+3. **`desc.rtf`** — description (currently unused by FPM but required)
+
+### Plugin Directory Path
+
+For SManager (per Hondata docs): `C:\Users\<user>\AppData\Local\Hondata\SManager\Plugins`
+
+**For FPM (inferred):** `C:\Users\<user>\AppData\Local\Hondata\FlashPro\Plugins` — **[VERIFY]** exact path on my machine. Likely mirrors SManager's structure.
+
+### Basic Template
+
+```lua
+require("utilities")
+
+function main
+-- add code here
+end
+```
+
+`main` executes when I select the plugin from the menu.
+
+### Distribution Manifest (info.xml)
+
+```xml
+<id>unique_identifier</id>
+<version>1</version>
+<name>Plugin Name</name>
+<description>What it does</description>
+<author></author>
+<url></url>
+<license>Apache 2.0 License</license>
+<depends></depends>
+```
+
+**`id` must be unique** across all plugins.
+
+### Packaging
+
+1. Zip all 3 files (main.lua, info.xml, desc.rtf) into a `.zip`
+2. Rename extension from `.zip` to `.fplugin`
+3. Share / install via FPM's Plugins menu
+
+### Plugin Ideas for My Build
+
+Now that I have the structure, first plugins I'll write:
+
+**`reliability-guard.fplugin`** — fires on `OnCalibrationClose` or `OnCalibrationNew`. Reads all WOT lambda cells (low + high cam), verifies ≥ 0.85 lambda (12.5 AFR). Reads timing table peaks, flags if any cell > 28°. Reads rev limit, flags if > 8400. Shows `MessageBox` with violations before allowing save.
+
+**`auto-csv-export.fplugin`** — fires on `OnDatalogClose`. Iterates all frames × all sensors, writes CSV next to the .fpdl. Includes calibration name and mod list as header comments for future Claude ingestion.
+
+**`log-summary.fplugin`** — fires on `OnDatalogClose`. Post-drive report: max RPM, max knock count, STFT/LTFT peaks, AFR min/max at WOT, ECT max, injector duty max. One-screen summary after every drive.
+
+I'll build these after my first few dyno sessions so I have real data to test against.
+
+---
+
+## 18. Community Tune Landscape (from web research 2026-04-19)
+
+### Off-the-Shelf Tunes Available for My Car
+
+#### **HARDmotion FBO Max Tune** ($199 on sale, MSRP $290)
+Source: https://hardmotion.com/2006-2011-honda-civic-si-fbo-hondata-max-tune/
+
+**Calibrated for:**
+- 3-3.5" intake (MAP-based — requires MAF removal)
+- Race header w/ or w/o cat
+- 2.5-3" race exhaust
+- Optional J35/J37 throttle body
+
+**Key changes:**
+- **MAF removal** — "runs without the maf and allows for a much more aggressive intake pathway"
+- **VTEC engagement advanced 500-800 RPM earlier** — smoother transitions, quicker low-end response
+
+**Claims:** +30-40 HP total gain over stock with tune (14 intake + 14 header + 10 exhaust).
+
+**⚠️ Compatibility with my current hardware:**
+- My K&N Typhoon intake is AFM-based (keeps the AFM sensor in place)
+- HARDmotion tune is **MAP-based, removes the AFM** — **NOT directly compatible with my current setup**
+- Would require going to a tube-only intake AND doing AFM→IAT-sensor conversion (see Section 6.31)
+- **Verdict: SKIP for now.** Only relevant if I later switch to a tube intake.
+
+#### **zoshmfg 8th Gen Si FBO Tune** ($80)
+Source: https://zoshmfg.com/products/8th-gen-si-full-bolt-ons-hondata-flashpro-tune
+
+**Calibrated for:**
+- Hybrid Racing CAI (or equivalent)
+- Skunk2 Alpha Header + Exhaust (or equivalent)
+- Stock K20Z3
+- 1000cc or stock 310cc injectors
+- Stock RBC intake manifold + stock throttle body
+- 93 octane
+
+**⚠️ RED FLAG — One customer review notes:**
+> "at WOT, afr shows 13.4-13.7, which is lean"
+
+**13.4-13.7 AFR at WOT EXCEEDS Hondata's 12.50:1 ceiling and violates my reliability-first rule.** This tune is too lean for my engine longevity priorities. Tuner may have done this intentionally for peak power, but it's unsafe for a 170k-mile K20Z3.
+
+**Verdict: AVOID WITHOUT MAJOR MODIFICATIONS.** If I wanted an off-the-shelf tune in this category, I'd need to either:
+- Use it as a starting point and have a dyno tuner pull fuel/timing to safe territory
+- Skip it entirely and get a custom tune from BrenTuning / HARDmotion / Church
+
+#### **Community base maps on 8thcivic.com forum**
+
+Community-reported experience (from the Hondata FlashPro Base Maps thread):
+- **"Skunk2 Alpha + CAI + Skunk2 exhaust" base map:** conservative ignition (low values). Safer for reliability but leaves power on table.
+- **Intake-only base map:** users report VTEC engagement around 4500 RPM works well. "Great pull with awesome drivability and gas mileage around 26-28 city."
+
+### FPM Built-in Base Map Library
+
+**Hondata ships 56 built-in starting calibrations** per their product docs. For my platform they include:
+- Stock equivalent
+- Intake only (various brands — K&N, AEM, Injen, etc.)
+- Intake + header
+- FBO (intake + header + exhaust + tune)
+- Injector-upsize variants
+- Supercharged variants (SC)
+- Race (non-CARB) variants
+- CARB-compliant variants where available
+
+**My starting point:** since my car is K&N Typhoon + stock everything else, I want the **"Stock + K&N intake" AFM calibration** as my first flash. The other 55 base maps exist but aren't relevant until I add more hardware.
+
+### Dyno Numbers to Expect (community-validated)
+
+| State | Dyno type | WHP | WTQ | Source |
+|-------|-----------|-----|-----|--------|
+| Stock | Well-calibrated | 170-175 | ~135 | k20a.org consensus |
+| Stock + CAI | Dynojet | 178-188 | ~140 | 8thcivic threads |
+| CAI + header + exhaust + base tune | Dynojet | 200-210 | ~150 | 8thcivic Skunk2 threads |
+| **FBO + professional dyno tune** | **Dynojet** | **220-235** | **155-165** | community consensus + 4Piston/HARDmotion results |
+| FBO + E85 tune | Dynojet | 230-245 | 165-175 | projected, community estimates |
+| Max FBO (built heads/cams) | Dynojet | 240-260 | 170-180 | beyond my scope |
+
+**Reality check:** the earlier reference docs said stock = 185 WHP. **Web research says 170-175 WHP is more accurate for stock on a "well-calibrated" dyno.** Difference = some shop dynos read optimistic. My expectation for FBO should be 220-230 on a honest Dynojet, 215-225 on Mustang/Dynapack.
+
+### WOT AFR + Timing Targets (community-validated)
+
+For NA K20Z3, consensus from multiple sources:
+
+| Parameter | Conservative (my target) | Community typical | Hondata ceiling |
+|-----------|--------------------------|-------------------|-----------------|
+| **WOT AFR (pump 93)** | 12.0-12.5 | 12.5-13.0 (0.85-0.89 lambda) | 12.50 (won't open-loop above) |
+| **WOT ignition (peak)** | 24-26° | 24-26° proven safe; 28° borderline | "Don't rely on knock sensor" |
+| **VTEC engagement (stock)** | 5400-5600 | 5700 | 6500 max |
+| **VTEC engagement (FBO)** | 4800-5200 | 4475-5100 common | 2500 min |
+
+**Key insight from community (k20a.org / hpacademy):**
+> "One K-series engine on the dyno showed timing at WOT was 24-26 degrees, and while a pull at 28 degrees made a couple more HP, it wasn't worth the risk."
+
+This reinforces my reliability-first rule. 24-26° is the street-safe ceiling for pump 93. Leave 28° for dyno-verified special calibrations only.
+
+### Tune Sources to Consider for My Build (ranked by fit)
+
+1. **BrenTuning remote** — community-trusted, $300-450 per revision, works from my datalogs. **Best fit for my reliability priorities.**
+2. **Custom dyno session** at Church / 4Piston / HARDmotion for Tune #3 (flex fuel) — $500-800
+3. **FPM built-in base map** for initial flash (free) — "Stock + K&N intake" AFM variant
+4. **Community base map from 8thcivic** — free but conservative; good fallback
+5. ~~HARDmotion FBO Max Tune~~ — incompatible with my AFM-based setup
+6. ~~zoshmfg FBO tune~~ — reports lean WOT AFR, violates my safety ceilings
+
+---
+
+## 19. Hondata Vault — Web Research Note
+
+The Hondata Vault help topic URL I tried (`vault_use.htm`) returned generic site nav, not the actual help content. The Vault exists and is covered in Sections 6.52-6.53 of this reference from user pastes, but detailed usage docs (registration, login, file operations, calibration details) remain uncaptured.
+
+**What I know:**
+- Accessible from Window menu → Vault Search
+- Two search types: Text Search + Filtered Search
+- Results sortable by clicking column headings
+- Used for uploading/downloading calibrations + datalogs to cloud
+
+**Action item:** browse `hondata.com/help/flashpro/` frame-by-frame in a regular browser to find the actual Vault usage URL, then capture. Not critical for my near-term work.
+
+---
+
 ## 7. Topics Still to Capture
 
 Topics I still need from the user's paste workflow (priority order):

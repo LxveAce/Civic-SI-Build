@@ -183,6 +183,47 @@ Once I have 3+ tunes in here, maintain a side-by-side view:
 
 ---
 
+## Known Off-the-Shelf & Community Tunes — Reference Library
+
+These aren't on my FlashPro yet — they're tunes I've researched that could be starting points. Full writeup + compatibility analysis is in [fpm-master-reference.md Section 18](fpm-master-reference.md#18-community-tune-landscape-from-web-research-2026-04-19).
+
+### Ranked by fit for my current build
+
+| # | Tune source | Cost | Hardware target | Reliability flag | Fit for me? |
+|---|-------------|------|-----------------|-----------------|-------------|
+| 1 | **FPM built-in: "Stock + K&N intake" AFM** | Free | K&N / equiv CAI + stock everything else | Hondata-shipped = conservative safe | **✅ YES — first flash starting point** |
+| 2 | **BrenTuning remote (custom)** | $300-450 | Tell them my hardware | Custom to mine = safe if I communicate reliability-first | **✅ YES — Tune #1 and #2 sessions** |
+| 3 | **Church / 4Piston / HARDmotion in-shop** | $500-800 | Custom to mine | Live dyno verification | **✅ YES — Tune #3 (flex fuel)** |
+| 4 | **8thcivic community base map (Skunk2 + CAI + exhaust)** | Free | Matches Phase 2 state | Conservative ignition (community-reported low values) | **🟡 MAYBE — fallback if remote tuner unavailable** |
+| 5 | HARDmotion FBO Max Tune | $199-290 | 3-3.5" intake (MAP-based, NO AFM) + race header + 2.5-3" exhaust + optional bored TB | — | **❌ NO — MAP-based, my K&N keeps AFM** |
+| 6 | zoshmfg 8th Gen Si FBO tune | $80 | Hybrid Racing CAI + Skunk2 Alpha + Skunk2 exhaust | **⚠️ 13.4-13.7 WOT AFR per review = lean, violates 12.50 ceiling** | **❌ NO — unsafe per my reliability rule** |
+
+### Community consensus parameter targets for NA K20Z3 FBO
+
+From web research (k20a.org, 8thcivic.com, Hondata forum):
+
+| Parameter | Safe value | Notes |
+|-----------|------------|-------|
+| WOT AFR (pump 93) | **12.0-12.5** (lambda 0.82-0.85) | Hondata hard ceiling 12.50. My reliability rule 12.0-12.2. |
+| WOT ignition peak | **24-26°** | 28° gains 2 HP but "not worth the risk" per dyno reports |
+| VTEC engagement (stock) | **5400-5700** | Hondata floor 2500, ceiling 6500 |
+| VTEC engagement (FBO) | **4800-5200** | Community commonly lands 4475-5100 |
+| Rev limit | **8200-8400 max** | My hard ceiling at 170k stock internals |
+
+### Expected dyno numbers (Dynojet, honest shop)
+
+| Hardware state | WHP | WTQ |
+|----------------|-----|-----|
+| Stock | 170-175 | ~135 |
+| Stock + K&N | 178-188 | ~140 |
+| + header + HFC + base tune | 200-210 | ~150 |
+| Full bolt-on + pro tune (Tune #2) | **220-235** | **155-165** |
+| FBO + E85 (Tune #3) | 230-245 | 165-175 |
+
+**Reality check on stock baseline:** web research says stock K20Z3 is 170-175 WHP on honest Dynojet, not the 185 I had in earlier docs. Some dynos read optimistic. My actual baseline pulls will show the real answer.
+
+---
+
 ## Workflow Reminders
 
 **When LxveAce sends screenshots of a tune's tabs:**
