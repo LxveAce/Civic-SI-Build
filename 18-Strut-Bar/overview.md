@@ -19,7 +19,7 @@ A front strut tower brace connects the two front strut tower tops to stiffen up 
 
 ## Why I'm Not Diagnosing the Clearance Issue Right Now
 
-**Cross-reference to [14-Suspension/](../14-Suspension/).** I'm going BC Racing BR coilovers as part of my full suspension overhaul. The BR includes **pillow-ball camber plates** that replace the stock upper strut mount entirely — the strut top geometry on my car is going to change. Specifically:
+**Cross-reference to [17-Suspension/](../17-Suspension/).** I'm going BC Racing BR coilovers as part of my full suspension overhaul. The BR includes **pillow-ball camber plates** that replace the stock upper strut mount entirely — the strut top geometry on my car is going to change. Specifically:
 
 - Stock upper strut mount = thick rubber isolator with a steel top cap, ~1" tall
 - BC Racing pillow-ball camber plate = lower profile spherical bearing housing, different bolt pattern, different top-deck height
@@ -54,7 +54,7 @@ Once the coilovers are in and the strut tops are at their new geometry, I'll kno
 
 ## See Also
 
-- [14-Suspension/overview.md](../14-Suspension/overview.md) — the coilover build that changes the strut tops
+- [17-Suspension/overview.md](../17-Suspension/overview.md) — the coilover build that changes the strut tops
 - [docs/mod-order-and-maintenance.md](../docs/mod-order-and-maintenance.md) — strut bar is listed as deferred-until-coilovers there too
 
 ---

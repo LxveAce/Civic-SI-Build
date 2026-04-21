@@ -60,7 +60,7 @@ This catalog is the single source of truth for "what do I order." When something
 | Fuel filter (in-tank) | **17048-SNA-A32** | Hitachi / Beck Arnley equivalent | ~$60 | Replace before first E85 tank — ethanol dislodges deposits. |
 | Fuel pump assembly (OEM) | **17040-SNA-A62** | DW200 (9-201-1001) or DW300C (9-307-1008) | OEM $250 / DW300C $130 | DW300C for E85. |
 | Fuel pressure regulator | (in fuel pump assembly) | N/A | — | Returnless system. No separate FPR on FG2. Stock is fine for NA. |
-| Fuel injectors (stock) | **16450-RRA-A01** | Bosch EV14 550cc or ID725 | Stock ~$60/ea | Stock 310cc is too small for E85. See 12-Flex-Fuel. |
+| Fuel injectors (stock) | **16450-RRA-A01** | Bosch EV14 550cc or ID725 | Stock ~$60/ea | Stock 310cc is too small for E85. See 19-Flex-Fuel-and-Fuel-System. |
 | Fuel rail (stock) | **16620-RBC-003** | Acuity 1913-K20 | — | Keep stock until flex-fuel conversion. |
 
 ---

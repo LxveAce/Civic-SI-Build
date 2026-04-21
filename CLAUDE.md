@@ -60,12 +60,12 @@
 
 9. **Valved Exhaust:** DIY build using QTP QTEC30 3" electric cutout — 3" pipe from header to cutout, 3" dump pipe when open, 3"→2.5" reducer for muffled path. Keeps OEM resonator + muffler. Daily (closed/quiet) and Sport (open/straight pipe) modes. ~$485 parts + $150-250 muffler shop labor.
 10. **In-Car PC:** LattePanda 3 Delta permanent install with 7" touchscreen — For Hondata FlashPro management, datalogging, gauges, and exhaust valve control
-11. **Headers:** Skunk2 Alpha 4-2-1 (412-05-1930, ~$700-800) with stepped primaries (1.625"→1.75") + Berk Technology HFC (~$300-400). Best-performing header available for FG2. 10-18 WHP gain. See 09-Headers/ for full analysis.
-12. **Intake Manifold:** Skunk2 Ultra Street (307-05-0600, ~$565-620) + bored stock DBW throttle body (62mm→66mm, ~$150 via Drag Cartel or HeelToe Auto). See 10-Intake-Manifold/.
-13. **Pulleys + Harmonic Balancer:** ATI Super Damper (918477, ~$360-380) for proper harmonic damping + NST accessory pulleys for underdrive. See 11-Pulleys-and-Harmonic-Balancer/.
-14. **Flex Fuel & Fuel System:** Continental ethanol sensor + Bosch EV14 550cc injectors + Acuity K-Series fuel rail + DeatschWerks DW200 fuel pump. E85 adds 5-15 WHP on NA over pump gas (modest vs turbo). Best value at E30-E40 blend. See 12-Flex-Fuel-and-Fuel-System/.
-15. **Clutch Hydraulics:** Hybrid Racing CMC (or RSX Type-S CMC swap) + RSX OEM CSC + stainless braided clutch line + DOT 4 fluid. 170k-mile reliability upgrade — stock CMC/CSC are a known failure point. See 13-Clutch-Hydraulics/.
-16. **Suspension:** BC Racing BR coilovers (A-18-BR, ~$1,195) + Skunk2 Pro Series rear camber arms (516-05-0625, ~$333) + Energy Suspension master bushing kit (16.18114G, ~$278) + Hardrace trailing arm bushings (6926, ~$150) + Progress sway bars (front 27mm + rear 24mm adjustable) + K-Tuned roll center adjusters + new tie rods/ball joints + alignment. Complete suspension overhaul targeting daily/sport adjustability. See 14-Suspension/.
+11. **Headers:** Skunk2 Alpha 4-2-1 (412-05-1930, ~$700-800) with stepped primaries (1.625"→1.75") + Berk Technology HFC (~$300-400). Best-performing header available for FG2. 10-18 WHP gain. See 13-Headers/ for full analysis.
+12. **Intake Manifold:** Skunk2 Ultra Street (307-05-0600, ~$565-620) + bored stock DBW throttle body (62mm→66mm, ~$150 via Drag Cartel or HeelToe Auto). See 14-Intake-Manifold/.
+13. **Pulleys + Harmonic Balancer:** ATI Super Damper (918477, ~$360-380) for proper harmonic damping + NST accessory pulleys for underdrive. See 15-Pulleys-and-Harmonic-Balancer/.
+14. **Flex Fuel & Fuel System:** Continental ethanol sensor + Bosch EV14 550cc injectors + Acuity K-Series fuel rail + DeatschWerks DW200 fuel pump. E85 adds 5-15 WHP on NA over pump gas (modest vs turbo). Best value at E30-E40 blend. See 19-Flex-Fuel-and-Fuel-System/.
+15. **Clutch Hydraulics:** Hybrid Racing CMC (or RSX Type-S CMC swap) + RSX OEM CSC + stainless braided clutch line + DOT 4 fluid. 170k-mile reliability upgrade — stock CMC/CSC are a known failure point. See 07-Clutch-Hydraulics/.
+16. **Suspension:** BC Racing BR coilovers (A-18-BR, ~$1,195) + Skunk2 Pro Series rear camber arms (516-05-0625, ~$333) + Energy Suspension master bushing kit (16.18114G, ~$278) + Hardrace trailing arm bushings (6926, ~$150) + Progress sway bars (front 27mm + rear 24mm adjustable) + K-Tuned roll center adjusters + new tie rods/ball joints + alignment. Complete suspension overhaul targeting daily/sport adjustability. See 17-Suspension/.
 
 ---
 
@@ -152,11 +152,11 @@ Not every mod needs every file. Simple bolt-ons (clutch, bushings) may only have
 
 Additions filling gaps the original scope missed:
 
-- **`15-Ignition-Refresh/`** — Plugs + OEM coils + VTC actuator (14310-RBC-003 revised part). Must happen before any dyno tune.
-- **`16-Cooling-System/`** — Koyorad aluminum radiator + OEM thermostat/hoses/water pump. Plastic end tank failure insurance + E85 heat headroom.
-- **`17-Wideband-AFR/`** — AEM X-Series 30-0300. Required before any tune. Bung welds into Skunk2 Alpha collector during header install.
-- **`07-Hondata-FlashPro/tuning-workflow-and-maps.md`** — Daily/Sport map rules, reliability-first ceilings, CSV export workflow for working with Claude on tune analysis.
-- **`09-Headers/install-guide.md`** — Full install with stud-prep schedule and shop-vs-DIY decision logic.
+- **`06-Ignition-Refresh/`** — Plugs + OEM coils + VTC actuator (14310-RBC-003 revised part). Must happen before any dyno tune.
+- **`09-Cooling-System/`** — Koyorad aluminum radiator + OEM thermostat/hoses/water pump. Plastic end tank failure insurance + E85 heat headroom.
+- **`11-Wideband-AFR/`** — AEM X-Series 30-0300. Required before any tune. Bung welds into Skunk2 Alpha collector during header install.
+- **`10-Hondata-FlashPro/tuning-workflow-and-maps.md`** — Daily/Sport map rules, reliability-first ceilings, CSV export workflow for working with Claude on tune analysis.
+- **`13-Headers/install-guide.md`** — Full install with stud-prep schedule and shop-vs-DIY decision logic.
 - **`docs/torque-specs.md`** — Every fastener I'll touch, OEM spec, cross-referenced.
 - **`docs/maintenance-parts-catalog.md`** — Every OE + aftermarket part number in one place.
 - **`docs/baseline-logs.md`** — A/B datalog protocol for every mod milestone.

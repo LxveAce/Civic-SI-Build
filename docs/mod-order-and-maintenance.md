@@ -29,18 +29,21 @@ I need to handle these before adding any more power or stress to the drivetrain.
 
 ### Timing Chain Deep Dive
 
+See [`../05-Timing-Chain-Maintenance/overview.md`](../05-Timing-Chain-Maintenance/overview.md) for the complete parts list, step-by-step procedure, torque specs, and common mistakes.
+
 The K20Z3 timing chain is rated for the life of the engine, but "life of the engine" assumes Honda's idea of a normal lifecycle (~200k miles of grandma driving). On a 170k-mile SI that's been driven like an SI:
 
-- **How to check:** I can measure cam timing with the Hondata FlashPro. Retarded cam timing (more than 2-3 degrees off spec) indicates chain stretch. A mechanic can also check with a dial indicator on the tensioner.
+- **Decision rule (from Honda service manual):** measure tensioner rod protrusion. If ≥ **13.5 mm**, chain is stretched — replace chain + guides + tensioner as a set. Under 13.5 mm, serviceable.
 - **Chain noise:** A rattling or slapping noise at cold start (first 5-10 seconds) that goes away once oil pressure builds is the classic symptom of a stretched chain with a maxed-out tensioner.
-- **If the chain is fine:** No action needed. I'll recheck at 200k.
-- **If the chain is stretched:** Replace chain, tensioner, guides, and VTC actuator as a set. Do NOT replace just the chain. Budget $300-500 in parts, $600-900 in labor (or 8-12 hours DIY).
+- **Why bundle with VTC actuator:** VTC actuator 14310-RBC-003 (Phase 0.5 Ignition Refresh) lives behind the timing cover. Labor is identical — do them together.
+- **If chain is OK but I'm in there anyway:** replace the tensioner (~$65) as cheap insurance, reuse chain and guides.
+- **Budget:** ~$445 DIY parts (chain set + oil pump chain + all gaskets), ~$200 additional if bundling VTC actuator.
 
 ---
 
 ## Phase 0.5: Ignition Refresh — Between Maintenance and Mods
 
-After the fluids/belt/PCV maintenance but BEFORE any dyno tune session, the ignition system gets its own focused refresh. See [15-Ignition-Refresh/overview.md](../15-Ignition-Refresh/) for full detail.
+After the fluids/belt/PCV maintenance but BEFORE any dyno tune session, the ignition system gets its own focused refresh. See [06-Ignition-Refresh/overview.md](../06-Ignition-Refresh/) for full detail.
 
 | # | Item | Why | Approx Cost |
 |---|------|-----|-------------|
@@ -59,13 +62,13 @@ These mods are already bought (or need to be bought first) and have no dependenc
 
 | Order | Mod | Time (DIY) | Standalone? | Notes |
 |-------|-----|-----------|-------------|-------|
-| 1A | **Clutch hydraulics (CMC/CSC)** | 3-5 hrs | Yes | **Not yet purchased — priority buy.** I need to do this before anything else. 170k miles = ticking time bomb. Improves pedal feel immediately. **Also do: rear main seal (91214-RDA-A01), throwout + pilot bearings, fresh MTF while trans is out.** See [13-Clutch-Hydraulics/overview.md](../13-Clutch-Hydraulics/) cross-reference section. |
+| 1A | **Clutch hydraulics (CMC/CSC)** | 3-5 hrs | Yes | **Not yet purchased — priority buy.** I need to do this before anything else. 170k miles = ticking time bomb. Improves pedal feel immediately. **Also do: rear main seal (91214-RDA-A01), throwout + pilot bearings, fresh MTF while trans is out.** See [07-Clutch-Hydraulics/overview.md](../07-Clutch-Hydraulics/) cross-reference section. |
 | 1B | **Engine mounts (Hybrid Racing 70A)** | 3-4 hrs | Yes | Reduces wheel hop, improves shift feel. NVH increase is noticeable but livable. |
 | 1C | **Brakes (Hawk HPS + R1 Concepts rotors)** | 2-3 hrs | Yes | Full 4-corner upgrade. I need to bed the pads properly (follow Hawk's bedding procedure). Want this done before I have more power to stop. |
-| 1D | **Strut bar (Megan Racing)** | 30 min | **DEFERRED — don't diagnose now** | BC Racing BR coilovers (Phase 5) replace the strut-top geometry entirely. Whatever fits or doesn't fit today will be different once coilovers are in. Revisit after suspension overhaul. See [06-Strut-Bar/overview.md](../06-Strut-Bar/). |
-| 1E | **Hondata FlashPro — first flash** | 1-2 hrs | Yes | Register unit, flash base map, verify no CELs. I'm not tuning yet — just getting it online. This enables datalogging for all future work. See [07-Hondata-FlashPro/tuning-workflow-and-maps.md](../07-Hondata-FlashPro/tuning-workflow-and-maps.md) for the tuning rules. |
-| 1F | **Cooling system refresh** | 2-3 hrs | Yes | **New phase addition.** Koyorad aluminum radiator + fresh OEM thermostat + hoses. Must precede headers and E85. See [16-Cooling-System/overview.md](../16-Cooling-System/). |
-| 1G | **Wideband AFR install** | 1-2 hrs + bung welding | Tied to header install | AEM X-Series 30-0300 wideband. Bung welds into Skunk2 Alpha header collector during Phase 2B. See [17-Wideband-AFR/overview.md](../17-Wideband-AFR/). |
+| 1D | **Strut bar (Megan Racing)** | 30 min | **DEFERRED — don't diagnose now** | BC Racing BR coilovers (Phase 5) replace the strut-top geometry entirely. Whatever fits or doesn't fit today will be different once coilovers are in. Revisit after suspension overhaul. See [18-Strut-Bar/overview.md](../18-Strut-Bar/). |
+| 1E | **Hondata FlashPro — first flash** | 1-2 hrs | Yes | Register unit, flash base map, verify no CELs. I'm not tuning yet — just getting it online. This enables datalogging for all future work. See [10-Hondata-FlashPro/tuning-workflow-and-maps.md](../10-Hondata-FlashPro/tuning-workflow-and-maps.md) for the tuning rules. |
+| 1F | **Cooling system refresh** | 2-3 hrs | Yes | **New phase addition.** Koyorad aluminum radiator + fresh OEM thermostat + hoses. Must precede headers and E85. See [09-Cooling-System/overview.md](../09-Cooling-System/). |
+| 1G | **Wideband AFR install** | 1-2 hrs + bung welding | Tied to header install | AEM X-Series 30-0300 wideband. Bung welds into Skunk2 Alpha header collector during Phase 2B. See [11-Wideband-AFR/overview.md](../11-Wideband-AFR/). |
 
 **My planned order within Phase 1:** 1A → 1F → 1C → 1B → 1E → 1G (at header install) → 1D (at coilover install)
 
@@ -181,6 +184,13 @@ PHASE 3 — INTAKE SYSTEM
 PHASE 4 — ROTATING ASSEMBLY
   └── 4A: ATI Super Damper + NST pulleys             ← No retune needed
 
+PHASE 4.5 — CYLINDER HEAD (aftermarket drop-in)     ← NEW phase
+  ├── 4.5A: 4P Pro 156v2 All Motor Package + ARP 208-4701
+  ├── 4.5B: Skunk2 Tuner Stage 2 cams + Skunk2 Pro cam gears
+  ├── 4.5C: Install bundles with Phase 2 + 3 + VTC actuator (single teardown)
+  └── 4.5D: Dyno retune MANDATORY after head swap  ← ~$500-800
+  See: 16-Cylinder-Head/overview.md
+
 PHASE 5 — SUSPENSION (can be done anytime, no tune dependency)
   ├── 5A: BC Racing BR coilovers + rear camber arms
   ├── 5B: Full bushing refresh (Energy Suspension + Hardrace)
@@ -189,13 +199,29 @@ PHASE 5 — SUSPENSION (can be done anytime, no tune dependency)
   └── 5E: Professional 4-corner performance alignment  ← MANDATORY
 
 PHASE 6 — FLEX FUEL
-  ├── 6A: Fuel pump (DeatschWerks DW300C)            ← Can be done earlier
-  ├── 6B: Fuel rail + injectors (Acuity + ID1050x)
-  ├── 6C: Ethanol sensor + fuel lines
+  ├── 6A: Fuel pump (DeatschWerks DW300C 9-307-1008) ← Can be done earlier
+  ├── 6B: Acuity 1913-PPL rail (satin purple) + Bosch EV14 550cc injectors (0280158117)
+  ├── 6C: Continental 13577429 ethanol sensor + Innovate MTX-D converter + PTFE fuel lines
   └── 6D: Dyno tune #3 (flex fuel calibration)       ← Most complex tune
+  See: 19-Flex-Fuel-and-Fuel-System/acuity-fuel-rail-and-flex-fuel-build.md
 
 PHASE 7 — IN-CAR PC (anytime after FlashPro)
   └── 7A: LattePanda 3 Delta permanent install
+
+PHASE X — FUTURE / ASPIRATIONAL (not a current purchase plan)
+  ├── Built Motor Bottom End — Wiseco + BC625+ + ACL Race + PRB-A01 oil pump
+  │                            Only if target moves past ~270 WHP NA or going forced induction
+  └── See: 20-Built-Motor-Bottom-End/overview.md
+
+AESTHETIC LAYER — PURPLE COSMETICS (anytime)
+  ├── Acuity 1927-PPL oil cap + K-Tuned DP2-K20-PRP dipstick + Acuity ESCO-T6 shift knob
+  ├── Dress Up Bolts HON-027-TI engine bay kit + Skunk2 649-05-0120-PPL valve cover hardware
+  ├── NST22015K-Purple alt + idler pulleys (⚠ NOT crank — conflicts with ATI Super Damper)
+  ├── Samco Sport purple silicone hoses (custom order, 4-6 wk lead)
+  ├── Radium 20-0270-00 coolant reservoir (custom purple anodize)
+  ├── Powder-coat batch: valve cover + strut bar + fluid caps (BMC, PS, washer)
+  ├── G2 G2165 purple caliper paint (do with rear brake install, cover all 4 corners)
+  └── See: 21-Purple-Cosmetics/overview.md, 04-Brakes/purple-calipers.md, 09-Cooling-System/overview.md
 ```
 
 ---

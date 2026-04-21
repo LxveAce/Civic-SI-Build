@@ -151,7 +151,7 @@ Labor if someone else does it: add ~$150-300 for the VTC actuator (timing cover 
 ## See Also
 
 - [docs/mod-order-and-maintenance.md](../docs/mod-order-and-maintenance.md) — where this slots in the master plan
-- [07-Hondata-FlashPro/](../07-Hondata-FlashPro/) — the tune this enables
+- [10-Hondata-FlashPro/](../10-Hondata-FlashPro/) — the tune this enables
 
 ---
 

@@ -256,7 +256,7 @@ Some calibrations allow per-gear timing maps. Not commonly used on NA builds —
 ### Primary Fan ON Temperature
 
 **Stock:** ~205F
-**My plan:** 195F on Daily, 190F on Sport. With the Koyorad radiator ([16-Cooling-System/](../16-Cooling-System/)) and 5W-30 synthetic, tighter fan control keeps ECT stable under sustained load.
+**My plan:** 195F on Daily, 190F on Sport. With the Koyorad radiator ([09-Cooling-System/](../09-Cooling-System/)) and 5W-30 synthetic, tighter fan control keeps ECT stable under sustained load.
 
 ### Primary Fan OFF Temperature
 
@@ -275,7 +275,7 @@ Controls the second fan for A/C operation. Leave stock unless diagnosing A/C-rel
 ### O2 Sensor Settings
 
 - **Primary (upstream) O2:** tune uses it for closed-loop fuel correction
-- **Secondary (downstream) O2:** normally monitors cat efficiency; often **repurposed for flex fuel signal input on FG2** ([VERIFY the exact pin with tuner](../12-Flex-Fuel-and-Fuel-System/))
+- **Secondary (downstream) O2:** normally monitors cat efficiency; often **repurposed for flex fuel signal input on FG2** ([VERIFY the exact pin with tuner](../19-Flex-Fuel-and-Fuel-System/))
 
 ### MAP Sensor Calibration
 
@@ -283,7 +283,7 @@ If I add a larger MAP sensor (unusual on NA), it's recalibrated here. Stock MAP 
 
 ### Wideband O2 (Analog Input)
 
-FlashPro has configurable analog inputs that can read a 0-5V wideband O2 signal. This is where the **AEM X-Series 30-0300** ([17-Wideband-AFR/](../17-Wideband-AFR/)) gets wired. Configuration:
+FlashPro has configurable analog inputs that can read a 0-5V wideband O2 signal. This is where the **AEM X-Series 30-0300** ([11-Wideband-AFR/](../11-Wideband-AFR/)) gets wired. Configuration:
 - Set analog input type: "Wideband O2 (AEM 30-0300)" (or Innovate, PLX, etc. — tool has presets)
 - Calibration: verify idle reads ~14.7 AFR when the engine is warm
 
@@ -359,8 +359,8 @@ When a session starts, this is the order of operations:
 - [tuning-workflow-and-maps.md](tuning-workflow-and-maps.md) — Daily/Sport map rules, safety ceilings
 - [datalog-analysis-guide.md](datalog-analysis-guide.md) — how to read the logs that feed these tables
 - [advanced-features.md](advanced-features.md) — launch, flat-foot, per-gear, shift lights
-- [../12-Flex-Fuel-and-Fuel-System/](../12-Flex-Fuel-and-Fuel-System/) — flex fuel hardware that feeds the E85 tables
-- [../17-Wideband-AFR/](../17-Wideband-AFR/) — wideband that validates every AFR change
+- [../19-Flex-Fuel-and-Fuel-System/](../19-Flex-Fuel-and-Fuel-System/) — flex fuel hardware that feeds the E85 tables
+- [../11-Wideband-AFR/](../11-Wideband-AFR/) — wideband that validates every AFR change
 
 ---
 

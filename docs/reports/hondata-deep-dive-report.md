@@ -1,6 +1,6 @@
 # Hondata FlashPro Deep Dive Report — 2026-04-19
 
-> Report on the second pass of work on this repo: deep research and documentation buildout for the entire Hondata FlashPro realm. Captures what I asked for, what was produced, the research limitations encountered, and the final state of the `07-Hondata-FlashPro/` folder.
+> Report on the second pass of work on this repo: deep research and documentation buildout for the entire Hondata FlashPro realm. Captures what I asked for, what was produced, the research limitations encountered, and the final state of the `10-Hondata-FlashPro/` folder.
 
 **Date of work:** 2026-04-19
 **Starting state:** 33 markdown files, 124-page Build Guide PDF
@@ -15,7 +15,7 @@ Two things:
 1. Go as in-depth as possible on the Hondata/FlashPro/K20Z3 tuning realm.
 2. Look up stuff from all edges of the internet — all the 8th gen forums that exist, everything.
 
-The intent was to build out the `07-Hondata-FlashPro/` folder into a genuine professional-grade reference, not just a basic overview. The user (me) has the original FlashPro (not FlashPro 2) and has never flashed anything yet — novice-to-FlashPro with a 170k-mile K20Z3 that I care about preserving.
+The intent was to build out the `10-Hondata-FlashPro/` folder into a genuine professional-grade reference, not just a basic overview. The user (me) has the original FlashPro (not FlashPro 2) and has never flashed anything yet — novice-to-FlashPro with a 170k-mile K20Z3 that I care about preserving.
 
 ---
 
@@ -44,7 +44,7 @@ Each agent was given a specific focused prompt with WebSearch and WebFetch expec
 
 The practical implication: the documents I wrote for this deep dive are based on my accumulated K-series/FlashPro training knowledge plus the two agents' output, with every specific claim flagged `[VERIFY]` where I want confirmation before acting. This is honest depth, not fabricated citations.
 
-### 3. New Documentation Written (6 files in `07-Hondata-FlashPro/`)
+### 3. New Documentation Written (6 files in `10-Hondata-FlashPro/`)
 
 | File | Purpose | Approx PDF pages |
 |------|---------|------------------|
@@ -94,7 +94,7 @@ Saved to Claude's persistent project memory for future sessions:
 - The **#1 open technical question** in my build: does the original FlashPro's analog 2 input read the GM flex fuel sensor's frequency output natively, or does wiring need to go to the ECU's rear O2 signal pin instead?
 - Both paths are claimed in forum sources; they conflict; neither was verifiable without web access during this session.
 - **Action item before flex fuel hardware purchase:** email Hondata support OR confirm with my chosen tuner OR find the current Hondata flex fuel setup KB article.
-- Once the wiring path is confirmed, everything else (sensor part number, injector sizing, pump sizing, calibration approach) is well-documented in `12-Flex-Fuel-and-Fuel-System/overview.md` already.
+- Once the wiring path is confirmed, everything else (sensor part number, injector sizing, pump sizing, calibration approach) is well-documented in `19-Flex-Fuel-and-Fuel-System/overview.md` already.
 
 ### On Tuner Selection
 
@@ -145,8 +145,8 @@ All documents include `[VERIFY]` markers on specific claims where I want live co
 
 ## Final Repo State (End of 2026-04-19)
 
-- **Now 36 markdown files** (was 33 at start of this session, +6 new in 07-Hondata-FlashPro/, +2 reports in docs/reports/)
-- **`07-Hondata-FlashPro/` now contains 9 markdown files:**
+- **Now 36 markdown files** (was 33 at start of this session, +6 new in 10-Hondata-FlashPro/, +2 reports in docs/reports/)
+- **`10-Hondata-FlashPro/` now contains 9 markdown files:**
   - `overview.md` (original)
   - `Temporary-Setup/getting-started.md` (original)
   - `Permanent-LattePanda-Install/full-guide.md` (original)

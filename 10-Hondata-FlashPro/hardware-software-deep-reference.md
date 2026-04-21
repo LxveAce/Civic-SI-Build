@@ -148,7 +148,7 @@ My original FlashPro has 2 analog inputs, each 0-5V DC single-ended referenced t
   - An external frequency-to-voltage converter before feeding analog 2
 - FlashPro 2 reads frequency natively. I'm less sure about the original unit. **This is the single most important thing to verify before I commit to flex fuel wiring.**
 
-**Cross-reference:** Both [12-Flex-Fuel-and-Fuel-System/overview.md](../12-Flex-Fuel-and-Fuel-System/overview.md) and [17-Wideband-AFR/overview.md](../17-Wideband-AFR/overview.md) already flag this wiring question. My tuner's answer (or Hondata's flex-fuel setup KB article) is what I trust.
+**Cross-reference:** Both [19-Flex-Fuel-and-Fuel-System/overview.md](../19-Flex-Fuel-and-Fuel-System/overview.md) and [11-Wideband-AFR/overview.md](../11-Wideband-AFR/overview.md) already flag this wiring question. My tuner's answer (or Hondata's flex-fuel setup KB article) is what I trust.
 
 ### Calibration Files (`.fpc`)
 

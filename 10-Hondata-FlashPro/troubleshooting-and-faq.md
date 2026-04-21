@@ -77,7 +77,7 @@ Same recovery as flash failure — reconnect, FPM detects and retries. If the un
 | **P2004 / P2005** | IMRC stuck open | Skunk2 Ultra Street deletes IMRC | Enable IMRC defeat flag in FPM |
 | **P0335** | Crankshaft position sensor | Sensor failure, wiring, flywheel reluctor damage | Replace sensor; car won't run well |
 | **P0340** | Camshaft position sensor | Sensor or wiring | Replace sensor |
-| **P0011 / P0014** | VTC actuator / camshaft timing | **Weak VTC actuator** — this is the 14310-RBC-003 revised part [15-Ignition-Refresh/](../15-Ignition-Refresh/) fixes | Replace actuator |
+| **P0011 / P0014** | VTC actuator / camshaft timing | **Weak VTC actuator** — this is the 14310-RBC-003 revised part [06-Ignition-Refresh/](../06-Ignition-Refresh/) fixes | Replace actuator |
 | **P0128** | Coolant temp below thermostat regulating temp | Stuck-open thermostat | Replace thermostat |
 | **P0116** | Coolant temp sensor circuit range | Sensor failure | Replace sensor |
 | **P0135 / P0141** | O2 sensor heater circuit | Sensor or wiring | Replace sensor |

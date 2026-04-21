@@ -55,7 +55,7 @@ Post-cat mounting is fine for long-term sensor life (less thermal stress) but le
 
 The AEM X-Series outputs a 0-5V analog signal that I'll wire to one of the FlashPro's analog inputs. This lets the wideband reading appear directly in the FlashPro datalog alongside RPM, timing, fueling, etc. — which is what the tuner will actually use.
 
-**FlashPro analog input wiring:** Hondata publishes a diagram in their FlashProManager help docs. The 8th gen SI FlashPro has two analog inputs available. Wideband goes on one; future flex fuel sensor goes on the other (or via the rear O2 signal wire — see [12-Flex-Fuel-and-Fuel-System/](../12-Flex-Fuel-and-Fuel-System/)).
+**FlashPro analog input wiring:** Hondata publishes a diagram in their FlashProManager help docs. The 8th gen SI FlashPro has two analog inputs available. Wideband goes on one; future flex fuel sensor goes on the other (or via the rear O2 signal wire — see [19-Flex-Fuel-and-Fuel-System/](../19-Flex-Fuel-and-Fuel-System/)).
 
 ### 3. Display Mounting
 
@@ -121,8 +121,8 @@ It's the single most important tuning tool on the car after FlashPro itself.
 
 ## See Also
 
-- [07-Hondata-FlashPro/](../07-Hondata-FlashPro/) — FlashPro setup that this feeds into
-- [12-Flex-Fuel-and-Fuel-System/](../12-Flex-Fuel-and-Fuel-System/) — ethanol sensor shares FlashPro analog inputs
+- [10-Hondata-FlashPro/](../10-Hondata-FlashPro/) — FlashPro setup that this feeds into
+- [19-Flex-Fuel-and-Fuel-System/](../19-Flex-Fuel-and-Fuel-System/) — ethanol sensor shares FlashPro analog inputs
 - [docs/baseline-logs.md](../docs/baseline-logs.md) — logging plan
 
 ---

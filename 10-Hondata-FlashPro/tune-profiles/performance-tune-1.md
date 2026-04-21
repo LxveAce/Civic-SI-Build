@@ -312,7 +312,7 @@ FPM's default datalog preset captures most of these, but verify in `Tools → Da
 
 ### Offline analysis fallback
 
-Since I won't have internet during the drive and for some time after: **the entire diagnostic playbook is written in `07-Hondata-FlashPro/datalog-analysis-guide.md`** in this repo. It walks through what to look for in a log, in what order. I can self-triage the data before sending to Claude.
+Since I won't have internet during the drive and for some time after: **the entire diagnostic playbook is written in `10-Hondata-FlashPro/datalog-analysis-guide.md`** in this repo. It walks through what to look for in a log, in what order. I can self-triage the data before sending to Claude.
 
 When I do get back online, I paste:
 1. The CSV log (as text)

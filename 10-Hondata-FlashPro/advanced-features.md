@@ -248,7 +248,7 @@ Controls when the primary and secondary (A/C) cooling fans turn on and off based
 - **Daily map:** Fan ON 195°F, Fan OFF 185°F
 - **Sport map:** Fan ON 190°F, Fan OFF 180°F
 
-Tighter fan control keeps ECT stable during sustained load (canyon runs, dyno pulls). The Koyorad has extra heat rejection capacity; running the fan earlier uses that capacity proactively. See [16-Cooling-System/](../16-Cooling-System/).
+Tighter fan control keeps ECT stable during sustained load (canyon runs, dyno pulls). The Koyorad has extra heat rejection capacity; running the fan earlier uses that capacity proactively. See [09-Cooling-System/](../09-Cooling-System/).
 
 ---
 
@@ -264,7 +264,7 @@ Tighter fan control keeps ECT stable during sustained load (canyon runs, dyno pu
 
 **When I'd need this:** After installing the Skunk2 Ultra Street intake manifold, which deletes the stock IMRC flap. Without this defeat flag, I get a persistent P2004/P2005 code.
 
-**My plan:** Tuner enables this flag during Tune #2 (post-intake manifold install). See [10-Intake-Manifold/](../10-Intake-Manifold/).
+**My plan:** Tuner enables this flag during Tune #2 (post-intake manifold install). See [14-Intake-Manifold/](../14-Intake-Manifold/).
 
 ### EVAP System CELs
 

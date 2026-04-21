@@ -134,7 +134,7 @@ FlashPro logs both "commanded" timing (what the calibration table says) and "act
 |-------|---------|
 | ±1 deg sustained | Healthy VTC actuator |
 | ±2-3 deg transient during fast transitions | Normal — actuator takes time to hit target |
-| ±3+ deg sustained | Failing VTC actuator — **this is the cold-start-rattle actuator problem.** See [15-Ignition-Refresh/](../15-Ignition-Refresh/). |
+| ±3+ deg sustained | Failing VTC actuator — **this is the cold-start-rattle actuator problem.** See [06-Ignition-Refresh/](../06-Ignition-Refresh/). |
 | Error oscillates at idle | VTC actuator spring is weak — replace before further tuning |
 | Error ~0 at idle, grows at high RPM | Oil pressure issue (worn pump, wrong oil viscosity) |
 

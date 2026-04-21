@@ -225,7 +225,7 @@ My earlier BOM listed the ID1050x. After cross-checking:
 
 **Decision: DeatschWerks DW300C (340 LPH), NOT DW200.**
 
-I waffled on this initially. After cross-checking with the [tuning-workflow-and-maps.md](../07-Hondata-FlashPro/tuning-workflow-and-maps.md) rule (headroom > margin), the DW200 at 255 LPH is enough for a well-tuned 93-octane build but gets genuinely tight on E85 at my target WHP. Injector duty cycle ceiling is 85% — the pump needs to deliver at that load without pressure drop, even with the 30% more volume E85 demands. The DW300C at 340 LPH gives me ~30% margin over DW200 for the same money class (~$130-160 vs ~$110-130). That margin is pure reliability insurance under the reliability-first rule.
+I waffled on this initially. After cross-checking with the [tuning-workflow-and-maps.md](../10-Hondata-FlashPro/tuning-workflow-and-maps.md) rule (headroom > margin), the DW200 at 255 LPH is enough for a well-tuned 93-octane build but gets genuinely tight on E85 at my target WHP. Injector duty cycle ceiling is 85% — the pump needs to deliver at that load without pressure drop, even with the 30% more volume E85 demands. The DW300C at 340 LPH gives me ~30% margin over DW200 for the same money class (~$130-160 vs ~$110-130). That margin is pure reliability insurance under the reliability-first rule.
 
 If I ever go turbo (even modest), the DW300C is still enough. The DW200 is not. Buy once.
 

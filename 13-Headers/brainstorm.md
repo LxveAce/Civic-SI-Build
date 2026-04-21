@@ -520,7 +520,7 @@ I originally considered the PLM V2 + Cat combo at $575 to save money, but the Sk
 | 6 | Donut Gasket (cat-to-front-pipe) | 60mm / 2.36" donut gasket | 1 | $5-8 |
 | 7 | Anti-seize compound | Permatex copper anti-seize (small tube) | 1 | $5-8 |
 
-#### Exhaust Cutout (Already Planned — from 08-Valved-Exhaust purchasing.md)
+#### Exhaust Cutout (Already Planned — from 12-Valved-Exhaust purchasing.md)
 
 | # | Item | Part Number | Qty | Est. Price |
 |---|------|-------------|-----|------------|

@@ -482,7 +482,7 @@ This is on the FlashPro unit itself — no PC connection needed to switch.
 
 ---
 
-### 6.8 Wideband Lambda Interface — CAPTURED (CRITICAL for Phase 6 + 17-Wideband-AFR)
+### 6.8 Wideband Lambda Interface — CAPTURED (CRITICAL for Phase 6 + 11-Wideband-AFR)
 
 **This contradicts my earlier reference docs that said "Analog Input 1" of the FlashPro unit.** The wideband actually wires into unused **ECU** input pins (not FlashPro analog inputs). The ECU's K-series pinout has several available inputs:
 
@@ -519,7 +519,7 @@ This is on the FlashPro unit itself — no PC connection needed to switch.
 
 **For my AEM X-Series 30-0300:** It's the "later AEM" spec = 0V=10:1, 5V=20:1. No reprogramming needed.
 
-**Implications for [17-Wideband-AFR/overview.md](../17-Wideband-AFR/overview.md):**
+**Implications for [11-Wideband-AFR/overview.md](../11-Wideband-AFR/overview.md):**
 - That doc said "FlashPro analog input 1" — **wrong**. Needs updating.
 - The ECU pin to use depends on what I'm doing with flex fuel. ECT2 or ELD are the best candidates for my build. EGRL requires adding a pin/wire.
 - Both wideband AND flex fuel sensor need ECU input pins. I need to plan which pin each gets.
@@ -2380,7 +2380,7 @@ This also means my **wideband wiring** can use SO2 (rear O2) — wait, no, the W
 - **Wideband (AEM X-Series 30-0300):** **EGRL or ELD** (NOT SO2, NOT ECT2)
 - **Flex fuel sensor (Continental 13577429):** **ECT2 pin** (with ECT2 disabled in misc)
 
-**Parts I'll need (updated from [12-Flex-Fuel-and-Fuel-System/overview.md](../12-Flex-Fuel-and-Fuel-System/overview.md)):**
+**Parts I'll need (updated from [19-Flex-Fuel-and-Fuel-System/overview.md](../19-Flex-Fuel-and-Fuel-System/overview.md)):**
 - The sensor itself (Continental 13577429 — verify output is compatible; standard GM sensor outputs frequency, not 0-5V voltage)
 
 **⚠️ HUGE DETAIL: The Continental/GM 13577429 sensor outputs FREQUENCY, not 0-5V voltage.** This is a problem:

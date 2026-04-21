@@ -19,9 +19,9 @@ This is the single scariest job on my entire build. It's not the technical diffi
 | Do First | Why |
 |----------|-----|
 | [Phase 0 maintenance](../docs/mod-order-and-maintenance.md) complete | Clean engine baseline means if something goes wrong after install, it's header-related not some other lurking issue |
-| [Valved exhaust (QTP cutout)](../08-Valved-Exhaust/) installed and working | Cutout position changes based on header/HFC flow; installing headers first locks me into a downstream geometry I may regret |
-| [Wideband AFR bung](../17-Wideband-AFR/) welded into header collector | **Do this at the muffler shop DURING the header installation.** Retrofitting a bung into an installed header is a pain. |
-| [Cooling system refresh](../16-Cooling-System/) | Headers add heat. I want fresh cooling headroom before this goes in. |
+| [Valved exhaust (QTP cutout)](../12-Valved-Exhaust/) installed and working | Cutout position changes based on header/HFC flow; installing headers first locks me into a downstream geometry I may regret |
+| [Wideband AFR bung](../11-Wideband-AFR/) welded into header collector | **Do this at the muffler shop DURING the header installation.** Retrofitting a bung into an installed header is a pain. |
+| [Cooling system refresh](../09-Cooling-System/) | Headers add heat. I want fresh cooling headroom before this goes in. |
 | PB Blaster on manifold studs — 3-5 days ahead | Seized-stud prevention, starting well before install day |
 
 ### Do AT THE SAME TIME (car is already apart)
@@ -104,7 +104,7 @@ This is the single scariest job on my entire build. It's not the technical diffi
 2. Disconnect battery (-) terminal. Exhaust work near alternator wiring = bad surprises without disconnection.
 3. Lift front of car, set on 4-ton jack stands on subframe pinch welds. NEVER work under a jack alone.
 4. Remove driver-side front wheel and wheel well liner for access.
-5. Remove engine-bay strut brace (if mine ends up fitting post-coilovers, not relevant until then — see [06-Strut-Bar/](../06-Strut-Bar/)).
+5. Remove engine-bay strut brace (if mine ends up fitting post-coilovers, not relevant until then — see [18-Strut-Bar/](../18-Strut-Bar/)).
 6. Remove the heat shield over the stock manifold (4-6 bolts, they're seized, more PB Blaster).
 
 ### Phase B: Disconnect Upstream O2 (10 min)
@@ -151,7 +151,7 @@ This is the single scariest job on my entire build. It's not the technical diffi
 
 29. Slide HFC onto header collector. Verify O-ring/gasket between them is correctly positioned (Berk ships with spec gasket).
 30. Install flange bolts. Torque to 25 ft-lb.
-31. Connect HFC outlet to existing exhaust (or to [QTP cutout / dump setup](../08-Valved-Exhaust/) if exhaust is already done).
+31. Connect HFC outlet to existing exhaust (or to [QTP cutout / dump setup](../12-Valved-Exhaust/) if exhaust is already done).
 32. Fresh donut gasket at every flange junction. NEW crush washers on any banjo fittings.
 
 ### Phase H: Wideband Bung Install (IF doing this during session)
@@ -181,7 +181,7 @@ This is the single scariest job on my entire build. It's not the technical diffi
 
 ---
 
-## Post-Install Tuning (Cross-reference [07-Hondata-FlashPro/tuning-workflow-and-maps.md](../07-Hondata-FlashPro/tuning-workflow-and-maps.md))
+## Post-Install Tuning (Cross-reference [10-Hondata-FlashPro/tuning-workflow-and-maps.md](../10-Hondata-FlashPro/tuning-workflow-and-maps.md))
 
 **DO NOT WOT the car on the stock calibration or old tune after a header install.** The airflow characteristics have changed significantly; running aggressive timing on stale maps is how engines get hurt.
 
@@ -190,7 +190,7 @@ This is the single scariest job on my entire build. It's not the technical diffi
 1. Drive gently home from install.
 2. Flash a conservative base map (community Skunk2 Alpha + intake map, or previous-session calibration with timing pulled 2 deg as safety buffer).
 3. Datalog 3 sessions of mixed driving (~1-2 days of commuting). Confirm zero knock, stable AFR, reasonable fuel trims.
-4. Book dyno session (Tune #1 — see [tuning-workflow-and-maps.md](../07-Hondata-FlashPro/tuning-workflow-and-maps.md)).
+4. Book dyno session (Tune #1 — see [tuning-workflow-and-maps.md](../10-Hondata-FlashPro/tuning-workflow-and-maps.md)).
 5. Tuner dials in daily + sport maps on dyno with wideband + knock monitoring.
 
 ---
@@ -220,10 +220,10 @@ This is the single scariest job on my entire build. It's not the technical diffi
 - [overview.md](overview.md) — the parts I picked and why
 - [brainstorm.md](brainstorm.md) — complete research, all header options compared
 - [4-1-header-research.md](4-1-header-research.md) — why I didn't go 4-1
-- [../08-Valved-Exhaust/](../08-Valved-Exhaust/) — must be installed first
-- [../17-Wideband-AFR/](../17-Wideband-AFR/) — bung goes in during this install
-- [../16-Cooling-System/](../16-Cooling-System/) — fresh cooling before more heat
-- [../07-Hondata-FlashPro/tuning-workflow-and-maps.md](../07-Hondata-FlashPro/tuning-workflow-and-maps.md) — the tune this enables
+- [../12-Valved-Exhaust/](../12-Valved-Exhaust/) — must be installed first
+- [../11-Wideband-AFR/](../11-Wideband-AFR/) — bung goes in during this install
+- [../09-Cooling-System/](../09-Cooling-System/) — fresh cooling before more heat
+- [../10-Hondata-FlashPro/tuning-workflow-and-maps.md](../10-Hondata-FlashPro/tuning-workflow-and-maps.md) — the tune this enables
 - [../docs/torque-specs.md](../docs/torque-specs.md) — all torque values used here
 
 ---

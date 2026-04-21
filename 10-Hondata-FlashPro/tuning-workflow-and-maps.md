@@ -71,14 +71,14 @@ Any NO answer below = reschedule. Tuning a sick engine is throwing money away.
 
 - [ ] Spark plugs fresh (< 5,000 mi on current set)
 - [ ] Ignition coils healthy (no misfire codes in 500 mi)
-- [ ] VTC actuator replaced or confirmed silent at cold start (see [15-Ignition-Refresh/](../15-Ignition-Refresh/))
+- [ ] VTC actuator replaced or confirmed silent at cold start (see [06-Ignition-Refresh/](../06-Ignition-Refresh/))
 - [ ] Valve adjustment in spec (within last 60k mi)
 - [ ] Timing chain inspected (measured via FlashPro cam phase datalog, < 2-3 deg retardation)
-- [ ] Coolant system fresh (see [16-Cooling-System/](../16-Cooling-System/))
+- [ ] Coolant system fresh (see [09-Cooling-System/](../09-Cooling-System/))
 - [ ] Oil fresh, correct viscosity (5W-30 for my 170k motor)
 - [ ] Fuel filter clean (replaced post-E85 introduction if applicable)
 - [ ] Battery healthy (13.8+V at idle with alternator charging)
-- [ ] Wideband O2 sensor installed and reading sensibly at idle (see [17-Wideband-AFR/](../17-Wideband-AFR/))
+- [ ] Wideband O2 sensor installed and reading sensibly at idle (see [11-Wideband-AFR/](../11-Wideband-AFR/))
 
 ### Software / Calibration
 
@@ -213,7 +213,7 @@ But this is a Phase 7+ project. The core workflow (drive → export CSV → anal
 - [Temporary-Setup/getting-started.md](Temporary-Setup/getting-started.md) — getting online with a laptop first
 - [Permanent-LattePanda-Install/full-guide.md](Permanent-LattePanda-Install/full-guide.md) — in-car PC install
 - [../docs/baseline-logs.md](../docs/baseline-logs.md) — my datalog protocol
-- [../17-Wideband-AFR/](../17-Wideband-AFR/) — the wideband this workflow relies on
+- [../11-Wideband-AFR/](../11-Wideband-AFR/) — the wideband this workflow relies on
 
 ---
 

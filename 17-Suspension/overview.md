@@ -472,7 +472,7 @@ This is a full suspension teardown and rebuild. I'm planning to do it myself, so
 
 ## See Also
 
-- [06-Strut-Bar/overview.md](../06-Strut-Bar/overview.md) — Front strut tower brace (separate from coilovers)
+- [18-Strut-Bar/overview.md](../18-Strut-Bar/overview.md) — Front strut tower brace (separate from coilovers)
 - [docs/mod-order-and-maintenance.md](../docs/mod-order-and-maintenance.md) — Full build order and maintenance plan
 
 ---
