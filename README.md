@@ -34,7 +34,7 @@ Daily-drivable with a sport mode toggle. Quiet when I need it, loud when I want 
 | # | Mod | Part | Actual Cost | Status | Notes |
 |---|-----|------|------------|--------|-------|
 | 5 | [Engine Mounts](04-Engine-Mounts/) | Hybrid Racing 70A | $657.15 | Awaiting install | |
-| 6 | [Brakes](05-Brakes/) | Hawk HPS Pads + R1 Concepts Slotted Rotors | $532.14 | Awaiting install | Full 4-corner upgrade |
+| 6 | [Brakes](05-Brakes/) | Hawk HPS Pads + R1 Concepts Slotted Rotors | $532.14 | **Front installed 2026-04-20** — rear pending | Full 4-corner upgrade |
 | 7 | [Strut Bar](06-Strut-Bar/) | Megan Racing Race Spec Front Upper (Polished) | (in #1) | **Deferred until coilovers** — BC Racing camber plates will change strut-top geometry anyway |
 | 8 | [Hondata FlashPro](07-Hondata-FlashPro/) | Hondata FlashPro | $859.59 | Awaiting first flash | ECU tuning, datalogging, gauges |
 

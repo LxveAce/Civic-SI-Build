@@ -1,6 +1,10 @@
 # Brakes — Hawk HPS Pads + R1 Concepts Slotted Rotors
 
-## Purchased, sitting in the box
+## Status
+
+- **Front rotors + front pads:** ✅ **INSTALLED 2026-04-20**
+- **Rear rotors + rear pads:** ⏳ Still in the box — installation pending
+- **Bed-in procedure:** ⏳ Pending (do after rears are in — single combined bed-in on all four corners)
 
 ## Part Information
 

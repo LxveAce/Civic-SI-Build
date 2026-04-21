@@ -72,56 +72,38 @@ From [tuning-workflow-and-maps.md](tuning-workflow-and-maps.md) — every tune I
 
 ---
 
-## Tune 2 — performance tune
+## Tune 2 — Performance Tune 1 (Sport) — **FLASHED & DRIVEN, KNOCK DETECTED**
 
-### Header
+**→ Full dedicated profile: [`tune-profiles/performance-tune-1.md`](tune-profiles/performance-tune-1.md)**
+
+### Header (short form — see profile for full detail)
 
 | Field | Value |
 |-------|-------|
 | **Filename** | `performance tune.fpcal` |
 | **Location** | `C:\Users\extra\OneDrive\Documents\FlashPro Calibrations\performance tune.fpcal` |
-| **Source** | **UNKNOWN — to be clarified with LxveAce** (self-made? community base map? from tuner?) |
-| **Hardware calibrated for** | **UNKNOWN — critical to establish before flashing** |
 | **Date saved** | 2026-04-18 19:53:05 |
-| **File size** | 22,842 bytes (411 bytes larger than stock) |
-| **Flashed to ECU?** | UNKNOWN — to confirm with LxveAce |
-| **Purpose** | TBD |
+| **File size** | 22,842 bytes |
+| **Flashed to ECU?** | **YES — flashed and driven 2026-04-20** |
+| **Purpose** | Sport map (performance mode) |
 
-### Safety pre-check
-- ❓ **Matched to hardware?** — UNKNOWN. Critical gap. Current car state: Exedy Stage 1 + lightweight flywheel installed, K&N Typhoon intake installed, Acuity short shifter + bushings installed, DWS06 tires. Engine mounts + brakes + FlashPro are bought but not installed. A "performance tune" built for FBO+E85 flashed onto a car that has only an intake is dangerous.
-- ✅ **Stock backup exists** — as of 2026-04-19 20:58, yes. Good.
-- ❓ **Reliability ceilings** — UNKNOWN without parameter extract
+### Safety pre-check (summary)
+- ❌ **Matched to hardware?** — NO. Tune is FBO-targeted; car has only intake (stock headers + exhaust).
+- ✅ **Stock backup exists** — `Factory Flash - Stock Tune.fpcal` 2026-04-19 20:58.
+- ❌ **Knock count at WOT = 0** — FAILED on 2026-04-20 drive.
 
-### Parameter extract
-*(To be populated — either from HTML export of this .fpcal file, or from screenshots of tabs as user sends them)*
+### Assessment (summary)
+**FAIL on 3 of 11 reliability ceilings:** WOT AFR (cells 12.54-13.34 = exceed Hondata 12.50 open-loop floor), WOT timing (30-33° on pump gas = too aggressive), VTEC engage (4200 < my 4500 rule). **See full profile for specific cell-level fix directions.**
 
-**To capture:**
-- Fuel tables (low-cam + high-cam WOT AFR targets)
-- Ignition tables (low-cam + high-cam timing at peak cells)
-- VTEC engagement RPM
-- VTC target map (low-cam + high-cam)
-- Rev limiter settings (main + per-gear if set)
-- Idle target
-- Fan ON/OFF temps
-- Launch control status (on/off? RPM target?)
-- Flat-foot shift status
-- Torque management status
-- Analog input configurations (any wideband wired?)
-- DTC defeat flags (rear O2? IMRC?)
-- Injector characterization data (stock 310cc or upsized?)
+### Revision log (summary)
+- 2026-04-18 19:53: File saved
+- 2026-04-20: Flashed as Sport map and driven — knock detected
+- 2026-04-20: 48 FPM tab screenshots transcribed into full profile doc
 
-### Assessment
-**PENDING** — cannot assess until parameters are known.
-
-### Revision log
-- 2026-04-18 19:53: Saved (origin and intent unknown)
-
-### Next actions
-1. **Confirm where this came from** — self-made? community download? tuner-made?
-2. **Confirm if it's been flashed** — if yes, what state is the ECU currently in?
-3. **Open in FPM → File → Save As HTML** (or screenshot each tab) — get the actual parameter values
-4. **Cross-check** — does it match current hardware? Does it pass safety ceilings?
-5. **Do not drive hard on it** until confirmed safe
+### Next actions (summary)
+1. **Datalog the next drive** per protocol in [profile → Datalog Capture Protocol](tune-profiles/performance-tune-1.md#datalog-capture-protocol)
+2. Paste CSV + pull notes to Claude for cell-level correction list
+3. Re-flash with corrections, re-datalog, verify knock = 0
 
 ---
 
@@ -168,16 +150,17 @@ When I create, receive, or analyze a new tune, add a section like this:
 
 Once I have 3+ tunes in here, maintain a side-by-side view:
 
-| Parameter | Stock | Performance Tune | [Future Daily Map] | [Future Sport Map] |
-|-----------|-------|------------------|--------------------|--------------------|
-| WOT AFR low-cam | ? | ? | TBD | TBD |
-| WOT AFR high-cam | ? | ? | TBD | TBD |
-| Peak timing high-cam | ? | ? | TBD | TBD |
-| VTEC engagement | ? | ? | TBD | TBD |
-| Rev limit | ? | ? | TBD | TBD |
-| Fan ON temp | ? | ? | TBD | TBD |
-| Launch control | off | ? | off | TBD |
-| Flex fuel | off | ? | off | TBD |
+| Parameter | Stock | Performance Tune 1 (Sport) | [Future Daily Map] | [Future E85 Map] |
+|-----------|-------|----------------------------|--------------------|-----------------|
+| WOT AFR low-cam (leanest cell) | ~12.5 | **12.54-13.34 ❌** | TBD (≤ 12.0) | TBD (λ ≥ 0.82) |
+| WOT AFR high-cam (leanest cell) | ~12.5 | **12.54-13.34 ❌** | TBD (≤ 12.0) | TBD |
+| Peak timing high-cam | ~22° | **30-33° ❌** | TBD (≤ 24°) | TBD (≤ 30°) |
+| VTEC engagement | 5800 | **4200 ❌** | TBD (4800+) | TBD |
+| Rev limit | 8200 | 8400 ✅ | 7800 | 8400 |
+| Launch control | off | 5000 RPM | off | off |
+| Boost cut | N/A | disabled ✅ | disabled | disabled |
+| Full throttle shift | off | off ✅ | off | off |
+| Flex fuel | off | off (table inert) | off | on |
 
 (Fills in as tunes get analyzed.)
 
