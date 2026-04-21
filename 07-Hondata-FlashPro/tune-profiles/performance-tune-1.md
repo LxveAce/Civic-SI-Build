@@ -523,14 +523,22 @@ After applying corrections 1-4 above:
 
 ## Next Actions
 
-### Immediate (next drive is a datalog, not a spirited drive)
-1. Datalog the pull set above so we know exactly which cells triggered knock
-2. Do NOT WOT-drive aggressively until corrections flashed
+### Immediate — cell-level fix list ready
+**→ See [`fix-list-2026-04-20.md`](fix-list-2026-04-20.md) for the concrete per-cell corrections with annotated screenshots of every tab to edit.**
+
+Summary of corrections:
+1. Pull 5–7° timing at Ignition high 30° and 40° cam tabs, cells 5000–6000 RPM × MAP cols 5–7 (critical — root cause of Cyl 1 knock)
+2. Richen WOT lambda from 12.54 to 12.00–12.20 at 5500+ RPM in `WOT lambda adjustment high`
+3. Bias Cyl 1 fuel trim +3% as a belt-and-suspenders until Phase 15 ignition refresh is done
+4. Raise VTEC engagement 4200 → 4500 RPM
+5. Defer AFM recalibration for K&N Typhoon to the dyno session
+
+**Also worth investigating (not a tune edit):** Cyl 1-only knock pattern on a 170k motor could be hardware-biased — worn coil #1, worn plug #1, injector flow drift, or carbon asymmetry. The Phase 15 Ignition Refresh (OEM coils 30520-RWC-A01 + NGK plugs) addresses the two most likely causes directly. Add a compression + leak-down test to Phase 0 maintenance as a $50 sanity check before the next dyno pull.
 
 ### Short-term (within next week)
-1. Paste datalog CSV + notes to Claude for cell-level analysis
-2. Apply recommended corrections in FPM: richen lean cells, pull timing, raise VTEC
-3. Re-flash, re-datalog, verify knock count = 0
+1. Apply the fix list above, save as `performance-tune-2.fpcal`
+2. Re-flash, repeat 3rd-gear pull A, verify K.Count.1 delta = 0
+3. Archive the new `.fpcal` and start `performance-tune-2.md` profile doc
 
 ### Medium-term (before Phase 2 mods)
 1. Build a conservative **Daily** calibration as primary (25° WOT max, 12.0 AFR floor, VTEC 4800, 7800 rev)

@@ -37,6 +37,7 @@ FILE_ORDER = [
     "07-Hondata-FlashPro/fpm-master-reference.md",
     "07-Hondata-FlashPro/tunes.md",
     "07-Hondata-FlashPro/tune-profiles/performance-tune-1.md",
+    "07-Hondata-FlashPro/tune-profiles/fix-list-2026-04-20.md",
     "08-Valved-Exhaust/overview.md",
     "09-Headers/overview.md",
     "09-Headers/install-guide.md",
