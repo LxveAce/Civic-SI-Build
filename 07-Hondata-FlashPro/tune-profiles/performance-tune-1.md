@@ -343,6 +343,170 @@ And Claude produces specific cell-level tune corrections.
 
 ---
 
+## Datalog Analysis — 2026-04-20 Pull Set 1
+
+**Tune applied during these pulls:** `performance tune.fpcal` (this profile's subject) — preserved snapshot in `tune-profiles/archive/2026-04-20_performance-tune.fpcal`.
+
+**Stock baseline reference:** `Factory Flash - Stock Tune.fpcal` preserved at `tune-profiles/archive/2026-04-20_Factory-Flash-Stock-Tune.fpcal`.
+
+**Logs captured** (all in `C:\Users\extra\OneDrive\Documents\FlashPro Calibrations\`):
+- `stock tune idle.csv` — 46 seconds of stock-tune idle, fully warm
+- `3000 rpm tap.csv` — tip-in from idle up to ~4400 RPM, neutral, 24s
+- `3rd Gear Pull 1.csv` — cruise only (no actual pull)
+- `3rd Gear Pull 2.csv` — 2nd-to-6th gear pulls, 33s, peak 7568 RPM
+- `3rd Gear Pull 3.csv` — 4th-to-6th gear pulls, 17s, peak 7621 RPM
+- `4th Gear Pull 1.csv` — 4th-5th-6th sweep, 19s, peak 7367 RPM
+- `4th Gear Pull 2.csv` — full sweep, 32s, peak 7389 RPM
+- `6th Gear Cruise.csv` — 63s steady cruise, 2770-2997 RPM
+
+### Headline findings
+
+| Metric | Observed | Ceiling | Status |
+|--------|----------|---------|--------|
+| **Knock count delta across ALL pulls** | **+5 events total** (all Cylinder 1) | 0 | ❌ FAIL |
+| Max knock retard observed | **10°** (4th Pull 2) | 0 | ⚠️ ECU SAVED THE MOTOR |
+| Peak injector duty | 74% | ≤ 85% | ✅ PASS |
+| Peak IGN actual at WOT | 34° @ 5300-5400 RPM high cam | ≤ 26° (pump) | ❌ FAIL |
+| WOT AFR actual at high cam | 12.0-13.4 range | ≥ 12.0 | ⚠️ MARGINAL |
+| WOT AFR commanded at high cam | 12.54-12.80 | ≥ 12.0 | ⚠️ AT HONDATA FLOOR |
+| ECT max | 194°F | ≤ 210°F | ✅ PASS |
+| IAT max during WOT | 91°F | — | ✅ good ambient |
+| Battery voltage range | 13.7-14.5V | — | ✅ charging healthy |
+| STFT range at idle (stock tune) | **+14 to +17** | ±10 typical | ⚠️ lean bias |
+| STFT range at WOT | -15 to +10 | — | ✅ normal open-loop swings |
+| LTFT | -3 to +1 | ±5 | ✅ tight |
+
+### Knock event breakdown (the most important finding)
+
+Knock count progression across the session:
+
+| Log | K.Count start | K.Count end | Delta | Cylinders |
+|-----|---------------|-------------|-------|-----------|
+| 3rd Pull 1 (cruise) | 1 | 1 | 0 | — |
+| 3rd Pull 2 | 1 | 1 | 0 | — |
+| 3rd Pull 3 | 1 | 1 | 0 | — |
+| **4th Pull 1** | 1 | 2 | **+1** | Cyl 1 |
+| **4th Pull 2** | 3 | 7 | **+4** | Cyl 1 (all) |
+| 6th Cruise | 7 | 7 | 0 | — |
+
+**Pattern: 4th gear WOT consistently triggered knock on Cylinder 1 specifically.** 3rd gear pulls did not, despite hitting the same RPM and almost the same MAP. The difference is engine load — 4th gear pulls the engine harder at the same RPM, and that's where knock emerges.
+
+**Max K.Retard = 10°** in 4th Pull 2 = the ECU pulled up to 10° of timing to protect the engine. This is the knock control system doing its job, but **the base map shouldn't be demanding this much correction**.
+
+### WOT AFR behavior — actually tracking commanded pretty closely
+
+Pulling WOT samples (TPedal >= 80%, VTEC on, 4500+ RPM) from all pulls:
+
+| RPM zone | AFR commanded | AFR actual | Comment |
+|----------|---------------|------------|---------|
+| 4500-5500 | 12.63-12.80 | 12.47-12.88 | Within ±0.25 of target ✅ |
+| 5500-6000 | 12.54 | 11.76-12.47 | Richer than commanded (safe) |
+| 6000-6500 | 12.54 | 12.35-13.23 | Transient lean spikes to 13.2 — flag |
+| 6500-7000 | 12.54 | 13.12-13.25 | Consistently 0.6 lean of target |
+| 7000-7500 | 12.54 | 13.21-13.47 | **Leaner than commanded — probably fuel pump/injector headroom limit** |
+
+**Observation: above 6500 RPM the actual AFR drifts 0.6-0.8 lean of commanded.** This is the fuel system running out of headroom — stock injectors + stock fuel pump can deliver the commanded, but only at lower RPM. At top-end the injectors are hitting 70-74% duty and the pressure/flow can't keep up. **This is hardware-limited, not tune-limited.** It's also why the Phase 6 DW300C pump and EV14 550cc injector upgrade exists in the mod plan — this is the evidence.
+
+### Timing behavior — aggressive but within knock limit (mostly)
+
+Peak ignition timing during the pull set:
+
+| RPM | CAM | Peak IGN observed |
+|-----|-----|-------------------|
+| 3000 | 0° (low cam) | 26-30° |
+| 4000 | 0° (low cam) | 30-32° |
+| 4500 | 43° (high cam) | 32° |
+| 5000 | 45-46° (high cam) | **32-33°** |
+| 5400 | 43-46° (high cam) | **34°** ← peak |
+| 5700 | 44° (high cam) | 33° |
+| 6000 | 42° (high cam) | 32° |
+| 6500 | 40° (high cam) | 31° |
+| 7000 | 36-38° (high cam) | 30° |
+| 7500 | 30-33° (high cam) | 29-30° |
+
+34° at 5400 RPM under full load on 91-octane pump is the spike that triggered knock in 4th gear. Tune commands it, no knock retard intervenes until Cyl 1 complains.
+
+### Idle baseline (stock tune — separate log)
+
+From `stock tune idle.csv`, fully warm:
+- RPM: 730-772 (stable)
+- ECT: 201-203°F (thermostat fully open — within spec, slightly hot side of normal)
+- IAT: 126-127°F (heat-soaked, expected at closed-throttle idle)
+- **STFT: +14 to +17 ← notable**
+- LTFT: 0-1
+- K.Count: 0
+
+**STFT +14-17 at idle on the STOCK tune** is a real finding. The ECU is adding 14-17% fuel to reach stoich at idle, which means the AFM is under-reporting airflow. Most likely cause on my car: the K&N Typhoon CAI flows more air than the OEM paper filter, but the stock tune's AFM calibration was built around the OEM filter's restriction curve. Not dangerous, but means any tune built on top of stock AFM scaling is starting from a 14-17% lean bias in that cell.
+
+Implication: Performance Tune 1 probably inherited this same AFM calibration. If the tuner didn't rescale the AFM for the K&N, there's a built-in lean bias that explains some of the high-RPM AFR drift above.
+
+### Transient behavior — 3000 RPM tap
+
+From `3000 rpm tap.csv` (neutral, tip-ins):
+- Peak TPedal: 54% (mild throttle blip, not WOT)
+- Peak RPM: 4406
+- IGN spiked to 44° briefly at ~2500 RPM low-cam off-throttle (normal overrun timing)
+- K.Level peaked 62, K.Retard peaked 8° — **mild knock event during a throttle blip**
+- K.Count: 0 change (retard was pre-emptive, not reactive)
+- No sustained load so no real stress
+
+### Overall assessment
+
+**The tune is not blowing up the engine.** The knock control is working and kept K.Retard to 10° max on the worst event. Fuel system is at the edge of its capacity above 6500 RPM but not over it. Temps stayed safe. Injector duty is in the green. No catastrophic failure mode.
+
+**But the tune is violating the reliability rule.** Any knock count > 0 on a 170k motor is a rule break. The rule isn't "detune until the ECU can compensate" — the rule is "build a map that doesn't need the compensation."
+
+### Specific cell-level correction list
+
+Priority ordered. These are the changes to make in FPM before the next flash:
+
+**1. Pull timing in the knock zone (highest priority)**
+- **Table:** Ignition high
+- **Cam angle slice:** 40° (and 30°)
+- **Cells:** RPM 5000-5750, load (MAP kPa) -14.8 through +0.2
+- **Current value:** 30-34°
+- **New value:** 27-30° (pull **3° across the block**)
+- Why: this is exactly where Cyl 1 knocked in 4th Pull 2
+
+**2. Add fuel to Cylinder 1 specifically**
+- **Table:** Cylinder trim (fuel)
+- **Cylinder 1:** add **+2% to +3%**
+- Why: Cyl 1 is the only cylinder showing knock events. A small enrichment bias protects it without affecting the others or drivability
+
+**3. Raise commanded AFR richness in the top-end (above 6500 RPM)**
+- **Table:** WOT lambda adjustment high
+- **Cells:** RPM 6500-8000, WOT load
+- **Current commanded:** 12.54
+- **New commanded:** 12.20 (lambda 0.83)
+- Why: Two reasons — (a) aligns with my reliability rule of ≥ 12.0 pump floor with safety margin; (b) commanding richer helps offset the observed 0.6-0.8 lean drift from fuel system hardware limit. Actual AFR should land near 12.7-12.9 after the change.
+
+**4. Raise VTEC engage to 4500 RPM**
+- **Table:** VTEC window
+- **Engage RPM:** 4200 → **4500**
+- Why: reliability rule. At 4200 the cam is making airflow the tune expects from higher up.
+
+**5. Recalibrate AFM for K&N Typhoon intake (stretch goal, not immediate)**
+- **Table:** AFM (sensors branch)
+- **Issue:** stock AFM curve under-reads by ~14-17% at idle load based on STFT
+- **Fix:** add +14% offset across the low-flow region, smaller correction up through mid-RPM
+- This is a tuner's job on a dyno — not a first-flash fix
+
+### Re-flash + re-test protocol
+
+After applying corrections 1-4 above:
+
+1. Flash the modified calibration as PRIMARY
+2. Keep this current `performance tune.fpcal` as SECONDARY (escape hatch — switch back with button combo if the new cal misbehaves)
+3. Repeat exactly the same pull set (3rd Pulls 1-3, 4th Pulls 1-2, 6th Cruise) on the same road, same fuel, same weather if possible
+4. Verify:
+   - Knock count delta = 0 across the full session
+   - K.Retard max ≤ 2° (small corrections OK; 10° is not)
+   - Peak IGN ≤ 30° anywhere
+   - AFR floor ≥ 12.0 at all cells
+5. If clean: this becomes the new baseline. Log it.
+
+---
+
 ## Revision Log
 
 | Date | Change | Reason |
@@ -351,6 +515,9 @@ And Claude produces specific cell-level tune corrections.
 | 2026-04-20 | Knock count detected | Root cause analysis initiated |
 | 2026-04-20 | Full parameter transcription captured from 48 FPM screenshots | Build baseline record before any changes |
 | 2026-04-20 | Profile document created | Dedicated home for this specific tune |
+| 2026-04-20 | 8 datalogs captured (idle, 3k tap, 3 x 3rd pulls, 2 x 4th pulls, 6th cruise) | First real-world data set |
+| 2026-04-20 | Datalog analysis section added — 5 cell-level corrections proposed | Knock isolated to Cyl 1 @ 5000-5700 RPM high cam, 34° timing |
+| 2026-04-20 | Archived snapshot of `.fpcal` tune file in `tune-profiles/archive/` | Version-preserve the exact tune that produced these logs |
 
 ---
 
