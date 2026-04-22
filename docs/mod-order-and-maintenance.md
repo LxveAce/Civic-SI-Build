@@ -153,23 +153,33 @@ The intake manifold and throttle body work together and need a retune after inst
 
 ```
 PHASE 0 — MAINTENANCE (do immediately, before any mods)
-  ├── Timing chain inspection
-  ├── Valve adjustment  
-  ├── Spark plugs (NGK ILZKR7B-11S)
-  ├── Coolant flush + thermostat
+  ├── Timing chain inspection + replacement if stretched
+  │     (05-Timing-Chain-Maintenance/overview.md — full parts + procedure)
+  ├── Valve adjustment
+  ├── Coolant flush (Honda Type 2 base)
   ├── Transmission fluid (Honda MTF)
   ├── Brake fluid flush (DOT 4)
   ├── Clutch fluid flush (DOT 4)
   ├── Serpentine belt (inspect/replace)
   ├── PCV valve
-  ├── Water pump (inspect with timing chain)
+  ├── Water pump (inspect during timing chain; replace if weeping)
+  ├── Valve cover gasket + plug tube seals (12030-PNC-000)
+  └── Oil filter housing O-ring (15301-PT0-003)
 
-PHASE 1 — ALREADY PURCHASED (install in order)
-  ├── 1A: Clutch hydraulics (CMC/CSC upgrade)
-  ├── 1B: Brakes (Hawk HPS + R1 Concepts)
-  ├── 1C: Engine mounts (Hybrid Racing 70A)
-  ├── 1D: Hondata FlashPro (first flash + base map)
-  └── 1E: Strut bar (if clearance resolved)
+PHASE 0.5 — IGNITION REFRESH (before any dyno tune)
+  ├── NGK ILZKR7B-11S plugs x4
+  ├── Honda OEM coils 30520-RWC-A01 x4
+  └── VTC actuator 14310-RBC-003 (bundle w/ timing chain — free labor)
+    See: 06-Ignition-Refresh/overview.md
+
+PHASE 1 — ALREADY PURCHASED / PRIORITY BUYS (install in order 1A → 1G)
+  ├── 1A: Clutch hydraulics (Hybrid Racing HYB-CMC-01-20 + RMS + throwout + pilot)
+  ├── 1B: Engine mounts (Hybrid Racing 70A)
+  ├── 1C: Brakes (Hawk HPS + R1 Concepts — 4 corners)
+  ├── 1D: Strut bar (DEFERRED until coilovers — Phase 5)
+  ├── 1E: FlashPro first flash (register + base map, no tuning yet)
+  ├── 1F: Cooling system refresh (Koyorad + OEM thermostat/pump/hoses)
+  └── 1G: Wideband AFR install (AEM X-Series 30-0300 — bung welds during 2B)
 
 PHASE 2 — EXHAUST SYSTEM
   ├── 2A: Valved exhaust (QTP QTEC30 + 3" dump)
