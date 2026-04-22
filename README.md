@@ -64,13 +64,15 @@ Daily-drivable with a sport mode toggle. Quiet when I need it, loud when I want 
 
 ## How This Repo Is Organized
 
-Each mod has its own folder with some subset of:
+Each mod has its own folder. Every mod folder has at least these two files:
 - **overview.md** — What the mod is, why I chose it, part numbers, status
-- **install-guide.md** — Step-by-step install instructions
+- **install-guide.md** — Step-by-step install / maintenance procedure (tools, torque specs, phases, first-start, common mistakes, cross-references)
+
+Complex mods also have:
 - **brainstorm.md** — Research, alternatives I considered, pros/cons, things I ruled out
 - **purchasing.md** — Parts list with part numbers and prices
 
-Simple bolt-ons might only have an overview. Complex mods (valved exhaust, LattePanda, headers) have all four.
+As of 2026-04-20 every mod folder has a dedicated install-guide.md. The voice across all guides is first-person, reliability-first, cross-referenced to related mods and to `docs/torque-specs.md`.
 
 ### Special Folders
 - [`10-Hondata-FlashPro/Temporary-Setup/`](10-Hondata-FlashPro/Temporary-Setup/) — Getting started with a laptop before the permanent install

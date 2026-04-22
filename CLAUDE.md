@@ -124,15 +124,19 @@
 
 ## File Structure Convention
 
-Each mod folder may contain:
+Every mod folder contains AT LEAST these two files (as of 2026-04-20):
 | File | Purpose |
 |------|---------|
 | `overview.md` | What it is, why chosen, part numbers, current status |
+| `install-guide.md` | Step-by-step install / maintenance procedure — tools, torque specs, phased walkthrough, first-start checks, common mistakes, cross-references to related mods and `docs/torque-specs.md` |
+
+Complex mods also contain:
+| File | Purpose |
+|------|---------|
 | `brainstorm.md` | Research, alternatives, pros/cons analysis |
 | `purchasing.md` | Complete parts list with part numbers and prices |
-| `install-guide.md` | Step-by-step installation instructions |
 
-Not every mod needs every file. Simple bolt-ons (clutch, bushings) may only have an overview. Complex projects (LattePanda install, valved exhaust) have all four.
+The `install-guide.md` set was filled in on 2026-04-20 for all 19 mod folders. The authorial voice across all guides is first-person owner ("I'll...", "honestly..."), reliability-first (engine longevity > power), no emojis, no marketing copy, real part numbers only, heavy cross-referencing between related mods.
 
 ---
 
@@ -147,6 +151,10 @@ Not every mod needs every file. Simple bolt-ons (clutch, bushings) may only have
 7. **The FlashPro has NOT been used yet** — assume first-time setup
 8. **Stock calibration must be saved** before any flashing — the factory reset button
 9. **Cross-reference interactions between mods** whenever writing a doc. "If you're doing X anyway, Y becomes easier/moot/different."
+
+## Install Guide Pass (2026-04-20)
+
+Every mod folder now has a dedicated `install-guide.md` — 19 new files totaling ~62,000 words. Each guide follows the same template (Reality Check → Prerequisites → Tools Required → Parts List → phased Step-by-Step → First Start → Common Mistakes → See Also). The guides cross-reference each other for bundled-labor opportunities (e.g., 03-Clutch-and-Flywheel + 07-Clutch-Hydraulics + 02-Short-Shifter share a trans-out teardown; 05-Timing-Chain + 06-Ignition-Refresh share VTC actuator labor; 09-Cooling + 13-Headers + 14-IM + 15-Pulleys + 16-Cylinder-Head all bundle during a major Phase 4.5 teardown).
 
 ## New Folders and Docs (Added 2026-04-18)
 
@@ -173,4 +181,4 @@ Additions filling gaps the original scope missed:
 
 ---
 
-*Last updated: 2026-04-18*
+*Last updated: 2026-04-20*
