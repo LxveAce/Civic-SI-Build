@@ -13,7 +13,7 @@ I want to keep my OEM resonator and muffler for quiet daily driving, but have a 
 ### Exhaust Path (Updated: 3" Dump with Step-Down)
 
 ```
-4-1 Header ─► High-Flow Cat ─► 3" Pipe ─┬─► [QTP QTEC30 CUTOUT] ─► 3" Dump Pipe ─► Exit Tip
+4-2-1 Header ─► High-Flow Cat ─► 3" Pipe ─┬─► [QTP QTEC30 CUTOUT] ─► 3" Dump Pipe ─► Exit Tip
                                           │
                                           └─► [3" to 2.5" Reducer Cone]
                                                       │
@@ -30,13 +30,14 @@ I want to keep my OEM resonator and muffler for quiet daily driving, but have a 
 
 | Section | Diameter | Reason |
 |---------|----------|--------|
-| Header collector to cutout | **3"** | Maximum flow for sport mode. Matches 4-1 header collector output. |
+| Header collector to HFC outlet | **2.5"** | Matches Skunk2 Alpha 4-2-1 collector output |
+| HFC outlet to cutout | **2.5" → 3" transition** | Short step-up adapter pipe after HFC |
 | Sport dump pipe (cutout to exit) | **3"** | Full flow, no restriction when valve is open |
 | Daily path (cutout to resonator) | **3" → 2.5" reducer** | Steps down to match resonator/muffler inlet size |
 | Resonator → muffler → tailpipe | **2.5" / stock** | Retains stock components, no modification needed |
 
 **Why I'm going 3" on the dump side:**
-- My 4-1 header collector outputs at 2.5-3". Carrying 3" to the dump maximizes flow for the sport path.
+- My Skunk2 Alpha 4-2-1 header collector outputs at 2.5". A 2.5" to 3" transition pipe after the HFC steps up to 3" before the cutout, maximizing flow for the sport path.
 - On an NA K20Z3 at 220-240 WHP, 3" won't hurt low-end torque (common myth). Exhaust gas velocity matters less than minimizing restriction at this power level.
 - 3" sounds deeper and more refined than 2.5" when the valve is open
 - Gives me headroom if I ever go forced induction

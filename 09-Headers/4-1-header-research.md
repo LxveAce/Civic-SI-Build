@@ -257,7 +257,7 @@ For a K20Z3 making 225-240 WHP (4-1 header + FBO + tune):
 | Pipe Section | Recommended Diameter | Reasoning |
 |-------------|---------------------|-----------|
 | Collector outlet to high-flow cat | 2.5" | Matches collector, no adapter needed |
-| High-flow cat through cutout | 2.5" | Matches QTP QTEC25 cutout size |
+| High-flow cat through cutout | 2.5"→3" transition to QTP QTEC30 | Updated to 3" cutout — see 08-Valved-Exhaust/overview.md |
 | Cutout to reconnection point | 2.5" | Consistent flow diameter |
 | Reconnection to stock muffler | 2.5" to stock adapter | Reduces to mate with stock muffler inlet |
 

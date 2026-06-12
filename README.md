@@ -42,13 +42,13 @@ Daily-drivable with a sport mode toggle. Quiet when I need it, loud when I want 
 
 | # | Mod | Details | Notes |
 |---|-----|---------|-------|
-| 8 | [Valved Exhaust](08-Valved-Exhaust/) | DIY 3" QTP cutout bypass (keep OEM mufflers) | 3" dump, step-down to 2.5" for muffled path |
-| 9 | [Headers](09-Headers/) | Skunk2 Alpha 4-2-1 (412-05-1930) + Berk HFC | Best available, stepped primaries, 10-18 WHP |
-| 10 | [Intake Manifold](10-Intake-Manifold/) | Skunk2 Ultra Street + bored stock TB (66mm) | Larger plenum, shorter runners, DBW compatible |
-| 11 | [Pulleys & Harmonic Balancer](11-Pulleys-and-Harmonic-Balancer/) | ATI Super Damper + NST accessory pulleys | Proper damping + reduced parasitic loss |
-| 12 | [Flex Fuel & Fuel System](12-Flex-Fuel-and-Fuel-System/) | Flex fuel sensor + injectors + Acuity rail + DW200 pump | E85 capable, 5-15 WHP on NA over pump gas |
-| 13 | [Clutch Hydraulics](13-Clutch-Hydraulics/) | Hybrid Racing CMC + RSX CSC + SS braided line | 170k-mile reliability upgrade, improved pedal feel |
-| 14 | [Suspension](14-Suspension/) | BC Racing BR coilovers + full bushing refresh + sway bars + camber kit | Complete suspension overhaul — coilovers, bushings, geometry correction |
+| 9 | [Valved Exhaust](08-Valved-Exhaust/) | DIY 3" QTP cutout bypass (keep OEM mufflers) | 3" dump, step-down to 2.5" for muffled path |
+| 10 | [Headers](09-Headers/) | Skunk2 Alpha 4-2-1 (412-05-1930) + Berk HFC | Best available, stepped primaries, 10-18 WHP |
+| 11 | [Intake Manifold](10-Intake-Manifold/) | Skunk2 Ultra Street + bored stock TB (66mm) | Larger plenum, shorter runners, DBW compatible |
+| 12 | [Pulleys & Harmonic Balancer](11-Pulleys-and-Harmonic-Balancer/) | ATI Super Damper + NST accessory pulleys | Proper damping + reduced parasitic loss |
+| 13 | [Flex Fuel & Fuel System](12-Flex-Fuel-and-Fuel-System/) | Flex fuel sensor + ID725 injectors + Acuity rail + DW300C pump | E85 capable, 5-15 WHP on NA over pump gas |
+| 14 | [Clutch Hydraulics](13-Clutch-Hydraulics/) | Hybrid Racing HYB-CMC-01-20 complete kit | 170k-mile reliability upgrade, improved pedal feel |
+| 15 | [Suspension](14-Suspension/) | BC Racing BR coilovers + full bushing refresh + sway bars + camber kit | Complete suspension overhaul — coilovers, bushings, geometry correction |
 | -- | [In-Car PC](07-Hondata-FlashPro/Permanent-LattePanda-Install/) | LattePanda 3 Delta permanent install | Controls FlashPro + exhaust valve |
 
 ---

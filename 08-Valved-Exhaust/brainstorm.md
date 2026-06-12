@@ -39,7 +39,7 @@
 
 | Product | Price | Quality | Notes |
 |---------|-------|---------|-------|
-| **QTP QTEC25 (2.5")** | $220 | Excellent | Gold standard. Stainless, reliable motor. Made in USA. |
+| **QTP QTEC30 (3")** | $217-269 | Excellent | Gold standard. Stainless, reliable motor. Made in USA. Upgraded from originally planned 2.5" QTEC25 to match 3" dump pipe design. |
 | Generic eBay/Amazon | $30-80 | Variable | They work, but motors burn out faster. I'd need a spare. Not worth the hassle. |
 
 ### Why I Ruled Out a Raw Solenoid

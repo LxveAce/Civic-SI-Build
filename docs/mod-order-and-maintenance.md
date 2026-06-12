@@ -104,7 +104,7 @@ The intake manifold and throttle body work together and need a retune after inst
 | Order | Mod | Time (DIY) | Standalone? | Notes |
 |-------|-----|-----------|-------------|-------|
 | 5A | **Fuel pump (DeatschWerks DW300C)** | 1-2 hrs | Can be done early (standalone) | Drop-in replacement. I can install this anytime, even before injectors — the stock ECU handles it fine. |
-| 5B | **Fuel rail + injectors (Acuity + ID1050x)** | 2-3 hrs | **Paired with 5C** | Install rail, injectors, and ethanol sensor at the same time. |
+| 5B | **Fuel rail + injectors (Acuity + ID725)** | 2-3 hrs | **Paired with 5C** | Install rail, injectors, and ethanol sensor at the same time. |
 | 5C | **Ethanol content sensor + fuel lines** | 1-2 hrs | **Paired with 5B** | Inline sensor before fuel rail. -6 AN PTFE braided lines. |
 | 5D | **Hondata flex fuel tune (dyno)** | 3-4 hrs on dyno | **Must be done after 5A+5B+5C** | Flex fuel calibration: gasoline map + E85 map with real-time interpolation. This is the most complex tune in the build. Budget $400-600. |
 
@@ -168,7 +168,7 @@ PHASE 5 — SUSPENSION (can be done anytime, no tune dependency)
 
 PHASE 6 — FLEX FUEL
   ├── 6A: Fuel pump (DeatschWerks DW300C)            ← Can be done earlier
-  ├── 6B: Fuel rail + injectors (Acuity + ID1050x)
+  ├── 6B: Fuel rail + injectors (Acuity + ID725)
   ├── 6C: Ethanol sensor + fuel lines
   └── 6D: Dyno tune #3 (flex fuel calibration)       ← Most complex tune
 

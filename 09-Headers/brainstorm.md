@@ -244,7 +244,9 @@ Removing the catalytic converter entirely gives you:
 
 ## 5. Full System Integration with Stock Mufflers + QTP Cutout
 
-### My Planned Exhaust Layout
+> **NOTE (Updated):** This section was written around a 2.5" / QTP QTEC25 design. The final exhaust plan has been updated to **3" / QTP QTEC30** with a 3" dump pipe and 3"→2.5" reducer for the muffled path. See [08-Valved-Exhaust/overview.md](../08-Valved-Exhaust/overview.md) for the current design. The research below is still valid for understanding the trade-offs, but pipe diameters and cutout references are from the earlier design iteration.
+
+### My Planned Exhaust Layout (Original 2.5" Research — See Note Above)
 
 ```
 [Cylinder Head]
@@ -524,7 +526,7 @@ I originally considered the PLM V2 + Cat combo at $575 to save money, but the Sk
 
 | # | Item | Part Number | Qty | Est. Price |
 |---|------|-------------|-----|------------|
-| 8 | QTP Electric Cutout | QTEC25 (2.5") | 1 | $220 |
+| 8 | QTP Electric Cutout | QTEC30 (3") | 1 | $217-269 |
 
 #### Piping & Resonator (If Doing Full 2.5" Upgrade)
 

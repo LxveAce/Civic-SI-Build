@@ -313,10 +313,10 @@ When I insert an add-a-fuse tap into a fuse slot, one side of the tap connects t
     │  GND ◄── GND     │
     │                  │
     │  COM ◄── 12V IGN │  (from inline fuse)
-    │  NO  ──────────────────►  QTP QTEC25 Motor (+)
+    │  NO  ──────────────────►  QTP QTEC30 Motor (+)
     │  NC  ──── (unused)│
     └─────────────────┘
-                              QTP QTEC25 Motor (-) ──── Chassis GND
+                              QTP QTEC30 Motor (-) ──── Chassis GND
 
     MANUAL OVERRIDE:
     ┌───────────────┐
@@ -767,7 +767,7 @@ Walk away ◄──── Power cut completely ◄──── Shutdown confirme
 
 ### Overview
 
-When I install the QTP QTEC25 exhaust cutout, the LattePanda can control it via the onboard Arduino Leonardo co-processor. This is the part I'm most excited about.
+When I install the QTP QTEC30 exhaust cutout, the LattePanda can control it via the onboard Arduino Leonardo co-processor. This is the part I'm most excited about.
 
 ### Hardware Setup
 
