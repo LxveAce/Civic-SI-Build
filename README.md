@@ -1,22 +1,39 @@
-# 2009 Honda Civic SI Coupe — My Build Log
+<div align="center">
 
-**Chassis:** FG2 (8th Gen Coupe)  
-**Engine:** K20Z3 — 2.0L i-VTEC, 197 HP / 139 lb-ft (stock)  
-**Transmission:** 6-Speed Manual  
-**Color:** Blue  
-**Mileage:** ~170,000 miles  
+# 2009 Honda Civic SI Coupe — Build Log
 
-A documentation-first build log for my 2009 Civic SI. Every modification gets its own folder with research notes, part numbers, real prices paid, and install references. It's also a planning tool — a chronological mod order, a 170k-mile maintenance plan, and a small Python script that compiles the whole thing into printable PDFs. Cars are a hobby I picked up in mid-2025, so this repo doubles as my way of learning the platform and keeping myself honest about scope and budget.
+### A documentation-first build log for my FG2 K20Z3. Every mod researched, priced, and installed in the open.
 
----
+![Chassis](https://img.shields.io/badge/Chassis-FG2%20(8th%20Gen)-blue?style=for-the-badge)
+![Engine](https://img.shields.io/badge/Engine-K20Z3-red?style=for-the-badge)
+![Transmission](https://img.shields.io/badge/Trans-6MT-lightgrey?style=for-the-badge)
+![Fuel](https://img.shields.io/badge/Fuel-Flex%20(Pump%20%2F%20E85)-orange?style=for-the-badge)
 
-## What I'm Going For
-
-Daily-drivable with a sport mode toggle. Quiet when I need it, loud when I want it. I'm building a full bolt-on NA K20Z3 targeting **220-240 WHP on pump gas, 230-250 WHP on E85** — headers, intake manifold, throttle body, exhaust, pulleys, flex fuel, and a Hondata tune to tie it all together. I'm doing a valved 3" exhaust with a QTP cutout so I can switch between a quiet daily tune and an aggressive straight-piped sport tune. Flex fuel with real-time ethanol content sensing lets me run pump gas or E85 seamlessly. And eventually, I'm putting a LattePanda mini PC in the car for permanent Hondata management and exhaust valve control.
+</div>
 
 ---
 
-## Modification Status
+## The car
+
+| Spec | Value |
+|------|-------|
+| Chassis | FG2 (8th Gen Coupe) |
+| Engine | K20Z3 — 2.0L i-VTEC, 197 HP / 139 lb-ft (stock) |
+| Transmission | 6-speed manual |
+| Color | Blue |
+| Mileage | ~170,000 miles |
+
+Every modification gets its own folder with research notes, part numbers, real prices paid, and install references. It's also a planning tool — a chronological mod order, a 170k-mile maintenance plan, and a small Python script that compiles the whole thing into printable PDFs. Cars are a hobby I picked up in mid-2025, so this repo doubles as my way of learning the platform and keeping myself honest about scope and budget.
+
+---
+
+## What I'm going for
+
+Daily-drivable with a sport mode toggle. Quiet when I need it, loud when I want it. I'm building a full bolt-on NA K20Z3 targeting **220-240 WHP on pump gas, 230-250 WHP on E85** — headers, intake manifold, throttle body, exhaust, pulleys, flex fuel, and a Hondata tune to tie it all together. The exhaust is a DIY valved 3" setup with a QTP cutout, so I can swap between a quiet daily tune and an aggressive straight-piped sport tune. Flex fuel with real-time ethanol sensing lets me run pump gas or E85 without re-tuning. And eventually I'm putting a LattePanda mini PC in the car for permanent Hondata management and exhaust valve control.
+
+---
+
+## Modification status
 
 ### Installed
 
@@ -29,7 +46,7 @@ Daily-drivable with a sport mode toggle. Quiet when I need it, loud when I want 
 
 *\*$960.43 includes clutch, flywheel, and strut bar bundled together (incl. tax/shipping)*
 
-### Purchased — Awaiting Install
+### Purchased — awaiting install
 
 | # | Mod | Part | Actual Cost | Status | Notes |
 |---|-----|------|------------|--------|-------|
@@ -40,7 +57,7 @@ Daily-drivable with a sport mode toggle. Quiet when I need it, loud when I want 
 
 **Total spent to date: $4,850.68** (all prices include tax, shipping, and insurance)
 
-### Planned — Not Yet Purchased
+### Planned — not yet purchased
 
 | # | Mod | Details | Notes |
 |---|-----|---------|-------|
@@ -55,7 +72,7 @@ Daily-drivable with a sport mode toggle. Quiet when I need it, loud when I want 
 
 ---
 
-## How This Repo Is Organized
+## How this repo is organized
 
 Each mod has its own folder with:
 - **overview.md** — What the mod is, why I chose it, part numbers
@@ -63,7 +80,7 @@ Each mod has its own folder with:
 - **brainstorm.md** — My research, alternatives I considered, pros/cons
 - **purchasing.md** — Parts list with part numbers and prices
 
-### Special Folders
+### Special folders
 - [`07-Hondata-FlashPro/Temporary-Setup/`](07-Hondata-FlashPro/Temporary-Setup/) — Getting started with a laptop before the permanent install
 - [`07-Hondata-FlashPro/Permanent-LattePanda-Install/`](07-Hondata-FlashPro/Permanent-LattePanda-Install/) — Full guide for the in-car PC build
 - [`08-Valved-Exhaust/`](08-Valved-Exhaust/) — My DIY valved exhaust design, parts, and planning
@@ -81,7 +98,7 @@ The whole build log compiles into two printable PDFs so I have everything in one
 - **[2009-Civic-SI-Build-Guide.pdf](2009-Civic-SI-Build-Guide.pdf)** — Full build guide: vehicle specs, mod order, every mod overview, and install references, with a title page and table of contents.
 - **[2009-Civic-SI-Mod-Order.pdf](2009-Civic-SI-Mod-Order.pdf)** — Standalone chronological mod order + maintenance plan.
 
-Both are generated by [`generate-pdf.py`](generate-pdf.py), a self-contained Python script that reads the repo's markdown files and renders them — headings, tables with multi-line cell wrapping, bullet/numbered lists, and code blocks — into the PDFs above. It's the first real coding I've done on this project, and it's still rough around the edges. Coding is self-taught for me, so the script is deliberately dependency-light.
+Both are generated by [`generate-pdf.py`](generate-pdf.py), a Python script that reads the repo's markdown and renders it — headings, tables with multi-line cell wrapping, bullet/numbered lists, and code blocks — into the two PDFs above. It's the first real coding I've done on this project and it's still rough around the edges. Coding is self-taught for me, so the script is deliberately dependency-light: the only thing you need is fpdf2.
 
 ```bash
 pip install fpdf2
@@ -92,7 +109,7 @@ Re-run it whenever the markdown changes to refresh both PDFs.
 
 ---
 
-## Quick Reference
+## Quick reference
 
 | Spec | Value |
 |------|-------|
@@ -114,14 +131,13 @@ See [`docs/vehicle-specs.md`](docs/vehicle-specs.md) for the complete stock spec
 
 ---
 
-## Project Reference
+## Connect
 
-See [CLAUDE.md](CLAUDE.md) for the consolidated project context — full vehicle details, modification state, conventions, and build goals in one place.
+- **Discord:** [discord.gg/lxvelabs](https://discord.gg/lxvelabs) — questions, help, or to talk through this project
+- **GitHub:** [@LxveAce](https://github.com/LxveAce)
+- **Email:** lxveace@proton.me
+- **Website:** [lxveace.com](https://lxveace.com)
 
 ---
 
-## Connect
-
-- **Discord:** [discord.gg/lxveace](https://discord.gg/lxveace) -- questions, help, or to talk through this project
-- **GitHub:** [@LxveAce](https://github.com/LxveAce)
-- **Website:** [lxveace.com](https://lxveace.com)
+*Personal build log by LxveAce. Not a product — just my car, documented in the open.*
